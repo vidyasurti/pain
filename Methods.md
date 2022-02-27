@@ -13,16 +13,18 @@ constructs of gender binary
 
 ### Elements:
 1. Amplifier
-Explanation:
-Example: amp
+Explanation: surrounding characters who influence the experienced 
+pain
+Example: `<amp></amp>`
 
 2. Inflicter 
-Explanation:
-Example: inf
+-Explanation: the character who is causing or inflicting the pain
+-Example: `<inf></inf>`
 
 3. Receiver
-Explanation 
-Example: rec
+-Explanation: The character who is experiencing or recieving the 
+pain 
+-Example: `<rec></rec>`
 
 
 ### Attributes: level 1
