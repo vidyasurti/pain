@@ -1,0 +1,25 @@
+start = TEI.2  
+
+TEI.2 = element TEI.2 {teiheader, textElem} #the name of an element is "text" - we have to change that, so for now I have kept it at textElem so that the schema is valid without linking it to the document yet
+teiheader = element teiheader{text}
+#currently not going to be doing anything with teiheader beacuse I will be focusing on text for now
+#we can fill in the gaps later
+
+#STARTING - textElem element
+textElem = element textElem {body}#textElem has one child element called body
+    body = element body{div1} #each body element has div1 elements
+        div1 = element div1 {type, org, sample, milestone?, stage?, sp?, div2?} #each div1 element has 3 attributes: type, org, sample; all of these attributes are required
+        #the div1 element has chidlren milestone (optional), stage (optional), sp (optional), and div2 (optional)
+        #UPDATE - make sure the children that are elements can appear in whichever order and is still optional
+            type = attribute type {("location" | "person")} #type is an attribute that either has values "episode" or "choral"
+            #QUESTION - correct syntax for attribute names?
+            org = attribute org {"uniform"} #org is an attribute, can only see "uniform" value for now
+            sample = attribute sample {"complete"} #sample is an attribute, can only see "complete" value in document for now
+            milestone = element milestone{text}
+            stage = element stage {text}
+            sp = element sp {text}
+            div2 = element div2 {text}
+
+
+
+
