@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:py="http://codespeak.net/lxml/objectify/pytype"
   xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="3.0">
   <!-- ================================================================== -->
@@ -84,7 +83,7 @@
         group-adjacent="self::q or self::text()[normalize-space(.) = '']">
         <xsl:choose>
           <xsl:when
-            test="current-grouping-key() and (. instance of element(q) or count(current-group()) gt 1)">
+            test="current-grouping-key() and (. instance of element(tei:q) or count(current-group()) gt 1)">
             <q>
               <xsl:for-each select="current-group()">
                 <xsl:if test="position() gt 1">
