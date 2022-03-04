@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<sp>
+    <speaker>speaker</speaker>
+    <p><painStart rec="bob" recgen="male" inf="joe" infgen="male" type="phys em"/>I am in physical</p>
+    <p>pain.<painEnd/></p>
+</sp>
