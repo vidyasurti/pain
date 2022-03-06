@@ -237,30 +237,31 @@
                <div type="textpart" subtype="lyric">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p>I heard the voice,
+                     <p><painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>I heard the voice,
                                 uplifted loud, of our poor Colchian lady, nor yet is she
                                 quiet; speak, aged dame, for as I stood by the house with
                                 double gates I heard a voice of  weeping
                                 from within, and I do grieve, lady, for the sorrows of this
-                                house, for it hath won my love.</p>
+                                house, for it hath won my love.<painEnd/></p>
                   </sp>
                </div>
                <div type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Nurse</speaker>
-                     <p>’Tis a house no more;
+                     <p><painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>’Tis a house no more;
                                 all that is passed away long since; a royal bride keeps Jason at her side,
                                 while our mistress pines away in her bower, finding no
-                                comfort for her soul in aught her friends can say.</p>
+                                comfort for her soul in aught her friends can say.<painEnd/></p>
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                                Oh, oh! Would that Heaven’s levin bolt would cleave this
+                        <painStart type= "em phys" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>Oh, oh! Would that Heaven’s levin bolt would cleave this
                                 head in twain! What gain is life to me? Woe, woe is
                                 me! O, to die and win release, quitting this loathed
-                                existence!</p>
+                                existence!<painEnd/></p>
+                     <!-- I put both phys and em for type of pain because she is describing physical pain through her emotional trauma -->
                   </sp>
                </div>
                <div type="textpart" subtype="strophe" n="1">
@@ -275,19 +276,21 @@
                                 thee and him herein. Then mourn not for thy husband’s loss
                                 too much, nor waste thyself away.</p>
                   </sp>
+                  
+                  <!-- Here, the chorus (all female) is asking Zeus if he heard her cries. They say Zeus will punish Jason (lord). I am not sure if I should tag this, PAIN AMPLIFIER ???-->
                </div>
                <div type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                                Great Themis, and husband of Themis, behold
+                        <painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>Great Themis, and husband of Themis, behold
                                 what I am suffering now, though I did bind that accursed
                                 one, my husband, by strong oaths to me? O, to see him and
                                 his bride some day brought to utter destruction, they and
                                 their house with them, for that they presume to wrong me thus
-                                unprovoked. O my father, my country, that I have left to my
-                                shame, after slaying my own brother.</p>
+                                unprovoked.<painEnd/> <painStart type= "phys" rec="Medea brother" inf="Medea" genderrec="man" genderinf="woman"/>O my father, my country, that I have left to my
+                        shame, after slaying my own brother.<painEnd/></p>
                   </sp>
                   <sp>
                      <speaker>Nurse</speaker>
@@ -295,6 +298,8 @@
                                 how loudly she adjures Themis, oft invoked, and Zeus, whom men regard as keeper of their oaths?
                                 On no mere trifle surely will our mistress spend her
                                 rage.</p>
+                     
+                     <!--unclear if i should tag this-->
                   </sp>
                </div>
                <div type="textpart" subtype="antistrophe" n="1">
@@ -333,13 +338,15 @@
                <div type="textpart" subtype="epode">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p>I heard a bitter cry of
+                     <p><painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>I heard a bitter cry of
                                 lamentation! loudly, bitterly she calls on the
                                 traitor of her marriage bed, her perfidious spouse; by
                                 grievous wrongs oppressed she invokes Themis, bride of Zeus,
                                 witness of oaths, who brought her unto Hellas, the land that fronts the
                                 strand of Asia, o’er the sea by night through ocean’s
                                 boundless gate.</p>
+                     <!--Medea invokes Themis (personification of justice, goddess of wisdom and good counsel, and the interpreter of the gods' will.) does this invocation amplify her pain?-->
+                     <!--Left Off Here 3/6/2022-->
                   </sp>
                </div>
             </div>
