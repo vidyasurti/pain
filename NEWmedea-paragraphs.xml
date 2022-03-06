@@ -43,7 +43,7 @@
                             their love is all turned to hate, and tenderest ties are weak.
                             For Jason hath betrayed his own children and my mistress dear
                             for the love of a royal bride, for he hath wedded the daughter
-                            of Creon, lord of this land. <painStart rec="Medea" inf="Jason" gender="woman"/>While Medea his hapless wife, thus scorned,
+                            of Creon, lord of this land. <painStart  type= "em phys" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>While Medea his hapless wife, thus scorned,
                             appeals to the oaths he swore, recalls the strong pledge his
                             right hand gave, and bids heaven be witness what requital she is
                             finding from Jason. And here she lies fasting, yielding her body
@@ -54,7 +54,7 @@
                             billow, save when she turns her snow-white neck aside and softly to herself bemoans her father
                             dear, her country and her home, which  she
                             gave up to come hither with the man who now holds her in
-                            dishonour<painEnd/>. <painStart rec="children" inf="Medea" gender="man"/>She, poor lady, hath by sad experience learnt how
+                            dishonour<painEnd/>. <painStart type=" em" rec="children" inf="Medea" genderrec="man" genderinf="man"/>She, poor lady, hath by sad experience learnt how
                             good a thing it is never to quit one’s native land. And she
                             hates her children now and feels no joy at seeing them; I am
                             afeard she may contrive some untoward scheme; for her mood is
@@ -80,7 +80,7 @@
                   <speaker>Nurse</speaker>
                   <p>Old man, attendant on the
                             sons of Jason, our masters’ fortunes when they go awry make good
-                            slaves grieve and touch their hearts. <painStart rec="Nurse" inf="Medea Jason" gender="woman"/>Oh! I have come to
+                            slaves grieve and touch their hearts. <painStart type= "em" rec="Nurse" inf="Medea Jason" genderinf= "man woman" genderrec="woman"/>Oh! I have come to
                             such a pitch of grief that there stole a yearning wish upon me
                             to come forth hither and proclaim to heaven and earth my
                             mistress’s hard fate.<painEnd/></p>
@@ -122,7 +122,7 @@
                   <speaker>Attendant</speaker>
                   <p>I heard one say, pretending
                             not to listen as I approached the place where our greybeards sit
-                            playing draughts near Pirene’s sacred spring, that <painStart inf="Creon" rec="Medea children" gender="man"/>Creon, the ruler of this land, is bent
+                            playing draughts near Pirene’s sacred spring, that <painStart type="em" inf="Creon" rec="Medea children" genderrec="man woman" genderinf="man" />Creon, the ruler of this land, is bent
                             on driving these children and their mother from the boundaries
                             of Corinth; but I know not whether the news is to be relied
                             upon, and would fain it were not.<painEnd/></p>
@@ -140,7 +140,7 @@
                </sp>
                <sp>
                   <speaker>Nurse</speaker>
-                  <p>Undone, <painStart rec="Medea" inf="Nurse Attendant" gender="man woman"/>it seems, are we, if
+                  <p>Undone, <painStart type="em" rec="Medea" inf="Nurse Attendant" genderrec="woman" genderinf="man woman"/>it seems, are we, if
                             to old woes fresh ones we add, ere we have drained the former to
                             the dregs.<painEnd/></p>
                </sp>
@@ -183,7 +183,7 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart rec="Medea" inf="unknown" gender="woman"/>Ah, me! a wretched suffering woman I! O would that I could
+                        <painStart type="em" rec="Medea" inf="unknown" gender="woman"/>Ah, me! a wretched suffering woman I! O would that I could
                                 die!<painEnd/></p>
                      
                      <!-- I put unknown for now because I dont know who she is cursing. -->
@@ -210,10 +210,10 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                                Ah, me! the agony I have suffered, deep enough to call for
+                        <painStart type= "em" rec="Medea" inf="children Jason" genderrec="woman" genderinf="man"/>Ah, me! the agony I have suffered, deep enough to call for
                                 these laments! Curse you and your father too, ye children
                                 damned, sons of a doomed mother! Ruin seize the whole
-                                family!</p>
+                                family!<painEnd/></p>
                   </sp>
                </div>
                <div type="textpart" subtype="anapests">
