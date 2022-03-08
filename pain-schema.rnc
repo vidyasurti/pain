@@ -19,6 +19,11 @@ textElem = element textElem {body}#textElem has one child element called body
             stage = element stage {text}
             sp = element sp {text}
             div2 = element div2 {text}
+            
+            
+#unfinished, must complete later
+
+#PORTION OF SCHEMA FOR PAIN MARKUP
 
 
 
