@@ -28,7 +28,17 @@ textElem = element textElem {body}#textElem has one child element called body
 #sp element will have one "speaker" element and one or more p elements
 speaker = element speaker {text}
 p = element p {painStart, painEnd}
-
-
-
-
+    painStart = element painStart {rec, recgen, recnorm, type, recrel?, inf?, infgen?, infnorm?, infrel?, amp?, ampgen?, ampnorm?}
+    rec = attribute rec {text}
+    recgen = attribute recgen {text}
+    recnorm = attribute recnorm {text}
+    type = attribute type {text}
+    recrel = attribute recrel {text}
+    inf = attribute inf {text}
+    infgen = attribute infgen {text}
+    infnorm = attribute infnorm {text}
+    infrel = attribute infrel {text}
+    amp = attribute amp {text}
+    ampgen = attribute ampgen {text}
+    ampnorm = attribute ampnorm {text}
+    painEnd = element painEnd {text}
