@@ -344,7 +344,7 @@
                                 grievous wrongs oppressed she invokes Themis, bride of Zeus,
                                 witness of oaths, who brought her unto Hellas, the land that fronts the
                                 strand of Asia, o’er the sea by night through ocean’s
-                                boundless gate.</p>
+                                boundless gate.<painEnd/></p>
                      <!--Medea invokes Themis (personification of justice, goddess of wisdom and good counsel, and the interpreter of the gods' will.) does this invocation amplify her pain?-->
                      <!--Left Off Here 3/6/2022-->
                   </sp>
@@ -364,7 +364,7 @@
                             wronged by him; and so a stranger most of all should adopt a
                             city’s views; nor do I commend that citizen, who, in the
                             stubbornness of his heart, from churlishness resents the city’s
-                            will.But on me hath fallen this
+                            will.<painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>But on me hath fallen this
                             unforeseen disaster, and sapped my life; ruined I am, and long
                             to resign the boon of existence, kind friends, and die. For he
                             who was all the world to me, as well thou knowest, hath turned
@@ -397,7 +397,8 @@
                             all else, and as regards courage, a coward at the mere sight of
                             steel, yet in the moment she finds her honour
                             wronged, no heart is filled with deadlier thoughts than
-                            hers.</p>
+                            hers.<painEnd/></p>
+                  <!--Left Off Here 3/8/2022-->
                </sp>
                <sp>
                   <speaker>Chorus</speaker>
@@ -408,24 +409,24 @@
                </sp>
                <sp>
                   <speaker>Creon</speaker>
-                  <p>Hark thee, Medea, I bid thee
+                  <p><painStart type= "em" rec="Medea" inf="Creon" genderrec="woman" genderinf="man"/>Hark thee, Medea, I bid thee
                             take those sullen looks and angry thoughts against thy husband
                             forth from this land in exile, and with thee take both thy
                             children and that without delay, for I am judge in this
                             sentence, and I will not return unto my house till I
-                            banish thee beyond the borders of the land.</p>
+                            banish thee beyond the borders of the land.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>Ah, me! now is utter
+                  <p><painStart type= "em" rec="Medea" inf="Creon" genderrec="woman" genderinf="man"/>Ah, me! now is utter
                             destruction come upon me, unhappy that I am! For my enemies are
                             bearing down on me full sail, nor have I any landing-place to
                             come at in my trouble. Yet for all my wretched plight I will ask
-                            thee, Creon, wherefore dost thou drive me from the land?</p>
+                            thee, Creon, wherefore dost thou drive me from the land?<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Creon</speaker>
-                  <p>I fear thee,—no longer need
+                  <p><painStart type= "em" rec="Medea" inf="Creon" genderrec="woman" genderinf="man"/>I fear thee,—no longer need
                             I veil my dread ’neath words,—lest thou devise against my child
                             some cureless ill. Many things contribute to this fear of mine; thou art a witch by nature, expert in
                             countless sorceries, and thou art  chafing
@@ -434,7 +435,7 @@
                             husband, and herself with some mischief; wherefore I will take
                             precautions ere our troubles come. For ’tis better for me to incur thy hatred
                             now, lady, than to soften my heart and bitterly repent it
-                            hereafter.</p>
+                            hereafter.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Medea</speaker>
