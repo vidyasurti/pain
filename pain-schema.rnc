@@ -17,13 +17,17 @@ textElem = element textElem {body}#textElem has one child element called body
             sample = attribute sample {"complete"} #sample is an attribute, can only see "complete" value in document for now
             milestone = element milestone{text}
             stage = element stage {text}
-            sp = element sp {text}
+            sp = element sp {speaker, p+}
             div2 = element div2 {text}
             
             
 #unfinished, must complete later
 
 #PORTION OF SCHEMA FOR PAIN MARKUP
+
+#sp element will have one "speaker" element and one or more p elements
+speaker = element speaker {text}
+p = element p {painStart, painEnd}
 
 
 
