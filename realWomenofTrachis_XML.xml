@@ -1054,13 +1054,13 @@
 						of the Evenus, using no oar for conveyance, nor ship's sail. He carried me,
 						too, on his shoulders, when at my father's sending, I first departed with
 						Heracles as his wife. When I was in midstream,<milestone ed="p" n="565"
-							unit="line"/>he touched me with lewd hands. I shrieked, and straightaway
+							unit="line"/>he touched me with lewd hands. I shrieked, and <painStart rec="Nessus" inf="Heracles" amp="Deianeira" type="phys"/>straightaway
 						the son of Zeus turned round and with his hands shot a feathered arrow that
-						whistled right through his chest to the lungs. As he passed away the monster
+						whistled right through his chest to the lungs. As he passed away<painEnd/> the monster
 						spoke these few words: “Child of aged Oeneus,<milestone ed="p" n="570"
 							unit="line"/>you will have this benefit from my ferrying, if you obey
 						me, since you were the last whom I carried. If you gather with your hands
-						the blood clotted round my wound, at the place where the Hydra, <placeName
+						<painStart rec="Nessus" inf="Heracles" type="phys"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
 							key="perseus,Lerna" authname="perseus,Lerna">Lerna</placeName>'s
 						monstrous growth, imbued the arrow with black gall,<milestone ed="p" n="575"
 							unit="line"/>you will have a charm for the heart of Heracles, so that he
@@ -1208,14 +1208,14 @@
 				</div2>
 			</div1>
 			
-			<!-- END OF TAGGING SO FAR -->
+			<!-- END OF FIRST ROUND TAGGING -->
 			
 			<div1 type="episode" org="uniform" sample="complete">
 				<stage>Enter Deianeira from the house.</stage>
 				<sp>
 					<speaker>Deianeira</speaker>
-					<p>Friends, how I fear that I may have gone too far in all that I was doing just
-						now!</p>
+					<p><painStart rec="Deianeira" type="em"/>Friends, how I fear that I may have gone too far in all that I was doing just
+						now!<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
@@ -1224,8 +1224,8 @@
 				</sp>
 				<sp>
 					<speaker>Deianeira</speaker>
-					<p>I do not know, but I despair that I will soon be found to have done a great
-						wrong, when my hope was for good.</p>
+					<p><painStart rec="Deianeira" type="em"/>I do not know, but I despair that I will soon be found to have done a great
+						wrong, when my hope was for good.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
@@ -1274,15 +1274,15 @@
 						juice of the blue fruit from the vine of Bacchus when it is poured on the
 						ground.</p>
 					<milestone ed="p" n="705" unit="card"/>
-					<p><milestone ed="p" n="705" unit="line"/>And so I am distraught, and I do not
+					<p><milestone ed="p" n="705" unit="line"/><painStart rec="Deianeira" type="em"/>And so I am distraught, and I do not
 						know to which side my thoughts should fall. I only see that I have brought a
-						terrible deed to completion. For why or in thanks for what should the
+						terrible deed to completion.<painEnd/> For why or in thanks for what should the
 						monster in his death-throes have shown good will to me, because of whom he
 						was dying? Impossible! No, he was<milestone ed="p" n="710" unit="line"
 						/>enchanting me in order to destroy the man who had shot him. And now too
-						late I gain the knowledge of this, when it can no longer help. Yes, I
+						late I gain the knowledge of this, when it can no longer help. <painStart rec="Deianeira" type="em"/>Yes, I
 						alone—unless my outlook prove mistaken—I, miserable one, shall completely
-						destroy him! For I know that the arrow which made the wound harmed<milestone
+						destroy him!<painEnd/> For I know that the arrow which made the wound harmed<milestone
 							ed="p" n="715" unit="line"/>even the god Cheiron, and that it kills all
 						varieties of beasts that it touches. Since it is this same black venom in
 						the blood that has passed out through the wound of Nessus, must it not kill
@@ -1323,7 +1323,7 @@
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
-					<p>O Mother, how I wish I could choose one of three fates for you!<milestone
+					<p><!-- should i count this as em pain? --> O Mother, how I wish I could choose one of three fates for you!<milestone
 							ed="p" n="735" unit="line"/>I wish that you no longer lived, or, if you
 						remained, that someone else called you “Mother”, or that some new and kinder
 						heart had been exchanged for your present one!</p>
@@ -1376,24 +1376,31 @@
 						the spoil; but altogether he brought a hundred mixed victims to the altar.
 						At first the miserable wretch prayed with serene soul and rejoiced in his
 						ornate garb.<milestone ed="p" n="765" unit="line"/>But when the blood-fed
-						flame began to blaze from the holy offerings and from the resinous pine, a
+						flame began to blaze from the holy offerings and from the resinous pine, <painStart rec="Heracles" type="phys"/>a
 						sweat broke out on his skin and the tunic clung to his sides close-glued at
 						every joint, as if by a craftsman's hand; there came<milestone ed="p"
 							n="770" unit="line"/>a convulsive, biting pain in his bones; and then
-						the venom, like that of some deadly, cruel viper, began to devour him. At
+						the venom, like that of some deadly, cruel viper, began to devour him.<painEnd/> At
 						that he shouted for the ill-fated Lichas—who was in no way to blame for your
 						crime—asking by what plots he had brought that robe.<milestone ed="p"
 							n="775" unit="line"/>But he, unfortunate one, all-unknowing, said that
-						he had brought your gift from you alone, just as it had been sent. When
+						he had brought your gift from you alone, just as it had been sent. <!-- don't 
+							know how to tag this? because there's a lot going on here. heracles seems 
+							to be going through both emotional and physical pain, and he throws 
+							lichas, who also ends up suffering pain? --> When
 						Heracles heard it, just as a piercing spasm clutched his lungs, he caught
 						him by the foot where the ankle bends in the socket<milestone ed="p" n="780"
 							unit="line"/>and threw him at a surf-beaten rock in the sea, causing the
 						white brain to ooze from his hair, when the crown of his head had been
 						scattered and his blood with it.</p>
 					<milestone ed="p" n="783" unit="card"/>
-					<p>But all the people lifted up a cry of astounded grief when they saw that the
-						one was frenzied, and the other destroyed;<milestone ed="p" n="785"
-							unit="line"/>and no one dared to approach the man. For he convulsed down
+					<p><!-- should I have another name for them? --> 
+						<painStart rec="people" type="em"/>But all the people lifted up a cry of astounded grief when they saw that the
+						one was frenzied, and the other destroyed;<painEnd/><milestone ed="p" n="785"
+							unit="line"/>and no one dared to approach the man. <!-- can 
+								amp just be anyone telling the pain secondhand? and heracles
+							is still feeling phys pain, right? --> 
+						<painStart rec="Heracles" amp="Hyllus" type="em phys"/>For he convulsed down
 						to the ground and up into the air as he shouted and cried out. All around
 						the cliffs resounded, both the steep headlands of <placeName
 							key="tgn,7010899" authname="tgn,7010899">Locris</placeName> and the
@@ -1401,16 +1408,16 @@
 							n="790" unit="line"/>throwing himself on the ground in his anguish and
 						repeatedly shouting with howls of grief, as he dwelled on his ill-mated
 						marriage with miserable you and his alliance with Oeneus, which, he said, he
-						got for himself as the ruin of his life, then from out of the shrouding
+						got for himself as the ruin of his life,<painEnd/> then from out of the shrouding
 							altar-smoke<milestone ed="p" n="795" unit="line"/>he raised his
-						wildly-rolling eyes and saw me weeping among his many troops. He stared at
+						wildly-rolling eyes and <painStart rec="Hyllus" type="em"/>saw me weeping among his many troops.<painEnd/> He stared at
 						me and called me: “O my son, come to me. Do not fly from my trouble, not
 						even if you have to share my death. Come, lift me up and away and above all
 						put me<milestone ed="p" n="800" unit="line"/>in a place where no one can see
 						me. But if you have pity, at least carry me in all speed away from this
 						country so that I may not die here.” When he had laid this command on me, we
 						put him onboard ship and brought him just barely to this land,<milestone
-							ed="p" n="805" unit="line"/>while he moaned in his convulsions. And you
+							ed="p" n="805" unit="line"/><painStart rec="Heracles" amp="Hyllus" type="phys"/>while he moaned in his convulsions.<painEnd/> And you
 						shall soon see him, either alive or freshly dead.</p>
 					<p>Such, Mother, are the designs and deeds against my father of which you have
 						been found guilty. May Punishing Justice and the Erinys punish you for them!
@@ -1468,12 +1475,18 @@
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>In these matters this miserable lady had no apprehension, when she
+						<p><!-- is the pain technically caused
+							by nessus? and then should i split this into 
+							one or two pain tags? 
+						1. should inf be tagged if it's indirect?
+						2. how big should the pain tags be? should i split it and be more specific 
+						about where the pain is mentioned? -->
+							<painStart rec="Deianeira" amp="Chorus" type="em"/>In these matters this miserable lady had no apprehension, when she
 							foresaw in the new marriage a great plague swiftly rushing upon her
 							household. Her own hand applied the drug. But no doubt for the results
 							yielded by a stranger's<milestone ed="p" n="845" unit="line"/>counsel,
 							given at a fatal meeting—for these she despairingly groans and sheds a
-							tender dew of thickly-falling tears.<milestone ed="p" n="850"
+							tender dew of thickly-falling tears.<painEnd/><milestone ed="p" n="850"
 								unit="line"/>And the coming fate foreshadows a great disaster,
 							contrived by guile.<milestone ed="p" n="852" unit="card"/></p>
 					</sp>
@@ -1481,9 +1494,11 @@
 				<div2 type="antistrophe" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>Our streaming tears break forth. Ah, no! An infection pours over him, an
+						<p><!-- is everyone in the chorus female? --> 
+							<painStart rec="Chorus" type="em"/>Our streaming tears break forth. Ah, no!<painEnd/> <painStart
+						rec="Heracles" amp="Chorus" type="phys"/>An infection pours over him, an
 							illness more to be pitied<milestone ed="p" n="855" unit="line"/>than any
-							suffering that adversaries ever brought upon that glorious hero. Ah, you
+							suffering that adversaries ever brought upon that glorious hero.<painEnd/> Ah, you
 							dark head of the spear foremost in battle, who by your mighty point
 							recently led that swift bride from <placeName key="perseus,Oechalia"
 								authname="perseus,Oechalia">Oechalia</placeName>'s
@@ -1497,25 +1512,25 @@
 				<div2 type="lyric" org="uniform" sample="complete">
 					<sp>
 						<speaker>First Semi-Chorus</speaker>
-						<p>Is it fancy, or did I just now hear some cry of grief rushing through the
-								house?<milestone ed="p" n="865" unit="line"/>What is this?</p>
+						<p>Is it fancy, or <painStart rec="unknown" amp="First Semi-Chorus" type="em"/>did I just now hear some cry of grief rushing through the
+								house?<painEnd/><milestone ed="p" n="865" unit="line"/>What is this?</p>
 					</sp>
 					<sp>
 						<speaker>Second Semi-Chorus</speaker>
-						<p>It is no uncertain sound, but a wail of anguish from inside. The house
+						<p><painStart rec="unknown" amp="Second Semi-Chorus" type="em"/>It is no uncertain sound, but a wail of anguish from inside.<painEnd/> The house
 							has some new trouble.</p>
 					</sp>
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>And note how strangely, with what consternation on her brow<milestone
+						<p><painStart rec="Nurse" amp="Chorus" type="em"/>And note how strangely, with what consternation on her brow<milestone
 								ed="p" n="870" unit="line"/>that old woman approaches to give us
-							some news.</p>
+							some news.<painEnd/></p>
 					</sp>
 					<stage>Enter the Nurse, from the house.</stage>
 					<sp>
 						<speaker>Nurse</speaker>
-						<p>Ah, my daughters, great, indeed, are the sorrows for us that began with
-							the gift sent to Heracles!</p>
+						<p><painStart rec="Nurse" type="em"/>Ah, my daughters, great, indeed, are the sorrows for us that began with
+							the gift sent to Heracles!<painEnd/></p>
 					</sp>
 					<sp>
 						<speaker>Chorus</speaker>
@@ -1566,6 +1581,8 @@
 								unit="line"/>this death upon death, accomplishing it all on her
 							own?</p>
 					</sp>
+					
+					<!-- END OF SECOND ROUND TAGGING -->
 					<sp>
 						<speaker>Nurse</speaker>
 						<p>By a stroke of the sword which gives cause for mourning.</p>
