@@ -26,7 +26,6 @@ textElem = element textElem {body}#textElem has one child element called body
 #PORTION OF SCHEMA FOR PAIN MARKUP
 
 #sp element will have one "speaker" element and one or more p elements
-speaker = element speaker {text}
 p = element p {painStart, painEnd}
     painStart = element painStart {rec, recgen, recnorm, type, recrel?, inf?, infgen?, infnorm?, infrel?, amp?, ampgen?, ampnorm?}
     rec = attribute rec {text}
