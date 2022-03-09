@@ -29,15 +29,14 @@ textElem = element textElem {body}#textElem has one child element called body
 speaker = element speaker {text}
 p = element p {painStart, painEnd}
     painStart = element painStart {rec, recGen, recNorm, painType, recRel?, inf?, infGen?, infNorm?, infRel?}
-        rec = attribute rec {text} #the receiver of pain, UNFINISHED - add type of character for groupings (do it separately)
-        #how do we create these groupings, how should we do it (by tragedy, more general)?
-        recGen = attribute recGen {("man" | "woman" | "mixedGender")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
-        recNorm = attribute recNorm {xsd:boolean} #when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
-        painType = attribute painType {"em" | "phys" | "both"} #painType can be em for emotional or phys for physcial
+        rec = attribute rec {text} #the receiver of pain, the name of the character, UNFINISHED - add type of character for groupings (do it separately)
+        recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
+        recNorm = attribute recNorm {("yes" | "no")} #when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
+        painType = attribute painType {("em" | "phys" | "both")} #painType can be em for emotional or phys for physcial
         recRel = attribute recRel {text} #relation of the recevier of pain to the inflictor, UNFINISHED - will specify IDs of common patterns after markup is finished
-        inf = attribute inf {text} #the inflictor of pain, UNFINISHED - add type of character for groupings (do it separately)
-        infGen = attribute infGen {("man" | "woman" | "mixedGender")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
-        infNorm = attribute infNorm {xsd:boolean} #when an inflictor of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
+        inf = attribute inf {text} #the inflictor of pain, the name of the character, UNFINISHED - add type of character for groupings (do it separately)
+        infGen = attribute infGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
+        infNorm = attribute infNorm {("yes" | "no")} #when an inflictor of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
         infRel = attribute infRel {text} #relation of the inflictor of pain to the receiver, UNFINISHED - will specify IDs of common patterns after markup is finished
     
     painEnd = element painEnd {text}
