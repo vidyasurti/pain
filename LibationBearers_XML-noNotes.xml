@@ -194,12 +194,11 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>Sent forth from the palace I have come to convey libations to the sound
-							of sharp blows of my hands. My cheek is marked with bloody gashes where
-							my nails have cut fresh furrows.And yet through all my life my heart is fed with lamentation. Rips are
+							of sharp blows of my hands. <painStart rec = "Chorus" recGen = "woman" recNorm = "yes" painType = "mix"/>My cheek is marked with bloody gashes where
+							my nails have cut fresh furrows. And yet through all my life my heart is fed with lamentation. Rips are
 							torn by my griefs through the linen web of my garment, torn in the cloth
 							that covers my breast, the cloth of robes struck for the sake of my
-							mirthless misfortunes.</p>
-						<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - DIFFICULT TO TELL WHO IS RECEIVER/PURPOSE OF CHORUS -->
+							mirthless misfortunes.<painEnd/></p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="1" org="uniform" sample="complete">
@@ -209,30 +208,28 @@
 							house, breathing wrath out of sleep, uttered a cry of terror in the dead
 							of night from the heart of the palace,a cry that fell heavily on the women's quarter. And the readers of these
 							dreams, bound under pledge, cried out from the god that those beneath
-							the earth cast furious reproachesand rage against their murderers.</p>
-						<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - DIFFICULT TO TELL WHO IS RECEIVER/PURPOSE OF CHORUS -->
+							the earth cast furious reproaches and rage against their murderers.</p>
+						<!-- DIDN'T INCLUDE PAIN ELEMENT HERE -->
 					</sp>
 				</div2>
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>Intending to ward off evil with such a graceless grace, O mother Earth,
-							she sends me forth, godless woman that she is.But I am afraid to utter the words she charged me to
+						<p>Intending to ward off evil with such a graceless grace, <painStart rec = "Agamemnon" recGen = "man" recNorm = "yes" painType = "phys" recRel = "husband" inf = "Clytamnestra" infGen = "woman" infNorm = "no" infRel = "wife"/>O mother Earth,
+							she sends me forth, godless woman that she is. But I am afraid to utter the words she charged me to
 							speak. For what atonement is there for blood fallen to earth? Ah, hearth
-							of utter grief! Ah, house laid low in ruin!Sunless darkness, loathed by men, enshrouds our house
-							due to the death of its master.</p>
-						<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - DIFFICULT TO TELL WHO IS RECEIVER/PURPOSE OF CHORUS -->
+							of utter grief! Ah, house laid low in ruin! Sunless darkness, loathed by men, enshrouds our house
+							due to the death of its master.<painEnd/></p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="2" org="uniform" sample="complete">
 					<p>The awe of majesty once unconquered, unvanquished, irresistible in
 							war,that penetrated the ears and
 						heart of the people, is now cast off. But there is still fear. And
-						prosperity—this, among mortals, is a god and more than a god.But the balance of Justice keeps watch:
+						prosperity—this, among mortals, is a god and more than a god. But the balance of Justice keeps watch:
 						swiftly it descends on those in the light; sometimes pain waits for those
 						who linger on the frontier of twilight; and others are claimed by
 						strengthless night.</p>
-					<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - DIFFICULT TO TELL WHO IS RECEIVER/PURPOSE OF CHORUS -->
 				</div2>
 				<div2 type="strophe" n="3" org="uniform" sample="complete">
 					<sp>
@@ -240,14 +237,13 @@
 						<p>Because of blood drunk up by the fostering earth, the vengeful gore lies
 							clotted and will not dissolve away. Soul-racking calamity distracts the
 							guilty man till he is steeped in utter misery.</p>
-						<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - DIFFICULT TO TELL WHO IS RECEIVER/PURPOSE OF CHORUS -->
+						<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - more about revenge than pain -->
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="3" org="uniform" sample="complete">
 					<p>But for the violator of a bridal chamber there is no cure. And though all
 						streams flow in one course to cleanse the blood from a polluted hand, they
 						rush in vain.</p>
-					<!-- DIDN'T INCLUDE PAIN ELEMENT HERE - DIFFICULT TO TELL WHO IS RECEIVER/PURPOSE OF CHORUS -->
 				</div2>
 				<div2 type="epode" org="uniform" sample="complete">
 					<sp>
