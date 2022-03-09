@@ -1,79 +1,86 @@
-# Methods
+# Gendered Pain in Greek Tragedy: Markup Methods
 
 ----------
 
 
-### What is gendered pain?
-General definition of pain: Severe or mild physical and emotional 
-discomfort
-Definition of gendered pain: Pain associated with societal 
-constructs of gender binary
+## What is gendered pain?
+<p>General definition of pain: Severe or mild physical and emotional 
+discomfort</P>
 
-Use empty elements: one single tag < ... />
+<p>Definition of gendered pain: Pain associated with societal 
+constructs of gender binary</p>
 
-### Elements:
-1. Amplifier
-Explanation: surrounding characters who influence the experienced 
-pain
-Example: `<amp></amp>`
+<p>For our markup, we are going to use a singular type of 
+empty element to indicate all pain events/mentions of pain,
+and we will put multiple attributes inside it.</P>
 
-2. Inflicter 
--Explanation: the character who is causing or inflicting the pain
--Example: `<inf></inf>`
+Example: `<painStart attribute="value"/>text<painEnd/>`
 
-3. Receiver
--Explanation: The character who is experiencing or recieving the 
-pain 
--Example: `<rec></rec>`
+### Attributes:
+*=optional element
 
+#### Receiver attributes
 
-### Attributes: level 1
-*= attribute only modifies the “receiving” element
-1. Gender-
--Explanation: Binary gender of character involved in pain
--Example: `<amp/inf/rec  gender=“0”> `
--Boolean value: 0 → man, 1→ woman
+These attributes are relevant to the character who is experiencing or recieving the 
+pain.
 
-2. *Emotional-
--Explanation: Pain causing mental/ emotional anguish
--Example: `<amp/inf/rec em=“0”>`
--Boolean value: 0→is not emotional pain, 1→is physical pain
+##### painType
 
-3. *Physical-
--Explanation: Physical/bodily symptoms that amplify discomfort
--Example: `<amp/inf/rec phys="0">`
--Boolean value: 0 → is not physical pain, 1 → is physical pain
--If physical pain:
-Cause = “violence”, “infection”, …
+A character's pain will be denoted as emotional, physical,
+or both at the same time.
 
-4. Normative values?
--Explanation: Whether the character specified generally follows 
-Greek normative values
--Example: `<inf norm=“1”>`
--Example: `<amp/inf/rec  gender=“man/woman”> `
+Values: "em" | "phys" | "both"
 
+Example: `<painStart painType="em"/>`
 
-2. *Emotional-
--Explanation: Pain causing mental/ emotional anguish
--Example: `<amp/inf/rec type="em">`
--Boolean value: 0→is not emotional pain, 1→is emotional pain
+##### rec
 
-3. *Physical-
--Explanation: Physical/bodily symptoms that amplify discomfort
--Example: `<amp/inf/rec type="phys">`
--If physical pain:
-Cause = “violence”, “infection”, …
- 
-(If both em and phys pain, then type= "em" "phys") 
+The values of this attribute are the names of the receivers of pain.
 
-4. Normative values-
--Explanation: Whether the character specified generally follows 
-Greek normative values
--Example: `<inf norm=“yes/no">`
--Boolean value: 0 → does not follow normative values (not socially
-accepted character), 1 → does follow normative values (socially 
-accepted character)
+Example: `<painStart rec="Medea"/>`
 
+##### recGen
 
+Denotes the gender of the receiver(s) of pain.
 
+Values: "man" | "woman" | "mix"
 
+Example: `<painStart recGen="woman"/>`
+
+##### recNorm
+
+Denotes whether or not a receiver of pain is socially accepted in Greek society.
+
+##### recRel*
+
+Denotes the relation of the receiver of pain to the inflicter of pain.
+
+Example: `<painStart recRel="children"/>Medea hurt her children.<painEnd/>`
+
+#### Inflicter attributes
+
+These attributes describe the character who is causing or inflicting the pain.
+
+##### inf*
+
+The values of this attribute are the names of the inflicters of pain. 
+
+Example: `<painStart inf="Heracles"/>`
+
+##### infGen*
+
+Denotes the gender of the inflicter(s) of pain.
+
+Values: "man" | "woman" | "mix"
+
+Example: `<painStart infGen="woman"/>`
+
+##### infNorm*
+
+Denotes whether or not an inflicter of pain is socially accepted in Greek society.
+
+##### infRel*
+
+Denotes the relation of the inflicter of pain to the receiver.
+
+Example: `<painStart infRel="mother"/>Medea hurt her children.<painEnd/>`
