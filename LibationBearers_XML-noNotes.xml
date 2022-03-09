@@ -353,19 +353,17 @@
 							prayers,spirits that watch over
 						my father's house, and Earth herself, who gives birth to all things, and
 						having nurtured them receives their increase in turn. And meanwhile, as I
-						pour these lustral offerings to the dead, <pain>I invoke my father: “Have pity
-						both on me and on dear Orestes!How
-						shall we rule our own house? For now we are bartered away like vagrants by
-						her who bore us, <inf relrec = "mother" gender = "1" norm = "0">by her</inf> who in exchange got as her mate <amp relrec = "stepfather" gender = "0" norm = "0">Aegisthus</amp>, who was
-							her accomplice in <rec relinf = "husband" em = "1" phys = "1" gender = "0" norm = "1">your murder</rec><inf relrec = "wife" gender = "1" norm = "0"></inf>. As for me, <rec relinf = "daughter" em = "1" phys = "0" gender = "1" norm = "1">I am no better than a
-							slave</rec>,<rec relinf = "son" em = "1" phys = "0" gender = "0" norm = "1">Orestes is an outcast</rec> from
+						pour these lustral offerings to the dead, I invoke my father: “Have pity
+						both on me and on dear Orestes! How
+						shall we rule our own house? <painStart rec = "Orestes-and-Electra" recGen = "mix" recNorm = "yes" painType = "em" recRel = "children" inf = "Clytamnestra" infGen = "woman" infNorm = "no" infRel = "mother"/>For now we are bartered away like vagrants by
+						her who bore us<painEnd/>, by her <painStart rec = "Agamemnon" recGen = "man" recNorm = "yes" painType = "phys" recRel = "husband" inf = "Clytamnestra" infGen = "woman" infNorm = "no" infRel = "wife"/>who in exchange got as her mate Aegisthus, who was
+							her accomplice in your murder<painEnd/>. As for me, I am no better than a
+						slave, <painStart rec = "Orestes" recGen = "man" recNorm = "yes" painType = "em" recRel = "son" inf = "Clytamnestra" infGen = "woman" infNorm = "no" infRel = "mother"/>Orestes is an outcast from
 						his inheritance, while they in their insolence revel openly in the winnings
 						of your toil. But that Orestes may come home with good fortune I pray to
 						you, father: Oh, hearken to me! And as for myself, grant that I may prove
-						far more circumspect than my mother and more reverent in deed.</pain></p>
-					<!-- I classified Aegisthus as an amplifier because without the mother, then there would be no cruelty or murder
-					being "bartered away" is a mostly emotional kind of pain, no violence included
-					made the inf tag for the murder of the husband by the wife an empty element-->
+						far more circumspect than my mother and more reverent in deed.<painEnd/></p>
+					<!-- I didn't include Aegistus as an inflictor because he is specifically named as an accomplice-->
 					<p>I utter these prayers on our behalf, but I ask that your avenger appear to
 						our foes, father, and that your killers may be killed in just retribution.
 						So I interrupt my prayer for goodto
