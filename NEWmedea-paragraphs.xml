@@ -398,7 +398,7 @@
                             steel, yet in the moment she finds her honour
                             wronged, no heart is filled with deadlier thoughts than
                             hers.<painEnd/></p>
-                  <!--Left Off Here 3/8/2022-->
+              
                </sp>
                <sp>
                   <speaker>Chorus</speaker>
@@ -440,8 +440,8 @@
                <sp>
                   <speaker>Medea</speaker>
                   <p>Alas! this is not now the
-                            first time, but oft before, O Creon, hath my reputation injured
-                            me and caused sore mischief. Wherefore whoso is wise in his
+                     first time, but oft before, <painStart type= "em" rec="Medea" genderrec="woman"/>O Creon, hath my reputation injured
+                     me and caused sore mischief.<painEnd/> Wherefore whoso is wise in his
                             generation ought never to have his children taught to be
                             too clever; for besides the reputation they get for idleness,
                             they purchase bitter odium from the citizens. For if thou
@@ -455,13 +455,13 @@
                             very clever after all. Be that as it may, thou dost fear me lest
                             I bring on thee something to mar thy harmony. Fear me not,
                             Creon, ray position scarce is such that I should seek to quarrel
-                            with princes. Why should I, for how hast thou injured me? Thou
+                            with princes. <painStart type= "em" rec="Medea" inf="Creon" genderrec="woman" genderinf="man"/>Why should I, for how hast thou injured me? Thou
                             hast betrothed thy daughter where thy fancy prompted thee. No, ’tis my
                             husband I hate, though I doubt not thou hast acted wisely
                             herein. And now I grudge not thy prosperity; betroth thy child,
                             good luck to thee, but let me abide in this land, for though I
                             have been wronged I will be still and yield to my
-                            superiors.</p>
+                            superiors.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Creon</speaker>
@@ -556,13 +556,13 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>Suffer me to abide this
+                  <p><painStart type= "em" rec="Medea" inf="Creon" genderrec="woman" genderinf="man"/>Suffer me to abide this
                             single day and devise some plan for the manner of my exile, and
                             means of living for my children, since their father cares not to
                             provide his babes therewith. Then pity them; thou too hast
                             children of thine own; thou needs must have a kindly heart. For
                             my own lot I care naught, though I an exile am, but for those
-                            babes I weep, that they should learn what sorrow means.</p>
+                            babes I weep, that they should learn what sorrow means.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Creon</speaker>
@@ -578,11 +578,12 @@
                <div type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p>Ah! poor lady, woe is
+                     <p><painStart type= "em" rec="Medea" genderrec="woman"/>Ah! poor lady, woe is
                                 thee! Alas, for thy sorrows! Whither wilt thou turn? What
                                 protection, what home or country to save thee from
                                 thy troubles wilt thou find? O Medea, in what a hopeless sea
-                                of misery heaven hath plunged thee!</p>
+                                of misery heaven hath plunged thee!<painEnd/></p>
+                     <!--Left Off Here 3/8/2022-->
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
