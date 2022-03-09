@@ -249,12 +249,10 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>For since the gods laid constraining doom about my city and led me from
-							my father's house to a slave's lot, <pain>it is fitting for <rec relinf = "slave" em = "1" phys = "1" gender = "1" norm = "0">me</rec> to govern my
-							bitter hate, even against my will, and submit to the wishes of <inf relrec = "master" gender = "female" normative = "0">my
-							masters</inf>, whether just or unjust</pain>.But I weep beneath my veil over the senseless fate of my lord, my
+							my father's house to a slave's lot, <painStart rec = "Chorus" recGen = "woman" recNorm = "yes" painType = "mix"  recRel = "slave" inf = "Clytamnestra" infGen = "woman" infNorm = "no" infRel = "master"/>it is fitting for me to govern my
+							bitter hate, even against my will, and submit to the wishes of my
+							masters, whether just or unjust.<painEnd/> But I weep beneath my veil over the senseless fate of my lord, my
 							heart chilled by secret grief.</p>
-						<!-- REC ELEMENT - technically no outright phys according to greek understanding, are they also normative according to Greek understanding? -->
-						<!-- INF ELEMENT - made gender female because this play focuses on the female wife of Agamemnon-->
 					</sp>
 				</div2>
 			</div1>
@@ -264,22 +262,20 @@
 					<p>You handmaidens who set our house in order, since you are here as my
 						attendants in this rite of supplication,give me your counsel on this: what should I say while I pour these
 						offerings of sorrow? How shall I find gracious words, how shall I entreat my
-						father? <pain>Shall I say that I bring these offerings to a <rec relinf = "husband" em = "1" phys = "0" gender = "0" norm = "0">loved husband</rec> from a
-						<inf relrec = "wife" gender = "1" norm = "0">loving wife</inf>—from my own mother?I do
+						father? <painStart rec = "Agamemnon" recGen = "man" recNorm = "yes" painType = "mix" recRel = "husband" inf = "Clytamnestra" infGen = "woman" infNorm = "no" infRel = "wife"/>Shall I say that I bring these offerings to a loved husband from a
+						loving wife—from my own mother?I do
 						not have the assurance for that, nor do I know what I should say as I pour
-						this libation onto my <rec relinf = "husband" em = "1" phys = "1" gender = "0" norm = "0">father's tomb</rec>. Or shall I speak the words that men are
+						this libation onto my father's tomb. Or shall I speak the words that men are
 						accustomed to use: “To those who send these honors may he return benefits”—a
-						gift, indeed, to match their evil?</pain></p>
-					<!-- there are two receiving elements because there two elements of receiving in this contents of the pain element: an unloved husband (distinct and emotional) and a murdered father (violent, physical) -->
+						gift, indeed, to match their evil?<painEnd/></p>
 					<p>Or, in silence and dishonor, even as my father perished, shall I pour them
-						out for the earth to drinkand then
+						out for the earth to drink and then
 						retrace my steps, like one who carries refuse away from a rite, hurling the
 						vessel from me with averted eyes?</p>
-					<p>In this, my friends, be my fellow-counsellors. <pain>For <rec relinf = "daughter" em = "1" phys = "0" gender = "1" norm = "1"/><rec relinf = "slave" em = "1" phys = "0" gender = "1" norm = "1"/>we cherish a common hatred within our house. Do not
+					<p>In this, my friends, be my fellow-counsellors. For we cherish a common hatred within our house. Do not
 						hide your counsel in your hearts in fear of anyone. For the portion of fate
-						awaits both the free man and the man enslaved by <inf relrec = "mother" gender = "1" norm = "0"/><inf relrec = "master" gender = "1" norm = "0"/>another's hand. If you have
-						a better course to urge, speak!</pain></p>
-					<!-- in this pain element: empty rec elements - should we keep this? -->
+						awaits both the free man and the man enslaved by another's hand. If you have
+						a better course to urge, speak!</p>
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
@@ -316,8 +312,7 @@
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p><pain>Remember <rec relinf = "son" em = "1" phys = "1" gender = "0" norm = "1">Orestes</rec>, though he is still away from home.</pain></p>
-				<!-- not including an inf  element because the character isn't mentioned - should we change that -->
+					<p>Remember Orestes, though he is still away from home.</p>
 				</sp>
 				<sp>
 					<speaker>Electra</speaker>
