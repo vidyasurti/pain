@@ -16,15 +16,15 @@ and we will put multiple attributes inside it.</P>
 
 Example: `<painStart attribute="value"/>text<painEnd/>`
 
-### Attributes:
+## Attributes:
 *=optional element
 
-#### Receiver attributes
+### Receiver attributes
 
 These attributes are relevant to the character who is experiencing or recieving the 
 pain.
 
-##### painType
+#### painType
 
 A character's pain will be denoted as emotional, physical,
 or both at the same time.
@@ -33,13 +33,13 @@ Values: "em" | "phys" | "both"
 
 Example: `<painStart painType="em"/>`
 
-##### rec
+#### rec
 
 The values of this attribute are the names of the receivers of pain.
 
 Example: `<painStart rec="Medea"/>`
 
-##### recGen
+#### recGen
 
 Denotes the gender of the receiver(s) of pain.
 
@@ -47,27 +47,27 @@ Values: "man" | "woman" | "mix"
 
 Example: `<painStart recGen="woman"/>`
 
-##### recNorm
+#### recNorm
 
 Denotes whether or not a receiver of pain is socially accepted in Greek society.
 
-##### recRel*
+#### recRel*
 
 Denotes the relation of the receiver of pain to the inflicter of pain.
 
 Example: `<painStart recRel="children"/>Medea hurt her children.<painEnd/>`
 
-#### Inflicter attributes
+### Inflicter attributes
 
 These attributes describe the character who is causing or inflicting the pain.
 
-##### inf*
+#### inf*
 
 The values of this attribute are the names of the inflicters of pain. 
 
 Example: `<painStart inf="Heracles"/>`
 
-##### infGen*
+#### infGen*
 
 Denotes the gender of the inflicter(s) of pain.
 
@@ -75,11 +75,11 @@ Values: "man" | "woman" | "mix"
 
 Example: `<painStart infGen="woman"/>`
 
-##### infNorm*
+#### infNorm*
 
 Denotes whether or not an inflicter of pain is socially accepted in Greek society.
 
-##### infRel*
+#### infRel*
 
 Denotes the relation of the inflicter of pain to the receiver.
 
