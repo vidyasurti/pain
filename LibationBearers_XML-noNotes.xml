@@ -168,9 +168,8 @@
 					<speaker>Orestes</speaker>
 					<p>Hermes of the nether world, you who guard the powers that are your
 							father's, prove yourself my savior and ally, I
-						entreat you, <pain>now that <rec relinf = "son" em = "1" phys = "1" gender = "0" norm = "1">I</rec> have come to this land and returned from exile. On
-						this mounded grave I cry out to my father to hearken, to hear me</pain>
-						</p>
+						entreat you, <painStart rec = "Orestes" recGen = "man" recNorm = "yes" painType = "both"/>now that I have come to this land and returned from exile. On
+						this mounded grave I cry out to my father to hearken, to hear me<painEnd/></p>						
 					<p>[Look, I bring] a lock to Inachus in requital for his care, and here,
 						a second, in token of my grief.</p>
 					<p>For I was not present, father, to lament your death, nor did I stretch forth
@@ -180,8 +179,8 @@
 						should I set this down? Is it some new sorrow that befalls our house? Or am
 						I right to suppose that for my father's sake they bear these libations to
 						appease the powers below? It can only
-						be for this cause: for indeed I think my own <pain>sister <rec relinf = "daughter" em = "1" phys = "0" gender = "1" norm = "1">Electra</rec> is approaching,
-						distinguished by her bitter grief</pain>. Oh grant me, Zeus, to avenge my father's
+						be for this cause: for indeed <painStart rec = "Electra" recGen = "woman" recNorm = "yes" painType = "em"/>I think my own sister Electra is approaching,
+						distinguished by her bitter grief<painEnd/>. Oh grant me, Zeus, to avenge my father's
 						death, and may you be my willing ally!</p>
 					<p>Pylades, let us stand apart, that I
 						may</p>
