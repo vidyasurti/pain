@@ -85,7 +85,7 @@ Denotes whether or not an inflicter of pain is socially accepted in Greek societ
 
 Values: "yes" | "no"
 
-Example: `<painStart infNorm="yes"/>
+Example: `<painStart infNorm="yes"/>`
 
 #### infRel*
 
