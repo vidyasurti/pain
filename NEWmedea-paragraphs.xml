@@ -587,7 +587,7 @@
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
-                     <p>On all sides sorrow pens
+                     <p><painStart type= "em" rec="Medea" inf="Creon Jason" genderrec="woman" genderinf="man"/>On all sides sorrow pens
                                 me in. Who shall gainsay this? But all is not yet lost! think not so.
                                 Still are there troubles in store for the new bride, and for
                                 her bridegroom no light toil. Dost think I would ever have
@@ -598,7 +598,8 @@
                                 my plot by banishing me from the land, he hath allowed me to
                                 abide this day, in which I will lay low in death three of my
                                 enemies—a father and his daughter and my
-                                husband too. Now, though I have many ways to compass their
+                                husband too.<painEnd/><painStart type= "phys" rec="Creon Jason Glauce" inf="Medea" genderrec="mix" genderinf="woman"/>Now, though I have many ways to compass their
+                        <!--Is this tagged correctly?-->
                                 death, I am not sure, friends, which I am to try first.
                                 Shall I set fire to the bridal mansion, or plunge the
                                 whetted sword through their hearts, softly stealing into the chamber where
@@ -606,7 +607,7 @@
                                 caught making my way into the chamber, intent on my design,
                                 I shall be put to death and cause my foes to mock. ’Twere
                                 best to take the shortest way—the way we women are most skilled in—by poison to destroy
-                                them. Well, well, suppose them dead; what city will receive
+                                them.<painEnd/><painStart type= "phys" rec="Creon Jason Glauce" inf="Medea" genderrec="mix" genderinf="woman"/>Well, well, suppose them dead; what city will receive
                                 me? What friendly host will give me a shelter in his land, a
                                 home secure, and save my soul alive? 
                                 None. So I will wait yet a little while in case some tower of defence rise up
@@ -626,7 +627,7 @@
                                 Jason, sprung, as thou art, from a noble sire, and of the
                                 Sun-god’s race. Thou hast cunning; and, more than this, we
                                 women, though by nature little apt for virtuous deeds, are
-                                most expert to fashion any mischief.</p>
+                                most expert to fashion any mischief.<painEnd/></p>
                   </sp>
                </div>
             </div>
@@ -657,11 +658,11 @@
                <div type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p>With mind distraught
+                     <p><painStart type= "em" rec="Medea" inf="Creon Jason" genderrec="woman" genderinf="man"/>With mind distraught
                                 didst thou thy father’s house desert on thy voyage betwixt
                                 ocean’s twin rocks, and on a foreign strand thou dwellest, thy bed left
                                 husbandless, poor lady and  thou an exile
-                                from the land, dishonoured, persecuted.</p>
+                                from the land, dishonoured, persecuted.<painEnd/></p>
                   </sp>
                </div>
                <div type="textpart" subtype="antistrophe" n="2">
@@ -678,7 +679,7 @@
             <div type="textpart" subtype="episode">
                <sp>
                   <speaker>Jason</speaker>
-                  <p>It is not now I first
+                  <p><painStart type= "both" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>It is not now I first
                             remark, but oft ere this, how unruly a pest is a harsh temper.
                             For instance, thou, hadst thou but patiently endured the will of
                             thy superiors, mightest have remained here in this land and
@@ -693,7 +694,7 @@
                             lady, that thou mayst not be destitute nor want for aught, when,
                             with thy sons, thou art cast out. Many an evil doth exile bring
                             in its train with it; for even though thou hatest me, never will
-                            I harbour hard thoughts of thee.</p>
+                            I harbour hard thoughts of thee.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Medea</speaker>
@@ -707,13 +708,13 @@
                             reviling thee, and thou wilt be vexed at my recital. I will begin at the very beginning. I
                             saved thy life, as every Hellene knows who sailed with thee
                             aboard the good ship Argo, when thou wert sent to tame and yoke
-                            fire-breathing bulls, and to sow the deadly tilth. Yea, and I slew the dragon which guarded
+                            fire-breathing bulls, and to sow the deadly tilth. <painStart type= "phys" rec="dragon" inf="Medea" genderrec="male" genderinf="woman"/>Yea, and I slew the dragon which guarded
                             the golden fleece, keeping sleepless watch o’er it with many  a wreathed coil, and I raised for thee a
-                            beacon of deliver arice. Father and home of my free will I left
+                            beacon of deliver arice<painEnd/>. Father and home of my free will I left
                             and came with thee to Iolcos, ’neath Pelion’s hills, for my love was stronger than my prudence.
-                            Next I caused the death of Pelias by a doom most grievous, even
-                            by his own children’s hand, beguiling them of all their fear.
-                            All this have I done for thee, thou traitor! and thou hast cast
+                     <painStart type= "phys" rec="Pelias PeliasChildren" inf="Medea" genderrec="male" genderinf="woman"/>Next I caused the death of Pelias by a doom most grievous, even
+                     by his own children’s hand, beguiling them of all their fear.<painEnd/>
+                     <painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>All this have I done for thee, thou traitor! and thou hast cast
                             me over, taking to thyself another wife, though children have been bom to us. Hadst
                             thou been childless still, I could have pardoned thy desire for
                             this new union. Gone is now the trust I put in oaths. I
@@ -739,7 +740,7 @@
                             Yea, a fine reproach to thee in thy bridal hour, that thy children and the wife who saved
                             thy life are beggars and vagabonds! O Zeus! why hast thou
                             granted unto man clear signs to know the sham in  gold, white on man’s brow no brand is
-                            stamped whereby to gauge the villain’s heart?</p>
+                            stamped whereby to gauge the villain’s heart?<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Chorus</speaker>
@@ -791,6 +792,7 @@
                             foes. Yea, men should have begotten children from some other
                             source, no female race existing; thus would no evil ever have fallen on
                             mankind.</p>
+                  <!--How would you guys tag this paragraph, if you would in the first place?-->
                </sp>
                <sp>
                   <speaker>Chorus</speaker>
@@ -947,6 +949,7 @@
                   </sp>
                </div>
             </div>
+            <!--START AT THIS PART 3/10/2022 5:05 PM-->
             <div type="textpart" subtype="episode">
                <sp>
                   <speaker>Aegeus</speaker>
