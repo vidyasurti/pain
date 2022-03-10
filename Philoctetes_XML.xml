@@ -161,8 +161,8 @@
 						desolate. It was here, child bred of the man who was the noblest of the
 						Greeks, Neoptolemus son of Achilles, that I exposed<milestone ed="p" n="5"
 							unit="line"/>long ago the native of Malis, Poeas' son, on the express
-						command of the two chieftains to do so, because his foot was all running
-						with a gnawing disease. Neither libation nor burnt sacrifice could be
+						command of the two chieftains to do so, because <painStart type="Phys" rec="Philoctetes" recgen="male" amp="nature"/>his foot was all running
+						with a gnawing disease.<painEnd/> Neither libation nor burnt sacrifice could be
 						attempted by us in peace, but with his wild, ill-omened cries<milestone
 							ed="p" n="10" unit="line"/>he filled the whole camp continually with
 						shrieking, moaning. But what need is there to speak of that? The time is not
@@ -230,8 +230,8 @@
 				<sp>
 					<speaker>Odysseus</speaker>
 					<p><milestone ed="p" n="40" unit="line"/>The man inhabits these regions,
-						clearly, and is somewhere not far off. How could he go far afield when his
-						foot is maimed by that old plague? No, he has gone out in quest of food, or
+						clearly, and is somewhere not far off. <painStart type="Phys" rec="Philoctetes" recgen="male" amp="nature"/>How could he go far afield when his
+						foot is maimed by that old plague? <painEnd/> No, he has gone out in quest of food, or
 						of some soothing herb that he may have noted somewhere.<milestone ed="p"
 							n="45" unit="line"/>Send your attendant, therefore, to keep watch, lest
 						he come upon me unawares, since he would rather take me than all the Greeks
@@ -479,28 +479,28 @@
 				</div2>
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
 					<sp>
-						<pain phys="1"><speaker><amp gender="0">Chorus</amp></speaker>
-						<p>For my part, I pity <rec gender="0">him</rec> when I think how,<milestone ed="p" n="170"
+						<painStart type="phys em" rec="Philoctetes" recgen="male" amp="Chorus" ampgen="male"/><speaker>Chorus</speaker>
+						<p>For my part, I pity him when I think how,<milestone ed="p" n="170"
 								unit="line"/>with no one to care for him, and seeing no companion's
 							face, but suffering eternally alone, he is plagued by fierce disease and
 							bewildered by each need as it arises.<milestone ed="p" n="175"
-								unit="line"/>How, how does he endure his bitter fate? Ah,
+								unit="line"/>How, how does he endure his bitter fate?<painEnd/> Ah,
 							contrivances of the gods! Ah, unhappy tribes of mortals, whose
 							life-portion exceeds due measure!<milestone ed="p" n="180" unit="card"
-							/></p></pain>
+							/></p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="2" org="uniform" sample="complete">
 					<sp>
-						<pain phys="1"><speaker><amp gender="0">Chorus</amp></speaker>
-						<p><milestone ed="p" n="180" unit="line"/>That <rec tgender="0">man</rec>—inferior in no way,
+						<painStart type="phys em" rec="Philoctetes" recgen="male" amp="Chorus" ampgen="male"/><speaker>Chorus</speaker>
+						<p><milestone ed="p" n="180" unit="line"/>That man—inferior in no way,
 							probably, to any man belonging to the oldest families—lies alone without
 							companions and stripped of all life's gifts<milestone ed="p" n="185"
 								unit="line"/>among the dappled or shaggy beasts. He is a man to be
 							pitied for his torments and his hunger alike, enduring anguish that has
-							no cure. But to his bitter cries the mountain nymph, babbling Echo,
+							no cure.<painEnd/> But to his bitter cries the mountain nymph, babbling Echo,
 							coming from afar,<milestone ed="p" n="190" unit="line"/>gives
-								answer.<milestone ed="p" n="191" unit="card"/></p></pain>
+								answer.<milestone ed="p" n="191" unit="card"/></p>
 					</sp>
 				</div2>
 				<div2 type="anapests" org="uniform" sample="complete">
@@ -636,15 +636,15 @@
 					<speaker>Philoctetes</speaker>
 					<p>How cursed I must be, how abhorred by the gods,<milestone ed="p" n="255"
 							unit="line"/>if not a word of my miserable condition has reached my
-						homeland, or any Greek land at all! Instead those men, who against the gods'
+						homeland, or any Greek land at all! <painStart type="phys" rec="Philoctetes" Recgen="male" amp="nature"/>Instead those men, who against the gods'
 						laws cast me away, keep their secret and laugh, while my plague has ever
-						flourished and grows worse!<milestone ed="p" n="260" unit="line"/>O my son,
+						flourished and grows worse!<painEnd/><milestone ed="p" n="260" unit="line"/>O my son,
 						boy whose father was Achilles, here I am before you, the man of whom you
 						have perhaps heard as lord of the bow of Heracles, Philoctetes the son of
-						Poeas. <pain phys="1"><rec gender="0">I</rec> am he whom the two marshalls and the Cephallenian king<milestone
+						Poeas. <painStart type="phys em" rec="Philoctetes" recgen="male" inf="Cephallenian King" infgen="male"/>I am he whom the two marshalls and the Cephallenian king<milestone
 							ed="p" n="265" unit="line"/>shamelessly hurled to this solitude which
 						you see, when I was wasting with a fierce disease, stricken by the savage
-						bite of the murderous serpent. With that plague for my sole companion, boy,
+						bite of the murderous serpent.<painEnd/> With that plague for my sole companion, boy,
 						those men put me out<milestone ed="p" n="270" unit="line"/>here alone and
 						left, after they landed here with their fleet from sea-washed <placeName
 							key="perseus,Chryse" authname="perseus,Chryse">Chryse</placeName>.
@@ -653,12 +653,12 @@
 						setting out a few rags, as though for an unfortunate beggar, and a bit of
 						food, too—<milestone ed="p" n="275" unit="line"/>a small work of charity.
 						But may they get what they gave me! Can you imagine, boy, what kind of
-						awakening I had when they had gone, and I rose from sleep that day?—what
-						stinging tears I wept, and what miseries I bewailed when I saw that the
+						awakening I had when they had gone, and I rose from sleep that day?—<painStart type="em" rec="Philoctetes" Recgen="male" inf="Cephallenian King" infgen="male"/>what
+						stinging tears I wept, and what miseries I bewailed <painEnd/>when I saw that the
 						ships with which I had sailed<milestone ed="p" n="280" unit="line"/>were all
 						gone, and that there was no man in the place, not one to help me, not one to
 						ease the sickness that afflicted me, when looking all around me, I could
-						find nothing at hand, save agony—but of that a ready store?</pain></p>
+						find nothing at hand, save agony—but of that a ready store?</p>
 					<milestone ed="p" n="285" unit="card"/>
 					<p><milestone ed="p" n="285" unit="line"/>So time passed for me, season by
 						season, and alone in this narrow house, I had to attend to all my wants by
@@ -680,11 +680,11 @@
 							n="305" unit="line"/>happen in the long course of a man's life. These
 						visitors, then, when they come, son, have compassionate words for me, and,
 						perhaps moved by pity, they give me a little food or some
-							clothing.<milestone ed="p" n="310" unit="line"/><pain em="1">But there is one thing
-						that no one will do, whenever <rec gender="0">I</rec> mention it: take me home in safety. No, this
+							clothing.<milestone ed="p" n="310" unit="line"/><painStart type="phys em" rec="Philoctetes" recgen="male" inf="Odysseus" infgen="male"/>But there is one thing
+						that no one will do, whenever I mention it: take me home in safety. No, this
 						is already the tenth year that I am wasted by misery from hunger and
-						suffering, by feeding this gluttonous plague. This is what <inf type="male" relrec="superior">the Atreids and
-						the forceful Odysseus</inf> have done to me, boy.</pain><milestone ed="p" n="315"
+						suffering, by feeding this gluttonous plague. This is what the Atreids and
+						the forceful Odysseus have done to me, boy.<painEnd/><milestone ed="p" n="315"
 							unit="line"/>May the gods on <placeName key="tgn,7011019"
 							authname="tgn,7011019">Olympus</placeName> someday give them agonies as
 						strong in requital for mine! </p>
@@ -1018,7 +1018,7 @@
 							learn<milestone ed="p" n="535" unit="line"/>by what means I sustained my
 						life, and how stout of heart I was born. For I believe that the mere sight
 						would have deterred any other man but me from enduring these sufferings. But
-						I have been slowly schooled by necessity to endure misery.<stage>Neoptolemus
+						<painStart type="em" rec="Philoctetes" recgen="male" amp="nature"/>I have been slowly schooled by necessity to endure misery.<painEnd/><stage>Neoptolemus
 							is about to follow Philoctetes into the cave.</stage></p>
 				</sp>
 				<sp>
@@ -1319,19 +1319,22 @@
 				</div2>
 				<div2 type="antistrophe" n="1" org="uniform" sample="complete">
 					<sp>
-						<pain phys="1"><speaker><amp gender="0">Chorus</amp></speaker>
-						<p>Here, <rec gender="0">he</rec> alone was his own neighbor, powerless to walk, with no one in
-							the land to be his companion while he suffered—no one to whom he could
+						<speaker>Chorus</speaker>
+						<p>
+							Here, he alone was his own neighbor, <painStart type="em" rec="Philoctetes" recgen="male" amp="Chorus" ampgen="male"/> powerless to walk, with no one in
+							the land to be his companion <painEnd/> 
+							while he suffered—no one to whom he could
 							cry out a lament that would be answered<milestone ed="p" n="695"
-								unit="line"/>for the plague that gnawed his flesh and drained his
+							unit="line"/><painStart type="phys" rec="Philoctetes" recgen="male" amp="Chorus" ampgen="male"/>
+							for the plague that gnawed his flesh and drained his
 							blood—no one to lull with healing herbs gathered from the nourishing
 							earth the burning blood which oozed from the ulcers of his<milestone
 								ed="p" n="700" unit="line"/>envenomed foot, whenever the torment
-							attacked him. Instead he would then creep this way or that, stumbling
+							attacked him.<painEnd/> Instead he would then creep this way or that, stumbling
 							like a child without his kind nurse, to any place from where his
 								needs<milestone ed="p" n="705" unit="line"/>might be supplied,
 							whenever the devouring anguish withdrew.<milestone ed="p" n="707"
-								unit="card"/></p></pain>
+								unit="card"/></p>
 					</sp>
 				</div2>
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
@@ -1340,9 +1343,9 @@
 						<p>For food he did not gather the fruit of holy Earth, nor anything else
 							that we mortals feed on by our labor,<milestone ed="p" n="710"
 								unit="line"/>except when on occasion he obtained food to ease his
-							hunger by means of feathered shafts from his swift-striking bow. Ah,
+							hunger by means of feathered shafts from his swift-striking bow. <painStart type="em" rec="Philoctetes" recgen="male" amp="Chorus" ampgen="male"/>Ah,
 							joyless was his life, who for ten years never knew the delight of
-								wine,<milestone ed="p" n="715" unit="line"/>but ever directed his
+								wine,<painEnd/><milestone ed="p" n="715" unit="line"/>but ever directed his
 							path towards any stagnant pool that he could find as he gazed around
 								him.<milestone ed="p" n="718" unit="card"/></p>
 					</sp>
@@ -1403,13 +1406,13 @@
 						so silent. It is plain enough that you are suffering somehow.</p>
 				</sp>
 				<sp>
-					<pain phys="1"><speaker><rec gender="0">Philoctetes</rec></speaker>
-					<p>I am destroyed, boy—I can never conceal my suffering when you are close. Ah!
+					<painStart type="phys" rec="Pheloctetes" recgen="male" inf="gods" infgen="male female"/><speaker> Philoctetes</speaker>
+					<p><painStart type="em" rec="Philoctetes" recgen="male" amp="nature"/>I am destroyed, boy—I can never conceal my suffering when you are close. Ah!
 						Ah! It shoots through me, shoots straight through! Oh, the pain,the
 							misery!<milestone ed="p" n="745" unit="line"/>I am destroyed, boy—I am
-						devoured! Ah, by the gods I beg you, if you have a sword ready to hand,
+						devoured!<painEnd/> Ah, by the gods I beg you, if you have a sword ready to hand,
 						strike at my ankle—cut it off now! Do not spare my life!<milestone ed="p"
-							n="750" unit="line"/>Quick, boy, quick!</p></pain>
+							n="750" unit="line"/>Quick, boy, quick!</p><painEnd/>
 				</sp>
 				<sp>
 					<speaker>Neoptolemus</speaker>
@@ -1491,11 +1494,11 @@
 							unit="card"/></p>
 				</sp>
 				<sp>
-					<pain type="phys"><speaker><rec gender="0">Philoctetes</rec></speaker>
+					<speaker>Philoctetes</speaker>
 					<p>Futile, I fear, are your prayers, boy. Look, once again the dark blood is
 						oozing drop by drop from deep in the wound, and I look for worse to
-							come.<milestone ed="p" n="785" unit="line"/>Ah, me, oh, oh! Cursed foot,
-						what torment you cause me! It creeps on me, it is coming near! Ah, misery!
+						come.<milestone ed="p" n="785" unit="line"/><painStart type="em" rec="Philoctetes" recgen="male" inf="Odysseus" infgen="male"/>Ah, me, oh, oh! Cursed foot,
+							what torment you cause me! It creeps on me, it is coming near! Ah, misery!<painEnd/>
 						Now you know my condition. Do not flee, no!<milestone ed="p" n="790"
 							unit="line"/>Oh, alas! Odysseus of Cephallene, once my friend, would
 						that this anguish might stick to you, and pierce your chest! Ah, me! Ah, me!
@@ -1508,7 +1511,7 @@
 						son of Zeus, in return for which I received these same arms, which are now
 						in your keeping. What do you say, boy, what do you say?<milestone ed="p"
 							n="805" unit="line"/>Why this silence? Where are your thoughts,
-							son?<milestone ed="p" n="806" unit="card"/></p></pain>
+							son?<milestone ed="p" n="806" unit="card"/></p>
 				</sp>
 				<sp>
 					<speaker>Neoptolemus</speaker>
@@ -1591,7 +1594,7 @@
 				<sp>
 					<speaker>Philoctetes</speaker>
 					<p>Wide Earth, embrace me now on the verge of death!<milestone ed="p" n="820"
-							unit="line"/>This pain no longer lets me stand up.</p>
+							unit="line"/> <painStart type="phys" rec="Philoctetes" recgen="male" amp="nature"/>This pain no longer lets me stand up.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Neoptolemus</speaker>
@@ -1799,7 +1802,7 @@
 				</sp>
 				<sp>
 					<speaker>Philoctetes</speaker>
-					<p>I am destroyed—ah, misery!—betrayed! What have you done to me, stranger?
+					<p><painStart type="em" rec="Philoctetes" recgen="male" inf="Neoptolemus" infgen="male"/>I am destroyed—ah, misery!—betrayed!<painEnd/> What have you done to me, stranger?
 						Return my bow at once!</p>
 				</sp>
 				<sp>
@@ -1830,8 +1833,8 @@
 							unit="line"/>By force he drags me away, as if he had captured a strong
 						man, and does not see that he is cutting down a corpse, the shadow of smoke,
 						a mere phantom. In my strength he could not have taken me—no!—nor even in my
-						present condition, save by deceit. But now, because of my rotten fate, I
-						have been tricked. What should I do?<milestone ed="p" n="950" unit="line"
+						present condition, save by deceit. <painStart type="em" rec="Philoctetes" recgen="male" inf="Neoptolemus" infgen="male"/>But now, because of my rotten fate, I
+						have been tricked.<painEnd/> What should I do?<milestone ed="p" n="950" unit="line"
 						/>Wait, give it back! Now, at least, recover your true self! What do you
 						say? Silence! I am nothing! Double-gated cave, back, back again I return to
 						you, but now stripped and lacking the means to live. Yes, in that chamber I
@@ -1992,8 +1995,8 @@
 						a corpse in the eyes of the living. Ah! Hades take you! Indeed I have often
 						so prayed for you.<milestone ed="p" n="1020" unit="line"/>But, because the
 						gods grant me nothing that is sweet, you remain alive and you laugh, while I
-						live miserably among countless sufferings, mocked by you and by the sons of
-						Atreus, the two generals whom you serve on this errand.<milestone ed="p"
+						live miserably among countless sufferings, <painStart type="em" rec="Philoctetes" recgen="male" inf="Odysseus" infgen="male"/>mocked by you and by the sons of
+						Atreus, the two generals whom you serve on this errand.<painEnd/><milestone ed="p"
 							n="1025" unit="line"/>And yet you sailed with them only when brought
 						under their yoke by trickery and compulsion. But me, when, to my utter ruin,
 						I sailed of my own accord as their mate with seven ships, me they cast out
@@ -2223,8 +2226,8 @@
 					</sp>
 					<sp>
 						<speaker>Philoctetes</speaker>
-						<p>Ayee, ayee! Doom, Doom! My suffering kills me! Foot, my foot, what shall
-							I do with you in the days to come?<milestone ed="p" n="1190" unit="line"
+						<p><painStart type="phys" rec="Philoctetes" recgen="male" amp="nature"/>Ayee, ayee! Doom, Doom! My suffering kills me! Foot, my foot, what shall
+							I do with you in the days to come?<painEnd/><milestone ed="p" n="1190" unit="line"
 							/>O friends, return, come back to me!</p>
 					</sp>
 					<sp>
