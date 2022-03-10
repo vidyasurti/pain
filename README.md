@@ -21,4 +21,13 @@ The first two plays, Libation Bearers and Medea, were selected because they depi
 ## What we hope to find out
 We hope to find out how depictions of pain vary across gender and how greek tragedies portray inflicting pain across gender as well.
 
-## Markup Stretegy and significance
+## Markup stretegy and significance
+Since events of pain can span more than one speech or paragraph and create hierarchy problems, we do not use `<pain>` elements to wrap events of pain, but we use Trojan milestones `<painStart/>` and `<painEnd/>`. Each `painStart`  element starts at the beginning of an instance of pain being described or acted out in the greek tragedy. The attributes for each `painStart` are as follows;
+
+| Attribute | Description |
+| ----------| ----------- |
+| rec | receiver, indicates the name of who is experiencing pain, *required in all* |
+|
+
+
+
