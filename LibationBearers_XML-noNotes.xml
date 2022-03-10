@@ -1057,7 +1057,8 @@
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p><painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="phys"/>No: it drew in clotted blood with the milk.<painEnd/></p>
+					<p><painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="phys"
+						/>No: it drew in clotted blood with the milk.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -1073,14 +1074,14 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>Well then, I pray to this earth and to my father's grave that this dream may
-						come to its fulfilment in me. As I understand it, it fits at every point. For
-						if the snake left the same place as I; if it was furnished with my swaddling
-						clothes; if it sought to open its mouth to take the breast that nourished
-						meand mixed the sweet milk with clotted blood while she shrieked for terror
-						at this, then surely, as she has nourished a portentous thing of horror, she
-						must die by violence. For I, turned serpent, am her killer, as this dream
-						declares.</p>
-					<!-- UNSURE IF THIS IS A PAIN EVENT -->
+						come to its fulfilment in me. As I understand it, it fits at every point.
+						For if the snake left the same place as I; if it was furnished with my
+						swaddling clothes; if it sought to open its mouth to take the breast that
+						nourished meand mixed the sweet milk with clotted blood while she shrieked
+						for terror at this, then surely, as she has nourished a portentous thing of
+						horror, she must die by violence. For I, turned serpent, am her killer, as
+						this dream declares.</p>
+					<!-- Not tagging this as a pain event, but it is the act of getting revenge -->
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
@@ -1107,11 +1108,11 @@
 					<p>But if I indeed pass the outermost threshold of the gate and find that man
 						sitting on my father's throne, or if then coming face to face with me he
 						lifts and casts down his eyes, know well: before he can even say “Of what
-						land is this stranger?” <pain><inf relrec="stepson" gender="0" norm="1">I
-								will skewer him with my swift sword</inf> and <rec
-								relinf="stepfather" gender="0" norm="0">lay him dead</rec>.The fury
-							that has no fill of slaughter shall for her third and crowning drink
-							drink unmixed blood!</pain></p>
+						land is this stranger?” <painStart rec="Aegisthus" recGen="man" recNorm="no"
+							painType="phys" recRel="stepfather" inf="Orestes" infGen="man"
+							infNorm="yes" infRel="stepson"/>I will skewer him with my swift sword
+						and lay him dead.<painEnd/> The fury that has no fill of slaughter shall for
+						her third and crowning drink drink unmixed blood!</p>
 					<p>Now you, Electra, keep strict watch over what happens inside the house, so
 						that our plans may fit together well.You<stage>addressing the
 						Chorus</stage>had best keep a discreet tongue: be silent when there is need
@@ -1129,7 +1130,6 @@
 							the deep teem with hateful monsters. Likewise between heaven and earth
 							lights hung high in the air draw near; and winged things and things that
 							walk the earthcan also tell of the stormy wrath of whirlwinds.</p>
-						<!-- previously I thought there was a pain event here, now I think there are none -->
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="1" org="uniform" sample="complete">
@@ -1144,15 +1144,14 @@
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>
-							<pain>Let whoever is not flighty in his wits know this, when he has
-								learned of the device of a lit brand contrived by <inf
-									relrec="mother" gender="1" norm="0">Thestius' heartless
-									daughter</inf>:<rec relinf="child" em="1" phys="1" gender="0"
-									norm="1">she destroyed her own child</rec> by burning the
-								charred brand of the same age as he when, coming from his mother's
-								womb, he cried out, and it aged in pace with him through his lifeto
-								the day decreed by fate.</pain>
+						<p> Let whoever is not flighty in his wits know this, when he has learned of
+							the device of a lit brand contrived by Thestius' heartless daughter:
+								<painStart rec="Thesius-grandchild" recGen="man" recNorm="yes"
+								painType="phys" recRel="son" inf="Thesius-daughter" infGen="woman"
+								infNorm="no" infRel="mother"/>she destroyed her own child by burning
+							the charred brand of the same age as he when, coming from his mother's
+							womb, he cried out, and it aged in pace with him through his lifeto the
+							day decreed by fate.<painEnd/>
 						</p>
 						<!-- Know nothing about the victim, seems to be a child (at least drawing comparison of innocent child with a man, so I made the gender male)
 						Instance of bringing another instance of mother killing child-->
@@ -1171,14 +1170,15 @@
 				<div2 type="strophe" n="3" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>But since I have <pain>recalled tales of pitiless afflictions, it is the
-								right time to tell of a <rec relinf="husband" em="1" phys="1"
-									gender="0" norm="1">marriage void of love, an abomination to the
-									house,and the plots devised by a wife's cunning against her
-									warrior lord</rec>, <inf relrec="wife" gender="1" norm="0"
-									>against her lord revered with reason by his foes</inf>.</pain>
-							But I honor the hearths of homes not heated by passion's fires, and in
-							woman a spirit that shrinks from audacious deeds.</p>
+						<p>But since I have recalled tales of pitiless afflictions, <painStart/>it
+							is the right time to tell of a marriage void of love, an abomination to
+							the house,and the plots devised by a wife's cunning against her warrior
+							lord, against her lord revered with reason by his foes.<painEnd
+								rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
+								recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+								infRel="wife"/> But I honor the hearths of homes not heated by
+							passion's fires, and in woman a spirit that shrinks from audacious
+							deeds.</p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="3" org="uniform" sample="complete">
@@ -1189,9 +1189,7 @@
 							horror to Lemnian troubles; and because of a woeful deed abhorred by the
 							gods a race has disappeared, cast out in infamy from among mortals.For
 							no man reveres what is hated by the gods. Is there one of these tales I
-							have gathered that I do not justly cite?</p>
-						<!-- I previous thought this was a pain event, not anymore -->
-					</sp>
+							have gathered that I do not justly cite?</p> = </sp>
 				</div2>
 				<div2 type="strophe" n="4" org="uniform" sample="complete">
 					<sp>
@@ -1316,25 +1314,23 @@
 						grief she hid her laughter over what has occurred fortunately for her. But
 						the news so plainly told by the strangers means utter ruin for this house.I
 						expect that when he hears it he will rejoice in his heart to know the story.
-								<pain><rec relinf="none" em="1" phys="0" gender="1" norm="1"
-								>Miserable woman that I am! How the old unbearable troubles of every
-								sort that occurred in this house of Atreushave always made my heart
-								ache within my breast! But never yet have I endured a blow like
-								this. For all the other troubles I bore patiently, but my beloved
-								Orestes, on whom I spent my soul, whom I took from his mother at
-								birth and nursed,and the many and troublesome tasks, fruitless for
-								all my enduring them, when his loud and urgent cries broke my
-								rest</rec>.... For one must nurse the senseless thing like a dumb
-							beast, of course one must, by following its humor. For while it is still
-							a baby in swaddling clothes, it has no speech at all,whether hunger
-							moves it, or thirst perhaps, or the call of need: children's young
-							insides work their own relief. I would anticipate these needs. Yet many
-							a time, I think, having to wash the child's linen because of my own
-							errors, laundress and nurse had the same function.It was I who, with
-							these two handicrafts, received Orestes for his father. And now, wretch
-							that I am, I hear that he is dead. But I am on my way to fetch the man
-							who wrought destruction on our house, and he will be glad enough to hear
-							this news.</pain></p>
+							<painStart rec="Nurse" recGen="woman" recNorm="yes" painType="em"
+						/>Miserable woman that I am! How the old unbearable troubles of every sort
+						that occurred in this house of Atreushave always made my heart ache within
+						my breast! But never yet have I endured a blow like this. For all the other
+						troubles I bore patiently, but my beloved Orestes, on whom I spent my soul,
+						whom I took from his mother at birth and nursed, and the many and
+						troublesome tasks, fruitless for all my enduring them, when his loud and
+						urgent cries broke my rest....<painEnd/> For one must nurse the senseless
+						thing like a dumb beast, of course one must, by following its humor. For
+						while it is still a baby in swaddling clothes, it has no speech at all,
+						whether hunger moves it, or thirst perhaps, or the call of need: children's
+						young insides work their own relief. I would anticipate these needs. Yet
+						many a time, I think, having to wash the child's linen because of my own
+						errors, laundress and nurse had the same function. It was I who, with these
+						two handicrafts, received Orestes for his father. And now, wretch that I am,
+						I hear that he is dead. But I am on my way to fetch the man who wrought
+						destruction on our house, and he will be glad enough to hear this news.</p>
 					<!-- relinf is none in this case -->
 				</sp>
 				<sp>
@@ -1421,10 +1417,10 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>And you who within the house inhabit the inner chamber that exults in its
-							wealth,hear me, you gods, that feel with us! By a fresh award redeem the
-							blood of deeds done long ago.May aged Murder cease begetting offspring
+							wealth, hear me, you gods, that feel with us! By a fresh award redeem the
+							blood of deeds done long ago. May aged Murder cease begetting offspring
 							in our house!</p>
-						<!-- UNFINISHED: unsure if this should be a pain event, is more about revenge -->
+						<!-- is not a pain event, is more about revenge -->
 					</sp>
 				</div2>
 				<div2 type="ephymnion" n="2" org="uniform" sample="complete">
