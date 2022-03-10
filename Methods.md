@@ -51,6 +51,10 @@ Example: `<painStart recGen="woman"/>`
 
 Denotes whether or not a receiver of pain is socially accepted in Greek society.
 
+Values: "yes" | "no"
+
+Example: `<painStart recNorm="no"/>`
+
 #### recRel*
 
 Denotes the relation of the receiver of pain to the inflicter of pain.
@@ -78,6 +82,10 @@ Example: `<painStart infGen="woman"/>`
 #### infNorm*
 
 Denotes whether or not an inflicter of pain is socially accepted in Greek society.
+
+Values: "yes" | "no"
+
+Example: `<painStart infNorm="yes"/>
 
 #### infRel*
 
