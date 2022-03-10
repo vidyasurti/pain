@@ -1417,9 +1417,9 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>And you who within the house inhabit the inner chamber that exults in its
-							wealth, hear me, you gods, that feel with us! By a fresh award redeem the
-							blood of deeds done long ago. May aged Murder cease begetting offspring
-							in our house!</p>
+							wealth, hear me, you gods, that feel with us! By a fresh award redeem
+							the blood of deeds done long ago. May aged Murder cease begetting
+							offspring in our house!</p>
 						<!-- is not a pain event, is more about revenge -->
 					</sp>
 				</div2>
@@ -1473,13 +1473,12 @@
 				<stage>Enter Aegisthus</stage>
 				<sp>
 					<speaker>Aegisthus</speaker>
-					<!-- PLACEHOLDER -->
 					<p>I have come not unasked but summoned by a messenger. I heard startling news
 						told by some strangers who have arrived, tidings far from welcome:—that
 						Orestes is dead. To lay this too upon our house would be a fearful burden
 						when it is still festering and galled by the wound inflicted by an earlier
 						murder. How can I believe this tale is the living truth? Or is it merely a
-						panic-stricken report spread by womenwhich leaps up to die away in
+						panic-stricken report spread by women which leaps up to die away in
 						nothingness? What can you tell me of this to make it plain to my mind?</p>
 				</sp>
 				<sp>
@@ -1498,12 +1497,12 @@
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p>O Zeus, O Zeus, what should I say?Where shall I begin this prayer of mine,
+					<p>O Zeus, O Zeus, what should I say? Where shall I begin this prayer of mine,
 						this appeal to the gods? How in my loyal zeal can I succeed in finding words
 						to match need? Now is the moment when the blood-stained edges of the blades
 						that lay men loware utterly forever to destroy the house of Agamemnon. Or
 						else, kindling a flaming light in the cause of freedom, Orestes will win
-						both the rule over his realm and the rich possessions of his fathers.Our
+						both the rule over his realm and the rich possessions of his fathers. Our
 						gallant Orestes, with no one to assist him, is now to meet with two in such
 						a contest. And may it be to triumph!</p>
 				</sp>
@@ -1514,21 +1513,23 @@
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p>Ah! Ah! Alas!What is happening? What is being accomplished for our house? Let
-						us stand apart while the matter is still unsettled so that we may be
+					<p>Ah! Ah! Alas! What is happening? What is being accomplished for our house?
+						Let us stand apart while the matter is still unsettled so that we may be
 						considered blameless in these ills. For the issue of the fighting has now
 						been decided.<stage>The Chorus withdraws to the side of the scene; then a
 							servant of Aegisthus rushes in</stage></p>
 				</sp>
 				<sp>
 					<speaker>Servant</speaker>
-					<p>O woe, oh utter woe! My master is slain!O woe! I cry yet again, for the third
-						time. Aegisthus is no more! Come, with all speed! Unbar and open the women's
-						door! And a strong arm indeed is needed, but not to help him who is already
-						slain: what good is there in that?Help! Help! Am I shouting to the deaf and
-						fruitlessly wasting my voice on people who are asleep? Where has
-						Clytaemestra gone? <pain>What is she doing? Her own neck, near the razor's
-							edge, is now ready to fall beneath the stroke.</pain></p>
+					<p>O woe, oh utter woe! <painStart rec="Aegisthus" recGen="man" recNorm="no"
+							painType="phys" recRel="stepfather" inf="Orestes" infGen="man"
+							infNorm="yes" infRel="stepson"/>My master is slain! O woe! I cry yet
+						again, for the third time. Aegisthus is no more!<painEnd/> Come, with all
+						speed! Unbar and open the women's door! And a strong arm indeed is needed,
+						but not to help him who is already slain: what good is there in that?Help!
+						Help! Am I shouting to the deaf and fruitlessly wasting my voice on people
+						who are asleep? Where has Clytaemestra gone? What is she doing? Her own
+						neck, near the razor's edge, is now ready to fall beneath the stroke.</p>
 				</sp>
 				<stage>Clytaemestra hurries in unattended</stage>
 				<sp>
@@ -1537,18 +1538,16 @@
 				</sp>
 				<sp>
 					<speaker>Servant</speaker>
-					<p>
-						<pain>I tell you the dead are killing the living.</pain>
-					</p>
+					<p> I tell you the dead are killing the living. </p>
 				</sp>
 				<sp>
 					<speaker>Clytaemestra</speaker>
 					<p>Ah! Indeed I grasp the meaning of the riddle. We are to perish by treachery,
 						just as we committed murder. Someone give me a battle-axe, and quickly! Let
-						us know if we are victors or vanquished:for I have even come to this in this
-						wretched business.<stage>Exit Servant. The door is opened and the corpse of
-							Aegisthus is discovered. Nearby stands Orestes, and at a distance
-							Pylades</stage></p>
+						us know if we are victors or vanquished: for I have even come to this in
+						this wretched business.<stage>Exit Servant. The door is opened and the
+							corpse of Aegisthus is discovered. Nearby stands Orestes, and at a
+							distance Pylades</stage></p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -1556,20 +1555,20 @@
 				</sp>
 				<sp>
 					<speaker>Clytaemestra</speaker>
-					<p>Oh no! <pain>My beloved, valiant Aegisthus! You are dead!</pain></p>
+					<p>Oh no! <painStart rec="Aegisthus" recGen="man" recNorm="no" painType="phys"
+							recRel="stepfather" inf="Orestes" infGen="man" infNorm="yes"
+							infRel="stepson"/>My beloved, valiant Aegisthus! You are dead!</p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
-					<p>
-						<pain>You love this man? Then you will lie in the same grave, and you will
-							never abandon him in death.</pain>
+					<p> You love this man? Then you will lie in the same grave, and you will never
+						abandon him in death.<painEnd/>
 					</p>
 				</sp>
 				<sp>
 					<speaker>Clytaemestra</speaker>
-					<p>W<pain>ait, my son! Have pity, child, upon this breast at which many times
-							while you slept you sucked with toothless gums the milk that nourished
-							you.</pain></p>
+					<p>Wait, my son! Have pity, child, upon this breast at which many times while
+						you slept you sucked with toothless gums the milk that nourished you.</p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -1579,14 +1578,16 @@
 					<speaker>Pylades</speaker>
 					<p>What then will become in the future of Loxias' oracles declared at <placeName
 							key="tgn,7010770" authname="tgn,7010770">Pytho</placeName>, and of our
-						sworn pact?Count all men your enemies rather than the gods.</p>
+						sworn pact? Count all men your enemies rather than the gods.</p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>I judge you victor: you advise me well.<stage>To Clytaemestra</stage>Come,
-						this way! I mean to kill you by his very side. For while he lived, you
-						thought him better than my father.Sleep with him in death, since you love
-						him but hate the man you were bound to love.</p>
+						this way! <painStart rec="Clytaemestra" recGen="woman" recNorm="no"
+							painType="phys" recRel="mother" inf="Orestes" infGen="man" infNorm="yes"
+							infRel="son"/>I mean to kill you by his very side.<painEnd/> For while
+						he lived, you thought him better than my father. Sleep with him in death,
+						since you love him but hate the man you were bound to love.</p>
 				</sp>
 				<sp>
 					<speaker>Clytaemestra</speaker>
@@ -1594,7 +1595,10 @@
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
-					<p>What! Murder my father and then make your home with me?</p>
+					<p>What! <painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
+							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="wife"/>Murder my father and then make your home with
+						me?<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Clytaemestra</speaker>
@@ -1611,7 +1615,10 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>
-						<pain>You brought me to birth and yet you cast me out to misery.</pain>
+						<painStart rec="Orestes" recGen="man" recNorm="yes" painType="em"
+							recRel="won" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="mother"/>You brought me to birth and yet you cast me out to
+						misery.<painEnd/>
 					</p>
 				</sp>
 				<sp>
@@ -1621,7 +1628,10 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>
-						<pain>I was sold in disgrace, though I was born of a free father.</pain>
+						<painStart rec="Orestes" recGen="man" recNorm="yes" painType="em"
+							recRel="won" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="mother"/>I was sold in disgrace, though I was born of a free
+						father.<painEnd/>
 					</p>
 				</sp>
 				<sp>
@@ -1643,7 +1653,8 @@
 				<sp>
 					<speaker>Clytaemestra</speaker>
 					<p>
-						<pain>It is a grief for women to be deprived of a husband, my child.</pain>
+						<painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="em"/>It
+						is a grief for women to be deprived of a husband, my child.<painEnd/>
 					</p>
 				</sp>
 				<sp>
@@ -1685,8 +1696,13 @@
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
-					<p>Yes, the terror from your dream was indeed a prophet. You killed him whom you
-						should not; so suffer what should not be.<stage>He forces Clytaemestra
+					<p>Yes, the terror from your dream was indeed a prophet. <painStart
+							rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
+							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="wife"/>You killed him whom you should not<painEnd/>; <painStart
+							rec="Clytaemestra" recGen="woman" recNorm="no" painType="phys"
+							recRel="mother" inf="Orestes" infGen="man" infNorm="yes" infRel="son"
+						/>so suffer what should not be.<painEnd/><stage>He forces Clytaemestra
 							within; Pylades follows</stage></p>
 				</sp>
 			</div1>
@@ -1700,12 +1716,11 @@
 				<div2 type="strophe" n="1" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p><pain>As to Priam and his sons justice came at last in crushing
-								retribution</pain>,so to Agamemnon's house came a twofold lion,
-							twofold slaughter. The exile, the suppliant of <placeName
-								key="tgn,7010770" authname="tgn,7010770">Pytho</placeName>, has
-							fulfilled his course to the utmost, justly urged on by counsels from the
-							gods.</p>
+						<p>As to Priam and his sons justice came at last in crushing retribution,so
+							to Agamemnon's house came a twofold lion, twofold slaughter. The exile,
+							the suppliant of <placeName key="tgn,7010770" authname="tgn,7010770"
+								>Pytho</placeName>, has fulfilled his course to the utmost, justly
+							urged on by counsels from the gods.</p>
 					</sp>
 				</div2>
 				<div2 type="ephymnion" n="1" org="uniform" sample="complete">
@@ -1728,9 +1743,9 @@
 				<div2 type="ephymnion" n="1" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>&lt;Oh raise a shout of triumph over the escape of our master's house
-							from its misery and the wasting of its wealth by two who were unclean,
-							its grievous fortune!&gt;</p>
+						<p>Oh raise a shout of triumph over the escape of our master's house from
+							its misery and the wasting of its wealth by two who were unclean, its
+							grievous fortune!</p>
 					</sp>
 				</div2>
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
@@ -1746,9 +1761,11 @@
 				<div2 type="ephymnion" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>Look, the light has come, <pain>and I am freed from the cruel curb that
-								restrained our household. </pain>House, rise up! You have lain too
-							long prostrate on the ground.</p>
+						<p>Look, the light has come, <painStart rec="Chorus" recGen="woman"
+								recNorm="yes" painType="em" recRel="slave" inf="Clytamnestra"
+								infGen="woman" infNorm="no" infRel="master"/>and I am freed from the
+							cruel curb that restrained our household<painEnd/>. House, rise up! You
+							have lain too long prostrate on the ground.</p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="2" org="uniform" sample="complete">
@@ -1777,21 +1794,22 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>
-						<pain>Behold this pair, oppressors of the land, who murdered my father and
-							ransacked my house! They were majestic then, when they sat on their
-							thrones,and are lovers even now, as one may judge by what has happened
-							to them, and their oath holds true to their pledges. Together they vowed
-							a league of death against my unhappy father, and together they vowed to
-							die, and they have kept their promise well.</pain>
-					</p>
-					<p>But now regard again, you who hear this account of ills,<pain>the device for
-							binding my unhappy father, with which his hands were manacled, his feet
-							fettered</pain>. Spread it out! Stand around in a circle, and display
-						this covering for a man, that the Father may see—not mine, but he who
-						surveys all this, the Sun—that he may see the impious work of my own mother,
-						that he may be my witness in court that I justly pursued this death, my own
-						mother's. For I do not speak of Aegisthus' death: he has suffered the
-						penalty prescribed for adulterers.</p>
+						<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
+							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="wife"/>Behold this pair, oppressors of the land, who murdered my
+						father and ransacked my house! They were majestic then, when they sat on
+						their thrones,and are lovers even now, as one may judge by what has happened
+						to them, and their oath holds true to their pledges. Together they vowed a
+						league of death against my unhappy father, and together they vowed to die,
+						and they have kept their promise well. </p>
+					<p>But now regard again, you who hear this account of ills, the device for
+						binding my unhappy father, with which his hands were manacled, his feet
+						fettered. Spread it out! Stand around in a circle, and display this covering
+						for a man, that the Father may see—not mine, but he who surveys all this,
+						the Sun—that he may see the impious work of my own mother, that he may be my
+						witness in court that I justly pursued this death, my own mother's. For I do
+						not speak of Aegisthus' death: he has suffered the penalty prescribed for
+						adulterers.</p>
 					<p>But she who devised this abhorrent deed against her husband, whose children
 						she bore, a burden under her belt, a burden once dear, but now a hateful
 						ill, as it seems: what do you think of her? Had she been born a seasnake or
@@ -1816,7 +1834,7 @@
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
-					<p>Did she do the deed or not?No, this is my witness, dyed by Aegisthus' sword.
+					<p>Did she do the deed or not? No, this is my witness, dyed by Aegisthus' sword.
 						This is a stain of blood that helps time to spoil the many tinctures of
 						embroidered fabric.</p>
 					<p>Now at last I speak his praises. Now at last I am present to lament him, as I
@@ -1902,12 +1920,13 @@
 					<p>Then may blessings go with you, and may the god watch benevolently over you
 						and guard you with favorable fortunes!</p>
 					<p>Look! Now again, for the third time, has the tempest of this clan burst on
-						the royal house and run its course.<pain>First, at the beginning, came the
-							cruel woes of children slain for food; next, the fate of a man, a
-							king,when the warlord of the Achaeans perished, murdered in his bath.
-							And now, once again, there has come from somewhere a third, a deliverer,
-							or shall I say a doom? Oh when will it finish its work, when will the
-							fury of calamity, lulled to rest, find an end and cease?</pain></p>
+						the royal house and run its course. <painStart rec="soceity" recGen="mix"
+							recNorm="yes" painType="both"/>First, at the beginning, came the cruel
+						woes of children slain for food; next, the fate of a man, a king,when the
+						warlord of the Achaeans perished, murdered in his bath. And now, once again,
+						there has come from somewhere a third, a deliverer, or shall I say a doom?
+						Oh when will it finish its work, when will the fury of calamity, lulled to
+						rest, find an end and cease?<painEnd/></p>
 				</sp>
 			</div1>
 		</body>
