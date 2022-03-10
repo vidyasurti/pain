@@ -587,7 +587,7 @@
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
-                     <p><painStart type= "em" rec="Medea" inf="Creon Jason" genderrec="woman" genderinf="man"/>On all sides sorrow pens
+                     <p><painStart type= "em" rec="Medea" inf="CreonJason" genderrec="woman" genderinf="man"/>On all sides sorrow pens
                                 me in. Who shall gainsay this? But all is not yet lost! think not so.
                                 Still are there troubles in store for the new bride, and for
                                 her bridegroom no light toil. Dost think I would ever have
@@ -598,7 +598,7 @@
                                 my plot by banishing me from the land, he hath allowed me to
                                 abide this day, in which I will lay low in death three of my
                                 enemies—a father and his daughter and my
-                                husband too.<painEnd/><painStart type= "phys" rec="Creon Jason Glauce" inf="Medea" genderrec="mix" genderinf="woman"/>Now, though I have many ways to compass their
+                                husband too.<painEnd/><painStart type= "phys" rec="CreonJason Glauce" inf="Medea" genderrec="mix" genderinf="woman"/>Now, though I have many ways to compass their
                         <!--Is this tagged correctly?-->
                                 death, I am not sure, friends, which I am to try first.
                                 Shall I set fire to the bridal mansion, or plunge the
@@ -607,7 +607,7 @@
                                 caught making my way into the chamber, intent on my design,
                                 I shall be put to death and cause my foes to mock. ’Twere
                                 best to take the shortest way—the way we women are most skilled in—by poison to destroy
-                                them.<painEnd/><painStart type= "phys" rec="Creon Jason Glauce" inf="Medea" genderrec="mix" genderinf="woman"/>Well, well, suppose them dead; what city will receive
+                                them.<painEnd/><painStart type= "phys" rec="CreonJason Glauce" inf="Medea" genderrec="mix" genderinf="woman"/>Well, well, suppose them dead; what city will receive
                                 me? What friendly host will give me a shelter in his land, a
                                 home secure, and save my soul alive? 
                                 None. So I will wait yet a little while in case some tower of defence rise up
@@ -658,7 +658,7 @@
                <div type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart type= "em" rec="Medea" inf="Creon Jason" genderrec="woman" genderinf="man"/>With mind distraught
+                     <p><painStart type= "em" rec="Medea" inf="CreonJason" genderrec="woman" genderinf="man"/>With mind distraught
                                 didst thou thy father’s house desert on thy voyage betwixt
                                 ocean’s twin rocks, and on a foreign strand thou dwellest, thy bed left
                                 husbandless, poor lady and  thou an exile
@@ -1079,8 +1079,8 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>O Aegeus, my husband has
-                            proved a monster of iniquity.</p>
+                  <p><painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>O Aegeus, my husband has
+                            proved a monster of iniquity.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Aegeus</speaker>
@@ -1089,8 +1089,8 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>Jason is wronging me though
-                            I have given him no cause.</p>
+                  <p><painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>Jason is wronging me though
+                     I have given him no cause.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Aegeus</speaker>
@@ -1099,8 +1099,8 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>He is taking another wife to
-                            succeed me as mistress of his house.</p>
+                  <p><painStart type= "em" rec="Medea" inf="Jason" genderrec="woman" genderinf="man"/>He is taking another wife to
+                     succeed me as mistress of his house.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Aegeus</speaker>
@@ -1149,8 +1149,8 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>I am undone, and more than
-                            that, am banished from the land.</p>
+                  <p><painStart type= "both" rec="Medea" inf="CreonJason" genderrec="woman" genderinf="man"/>I am undone, and more than
+                     that, am banished from the land.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Aegeus</speaker>
@@ -1159,8 +1159,8 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>Creon drives me forth in
-                            exile from Corinth.</p>
+                  <p><painStart type= "both" rec="Medea" inf="Creon" genderrec="woman" genderinf="man"/>Creon drives me forth in
+                     exile from Corinth.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Aegeus</speaker>
@@ -1169,10 +1169,10 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p>Not in words, but he will
+                  <p><painStart type= "both" rec="Medea" inf="CreonJason" genderrec="woman" genderinf="man"/>Not in words, but he will
                             not stand out against it. Ο, I implore thee by this beard and by thy knees, in suppliant posture,
                             pity, O pity my sorrows; do not see me cast forth forlorn, but
-                            receive me in thy country, to a seat within thy halls. So may
+                            receive me in thy country, to a seat within thy halls.<painEnd/> So may
                             thy wish by heaven’s grace be crowned with a full harvest of offspring, and may thy life close in
                             happiness! Thou knowest not the rare good luck thou findest
                             here, for I will make thy childlessness to cease and cause thee
@@ -1270,6 +1270,7 @@
                                 is set so firmly, for to my mind thou seemest a generous
                                 man, O Aegeus.</p>
                   </sp>
+                  <!--START AT THIS PART 3/10/2022 5:33 PM-->
                   <sp>
                      <speaker>Medea</speaker>
                      <p>O Zeus, and Justice,
