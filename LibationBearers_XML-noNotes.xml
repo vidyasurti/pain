@@ -743,12 +743,14 @@
 				<div2 type="strophe" n="5" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>May it be mine to raise a hearty shout in triumph over the man when he is
-							stabbed and over the woman as she perishes! Why should I try to keep
-							hidden what nevertheless hovers before my soul?<pain><rec relinf="slave"
-									em="1" phys="0" gender="1" norm="1">Full against the prow of my
-									heart wrath blows sharply in rancorous hate.</rec></pain></p>
-						<!--Unsure if I correctly specified the pain of the slaves here-->
+						<p><painStart rec="Clytaemestra-and-Aegisthus" recGen="mix" recNorm="no"
+								painType="phys"/>May it be mine to raise a hearty shout in triumph
+							over the man when he is stabbed and over the woman as she perishes!<painEnd/>
+							<painStart rec="Chorus" recGen="woman" recNorm="yes" painType="em"
+								recRel="slave" inf="Clytamnestra" infGen="woman" infNorm="no"
+								infRel="master"/>Why should I try to keep hidden what nevertheless
+							hovers before my soul? Full against the prow of my heart wrath blows
+							sharply in rancorous hate.<painEnd/></p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="4" org="uniform" sample="complete">
@@ -779,23 +781,24 @@
 				<div2 type="antistrophe" n="5" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p><pain>But again <rec relinf="master" em="1" phys="0" gender="1" norm="1"
-									>my heart throbs as I hear this pitiful lament</rec>. At once I
-								am devoid of hope and my viscera are darkened at the words I
-								hear.</pain> But when hope once again lifts and strengthens me,it
-							puts away my distress and dawns brightly on me.</p>
+						<p><painStart rec="Chorus" recGen="woman" recNorm="yes" painType="em"/>But
+							again my heart throbs as I hear this pitiful lament. At once I am devoid
+							of hope and my viscera are darkened at the words I hear.<painEnd/> But
+							when hope once again lifts and strengthens me,it puts away my distress
+							and dawns brightly on me.</p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="6" org="uniform" sample="complete">
 					<sp>
 						<speaker>Electra</speaker>
-						<p>To what could we more fittingly appeal than to <pain>those <rec
-									relinf="dependent" em="1" phys="0" gender="1" norm="1">very
-									miseries we have endured</rec> from the <inf relrec="guardian"
-									gender="1" norm="0">woman herself who bore us? She may fawn upon
-									us, but they are past all soothing.For like a fierce-hearted
-									wolf the temper we have acquired from our mother is
-									implacable.</inf></pain></p>
+						<p><painStart rec="Orestes-and-Electra" recGen="mix" recNorm="yes"
+								painType="em" inf="Clytamnestra" infGen="woman" infNorm="no"
+								infRel="mother"/>To what could we more fittingly appeal than to
+							those very
+								miseries we have endured from the woman herself who bore
+							us?<painEnd/> She may fawn upon us, but they are past all soothing. For
+							like a fierce-hearted wolf the temper we have acquired from our mother
+							is implacable.</p>
 						<!--relinf is dependent, but there are many more women than men in this group so gender is female
 						the mom is guardian-->
 					</sp>
