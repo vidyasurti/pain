@@ -794,13 +794,11 @@
 						<p><painStart rec="Orestes-and-Electra" recGen="mix" recNorm="yes"
 								painType="em" inf="Clytamnestra" infGen="woman" infNorm="no"
 								infRel="mother"/>To what could we more fittingly appeal than to
-							those very
-								miseries we have endured from the woman herself who bore
+							those very miseries we have endured from the woman herself who bore
 							us?<painEnd/> She may fawn upon us, but they are past all soothing. For
 							like a fierce-hearted wolf the temper we have acquired from our mother
 							is implacable.</p>
-						<!--relinf is dependent, but there are many more women than men in this group so gender is female
-						the mom is guardian-->
+
 					</sp>
 				</div2>
 				<div2 type="strophe" n="7" org="uniform" sample="complete">
@@ -808,71 +806,61 @@
 						<speaker>Chorus</speaker>
 						<p>On my breast I beat an Arian dirge in just the same fashion as a Cissian
 							wailing woman. With clenched fists, raining blows thick and fast, my
-							outstretched handscould be seen descending from above, from far above,
-							now on this side, now on that, <pain>till my battered and wretched head
-								resounded with the strokes</pain>.</p>
+							outstretched hands could be seen descending from above, from far above,
+							now on this side, now on that, <painStart rec="Chorus" recGen="woman"
+								recNorm="yes" painType="phys"/>till my battered and wretched head
+							resounded with the strokes.</p>
 					</sp>
 				</div2>
 				<div2 type="strophe" n="8" org="uniform" sample="complete">
 					<sp>
 						<speaker>Electra</speaker>
-						<p>Away with you, <pain>cruel and utterly brazen mother!You dared to <inf
-									relrec="wife" gender="1" norm="0">give your husband a most cruel
-									burial</inf>: <rec relinf="husband" em="1" phys="0" gender="0"
-									norm="1">unmourned, without lamentation, a king unattended by
-									his people.</rec></pain></p>
-						<!-- The pain in this case is not physical because it is the pain in the act of dishonorable burial -->
+						<p>Away with you, cruel and utterly brazen mother! <painStart
+								rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
+								recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+								infRel="wife"/>You dared to give your husband a most cruel burial:
+							unmourned, without lamentation, a king unattended by his
+							people.<painEnd/></p>
 					</sp>
 				</div2>
 				<div2 type="strophe" n="9" org="uniform" sample="complete">
 					<sp>
 						<speaker>Orestes</speaker>
-						<p>Ah me, your words spell utter dishonor. <pain>Yet with the help of the
-								gods, and with the help of my own hands, <inf relrec="wife"
-									gender="1" norm="0">will she not atone for the dishonor</inf>
-								<rec relinf="husband" em="1" phys="0" gender="0" norm="1">she did my
-									father?</rec></pain><pain><inf relrec="son" gender="0" norm="1"
-									>Let me</inf> only <rec relinf="mother" em="0" phys="1"
-									gender="1" norm="0">take her life</rec>, then let me
-							die!</pain></p>
+						<p>Ah me, your words spell utter dishonor. <painStart rec="Agamemnon"
+								recGen="man" recNorm="yes" painType="em" recRel="husband"
+								inf="Clytamnestra" infGen="woman" infNorm="no" infRel="wife"/>Yet
+							with the help of the gods, and with the help of my own hands, will she
+							not atone for the dishonor she did my father?<painEnd/>
+							<painStart rec="Clytaemestra" recGen="woman" recNorm="no"
+								painType="phys" recRel="mother" inf="Orestes" infGen="man"
+								infNorm="yes" infRel="son"/>Let me only take her life, then let me
+							die!<painEnd/></p>
 					</sp>
-					<!-- two pain events - one where wife hurts husband and son hurts wife in retribution -->
+					<!-- two pain events - one where wife hurts husband and son hurts mother in retribution -->
 				</div2>
 				<div2 type="antistrophe" n="9" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>
-							<pain>Yes, and I would have you know <rec relinf="husband" em="1"
-									phys="1" gender="0" norm="1">he was brutally mangled</rec>. And
-								even as <inf relrec="wife" gender="1" norm="0">she buried him in
-									this way</inf>,<inf relrec="mother" gender="1" norm="0">she
-									acted with intent to make the manner of his death</inf>
-								<rec relinf="son" em="1" phys="0" gender="0" norm="1">a burden on
-									your life</rec> past all power to bear. You hear the story of
-								the ignominious outrage done to your father.</pain>
-						</p>
-						<!-- Things that occured: wife inflicts pain on husband, husband endures physical pain and dies, husband endures emotional pain through dishonor
-						Mother inflicts emotional pain on son
-						QUESTION: should this have been two pain events instead?-->
+						<p> Yes, and I would have you know <painStart rec="Agamemnon" recGen="man"
+								recNorm="yes" painType="both" recRel="husband" inf="Clytamnestra"
+								infGen="woman" infNorm="no" infRel="wife"/>he was brutally mangled.
+							And even as she buried him in this way, she acted with intent to make
+							the manner of his death<painEnd/> a burden on your life past all power
+							to bear. You hear the story of the ignominious outrage done to your
+							father. </p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="7" org="uniform" sample="complete">
 					<sp>
 						<speaker>Electra</speaker>
-						<p>
-							<pain>
-								<rec relinf="husband" em="0" phys="1" gender="0" norm="1">My father
-									was murdered just as you say.</rec>
-							</pain>
-							<pain>But all the while <inf relrec="mother" gender="1" norm="0">I was
-									kept sequestered, despised, accounted a worthless
-									thing.Kennelled in my room as if I were a vicious cur</inf>,
-									<rec relinf="daughter" em="1" phys="0" gender="1" norm="1">I
-									gave free vent to my streaming tears, which came more readily
-									than laughter, as in my concealment I poured out my lament in
-									plentiful weeping.</rec> Hear my tale and inscribe it on your
-								heart.</pain>
-						</p>
+						<p> My father was murdered just as you say. <painStart rec="Electra"
+								recGen="woman" recNorm="yes" painType="em" recRel="daughter"
+								inf="Clytamnestra" infGen="woman" infNorm="no" infRel="mother"/>But
+							all the while I was kept sequestered, despised, accounted a worthless
+							thing.Kennelled in my room as if I were a vicious cur, I gave free vent
+							to my streaming tears, which came more readily than laughter, as in my
+							concealment I poured out my lament in plentiful weeping<painEnd/>. Hear
+							my tale and inscribe it on your heart. </p>
 					</sp>
 				</div2>
 				<div2 type="antistrophe" n="8" org="uniform" sample="complete">
@@ -940,10 +928,11 @@
 			<div1 type="episode" org="uniform" sample="complete">
 				<sp>
 					<speaker>Orestes</speaker>
-					<p><pain><rec relinf="husband" em="1" phys="1" gender="0" norm="1">O father, who
-								perished by a death</rec>
-							<inf relrec="wife" gender="1" norm="0">unbefitting a king</inf></pain>,
-						grant in answer to my prayer the lordship over your halls!</p>
+					<p><painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
+							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="wife"/>O father, who perished by a death unbefitting a
+						king<painEnd/>, grant in answer to my prayer the lordship over your
+						halls!</p>
 				</sp>
 				<sp>
 					<speaker>Electra</speaker>
@@ -973,20 +962,14 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>
-						<pain><rec relinf="husband" em="0" phys="1" gender="0" norm="1">Father,
-								remember the bath</rec> where <inf relrec="wife" gender="1" norm="0"
-								>you were robbed</inf> of life.</pain>
+						<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
+							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="wife"/>Father, remember the bath where you were robbed of life.
 					</p>
-					<!-- Made this physical pain because the next pain event is more emotional pain -->
 				</sp>
 				<sp>
 					<speaker>Electra</speaker>
-					<p>
-						<pain><inf relrec="wife" gender="1" norm="0">And remember how they devised a
-								strange net</inf> to <rec relinf="husband" em="1" phys="0"
-								gender="0" norm="1">cast about you</rec>.</pain>
-					</p>
-					<!-- Even its the two of them murdering Agamemnon, I made it the wife because she is the main catalyzing agent and female because they are both referred to as female and wife is main catalyst -->
+					<p> And remember how they devised a strange net to cast about you. </p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -994,13 +977,11 @@
 				</sp>
 				<sp>
 					<speaker>Electra</speaker>
-					<p>And in a fabric shamefully devised.</p>
-					<!-- Not making this a pain event because this is essentially a continuation of the previous lines -->
+					<p>And in a fabric shamefully devised.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>Father, are you not roused by taunts such as these?</p>
-					<!-- Not making this a pain event because this is essentially a continuation of the previous lines -->
 				</sp>
 				<sp>
 					<speaker>Electra</speaker>
@@ -1041,11 +1022,10 @@
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p>I know, my child, for I was there. <pain relinf="self" em="1" phys="0"
-							gender="1" norm="0">It was because she was shaken by dreams and
-							wandering terrors of the night that she sent these offerings, godless
-							woman that she is.</pain></p>
-					<!-- relrec of self is new -->
+					<p>I know, my child, for I was there. It was because <painStart
+							rec="Clytaemestra" recGen="woman" recNorm="no" painType="em"/>she was
+						shaken by dreams and wandering terrors of the night that she sent these
+						offerings<painEnd/>, godless woman that she is.</p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -1077,8 +1057,7 @@
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p>No: it drew in clotted blood with the milk.</p>
-					<!-- UNFINISHED: unsure if I should make this a pain event -->
+					<p><painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="phys"/>No: it drew in clotted blood with the milk.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -1094,7 +1073,7 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>Well then, I pray to this earth and to my father's grave that this dream may
-						come to its fulfilment in me.As I understand it, it fits at every point. For
+						come to its fulfilment in me. As I understand it, it fits at every point. For
 						if the snake left the same place as I; if it was furnished with my swaddling
 						clothes; if it sought to open its mouth to take the breast that nourished
 						meand mixed the sweet milk with clotted blood while she shrieked for terror
