@@ -1,24 +1,43 @@
 start = TEI.2  
 
-TEI.2 = element TEI.2 {teiheader, textElem} #the name of an element is "text" - we have to change that, so for now I have kept it at textElem so that the schema is valid without linking it to the document yet
-teiheader = element teiheader{text}
-#currently not going to be doing anything with teiheader beacuse I will be focusing on text for now
-#we can fill in the gaps later
+TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - put it as textElem so that the schema is valid
+    teiHeader = element teiHeader {text}
+    #teiheader = element teiheader{teiHeaderType, status, fileDesc, encodingDesc, profileDesc} #teiheader element has attributes type, status, fileDesc, and elements fileDesc, encodingDesc, and profileDesc
+        #teiHeaderType = attribute type {text} 
+        #status = attribute status {text}
+        #fileDesc = element fileDesc {titleStmt, extent, publicationStmt, sourceDesc}
+            #titleStmt = element titleStmt {title+, author, editor, sponsor, principal, respStmt, funder}
+            
+            #extent = element extent {text}
+            #publicationStmt = element publicationStmt {publisher, pubPlace, authority, availability}
+            #sourceDesc = element sourceDesc {defaultSourceDesc, biblStruct}
+        #encodingDesc = element encodingDesc {refsDecl+}
+        #profileDesc = element profileDesc {langUsage}
+        #revisionDesc = element revisionDesc {change+}
+
 
 #STARTING - textElem element
-textElem = element textElem {body}#textElem has one child element called body
-    body = element body{div1} #each body element has div1 elements
-        div1 = element div1 {type, org, sample, milestone?, stage?, sp?, div2?} #each div1 element has 3 attributes: type, org, sample; all of these attributes are required
+textElem = element text {lang, body}#textElem (called text in the file) has one child element called body
+    lang = attribute lang {text}
+    body = element body{div1+} #each body element has div1 elements
+        div1 = element div1 {type, org, sample, milestone*, (stage | sp | div2)+} #each div1 element has 3 attributes: type, org, sample; all of these attributes are required
         #the div1 element has chidlren milestone (optional), stage (optional), sp (optional), and div2 (optional)
         #UPDATE - make sure the children that are elements can appear in whichever order and is still optional
-            type = attribute type {("location" | "person")} #type is an attribute that either has values "episode" or "choral"
-            #QUESTION - correct syntax for attribute names?
+            type = attribute type {("episode" | "choral")} #type is an attribute that either has values "episode" or "choral"
             org = attribute org {"uniform"} #org is an attribute, can only see "uniform" value for now
             sample = attribute sample {"complete"} #sample is an attribute, can only see "complete" value in document for now
             milestone = element milestone{text}
             stage = element stage {text}
-            sp = element sp {speaker, p+}
-            div2 = element div2 {text}
+            sp = element sp {div1n?, speaker?, p+, text} #speaker has question mark because there are a couple of errors in the scaffolding provided
+                div1n = attribute n {text}
+            div2 = element div2 {div2Type, div2n?, div2Org, div2Sample, text, div2sp*, div2p*}
+                div2Type = attribute type {text}
+                div2n = attribute n {xsd:int}
+                div2Org = attribute org {text}
+                div2Sample = attribute sample {text}
+                div2sp = element sp {div2speaker, div2p+}
+                    div2speaker = element speaker {text}
+                    div2p = element p {(text | painStart* | painEnd* | stage* | placeName*)*}
             
             
 #unfinished, must complete later
@@ -27,8 +46,8 @@ textElem = element textElem {body}#textElem has one child element called body
 
 #sp element will have one "speaker" element and one or more p elements
 speaker = element speaker {text}
-p = element p {painStart, painEnd}
-    painStart = element painStart {rec, recGen, recNorm, painType, recRel?, inf?, infGen?, infNorm?, infRel?}
+p = element p {(text | painStart* | painEnd* | stage* | placeName*)*}
+    painStart = element painStart {rec, recGen, recNorm, painType, recRel?, inf?, infGen?, infNorm?, infRel?, text}
         rec = attribute rec {text} #the receiver of pain, the name of the character, UNFINISHED - add type of character for groupings (do it separately)
         recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
         recNorm = attribute recNorm {("yes" | "no")} #when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
@@ -40,3 +59,6 @@ p = element p {painStart, painEnd}
         infRel = attribute infRel {text} #relation of the inflictor of pain to the receiver, UNFINISHED - will specify IDs of common patterns after markup is finished
     
     painEnd = element painEnd {text}
+    placeName = element placeName {key, authname, text}
+        key = attribute key {text}
+        authname = attribute authname {text}

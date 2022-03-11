@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI.2>
 	<teiHeader type="text" status="new">
 		<fileDesc>
@@ -54,7 +55,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-
 		<encodingDesc>
 			<refsDecl doctype="TEI.2">
 				<step refunit="line" from="DESCENDANT (1 L N%1)" to="DITTO"/>
@@ -63,7 +63,6 @@
 				<state unit="card"/>
 			</refsDecl>
 		</encodingDesc>
-
 		<profileDesc>
 			<langUsage default="NO">
 				<language id="en">English</language>
@@ -467,11 +466,11 @@
 				</sp>
 				<sp n="Electra">
 					<speaker>Electra</speaker>
-					<p><painStart rec="Electra" recGen="woman" recNorm="yes" painType="emotional"
-						/>Over my heart, too, there sweeps a surge of bitterness, and I am struck as
-						if a sword had run me through<painEnd/>. From my eyes thirsty drops of a
-						stormy flood fall unchecked at the sight of this tress. For how can I expect
-						to find that someone else, some townsman, owns this lock? <painStart
+					<p><painStart rec="Electra" recGen="woman" recNorm="yes" painType="e"/>Over my
+						heart, too, there sweeps a surge of bitterness, and I am struck as if a
+						sword had run me through<painEnd/>. From my eyes thirsty drops of a stormy
+						flood fall unchecked at the sight of this tress. For how can I expect to
+						find that someone else, some townsman, owns this lock? <painStart
 							rec="Orestes-and-Electra" recGen="mix" recNorm="yes" painType="em"
 							recRel="children" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="mother"/>Nor yet in truth did she clip it from her head, the
@@ -798,7 +797,6 @@
 							us?<painEnd/> She may fawn upon us, but they are past all soothing. For
 							like a fierce-hearted wolf the temper we have acquired from our mother
 							is implacable.</p>
-
 					</sp>
 				</div2>
 				<div2 type="strophe" n="7" org="uniform" sample="complete">
@@ -1189,7 +1187,7 @@
 							horror to Lemnian troubles; and because of a woeful deed abhorred by the
 							gods a race has disappeared, cast out in infamy from among mortals.For
 							no man reveres what is hated by the gods. Is there one of these tales I
-							have gathered that I do not justly cite?</p> = </sp>
+							have gathered that I do not justly cite?</p>  </sp>
 				</div2>
 				<div2 type="strophe" n="4" org="uniform" sample="complete">
 					<sp>
@@ -1662,21 +1660,18 @@
 					<p>Yes, but it is the husband's toil that supports them while they sit at
 						home.</p>
 				</sp>
-				<pain>
-					<sp>
-						<speaker>Clytaemestra</speaker>
-						<p>You seem resolved, my child, to kill your mother.</p>
-					</sp>
-					<sp>
-						<speaker>Orestes</speaker>
-						<p>You will kill yourself, not I.</p>
-					</sp>
-				</pain>
 				<sp>
 					<speaker>Clytaemestra</speaker>
-					<p>
-						<pain>Take care: beware the hounds of wrath that avenge a mother.</pain>
-					</p>
+					<p>You seem resolved, my child, to kill your mother.</p>
+				</sp>
+				<sp>
+					<speaker>Orestes</speaker>
+					<p>You will kill yourself, not I.</p>
+				</sp>
+
+				<sp>
+					<speaker>Clytaemestra</speaker>
+					<p> Take care: beware the hounds of wrath that avenge a mother. </p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
@@ -1781,9 +1776,9 @@
 				<div2 type="ephymnion" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>Look, the light has come,and I am freed <pain>from the cruel curb that
-								restrained our household. House, rise up! You have lain too long
-								prostrate on the ground.</pain></p>
+						<p>Look, the light has come,and I am freed from the cruel curb that
+							restrained our household. House, rise up! You have lain too long
+							prostrate on the ground.</p>
 					</sp>
 				</div2>
 			</div1>
@@ -1819,26 +1814,25 @@
 					<p>What name shall I give it, however tactful I may be? A trap for a wild beast?
 						Or a shroud for a corpse in his bier, wrapped around his feet? No, rather it
 						is a net: you might call it a hunting net, or robes to entangle a man's
-						feet.This would be the kind of thing a highwayman might posses, who deceives
-						strangers and earns his living by robbery, and with this cunning snare he
-						might kill many men and warm his own heart greatly.</p>
-					<p>May such a woman not live with me in my house!Before that may the gods grant
+						feet. This would be the kind of thing a highwayman might posses, who
+						deceives strangers and earns his living by robbery, and with this cunning
+						snare he might kill many men and warm his own heart greatly.</p>
+					<p>May such a woman not live with me in my house! Before that may the gods grant
 						me to perish childless!</p>
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
-					<p>
-						<pain>Alas! Alas! Sorrowful work! You were done in by a wretched death.
-							Alas! Alas! And for the survivor also suffering blossoms.</pain>
-					</p>
+					<p> Alas! Alas! Sorrowful work! You were done in by a wretched death. Alas!
+						Alas! And for the survivor also suffering blossoms. </p>
 				</sp>
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>Did she do the deed or not? No, this is my witness, dyed by Aegisthus' sword.
 						This is a stain of blood that helps time to spoil the many tinctures of
 						embroidered fabric.</p>
+					<!-- I will not tag this as pain because it is more about revenge -->
 					<p>Now at last I speak his praises. Now at last I am present to lament him, as I
-						address this web that wrought my father's death.Yet I grieve for the deed
+						address this web that wrought my father's death. Yet I grieve for the deed
 						and the punishment and for my whole clan. My victory is an unenviable
 						pollution.</p>
 				</sp>
