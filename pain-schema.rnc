@@ -76,13 +76,13 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
             sample = attribute sample {"complete"} #sample is an attribute, can only see "complete" value in document for now
             milestone = element milestone{text}
             stage = element stage {text}
-            sp = element sp {div1n?, speaker?, p+, text} #speaker has question mark because there are a couple of errors in the scaffolding provided
+            sp = element sp {mixed{div1n?, speaker?, p+}} #speaker has question mark because there are a couple of errors in the scaffolding provided
                 div1n = attribute n {text}
                 #sp element will have one "speaker" element and one or more p elements
                 speaker = element speaker {text}
-                p = element p {(text | painStart* | painEnd* | stage* | placeName*)*}
+                p = element p {mixed{(painStart* | painEnd* | stage* | placeName*)*}}
                 #portion of schema for pain markup
-                    painStart = element painStart {rec, recGen, recNorm, painType, recRel?, inf?, infGen?, infNorm?, infRel?, text}
+                    painStart = element painStart {(mixed{rec, recGen, recNorm, painType, recRel, inf, infGen, infNorm, infRel}) | (mixed{rec, recGen, recNorm, painType})}
                         rec = attribute rec {text} #the receiver of pain, the name of the character, UNFINISHED - add type of character for groupings (do it separately)
                         recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
                         recNorm = attribute recNorm {("yes" | "no")} #when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
@@ -94,14 +94,16 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                         infRel = attribute infRel {text} #relation of the inflictor of pain to the receiver, UNFINISHED - will specify IDs of common patterns after markup is finished
                     painEnd = element painEnd {text}
                  #end of schema for pain markup
-                    placeName = element placeName {key, authname, text}
+                    placeName = element placeName {mixed{key, authname}}
                         key = attribute key {text}
                         authname = attribute authname {text}
-            div2 = element div2 {div2Type, div2n?, div2Org, div2Sample, text, div2sp*, div2p*}
+            div2 = element div2 {mixed{div2Type, div2n?, div2Org, div2Sample, div2sp*, div2p*}}
                 div2Type = attribute type {text}
                 div2n = attribute n {xsd:int}
                 div2Org = attribute org {text}
                 div2Sample = attribute sample {text}
                 div2sp = element sp {div2speaker, div2p+}
                     div2speaker = element speaker {text}
-                    div2p = element p {(text | painStart* | painEnd* | stage* | placeName*)*}
+                    div2p = element p {mixed{(painStart* | painEnd* | stage* | placeName*)*}}
+                    
+                    
