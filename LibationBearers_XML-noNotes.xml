@@ -617,7 +617,7 @@
 						them, the deed must still be done. For many impulses conspire to one
 						conclusion. Besides the god's command, <painStart rec="Society" recGen="mix"
 							recNorm="yes" painType="both" recRel="subjects"
-							inf="Clytaemestra-and-Aegisthus" infGen="woman" infRel="Ruler"/>my keen
+							inf="Clytaemestra-and-Aegisthus" infGen="woman" infNorm = "no" infRel="Ruler"/>my keen
 						grief for my father, and also the pinch of poverty—that my countrymen, the
 						most renowned of mortals, who overthrew <placeName key="perseus,Troy"
 							authname="perseus,Troy">Troy</placeName> in the spirit of glory, should
@@ -652,7 +652,7 @@
 						<p>My child, the fire's ravening jaw does not overwhelm the wits of the dead
 							man,but afterwards he reveals what stirs him. <painStart rec="Agamemnon"
 								recGen="man" recNorm="yes" painType="phys" recRel="husband"
-								inf="Clytaemestra" infGen="woman" infNorm="no"/>The murdered man has
+								inf="Clytaemestra" infGen="woman" infNorm="no" infRel = "wife"/>The murdered man has
 							his dirge; the guilty man is revealed.<painEnd/> Justified lament for
 							fathers and for parents, when raised loud and strong, makes its search
 							everywhere.</p>
@@ -791,7 +791,7 @@
 					<sp>
 						<speaker>Electra</speaker>
 						<p><painStart rec="Orestes-and-Electra" recGen="mix" recNorm="yes"
-								painType="em" inf="Clytamnestra" infGen="woman" infNorm="no"
+								painType="em" recRel = "children" inf="Clytamnestra" infGen="woman" infNorm="no"
 								infRel="mother"/>To what could we more fittingly appeal than to
 							those very miseries we have endured from the woman herself who bore
 							us?<painEnd/> She may fawn upon us, but they are past all soothing. For
