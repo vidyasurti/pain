@@ -45,10 +45,23 @@ TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - 
                             date = element date {xsd:int}
 
             
-        #encodingDesc = element encodingDesc {refsDecl+}
-        encodingDesc = element encodingDesc {text}
-        #profileDesc = element profileDesc {langUsage}
-        profileDesc = element profileDesc {text}
+        encodingDesc = element encodingDesc {refsDecl+}
+            refsDecl = element refsDecl {doctype, step?, state?}
+                doctype = attribute doctype {text}
+                step = element step {refunit, from, to}
+                    refunit = attribute refunit {text}
+                    from = attribute from {text}
+                    to = attribute to {text}
+                state = element state {unit}
+                    unit = attribute unit {text}
+        
+        
+        profileDesc = element profileDesc {langUsage}
+            langUsage = element langUsage {attributeDefault, language+}
+                language = element language {mixed{id}}
+                    id = attribute id {text}
+            
+            
         #revisionDesc = element revisionDesc {change+}
         revisionDesc = element revisionDesc {text}
 
