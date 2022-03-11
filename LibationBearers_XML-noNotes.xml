@@ -218,7 +218,7 @@
 						<speaker>Chorus</speaker>
 						<p>Intending to ward off evil with such a graceless grace, <painStart
 								rec="Agamemnon" recGen="man" recNorm="yes" painType="phys"
-								recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+								recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 								infRel="wife"/>O mother Earth, she sends me forth, godless woman
 							that she is. But I am afraid to utter the words she charged me to speak.
 							For what atonement is there for blood fallen to earth? Ah, hearth of
@@ -615,9 +615,9 @@
 					<!-- This is about revenge, not pain -->
 					<p>Must I not put my trust in oracles such as these? Yet even if I do not trust
 						them, the deed must still be done. For many impulses conspire to one
-						conclusion. Besides the god's command, <painStart rec="Society" recGen="mix"
+						conclusion. Besides the god's command, <painStart rec="society" recGen="mix"
 							recNorm="yes" painType="both" recRel="subjects"
-							inf="Clytaemestra-and-Aegisthus" infGen="woman" infNorm = "no" infRel="Ruler"/>my keen
+							inf="Clytaemestra-and-Aegisthus" infGen="woman" infNorm = "no" infRel="ruler"/>my keen
 						grief for my father, and also the pinch of poverty—that my countrymen, the
 						most renowned of mortals, who overthrew <placeName key="perseus,Troy"
 							authname="perseus,Troy">Troy</placeName> in the spirit of glory, should
@@ -663,7 +663,7 @@
 						<speaker>Electra</speaker>
 						<p> Hear then, O father, as in turn we mourn with plentiful tears. Look,
 								<painStart rec="Orestes-and-Electra" recGen="mix" recNorm="yes"
-								painType="em" recRel="children" inf="Clytamnestra" infGen="woman"
+								painType="em" recRel="children" inf="Clytaemestra" infGen="woman"
 								infNorm="no" infRel="mother"/>your two children mourn you in a dirge
 							over your tomb. As suppliants and exiles as well they have sought a
 							haven at your sepulchre. What of these things is good, what free of
@@ -683,7 +683,7 @@
 					<sp>
 						<speaker>Orestes</speaker>
 						<p>Ah, my father, <painStart rec="Orestes-and-Electra" recGen="mix"
-								recNorm="yes" painType="em" recRel="children" inf="Clytamnestra"
+								recNorm="yes" painType="em" recRel="children" inf="Clytaemestra"
 								infGen="woman" infNorm="no" infRel="mother"/>if only beneath
 								<placeName key="tgn,7002329" authname="tgn,7002329"
 								>Ilium</placeName>'s walls you had been slain, slashed by some
@@ -713,7 +713,7 @@
 							to have fallen and to be entombed beside Scamander's waters among the
 							rest of the host slain by the spear.<painStart rec="Agamemnon"
 								recGen="man" recNorm="yes" painType="both" recRel="husband"
-								inf="Clytamnestra" infGen="woman" infNorm="no" infRel="wife"/>I wish
+								inf="Clytaemestra" infGen="woman" infNorm="no" infRel="wife"/>I wish
 							rather that his murderers had been killed by their own loved ones, just
 							as they killed you<painEnd/>, so that someone in a distant land who knew
 							nothing of these present troubles should learn of their fatal doom.</p>
@@ -746,7 +746,7 @@
 								painType="phys"/>May it be mine to raise a hearty shout in triumph
 							over the man when he is stabbed and over the woman as she perishes!<painEnd/>
 							<painStart rec="Chorus" recGen="woman" recNorm="yes" painType="em"
-								recRel="slave" inf="Clytamnestra" infGen="woman" infNorm="no"
+								recRel="slave" inf="Clytaemestra" infGen="woman" infNorm="no"
 								infRel="master"/>Why should I try to keep hidden what nevertheless
 							hovers before my soul? Full against the prow of my heart wrath blows
 							sharply in rancorous hate.<painEnd/></p>
@@ -791,7 +791,7 @@
 					<sp>
 						<speaker>Electra</speaker>
 						<p><painStart rec="Orestes-and-Electra" recGen="mix" recNorm="yes"
-								painType="em" recRel = "children" inf="Clytamnestra" infGen="woman" infNorm="no"
+								painType="em" recRel = "children" inf="Clytaemestra" infGen="woman" infNorm="no"
 								infRel="mother"/>To what could we more fittingly appeal than to
 							those very miseries we have endured from the woman herself who bore
 							us?<painEnd/> She may fawn upon us, but they are past all soothing. For
@@ -815,7 +815,7 @@
 						<speaker>Electra</speaker>
 						<p>Away with you, cruel and utterly brazen mother! <painStart
 								rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
-								recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+								recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 								infRel="wife"/>You dared to give your husband a most cruel burial:
 							unmourned, without lamentation, a king unattended by his
 							people.<painEnd/></p>
@@ -826,7 +826,7 @@
 						<speaker>Orestes</speaker>
 						<p>Ah me, your words spell utter dishonor. <painStart rec="Agamemnon"
 								recGen="man" recNorm="yes" painType="em" recRel="husband"
-								inf="Clytamnestra" infGen="woman" infNorm="no" infRel="wife"/>Yet
+								inf="Clytaemestra" infGen="woman" infNorm="no" infRel="wife"/>Yet
 							with the help of the gods, and with the help of my own hands, will she
 							not atone for the dishonor she did my father?<painEnd/>
 							<painStart rec="Clytaemestra" recGen="woman" recNorm="no"
@@ -840,7 +840,7 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p> Yes, and I would have you know <painStart rec="Agamemnon" recGen="man"
-								recNorm="yes" painType="both" recRel="husband" inf="Clytamnestra"
+								recNorm="yes" painType="both" recRel="husband" inf="Clytaemestra"
 								infGen="woman" infNorm="no" infRel="wife"/>he was brutally mangled.
 							And even as she buried him in this way, she acted with intent to make
 							the manner of his death<painEnd/> a burden on your life past all power
@@ -853,7 +853,7 @@
 						<speaker>Electra</speaker>
 						<p> My father was murdered just as you say. <painStart rec="Electra"
 								recGen="woman" recNorm="yes" painType="em" recRel="daughter"
-								inf="Clytamnestra" infGen="woman" infNorm="no" infRel="mother"/>But
+								inf="Clytaemestra" infGen="woman" infNorm="no" infRel="mother"/>But
 							all the while I was kept sequestered, despised, accounted a worthless
 							thing.Kennelled in my room as if I were a vicious cur, I gave free vent
 							to my streaming tears, which came more readily than laughter, as in my
@@ -927,7 +927,7 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p><painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
-							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife"/>O father, who perished by a death unbefitting a
 						king<painEnd/>, grant in answer to my prayer the lordship over your
 						halls!</p>
@@ -961,7 +961,7 @@
 					<speaker>Orestes</speaker>
 					<p>
 						<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
-							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife"/>Father, remember the bath where you were robbed of life.
 					</p>
 				</sp>
@@ -1169,7 +1169,7 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>But since I have recalled tales of pitiless afflictions, <painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
-							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife"/>it
 							is the right time to tell of a marriage void of love, an abomination to
 							the house,and the plots devised by a wife's cunning against her warrior
@@ -1593,7 +1593,7 @@
 				<sp>
 					<speaker>Orestes</speaker>
 					<p>What! <painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
-							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife"/>Murder my father and then make your home with
 						me?<painEnd/></p>
 				</sp>
@@ -1613,7 +1613,7 @@
 					<speaker>Orestes</speaker>
 					<p>
 						<painStart rec="Orestes" recGen="man" recNorm="yes" painType="em"
-							recRel="won" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="son" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="mother"/>You brought me to birth and yet you cast me out to
 						misery.<painEnd/>
 					</p>
@@ -1626,7 +1626,7 @@
 					<speaker>Orestes</speaker>
 					<p>
 						<painStart rec="Orestes" recGen="man" recNorm="yes" painType="em"
-							recRel="won" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="son" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="mother"/>I was sold in disgrace, though I was born of a free
 						father.<painEnd/>
 					</p>
@@ -1692,7 +1692,7 @@
 					<speaker>Orestes</speaker>
 					<p>Yes, the terror from your dream was indeed a prophet. <painStart
 							rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
-							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife"/>You killed him whom you should not<painEnd/>; <painStart
 							rec="Clytaemestra" recGen="woman" recNorm="no" painType="phys"
 							recRel="mother" inf="Orestes" infGen="man" infNorm="yes" infRel="son"
@@ -1756,7 +1756,7 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>Look, the light has come, <painStart rec="Chorus" recGen="woman"
-								recNorm="yes" painType="em" recRel="slave" inf="Clytamnestra"
+								recNorm="yes" painType="em" recRel="slave" inf="Clytaemestra"
 								infGen="woman" infNorm="no" infRel="master"/>and I am freed from the
 							cruel curb that restrained our household<painEnd/>. House, rise up! You
 							have lain too long prostrate on the ground.</p>
@@ -1789,7 +1789,7 @@
 					<speaker>Orestes</speaker>
 					<p>
 						<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
-							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife"/>Behold this pair, oppressors of the land, who murdered my
 						father and ransacked my house! They were majestic then, when they sat on
 						their thrones,and are lovers even now, as one may judge by what has happened
@@ -1913,7 +1913,7 @@
 					<p>Then may blessings go with you, and may the god watch benevolently over you
 						and guard you with favorable fortunes!</p>
 					<p>Look! Now again, for the third time, has the tempest of this clan burst on
-						the royal house and run its course. <painStart rec="soceity" recGen="mix"
+						the royal house and run its course. <painStart rec="society" recGen="mix"
 							recNorm="yes" painType="both"/>First, at the beginning, came the cruel
 						woes of children slain for food; next, the fate of a man, a king,when the
 						warlord of the Achaeans perished, murdered in his bath. And now, once again,
