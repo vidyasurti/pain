@@ -27,9 +27,11 @@ textElem = element text {body}#textElem (called text in the file) has one child 
             sample = attribute sample {"complete"} #sample is an attribute, can only see "complete" value in document for now
             milestone = element milestone{text}
             stage = element stage {text}
-            sp = element sp {speaker, p+, text}
-            div2 = element div2 {div2Type, div2Org, div2Sample, text, div2sp}
+            sp = element sp {div1n?, speaker, p+, text}
+                div1n = attribute n {text}
+            div2 = element div2 {div2Type, div2n?, div2Org, div2Sample, text, div2sp}
                 div2Type = attribute type {text}
+                div2n = attribute n {xsd:int}
                 div2Org = attribute org {text}
                 div2Sample = attribute sample {text}
                 div2sp = element sp {div2speaker, div2p+}
@@ -43,7 +45,7 @@ textElem = element text {body}#textElem (called text in the file) has one child 
 
 #sp element will have one "speaker" element and one or more p elements
 speaker = element speaker {text}
-p = element p {(text | painStart* | painEnd*)*}
+p = element p {(text | painStart* | painEnd* | stage* | placeName*)*}
     painStart = element painStart {rec, recGen, recNorm, painType, recRel?, inf?, infGen?, infNorm?, infRel?, text}
         rec = attribute rec {text} #the receiver of pain, the name of the character, UNFINISHED - add type of character for groupings (do it separately)
         recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
@@ -56,3 +58,6 @@ p = element p {(text | painStart* | painEnd*)*}
         infRel = attribute infRel {text} #relation of the inflictor of pain to the receiver, UNFINISHED - will specify IDs of common patterns after markup is finished
     
     painEnd = element painEnd {text}
+    placeName = element placeName {key, authname, text}
+        key = attribute key {text}
+        authname = attribute authname {text}
