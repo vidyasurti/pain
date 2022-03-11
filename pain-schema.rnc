@@ -42,7 +42,7 @@ TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - 
                 biblStruct = element biblStruct {attributeDefault, monogr}
                     monogr = element monogr {author, title, editor, imprint}
                         imprint = element imprint {pubPlace, publisher, date}
-                            date = element date {xsd:int}
+                            date = element date {text}
 
             
         encodingDesc = element encodingDesc {refsDecl+}
@@ -62,8 +62,9 @@ TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - 
                     id = attribute id {text}
             
             
-        #revisionDesc = element revisionDesc {change+}
-        revisionDesc = element revisionDesc {text}
+        revisionDesc = element revisionDesc {change+}
+            change = element change {date, changeRespStmt, item}
+                changeRespStmt = element respStmt {name, resp}
 
 
 textElem = element text {lang, body}#textElem (called text in the file) has one child element called body
