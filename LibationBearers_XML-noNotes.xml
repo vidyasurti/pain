@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI.2>
 	<teiHeader type="text" status="new">
 		<fileDesc>
@@ -467,7 +468,7 @@
 				</sp>
 				<sp n="Electra">
 					<speaker>Electra</speaker>
-					<p><painStart rec="Electra" recGen="woman" recNorm="yes" painType="emotional"
+					<p><painStart rec="Electra" recGen="woman" recNorm="yes" painType="em"
 						/>Over my heart, too, there sweeps a surge of bitterness, and I am struck as
 						if a sword had run me through<painEnd/>. From my eyes thirsty drops of a
 						stormy flood fall unchecked at the sight of this tress. For how can I expect
