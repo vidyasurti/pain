@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI 
    
      xmlns:py="http://codespeak.net/lxml/objectify/pytype">
@@ -43,7 +44,7 @@
                             their love is all turned to hate, and tenderest ties are weak.
                             For Jason hath betrayed his own children and my mistress dear
                             for the love of a royal bride, for he hath wedded the daughter
-                            of Creon, lord of this land. <painStart recNorm="no"  painType="em phys" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>While Medea his hapless wife, thus scorned,
+                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>While Medea his hapless wife, thus scorned,
                             appeals to the oaths he swore, recalls the strong pledge his
                             right hand gave, and bids heaven be witness what requital she is
                             finding from Jason. And here she lies fasting, yielding her body
@@ -54,7 +55,7 @@
                             billow, save when she turns her snow-white neck aside and softly to herself bemoans her father
                             dear, her country and her home, which  she
                             gave up to come hither with the man who now holds her in
-                            dishonour<painEnd/>. <painStart recNorm="no" painType=" em" rec="children" inf="Medea" recGen="man" recInf="man"/>She, poor lady, hath by sad experience learnt how
+                            dishonour<painEnd/>. <painStart recNorm="no" painType=" em" rec="children" inf="Medea" recGen="man" infGen="man"/>She, poor lady, hath by sad experience learnt how
                             good a thing it is never to quit one’s native land. And she
                             hates her children now and feels no joy at seeing them; I am
                             afeard she may contrive some untoward scheme; for her mood is
@@ -80,7 +81,7 @@
                   <speaker>Nurse</speaker>
                   <p>Old man, attendant on the
                             sons of Jason, our masters’ fortunes when they go awry make good
-                            slaves grieve and touch their hearts. <painStart recNorm="yes" painType="em" rec="Nurse" inf="Medea Jason" recInf= "man woman" recGen="woman"/>Oh! I have come to
+                            slaves grieve and touch their hearts. <painStart recNorm="yes" painType="em" rec="Nurse" inf="Medea Jason" infGen= "man woman" recGen="woman"/>Oh! I have come to
                             such a pitch of grief that there stole a yearning wish upon me
                             to come forth hither and proclaim to heaven and earth my
                             mistress’s hard fate.<painEnd/></p>
@@ -122,7 +123,7 @@
                   <speaker>Attendant</speaker>
                   <p>I heard one say, pretending
                             not to listen as I approached the place where our greybeards sit
-                            playing draughts near Pirene’s sacred spring, that <painStart recNorm="no" painType="em" inf="Creon" rec="MedeaChildren" recGen="man woman" recInf="man" />Creon, the ruler of this land, is bent
+                            playing draughts near Pirene’s sacred spring, that <painStart recNorm="no" painType="em" inf="Creon" rec="MedeaChildren" recGen="man woman" infGen="man" />Creon, the ruler of this land, is bent
                             on driving these children and their mother from the boundaries
                             of Corinth; but I know not whether the news is to be relied
                             upon, and would fain it were not.<painEnd/></p>
@@ -140,7 +141,7 @@
                </sp>
                <sp>
                   <speaker>Nurse</speaker>
-                  <p>Undone, <painStart recNorm="no" painType="em" rec="Medea" inf="Nurse Attendant" recGen="woman" recInf="man woman"/>it seems, are we, if
+                  <p>Undone, <painStart recNorm="no" painType="em" rec="Medea" inf="Nurse Attendant" recGen="woman" infGen="man woman"/>it seems, are we, if
                             to old woes fresh ones we add, ere we have drained the former to
                             the dregs.<painEnd/></p>
                </sp>
@@ -210,7 +211,7 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em" rec="Medea" inf="children Jason" recGen="woman" recInf="man"/>Ah, me! the agony I have suffered, deep enough to call for
+                        <painStart recNorm="no" painType="em" rec="Medea" inf="children Jason" recGen="woman" infGen="man"/>Ah, me! the agony I have suffered, deep enough to call for
                                 these laments! Curse you and your father too, ye children
                                 damned, sons of a doomed mother! Ruin seize the whole
                                 family!<painEnd/></p>
@@ -237,7 +238,7 @@
                <div type="textpart" subtype="lyric">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>I heard the voice,
+                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>I heard the voice,
                                 uplifted loud, of our poor Colchian lady, nor yet is she
                                 quiet; speak, aged dame, for as I stood by the house with
                                 double gates I heard a voice of  weeping
@@ -248,7 +249,7 @@
                <div type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Nurse</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>’Tis a house no more;
+                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>’Tis a house no more;
                                 all that is passed away long since; a royal bride keeps Jason at her side,
                                 while our mistress pines away in her bower, finding no
                                 comfort for her soul in aught her friends can say.<painEnd/></p>
@@ -257,7 +258,7 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em phys" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>Oh, oh! Would that Heaven’s levin bolt would cleave this
+                        <painStart recNorm="no" painType="em phys" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>Oh, oh! Would that Heaven’s levin bolt would cleave this
                                 head in twain! What gain is life to me? Woe, woe is
                                 me! O, to die and win release, quitting this loathed
                                 existence!<painEnd/></p>
@@ -284,12 +285,12 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>Great Themis, and husband of Themis, behold
+                        <painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>Great Themis, and husband of Themis, behold
                                 what I am suffering now, though I did bind that accursed
                                 one, my husband, by strong oaths to me? O, to see him and
                                 his bride some day brought to utter destruction, they and
                                 their house with them, for that they presume to wrong me thus
-                                unprovoked.<painEnd/> <painStart recNorm="no" painType="phys" rec="Medea brother" inf="Medea" recGen="man" recInf="woman"/>O my father, my country, that I have left to my
+                                unprovoked.<painEnd/> <painStart recNorm="no" painType="phys" rec="Medea brother" inf="Medea" recGen="man" infGen="woman"/>O my father, my country, that I have left to my
                         shame, after slaying my own brother.<painEnd/></p>
                   </sp>
                   <sp>
@@ -338,7 +339,7 @@
                <div type="textpart" subtype="epode">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>I heard a bitter cry of
+                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>I heard a bitter cry of
                                 lamentation! loudly, bitterly she calls on the
                                 traitor of her marriage bed, her perfidious spouse; by
                                 grievous wrongs oppressed she invokes Themis, bride of Zeus,
@@ -364,7 +365,7 @@
                             wronged by him; and so a stranger most of all should adopt a
                             city’s views; nor do I commend that citizen, who, in the
                             stubbornness of his heart, from churlishness resents the city’s
-                            will.<painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>But on me hath fallen this
+                            will.<painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>But on me hath fallen this
                             unforeseen disaster, and sapped my life; ruined I am, and long
                             to resign the boon of existence, kind friends, and die. For he
                             who was all the world to me, as well thou knowest, hath turned
@@ -409,7 +410,7 @@
                </sp>
                <sp>
                   <speaker>Creon</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>Hark thee, Medea, I bid thee
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Hark thee, Medea, I bid thee
                             take those sullen looks and angry thoughts against thy husband
                             forth from this land in exile, and with thee take both thy
                             children and that without delay, for I am judge in this
@@ -418,7 +419,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>Ah, me! now is utter
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Ah, me! now is utter
                             destruction come upon me, unhappy that I am! For my enemies are
                             bearing down on me full sail, nor have I any landing-place to
                             come at in my trouble. Yet for all my wretched plight I will ask
@@ -426,7 +427,7 @@
                </sp>
                <sp>
                   <speaker>Creon</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>I fear thee,—no longer need
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>I fear thee,—no longer need
                             I veil my dread ’neath words,—lest thou devise against my child
                             some cureless ill. Many things contribute to this fear of mine; thou art a witch by nature, expert in
                             countless sorceries, and thou art  chafing
@@ -455,7 +456,7 @@
                             very clever after all. Be that as it may, thou dost fear me lest
                             I bring on thee something to mar thy harmony. Fear me not,
                             Creon, ray position scarce is such that I should seek to quarrel
-                            with princes. <painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>Why should I, for how hast thou injured me? Thou
+                            with princes. <painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Why should I, for how hast thou injured me? Thou
                             hast betrothed thy daughter where thy fancy prompted thee. No, ’tis my
                             husband I hate, though I doubt not thou hast acted wisely
                             herein. And now I grudge not thy prosperity; betroth thy child,
@@ -556,7 +557,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>Suffer me to abide this
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Suffer me to abide this
                             single day and devise some plan for the manner of my exile, and
                             means of living for my children, since their father cares not to
                             provide his babes therewith. Then pity them; thou too hast
@@ -587,7 +588,7 @@
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="CreonJason" recGen="woman" recInf="man"/>On all sides sorrow pens
+                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="CreonJason" recGen="woman" infGen="man"/>On all sides sorrow pens
                                 me in. Who shall gainsay this? But all is not yet lost! think not so.
                                 Still are there troubles in store for the new bride, and for
                                 her bridegroom no light toil. Dost think I would ever have
@@ -598,7 +599,7 @@
                                 my plot by banishing me from the land, he hath allowed me to
                                 abide this day, in which I will lay low in death three of my
                                 enemies—a father and his daughter and my
-                                husband too.<painEnd/><painStart recNorm="yes" painType="phys" rec="CreonJason Glauce" inf="Medea" recGen="mix" recInf="woman"/>Now, though I have many ways to compass their
+                                husband too.<painEnd/><painStart recNorm="yes" painType="phys" rec="CreonJason Glauce" inf="Medea" recGen="mix" infGen="woman"/>Now, though I have many ways to compass their
                         <!--Is this tagged correctly?-->
                                 death, I am not sure, friends, which I am to try first.
                                 Shall I set fire to the bridal mansion, or plunge the
@@ -607,7 +608,7 @@
                                 caught making my way into the chamber, intent on my design,
                                 I shall be put to death and cause my foes to mock. ’Twere
                                 best to take the shortest way—the way we women are most skilled in—by poison to destroy
-                                them.<painEnd/><painStart recNorm="yes" painType="phys" rec="CreonJason Glauce" inf="Medea" recGen="mix" recInf="woman"/>Well, well, suppose them dead; what city will receive
+                                them.<painEnd/><painStart recNorm="yes" painType="phys" rec="CreonJason Glauce" inf="Medea" recGen="mix" infGen="woman"/>Well, well, suppose them dead; what city will receive
                                 me? What friendly host will give me a shelter in his land, a
                                 home secure, and save my soul alive? 
                                 None. So I will wait yet a little while in case some tower of defence rise up
@@ -658,7 +659,7 @@
                <div type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="CreonJason" recGen="woman" recInf="man"/>With mind distraught
+                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="CreonJason" recGen="woman" infGen="man"/>With mind distraught
                                 didst thou thy father’s house desert on thy voyage betwixt
                                 ocean’s twin rocks, and on a foreign strand thou dwellest, thy bed left
                                 husbandless, poor lady and  thou an exile
@@ -679,7 +680,7 @@
             <div type="textpart" subtype="episode">
                <sp>
                   <speaker>Jason</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>It is not now I first
+                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>It is not now I first
                             remark, but oft ere this, how unruly a pest is a harsh temper.
                             For instance, thou, hadst thou but patiently endured the will of
                             thy superiors, mightest have remained here in this land and
@@ -708,13 +709,13 @@
                             reviling thee, and thou wilt be vexed at my recital. I will begin at the very beginning. I
                             saved thy life, as every Hellene knows who sailed with thee
                             aboard the good ship Argo, when thou wert sent to tame and yoke
-                            fire-breathing bulls, and to sow the deadly tilth. <painStart recNorm="no" painType="phys" rec="dragon" inf="Medea" recGen="male" recInf="woman"/>Yea, and I slew the dragon which guarded
+                            fire-breathing bulls, and to sow the deadly tilth. <painStart recNorm="no" painType="phys" rec="dragon" inf="Medea" recGen="male" infGen="woman"/>Yea, and I slew the dragon which guarded
                             the golden fleece, keeping sleepless watch o’er it with many  a wreathed coil, and I raised for thee a
                             beacon of deliver arice<painEnd/>. Father and home of my free will I left
                             and came with thee to Iolcos, ’neath Pelion’s hills, for my love was stronger than my prudence.
-                     <painStart recNorm="yes" painType="phys" rec="Pelias PeliasChildren" inf="Medea" recGen="male" recInf="woman"/>Next I caused the death of Pelias by a doom most grievous, even
+                     <painStart recNorm="yes" painType="phys" rec="Pelias PeliasChildren" inf="Medea" recGen="male" infGen="woman"/>Next I caused the death of Pelias by a doom most grievous, even
                      by his own children’s hand, beguiling them of all their fear.<painEnd/>
-                     <painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>All this have I done for thee, thou traitor! and thou hast cast
+                     <painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>All this have I done for thee, thou traitor! and thou hast cast
                             me over, taking to thyself another wife, though children have been bom to us. Hadst
                             thou been childless still, I could have pardoned thy desire for
                             this new union. Gone is now the trust I put in oaths. I
@@ -1079,7 +1080,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>O Aegeus, my husband has
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>O Aegeus, my husband has
                             proved a monster of iniquity.<painEnd/></p>
                </sp>
                <sp>
@@ -1089,7 +1090,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>Jason is wronging me though
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>Jason is wronging me though
                      I have given him no cause.<painEnd/></p>
                </sp>
                <sp>
@@ -1099,7 +1100,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" recInf="man"/>He is taking another wife to
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>He is taking another wife to
                      succeed me as mistress of his house.<painEnd/></p>
                </sp>
                <sp>
@@ -1149,7 +1150,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="CreonJason" recGen="woman" recInf="man"/>I am undone, and more than
+                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="CreonJason" recGen="woman" infGen="man"/>I am undone, and more than
                      that, am banished from the land.<painEnd/></p>
                </sp>
                <sp>
@@ -1159,7 +1160,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="phys" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>Creon drives me forth in
+                  <p><painStart recNorm="no" painType="phys" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Creon drives me forth in
                      exile from Corinth.<painEnd/></p>
                </sp>
                <sp>
@@ -1169,7 +1170,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="CreonJason" recGen="woman" recInf="man"/>Not in words, but he will
+                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="CreonJason" recGen="woman" infGen="man"/>Not in words, but he will
                             not stand out against it. Ο, I implore thee by this beard and by thy knees, in suppliant posture,
                             pity, O pity my sorrows; do not see me cast forth forlorn, but
                             receive me in thy country, to a seat within thy halls.<painEnd/> So may
@@ -1204,7 +1205,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" recInf="man"/>Thee I trust; but Pelias’
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Thee I trust; but Pelias’
                             house and Creon are my foes. Wherefore, if thou art bound by an oath,
                             thou wilt not give me up to them
                             when they come to drag me from the land, but, having entered
@@ -1276,7 +1277,7 @@
                      <p>O Zeus, and Justice,
                                 child of Zeus, and sun-god’s light, now will I triumph o’er my foes, kind
                                 friends; on victory’s road have I set forth; good hope have
-                        <painStart recNorm="yes" painType="phys" rec="CreonJason Glauce" inf="Medea" recGen="woman" recInf="man"/>I of wreaking vengeance on those I hate. For where we were
+                        <painStart recNorm="yes" painType="phys" rec="CreonJason Glauce" inf="Medea" recGen="woman" infGen="man"/>I of wreaking vengeance on those I hate. For where we were
                                 in most distress this stranger hath appeared, to be a haven
                                 in my counsels; to him will we make fast the cables of
                                 our ship when we come to the town and citadel of Pallas. But
@@ -1296,7 +1297,7 @@
                                 gold. And if these ornaments she take and put them on,
                                 miserably shall she die, and likewise everyone who touches
                                 her;  with such fell poisons will I smear
-                                my gifts<painEnd/>. <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="woman" recInf="man"/>And here I quit this theme; but I
+                                my gifts<painEnd/>. <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="woman" infGen="man"/>And here I quit this theme; but I
                                 shudder at the deed I must do next; for I will slay the
                                 children I have borne; there is none shall take them from my
                                 toils; and when I have utterly confounded Jason’s house I will leave the land, escaping
@@ -1331,12 +1332,12 @@
                   </sp>
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="woman" recInf="man"/>O lady, wilt thou steel
+                     <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="woman" infGen="man"/>O lady, wilt thou steel
                         thyself to slay thy children twain?<painEnd/></p>
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
-                     <p><painStart recNorm="yes" painType="phys" rec="Jason" inf="Medea" recGen="woman" recInf="man"/>I will, for that will
+                     <p><painStart recNorm="yes" painType="phys" rec="Jason" inf="Medea" recGen="woman" infGen="man"/>I will, for that will
                         stab my husband to the heart.<painEnd/></p>
                   </sp>
                   <sp>
@@ -1383,7 +1384,7 @@
                      <speaker>Chorus</speaker>
                      <p>How then shall the city
                                 of sacred streams, the land that welcomes those it loves,
-                                receive thee, <painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="woman" recInf="man"/>the murderess of thy children, thee whose presence with others is a
+                                receive thee, <painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="woman" infGen="man"/>the murderess of thy children, thee whose presence with others is a
                                 pollution? Think on the murder of thy children, consider the
                                 bloody deed thou takest on thee. Nay, by thy knees we, one
                                 and all, implore thee, slay not thy babes.<painEnd/> </p>
@@ -1392,7 +1393,7 @@
                <div type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="woman" recInf="man"/>Where shall
+                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="woman" infGen="man"/>Where shall
                                 hand or heart find hardihood enough in wreaking such a
                                 fearsome deed upon thy sons? How wilt thou look upon thy babes, and
                                 still without a tear retain thy bloody purpose? Thou canst
@@ -1556,7 +1557,7 @@
                <div type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" recInf="woman"/>Gone, gone is every hope
+                     <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" infGen="woman"/>Gone, gone is every hope
                                 I had that the children yet might live; forth to their doom
                                 they now proceed. The hapless bride will take, ay, take the
                                 golden crown that is to  be her ruin; with her own hand will she lift and
@@ -1566,7 +1567,7 @@
                <div type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="phys" rec="Glauce" inf="Medea" recGen="woman" recInf="woman"/>Its grace and sheen
+                     <p><painStart recNorm="yes" painType="phys" rec="Glauce" inf="Medea" recGen="woman" infGen="woman"/>Its grace and sheen
                                 divine will tempt her to put on the robe and crown of gold, and in that act will she deck herself
                                 to be a bride amid the dead. Such is the snare whereinto she
                                 will fall, such is the deadly doom that waits the hapless
@@ -1576,7 +1577,7 @@
                <div type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" recInf="woman"/>And thou, poor wretch,
+                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>And thou, poor wretch,
                                 who to thy sorrow art wedding a king’s daughter, little
                                 thinkest of the doom thou art bringing on thy children’s
                                 life, or of the cruel death that waits thy bride.Woe is thee! how art
@@ -1586,9 +1587,9 @@
                <div type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" recInf="woman"/>Next do I bewail thy
+                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>Next do I bewail thy
                                 sorrows, O mother hapless in thy children, thou who wilt
-                                slay thy babes because thou hast a rival<painEnd/>, <painStart recNorm="no" painType="em" rec="children" inf="Medea" recGen="woman" recInf="man"/>the babes thy husband hath deserted impiously
+                                slay thy babes because thou hast a rival<painEnd/>, <painStart recNorm="no" painType="em" rec="children" inf="Medea" recGen="woman" infGen="man"/>the babes thy husband hath deserted impiously
                         to join him to another bride.<painEnd/></p>
                   </sp>
                </div>
@@ -1673,7 +1674,7 @@
                             banishment, or ever I have had my joy of you, or
                             lived to see you happy, or ever I have graced your marriage
                             couch, your bride, your bridal bower, or lifted high the wedding
-                            torch. Ah me! a victim of my own self-will. <painStart recNorm="no" painType="both" rec="Medea" inf="children" recGen="woman" recInf="man"/>So it was all in
+                            torch. Ah me! a victim of my own self-will. <painStart recNorm="no" painType="both" rec="Medea" inf="children" recGen="woman" infGen="man"/>So it was all in
                             vain I reared you, O my sons; in vain did suffer, racked with anguish,
                             enduring the cruel pangs of childbirth<painEnd/>. ’Fore Heaven I once had
                             hope, poor me! high hope of ye that you would nurse me in my age
@@ -1691,7 +1692,7 @@
                             consent to let those foes of mine escape from
                             punishment, and incur their mockery? I must face this deed. Out
                             upon my craven heart! to think that I should even have let the
-                            soft words escape my soul. <painStart recNorm="yes" painType="both" rec="chlidren" inf="Medea" recGen="man" recInf="woman"/>Into the
+                            soft words escape my soul. <painStart recNorm="yes" painType="both" rec="chlidren" inf="Medea" recGen="man" infGen="woman"/>Into the
                             house, children! and whoso feels he must not be present at my
                             sacrifice, must see to it himself; I will not spoil
                             my  handiwork. Ah! ah! do not, my heart, O do
@@ -1702,11 +1703,11 @@
                             to their foes to mock and flout. Die they must in any case, and
                             since ’tis so, why I, the mother who bore them, will give the
                             fatal blow. In any case their doom is fixed and there is no
-                            escape.<painEnd/> <painStart recNorm="yes" painType="phys" rec="Glauce" inf="children" recGen="woman" recInf="man"/>Already the crown is on her head, the
+                            escape.<painEnd/> <painStart recNorm="yes" painType="phys" rec="Glauce" inf="children" recGen="woman" infGen="man"/>Already the crown is on her head, the
                             robe is round her, and she is dying, the royal bride; that do I
                             know full well. But now since I have a piteous path to tread,
                             and yet more piteous still the path I send my children on, fain
-                            would I say farewell to them.  <painStart recNorm="no" painType="em" rec="Medea" inf="children" recGen="woman" recInf="man"/>O my babes, my babes, let your mother kiss your
+                            would I say farewell to them.  <painStart recNorm="no" painType="em" rec="Medea" inf="children" recGen="woman" infGen="man"/>O my babes, my babes, let your mother kiss your
                             hands. Ah! hands I love so well, O lips most dear to me! O noble
                             form and features of my children, I wish ye joy, but in that
                             other land, for here your father robs you of your home. O the
@@ -1765,7 +1766,7 @@
                   </sp>
                   <sp>
                      <speaker>Messenger</speaker>
-                     <p><painStart recNorm="yes" painType="em" rec="Glauce" inf="Medea" recGen="woman" recInf="woman"/>The princess is dead, a
+                     <p><painStart recNorm="yes" painType="em" rec="Glauce" inf="Medea" recGen="woman" infGen="woman"/>The princess is dead, a
                                 moment gone, and Creon too, her sire, slain by those drugs
                                 of thine.<painEnd/></p>
                   </sp>
@@ -1813,7 +1814,7 @@
                                 in all; and ere the father and his sons were far from the
                                 palace gone, she took the broidered robe and put it on, and set the golden crown about her
                                 tresses, arranging her hair at her bright mirror, with many
-                                a happy smile at her breathless counterfeit. <painStart recNorm="yes" painType="phys" rec="Glauce" inf="MedeaChildren" recGen="woman" recInf="mix"/>Then rising
+                                a happy smile at her breathless counterfeit. <painStart recNorm="yes" painType="phys" rec="Glauce" inf="MedeaChildren" recGen="woman" infGen="mix"/>Then rising
                                 from her seat she passed across the chamber, tripping
                                 lightly on her fair white foot, exulting in the gift, with many a
                                 glance at her uplifted ankle. When lo! a scene of awful horror did
@@ -1885,7 +1886,7 @@
                   <sp>
                      <speaker>Medea</speaker>
                      <p>My friends, I am
-                        resolved upon the deed; <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" recInf="woman"/>at once will I slay my children and
+                        resolved upon the deed; <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>at once will I slay my children and
                                 then leave this land, without delaying long enough to hand
                                 them over to some more savage hand to butcher. Needs must they die in any case; and
                                 since they must, I will slay them—I, the mother that bare
@@ -1922,7 +1923,7 @@
                                 seems, sweet babes, O thou who hast left behind thee that
                                 passage through the blue Symplegades, that strangers justly
                                 hate. Ah! hapless one, why doth fierce
-                                anger thy soul assail? <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" recInf="woman"/>Why in its
+                                anger thy soul assail? <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>Why in its
                                 place is fell murder growing up? For grievous unto mortal
                                 men are pollutions that come of kindred blood poured on the
                                 earth, woes to suit each crime hurled from
@@ -1945,19 +1946,19 @@
                <div type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="em" rec="children" inf="Medea" recGen="man" recInf="woman"/>Didst hear, didst hear
+                     <p><painStart recNorm="yes" painType="em" rec="children" inf="Medea" recGen="man" infGen="woman"/>Didst hear, didst hear
                                 the children’s cry? O lady, born to sorrow, victim of an
                                 evil fate!<painEnd/></p>
                   </sp>
                   <sp>
                      <speaker>1st Son</speaker>
                      <p>
-                        <stage>(within).</stage> <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" recInf="woman"/>Ah, me; what can I do? Whither
+                        <stage>(within).</stage> <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>Ah, me; what can I do? Whither
                                 fly to escape my mother’s blows?<painEnd/></p>
                   </sp>
                   <sp>
                      <speaker>2nd Son</speaker>
-                     <p>(<stage>within).</stage> <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" recInf="woman"/>I know not, sweet brother
+                     <p>(<stage>within).</stage> <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>I know not, sweet brother
                                 mine; we are undone.<painEnd/></p>
                   </sp>
                   <sp>
@@ -1974,12 +1975,12 @@
                   <sp>
                      <speaker>2nd Son</speaker>
                      <p>
-                        <stage>(within).</stage><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" recInf="woman"/> Even now the toils of the
+                        <stage>(within).</stage><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" infGen="woman"/> Even now the toils of the
                                 sword are closing round us.</p>
                   </sp>
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="em" rec="children" inf="Medea" recGen="man" recInf="woman"/>O hapless mother,
+                     <p><painStart recNorm="yes" painType="em" rec="children" inf="Medea" recGen="man" infGen="woman"/>O hapless mother,
                                 surely thou hast a heart of stone or steel to slay the offspring of thy womb by
                                 such a murderous doom.<painEnd/></p>
                   </sp>
@@ -2027,12 +2028,12 @@
                </sp>
                <sp>
                   <speaker>Chorus</speaker>
-                  <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" recInf="woman"/>Thy sons are dead; slain by
+                  <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" infGen="woman"/>Thy sons are dead; slain by
                             their own mother’s hand.<painEnd/></p>
                </sp>
                <sp>
                   <speaker>Jason</speaker>
-                  <p><painStart recNorm="yes" painType="em" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>O God! what sayest thou?
+                  <p><painStart recNorm="yes" painType="em" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>O God! what sayest thou?
                             Woman, thou hast sealed my doom.<painEnd/></p>
                </sp>
                <sp>
@@ -2042,7 +2043,7 @@
                </sp>
                <sp>
                   <speaker>Jason</speaker>
-                  <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" recInf="woman"/>Where slew she them; within
+                  <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" infGen="woman"/>Where slew she them; within
                             the palace or outside?<painEnd/></p>
                </sp>
                <sp>
@@ -2119,7 +2120,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="MedeaChildren" inf="Jason" recGen="mix" recInf="man"/>My sons, your father’s
+                  <p><painStart recNorm="no" painType="both" rec="MedeaChildren" inf="Jason" recGen="mix" infGen="man"/>My sons, your father’s
                             feeble lust has been your ruin!<painEnd/></p>
                </sp>
                <sp>
@@ -2129,7 +2130,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="MedeaChildren" inf="Jason" recGen="mix" recInf="man"/>No, but thy foul treatment
+                  <p><painStart recNorm="no" painType="both" rec="MedeaChildren" inf="Jason" recGen="mix" infGen="man"/>No, but thy foul treatment
                      of me, and thy new marriage.<painEnd/></p>
                </sp>
                <sp>
@@ -2139,7 +2140,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>Dost think a woman counts
+                  <p><painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>Dost think a woman counts
                             this a trifling injury?<painEnd/></p>
                </sp>
                <sp>
@@ -2149,7 +2150,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>Thy sons are dead and gone.
+                  <p><painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>Thy sons are dead and gone.
                      That will stab thy heart.<painEnd/></p>
                </sp>
                <sp>
@@ -2195,7 +2196,7 @@
                             by pulling down their tombs; and in this land of Sisyphus I will
                             ordain hereafter a solemn feast and mystic rites to atone for
                             this impious murder. Myself will now to the land of Erechtheus, to dwell with Aegeus, Pandion’s son. But
-                            thou, <painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>as well thou mayest, shalt die a caitiff’s death, thy
+                            thou, <painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>as well thou mayest, shalt die a caitiff’s death, thy
                                 head crushed ’neath a shattered relic of Argo,
                             when thou hast seen the bitter ending of my marriage.<painEnd/></p>
                </sp>
@@ -2228,7 +2229,7 @@
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
-                     <p><painStart recNorm="yes" painType="em" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>Thy grief is yet to
+                     <p><painStart recNorm="yes" painType="em" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>Thy grief is yet to
                                 come; wait till old age is with thee too.<painEnd/></p>
                   </sp>
                   <sp>
@@ -2248,7 +2249,7 @@
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>Yea, to vex
+                     <p><painStart recNorm="no" painType="em" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>Yea, to vex
                                 thy heart.<painEnd/></p>
                   </sp>
                   <sp>
@@ -2274,7 +2275,7 @@
                   </sp>
                   <sp>
                      <speaker>Jason</speaker>
-                     <p>O <painStart recNorm="yes" painType="em" rec="Jason" inf="Medea" recGen="man" recInf="woman"/>Zeus, dost hear how I
+                     <p>O <painStart recNorm="yes" painType="em" rec="Jason" inf="Medea" recGen="man" infGen="woman"/>Zeus, dost hear how I
                                 am driven hence; dost mark the treatment I receive from this
                                 she-lion, fell murderess of her young? Yet so far as I may
                                 and can, I raise for them a dirge, and do adjure the gods to witness how
