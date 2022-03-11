@@ -92,7 +92,7 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                         infGen = attribute infGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
                         infNorm = attribute infNorm {("yes" | "no")} #when an inflictor of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
                         infRel = attribute infRel {text} #relation of the inflictor of pain to the receiver, UNFINISHED - will specify IDs of common patterns after markup is finished
-                    painEnd = element painEnd {text}
+                    painEnd = element painEnd {empty}
                  #end of schema for pain markup
                     placeName = element placeName {mixed{key, authname}}
                         key = attribute key {text}
