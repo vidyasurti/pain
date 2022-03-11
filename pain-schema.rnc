@@ -26,8 +26,16 @@ TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - 
             
             extent = element extent {text}
             
-            #publicationStmt = element publicationStmt {publisher, pubPlace, authority, availability}
-            publicationStmt = element publicationStmt {text}
+            publicationStmt = element publicationStmt {publisher, pubPlace, authority, availability}
+                publisher = element publisher {text}
+                pubPlace = element pubPlace {text}
+                authority = element authority {text}
+                availability = element availability {availabilityStatus, availabilityp, availabilityList}
+                    availabilityStatus = attribute status {text}
+                    availabilityp = element p{text}
+                    availabilityList = element list{item+}
+                        item = element item {mixed{quote?}}
+                            quote = element quote {text}
             
             #sourceDesc = element sourceDesc {defaultSourceDesc, biblStruct}
             sourceDesc = element sourceDesc {text}
