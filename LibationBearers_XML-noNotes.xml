@@ -193,7 +193,7 @@
 						<speaker>Chorus</speaker>
 						<p>Sent forth from the palace I have come to convey libations to the sound
 							of sharp blows of my hands. <painStart rec="Chorus" recGen="woman"
-								recNorm="yes" painType="mix"/>My cheek is marked with bloody gashes
+								recNorm="yes" painType="both"/>My cheek is marked with bloody gashes
 							where my nails have cut fresh furrows. And yet through all my life my
 							heart is fed with lamentation. Rips are torn by my griefs through the
 							linen web of my garment, torn in the cloth that covers my breast, the
@@ -253,7 +253,7 @@
 						<speaker>Chorus</speaker>
 						<p>For since the gods laid constraining doom about my city and led me from
 							my father's house to a slave's lot, <painStart rec="Chorus"
-								recGen="woman" recNorm="yes" painType="mix" recRel="slave"
+								recGen="woman" recNorm="yes" painType="both" recRel="slave"
 								inf="Clytaemestra" infGen="woman" infNorm="no" infRel="master"/>it
 							is fitting for me to govern my bitter hate, even against my will, and
 							submit to the wishes of my masters, whether just or unjust.<painEnd/>
@@ -269,7 +269,7 @@
 						attendants in this rite of supplication,give me your counsel on this: what
 						should I say while I pour these offerings of sorrow? How shall I find
 						gracious words, how shall I entreat my father? <painStart rec="Agamemnon"
-							recGen="man" recNorm="yes" painType="mix" recRel="husband"
+							recGen="man" recNorm="yes" painType="both" recRel="husband"
 							inf="Clytaemestra" infGen="woman" infNorm="no" infRel="wife"/>Shall I
 						say that I bring these offerings to a loved husband from a loving wife—from
 						my own mother?I do not have the assurance for that, nor do I know what I
@@ -466,7 +466,7 @@
 				</sp>
 				<sp n="Electra">
 					<speaker>Electra</speaker>
-					<p><painStart rec="Electra" recGen="woman" recNorm="yes" painType="e"/>Over my
+					<p><painStart rec="Electra" recGen="woman" recNorm="yes" painType="em"/>Over my
 						heart, too, there sweeps a surge of bitterness, and I am struck as if a
 						sword had run me through<painEnd/>. From my eyes thirsty drops of a stormy
 						flood fall unchecked at the sight of this tress. For how can I expect to
@@ -683,7 +683,7 @@
 					<sp>
 						<speaker>Orestes</speaker>
 						<p>Ah, my father, <painStart rec="Orestes-and-Electra" recGen="mix"
-								recNorm="mix" painType="em" recRel="children" inf="Clytamnestra"
+								recNorm="yes" painType="em" recRel="children" inf="Clytamnestra"
 								infGen="woman" infNorm="no" infRel="mother"/>if only beneath
 								<placeName key="tgn,7002329" authname="tgn,7002329"
 								>Ilium</placeName>'s walls you had been slain, slashed by some
@@ -1168,13 +1168,12 @@
 				<div2 type="strophe" n="3" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>But since I have recalled tales of pitiless afflictions, <painStart/>it
+						<p>But since I have recalled tales of pitiless afflictions, <painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
+							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
+							infRel="wife"/>it
 							is the right time to tell of a marriage void of love, an abomination to
 							the house,and the plots devised by a wife's cunning against her warrior
-							lord, against her lord revered with reason by his foes.<painEnd
-								rec="Agamemnon" recGen="man" recNorm="yes" painType="em"
-								recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
-								infRel="wife"/> But I honor the hearths of homes not heated by
+							lord, against her lord revered with reason by his foes.<painEnd/> But I honor the hearths of homes not heated by
 							passion's fires, and in woman a spirit that shrinks from audacious
 							deeds.</p>
 					</sp>
