@@ -28,7 +28,13 @@ textElem = element text {body}#textElem (called text in the file) has one child 
             milestone = element milestone{text}
             stage = element stage {text}
             sp = element sp {speaker, p+, text}
-            div2 = element div2 {text}
+            div2 = element div2 {div2Type, div2Org, div2Sample, text, div2sp}
+                div2Type = attribute type {text}
+                div2Org = attribute org {text}
+                div2Sample = attribute sample {text}
+                div2sp = element sp {div2speaker, div2p+}
+                    div2speaker = element speaker {text}
+                    div2p = element p {text}
             
             
 #unfinished, must complete later
