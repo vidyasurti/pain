@@ -10,9 +10,9 @@ TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - 
                 title = element title {mixed{titleType?, titlen?}}
                     titleType = attribute type {text}
                     titlen = attribute n {text}
-                author = element author {mixed{authorn}}
+                author = element author {mixed{authorn?}}
                     authorn = attribute n {text}
-                editor = element editor {mixed{editorRole, editorn}}
+                editor = element editor {mixed{editorRole, editorn?}}
                     editorRole = attribute role {text}
                     editorn = attribute n {text}
                 sponsor = element sponsor {text}
@@ -37,8 +37,13 @@ TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - 
                         item = element item {mixed{quote?}}
                             quote = element quote {text}
             
-            #sourceDesc = element sourceDesc {defaultSourceDesc, biblStruct}
-            sourceDesc = element sourceDesc {text}
+            sourceDesc = element sourceDesc {attributeDefault, biblStruct}
+                attributeDefault = attribute default {text}
+                biblStruct = element biblStruct {attributeDefault, monogr}
+                    monogr = element monogr {author, title, editor, imprint}
+                        imprint = element imprint {pubPlace, publisher, date}
+                            date = element date {xsd:int}
+
             
         #encodingDesc = element encodingDesc {refsDecl+}
         encodingDesc = element encodingDesc {text}
