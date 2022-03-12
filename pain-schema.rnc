@@ -82,7 +82,7 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                 speaker = element speaker {text}
                 p = element p {mixed{(painStart* | painEnd* | stage* | placeName*)*}}
                 #portion of schema for pain markup
-                    painStart = element painStart {(mixed{rec, recGen, recNorm, painType, recRel, inf, infGen, infNorm, infRel}) | (mixed{rec, recGen, recNorm, painType})}
+                    painStart = element painStart {rec, recGen, recNorm, painType, (recRel, inf, infGen, infNorm, infRel)?, empty}
                         rec = attribute rec {text} #the receiver of pain, the name of the character, UNFINISHED - add type of character for groupings (do it separately)
                         recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
                         recNorm = attribute recNorm {("yes" | "no")} #when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
