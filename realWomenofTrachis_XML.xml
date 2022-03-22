@@ -735,7 +735,7 @@
 						<speaker>Deianeira</speaker>
 						<p><milestone ed="p" n="375" unit="line"/><!-- so should i
 							say her pain is bc of heracles? or bc of iole? or both? --> <painStart rec="Deianeira" recGen="woman"
-								painType="em"/>Ah, misery! What is happening to
+								painType="em" infGen="mix" direct="no"/>Ah, misery! What is happening to
 							me? What secret plague have I welcomed beneath my roof? Ah, me!<painEnd/> So, she
 							was born without a name, as her escort swore?</p>
 					</sp>
@@ -1039,7 +1039,7 @@
 						the house, I have stolen away partly to tell you what these hands have
 							devised,<milestone ed="p" n="535" unit="line"/>and <painStart rec="Deianeira" recGen="woman" painType="em"/>partly to grieve over
 						my sufferings in your company.<painEnd/></p>
-					<p><painStart rec="Deianeira" recGen="woman" inf="Iole" painType="em"/>I have received a maiden—or, I believe, no longer a maiden, but an
+					<p><painStart rec="Deianeira" recGen="woman" inf="Iole" direct="no" painType="em"/>I have received a maiden—or, I believe, no longer a maiden, but an
 						experienced woman—into my home, just as a mariner takes on cargo, a
 						merchandise to wreck my peace of mind.<painEnd/> And now we are two, a pair waiting
 							under<milestone ed="p" n="540" unit="line"/>a single bedspread for one
@@ -1048,7 +1048,7 @@
 						know how to be angry with him, even though he is infected with this
 							disease.<milestone ed="p" n="545" unit="line"/>
 						<!-- is it right to say that it's heracles inflicting the pain? --> 
-						<painStart rec="Deianeira" recGen="woman" inf="Heracles" painType="em"/>But, then again, to live
+						<painStart rec="Deianeira" recGen="woman" inf="Heracles" direct="no" painType="em"/>But, then again, to live
 						with her, sharing the same marriage—what woman could endure it? For I see
 						that the flower of her youth is blossoming, while mine is fading. The eyes
 						of men love to pluck off the bloom of youth, but they turn their steps from
@@ -1065,13 +1065,13 @@
 						too, on his shoulders, when at my father's sending, I first departed with
 						Heracles as his wife. When I was in midstream,<milestone ed="p" n="565"
 							unit="line"/>he touched me with lewd hands. I shrieked, and <painStart rec="Nessus" recGen="male"
-								inf="Heracles" infGen="male" painType="phys"/>straightaway
+								inf="Heracles" infGen="male" direct="yes" painType="phys"/>straightaway
 						the son of Zeus turned round and with his hands shot a feathered arrow that
 						whistled right through his chest to the lungs. As he passed away<painEnd/> the monster
 						spoke these few words: “Child of aged Oeneus,<milestone ed="p" n="570"
 							unit="line"/>you will have this benefit from my ferrying, if you obey
 						me, since you were the last whom I carried. If you gather with your hands
-						<painStart rec="Nessus" recGen="male" inf="Heracles" infGen="male" painType="phys"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
+						<painStart rec="Nessus" recGen="male" inf="Heracles" infGen="male" direct="yes" painType="phys"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
 							key="perseus,Lerna" authname="perseus,Lerna">Lerna</placeName>'s
 						monstrous growth, imbued the arrow with black gall,<milestone ed="p" n="575"
 							unit="line"/>you will have a charm for the heart of Heracles, so that he
