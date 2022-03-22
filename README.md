@@ -35,7 +35,7 @@ Since events of pain can span more than one speech or paragraph and create hiera
 | infNorm | whether the character inflicting pain fits the general norms of society, when a receiver of pain would not be socially accepted in Greek society, this value is `no` and otherwise `yes`, *required for all that have an inf* |
 | recRel | relation of receiver to inflictor, *required for all that have inf* |
 | infRel | relation of inflictor to receiver,  *required for all that have inf*
-
+| direct | whether the pain that is being inflicted is direct or not, possible values are `yes` if the pain is directly caused by the inflictor or `no` if the pain is indirectly caused; *required for all that have inf*
 ### Examples:
 `<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
 							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
