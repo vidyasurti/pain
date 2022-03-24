@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI.2>
 	<teiHeader type="text" status="new">
 		<fileDesc>
@@ -160,7 +161,7 @@
 							authname="tgn,7011173">Lemnos</placeName>, land untrodden by men and
 						desolate. It was here, child bred of the man who was the noblest of the
 						Greeks, Neoptolemus son of Achilles, that I exposedlong ago the native of Malis, Poeas' son, on the express
-						command of the two chieftains to do so, because <painStart painType="Phys" rec="Philoctetes" recGen="male" recNorm="no" />his foot was all running
+						command of the two chieftains to do so, because <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no" />his foot was all running
 						with a gnawing disease.<painEnd/> Neither libation nor burnt sacrifice could be
 						attempted by us in peace, but with his wild, ill-omened crieshe filled the whole camp continually with
 						shrieking, moaning. But what need is there to speak of that? The time is not
@@ -226,7 +227,7 @@
 				<sp>
 					<speaker>Odysseus</speaker>
 					<p>The man inhabits these regions,
-						clearly, and is somewhere not far off. <painStart painType="Phys" rec="Philoctetes" recGen="male" recNorm="no"/>How could he go far afield when his
+						clearly, and is somewhere not far off. <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no"/>How could he go far afield when his
 						foot is maimed by that old plague? <painEnd/> No, he has gone out in quest of food, or
 						of some soothing herb that he may have noted somewhere.Send your attendant, therefore, to keep watch, lest
 						he come upon me unawares, since he would rather take me than all the Greeks
@@ -461,8 +462,8 @@
 				</div2>
 				<div2 type="strophe" n="2" org="uniform" sample="complete">
 					<sp>
-						<painStart painType="phys em" rec="Philoctetes" recGen="male" amp="Chorus" ampgen="male" recNorm="no"/><speaker>Chorus</speaker>
-						<p>For my part, I pity him when I think how,with no one to care for him, and seeing no companion's
+						<speaker>Chorus</speaker>
+						<p><painStart painType="both" rec="Philoctetes" recGen="man" recNorm="no"/>For my part, I pity him when I think how,with no one to care for him, and seeing no companion's
 							face, but suffering eternally alone, he is plagued by fierce disease and
 							bewildered by each need as it arises.How, how does he endure his bitter fate?<painEnd/> Ah,
 							contrivances of the gods! Ah, unhappy tribes of mortals, whose
@@ -471,8 +472,8 @@
 				</div2>
 				<div2 type="antistrophe" n="2" org="uniform" sample="complete">
 					<sp>
-						<painStart painType="phys em" rec="Philoctetes" recGen="male" amp="Chorus" ampgen="male" recNorm="no"/><speaker>Chorus</speaker>
-						<p>That man—inferior in no way,
+						<speaker>Chorus</speaker>
+						<p><painStart painType="both" rec="Philoctetes" recGen="man" recNorm="no"/>That man—inferior in no way,
 							probably, to any man belonging to the oldest families—lies alone without
 							companions and stripped of all life's giftsamong the dappled or shaggy beasts. He is a man to be
 							pitied for his torments and his hunger alike, enduring anguish that has
@@ -607,12 +608,12 @@
 				<sp n="Philoctetes">
 					<speaker>Philoctetes</speaker>
 					<p>How cursed I must be, how abhorred by the gods,if not a word of my miserable condition has reached my
-						homeland, or any Greek land at all! <painStart painType="phys" rec="Philoctetes" recGen="male" recNorm="no"/>Instead those men, who against the gods'
+						homeland, or any Greek land at all! <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no"/>Instead those men, who against the gods'
 						laws cast me away, keep their secret and laugh, while my plague has ever
 						flourished and grows worse!<painEnd/>O my son,
 						boy whose father was Achilles, here I am before you, the man of whom you
 						have perhaps heard as lord of the bow of Heracles, Philoctetes the son of
-						Poeas. <painStart painType="phys em" rec="Philoctetes" recGen="male" inf="Cephallenian King" infGen="male" recNorm="no"/>I am he whom the two marshalls and the Cephallenian kingshamelessly hurled to this solitude which
+						Poeas. <painStart painType="both" rec="Philoctetes" recGen="man" recNorm="no" inf="Cephallenian King" infGen="man" infNorm="yes" direct="yes"/>I am he whom the two marshalls and the Cephallenian kingshamelessly hurled to this solitude which
 						you see, when I was wasting with a fierce disease, stricken by the savage
 						bite of the murderous serpent.<painEnd/> With that plague for my sole companion, boy,
 						those men put me outhere alone and
@@ -623,7 +624,7 @@
 						setting out a few rags, as though for an unfortunate beggar, and a bit of
 						food, too—a small work of charity.
 						But may they get what they gave me! Can you imagine, boy, what kind of
-						awakening I had when they had gone, and I rose from sleep that day?—<painStart painType="em" rec="Philoctetes" recGen="male" inf="Cephallenian King" infGen="male" recNorm="no"/>what
+						awakening I had when they had gone, and I rose from sleep that day?—<painStart painType="em" rec="Philoctetes" recGen="man" inf="Cephallenian King" infGen="man" infNorm="yes" recNorm="no" direct="yes"/>what
 						stinging tears I wept, and what miseries I bewailed <painEnd/>when I saw that the
 						ships with which I had sailedwere all
 						gone, and that there was no man in the place, not one to help me, not one to
@@ -647,7 +648,7 @@
 						has put in against his will, for such things may oftenhappen in the long course of a man's life. These
 						visitors, then, when they come, son, have compassionate words for me, and,
 						perhaps moved by pity, they give me a little food or some
-						clothing.<painStart painType="phys em" rec="Philoctetes" recGen="male" inf="Odysseus" infGen="male" recNorm="no"/>But there is one thing
+						clothing.<painStart painType="both" rec="Philoctetes" recGen="man" inf="Odysseus" infGen="man" infNorm="yes" recNorm="no" direct="yes"/>But there is one thing
 						that no one will do, whenever I mention it: take me home in safety. No, this
 						is already the tenth year that I am wasted by misery from hunger and
 						suffering, by feeding this gluttonous plague. This is what the Atreids and
@@ -965,7 +966,7 @@
 							learnby what means I sustained my
 						life, and how stout of heart I was born. For I believe that the mere sight
 						would have deterred any other man but me from enduring these sufferings. But
-						<painStart painType="em" rec="Philoctetes" recGen="male" recNorm="no"/>I have been slowly schooled by necessity to endure misery.<painEnd/><stage>Neoptolemus
+						<painStart painType="em" rec="Philoctetes" recGen="man" recNorm="no"/>I have been slowly schooled by necessity to endure misery.<painEnd/><stage>Neoptolemus
 							is about to follow Philoctetes into the cave.</stage></p>
 				</sp>
 				<sp>
@@ -1252,10 +1253,10 @@
 					<sp>
 						<speaker>Chorus</speaker>
 						<p>
-							Here, he alone was his own neighbor, <painStart painType="em" rec="Philoctetes" recGen="male" amp="Chorus" ampgen="male" recNorm="no"/> powerless to walk, with no one in
+							Here, he alone was his own neighbor, <painStart painType="em" rec="Philoctetes" recGen="man" recNorm="no"/> powerless to walk, with no one in
 							the land to be his companion <painEnd/> 
 							while he suffered—no one to whom he could
-							cry out a lament that would be answered<painStart painType="phys" rec="Philoctetes" recGen="male" amp="Chorus" ampGen="male" recNorm="no"/>
+							cry out a lament that would be answered<painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no"/>
 							for the plague that gnawed his flesh and drained his
 							blood—no one to lull with healing herbs gathered from the nourishing
 							earth the burning blood which oozed from the ulcers of hisenvenomed foot, whenever the torment
@@ -1270,7 +1271,7 @@
 						<speaker>Chorus</speaker>
 						<p>For food he did not gather the fruit of holy Earth, nor anything else
 							that we mortals feed on by our labor,except when on occasion he obtained food to ease his
-							hunger by means of feathered shafts from his swift-striking bow. <painStart painType="em" rec="Philoctetes" recGen="male" amp="Chorus" ampGen="male" recNorm="no"/>Ah,
+							hunger by means of feathered shafts from his swift-striking bow. <painStart painType="em" rec="Philoctetes" recGen="man" recNorm="no"/>Ah,
 							joyless was his life, who for ten years never knew the delight of
 								wine,<painEnd/>but ever directed his
 							path towards any stagnant pool that he could find as he gazed around
@@ -1332,12 +1333,12 @@
 						so silent. It is plain enough that you are suffering somehow.</p>
 				</sp>
 				<sp>
-					<painStart painType="phys" rec="Pheloctetes" recGen="male" inf="gods" infGen="male female" recNorm="no"/><speaker> Philoctetes</speaker>
-					<p><painStart painType="em" rec="Philoctetes" recGen="male" recNorm="no"/>I am destroyed, boy—I can never conceal my suffering when you are close. Ah!
+					<speaker> Philoctetes</speaker>
+					<p><painStart painType="em" rec="Philoctetes" recGen="man" recNorm="no"/>I am destroyed, boy—I can never conceal my suffering when you are close. Ah!
 						Ah! It shoots through me, shoots straight through! Oh, the pain,the
 							misery!I am destroyed, boy—I am
 						devoured!<painEnd/> Ah, by the gods I beg you, if you have a sword ready to hand,
-						strike at my ankle—cut it off now! Do not spare my life!Quick, boy, quick!</p><painEnd/>
+						strike at my ankle—cut it off now! Do not spare my life!Quick, boy, quick!</p>
 				</sp>
 				<sp>
 					<speaker>Neoptolemus</speaker>
@@ -1419,7 +1420,7 @@
 					<speaker>Philoctetes</speaker>
 					<p>Futile, I fear, are your prayers, boy. Look, once again the dark blood is
 						oozing drop by drop from deep in the wound, and I look for worse to
-						come.<painStart painType="em" rec="Philoctetes" recGen="male" inf="Odysseus" infGen="male" recNorm="no"/>Ah, me, oh, oh! Cursed foot,
+						come.<painStart painType="em" rec="Philoctetes" recGen="man" inf="Odysseus" infGen="man" infNorm="yes" recNorm="no" direct="no"/>Ah, me, oh, oh! Cursed foot,
 							what torment you cause me! It creeps on me, it is coming near! Ah, misery!<painEnd/>
 						Now you know my condition. Do not flee, no!Oh, alas! Odysseus of Cephallene, once my friend, would
 						that this anguish might stick to you, and pierce your chest! Ah, me! Ah, me!
@@ -1512,7 +1513,7 @@
 				</sp>
 				<sp>
 					<speaker>Philoctetes</speaker>
-					<p>Wide Earth, embrace me now on the verge of death! <painStart painType="phys" rec="Philoctetes" recGen="male" recNorm="no"/>This pain no longer lets me stand up.<painEnd/></p>
+					<p>Wide Earth, embrace me now on the verge of death! <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no"/>This pain no longer lets me stand up.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Neoptolemus</speaker>
@@ -1707,7 +1708,7 @@
 				</sp>
 				<sp>
 					<speaker>Philoctetes</speaker>
-					<p><painStart painType="em" rec="Philoctetes" recGen="male" inf="Neoptolemus" infGen="male"/>I am destroyed—ah, misery!—betrayed!<painEnd/> What have you done to me, stranger?
+					<p><painStart painType="em" rec="Philoctetes" recGen="man" recNorm="no" inf="Neoptolemus" infGen="man" infNorm="yes" direct="yes"/>I am destroyed—ah, misery!—betrayed!<painEnd/> What have you done to me, stranger?
 						Return my bow at once!</p>
 				</sp>
 				<sp>
@@ -1734,7 +1735,7 @@
 						wants to show it to the Argives as his own.By force he drags me away, as if he had captured a strong
 						man, and does not see that he is cutting down a corpse, the shadow of smoke,
 						a mere phantom. In my strength he could not have taken me—no!—nor even in my
-						present condition, save by deceit. <painStart painType="em" rec="Philoctetes" recGen="male" inf="Neoptolemus" infGen="male" recNorm="no"/>But now, because of my rotten fate, I
+						present condition, save by deceit. <painStart painType="em" rec="Philoctetes" recGen="man" inf="Neoptolemus" infGen="man" infNorm="yes" recNorm="no" direct="yes"/>But now, because of my rotten fate, I
 						have been tricked.<painEnd/> What should I do?Wait, give it back! Now, at least, recover your true self! What do you
 						say? Silence! I am nothing! Double-gated cave, back, back again I return to
 						you, but now stripped and lacking the means to live. Yes, in that chamber I
@@ -1889,7 +1890,7 @@
 						a corpse in the eyes of the living. Ah! Hades take you! Indeed I have often
 						so prayed for you.But, because the
 						gods grant me nothing that is sweet, you remain alive and you laugh, while I
-						live miserably among countless sufferings, <painStart painType="em" rec="Philoctetes" recGen="male" inf="Odysseus" infGen="male" recNorm="no"/>mocked by you and by the sons of
+						live miserably among countless sufferings, <painStart painType="em" rec="Philoctetes" recGen="man" inf="Odysseus" infGen="man" infNorm="yes" recNorm="no" direct="yes"/>mocked by you and by the sons of
 						Atreus, the two generals whom you serve on this errand.<painEnd/>And yet you sailed with them only when brought
 						under their yoke by trickery and compulsion. But me, when, to my utter ruin,
 						I sailed of my own accord as their mate with seven ships, me they cast out
@@ -2104,7 +2105,7 @@
 					</sp>
 					<sp>
 						<speaker>Philoctetes</speaker>
-						<p><painStart painType="phys" rec="Philoctetes" recGen="male" recNorm="no"/>Ayee, ayee! Doom, Doom! My suffering kills me! Foot, my foot, what shall
+						<p><painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no"/>Ayee, ayee! Doom, Doom! My suffering kills me! Foot, my foot, what shall
 							I do with you in the days to come?<painEnd/>O friends, return, come back to me!</p>
 					</sp>
 					<sp>
@@ -2331,9 +2332,10 @@
 					<p>But you, son of Poeas, Philoctetes, come out! Leave the shelter of your rocky
 						home!</p>
 				</sp>
+				<stage>Within.</stage>
 				<sp>
 					<speaker>Philoctetes</speaker>
-					<stage>Within.</stage>
+					
 					<p>What is this disruptive cry once more rising beside my cave? Why do you call
 						me? What do you want of me?<stage>He appears at the mouth of the cave, and
 							sees Neoptolemus.</stage></p>
