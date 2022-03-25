@@ -1022,14 +1022,14 @@
 				<div2 type="epode" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p><!-- tag more? --> <painStart painType="phys" direct="yes"/>There was clatter of fists and clang of bow and crash of a bull's horns
+						<p><!-- tag more? --> <painStart rec="Heracles_Achelous" recGen="man" inf="Heracles_Achelous" infGen="man" painType="phys" direct="yes"/>There was clatter of fists and clang of bow and crash of a bull's horns
 							mixed together;<milestone ed="p" n="520" unit="line"/>then there were
 							close-locked grapplings and deadly blows from foreheads and loud deep
 							cries from both.<painEnd/> Meanwhile the delicate beauty sat on the side of a hill
 							that could be seen from afar,<milestone ed="p" n="525" unit="line"
 							/>awaiting the husband that would be hers.</p>
-						<p>So the battle rages, as I narrate. <!-- tag this more? --> <painStart rec="Deianeira" recGen="woman"
-						painType="em" direct="no"/>But the face of the bride which is the
+						<p>So the battle rages, as I narrate. <!-- tag this more? --> <painStart rec="Deianeira" recGen="woman" inf="Heracles_Achelous"
+						infGen="man" painType="em" direct="no"/>But the face of the bride which is the
 							prize of the strife awaits the end in piteous anguish.<painEnd/> And suddenly she
 							has left her mother,<milestone ed="p" n="530" unit="line"/>like an
 							orphaned calf.<milestone ed="p" n="531" unit="card"/></p>
@@ -1205,7 +1205,8 @@
 						<speaker>Chorus</speaker>
 						<p>We thought him lost utterly to our land, a wanderer over sea, while we
 							waited through twelve long months and knew nothing.<milestone ed="p"
-								n="650" unit="line"/><!-- do i tag heracles? --> <painStart rec="Deianeira" recGen="woman" painType="em"/>She, his loving wife, miserable, was ever
+								n="650" unit="line"/><!-- do i tag heracles? --> <painStart rec="Deianeira" recGen="woman" recRel="wife"
+									inf="Heracles" infGen="man" infRel="husband" painType="em" direct="no"/>She, his loving wife, miserable, was ever
 							pining in her miserable heart, always weeping.<painEnd/> But now Ares, stung to
 							rage, has freed her days from their toil.<milestone ed="p" n="655"
 								unit="card"/></p>
@@ -1407,11 +1408,12 @@
 							know how to tag this? because there's a lot going on here. heracles seems 
 							to be going through both emotional and physical pain, and he throws 
 							lichas, who also ends up suffering pain? --> When
-						Heracles heard it, just as a piercing spasm clutched his lungs, he caught
+						Heracles heard it, <painStart rec="Heracles" recGen="man" painType="phys"/>just as a piercing spasm clutched his lungs,<painEnd/> 
+						<painStart rec="Lichas" recGen="man" inf="Heracles" infGen="man" painType="phys"/>he caught
 						him by the foot where the ankle bends in the socket<milestone ed="p" n="780"
 							unit="line"/>and threw him at a surf-beaten rock in the sea, causing the
 						white brain to ooze from his hair, when the crown of his head had been
-						scattered and his blood with it.</p>
+						scattered and his blood with it.<painEnd/></p>
 					<milestone ed="p" n="783" unit="card"/>
 					<p><!-- should I have another name for them? --> 
 						<painStart rec="people" recGen="mix" painType="em"/>But all the people lifted up a cry of astounded grief when they saw that the
@@ -1429,7 +1431,8 @@
 						marriage with miserable you and his alliance with Oeneus, which, he said, he
 						got for himself as the ruin of his life,<painEnd/> then from out of the shrouding
 							altar-smoke<milestone ed="p" n="795" unit="line"/>he raised his
-						wildly-rolling eyes and <painStart rec="Hyllus" recGen="man" painType="em"/>saw me weeping among his many troops.<painEnd/> He stared at
+						wildly-rolling eyes and <!-- should i then say heracles is the inflictor? 
+							i do the same thing for cases of pity? --> <painStart rec="Hyllus" recGen="man" painType="em"/>saw me weeping among his many troops.<painEnd/> He stared at
 						me and called me: “O my son, come to me. Do not fly from my trouble, not
 						even if you have to share my death. Come, lift me up and away and above all
 						put me<milestone ed="p" n="800" unit="line"/>in a place where no one can see
@@ -1481,13 +1484,13 @@
 				<div2 type="antistrophe" n="1" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>For if the Centaur's deceitful torture smears his sides with a murderous
+						<p><painStart rec="Heracles" recGen="man" inf="Nessus" infGen="man" painType="phys"/>For if the Centaur's deceitful torture smears his sides with a murderous
 							net, where clings the venom which Death birthed and the gleaming serpent
 								nourished,<milestone ed="p" n="835" unit="line"/>how can he look
 							upon tomorrow's sun, when that appalling Hydra-shape grasps him? Those
 							murderous goads, prepared<milestone ed="p" n="840" unit="line"/>by the
 							deceptive words of black-haired Nessus, torment him with confused
-							thrashing and seethe on his skin.<milestone ed="p" n="841" unit="card"
+							thrashing and seethe on his skin.<painEnd/><milestone ed="p" n="841" unit="card"
 							/></p>
 					</sp>
 				</div2>
@@ -1677,7 +1680,7 @@
 							strength, and warn her son of her intent. But even in the space between
 							my going and our return,<milestone ed="p" n="930" unit="line"/>we find
 							that she has driven a two-edged sword up through her side to the heart.
-							<painStart rec="Hyllus" recGen="man" painType="phys"/>At that sight, her son gave a great cry. For he knew, poor boy, that in
+							<painStart rec="Hyllus" recGen="man" painType="em"/>At that sight, her son gave a great cry. For he knew, poor boy, that in
 							his anger he had driven her to that action. He had learned too late from
 							the servants in the house<milestone ed="p" n="935" unit="line"/>that she
 							had acted without knowledge and at the will of the monster. Then and
