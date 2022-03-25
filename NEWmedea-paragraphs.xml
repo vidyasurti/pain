@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI 
+<TEI
    
      xmlns:py="http://codespeak.net/lxml/objectify/pytype">
    
@@ -15,7 +16,7 @@
             </p>
          </publicationStmt>
          <sourceDesc>
-            <p>Based on materials published at the <ref target="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0006.tlg003.perseus-eng2:0-10000">Perseus Project</ref>.</p>
+            <p>Based on materials published at the<ref target="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0006.tlg003.perseus-eng2:0-10000">Perseus Project</ref>.</p>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
@@ -44,7 +45,7 @@
                             their love is all turned to hate, and tenderest ties are weak.
                             For Jason hath betrayed his own children and my mistress dear
                             for the love of a royal bride, for he hath wedded the daughter
-                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>While Medea his hapless wife, thus scorned,
+                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man" infNorm="yes" infRel="husband" recRel="wife" />While Medea his hapless wife, thus scorned,
                             appeals to the oaths he swore, recalls the strong pledge his
                             right hand gave, and bids heaven be witness what requital she is
                             finding from Jason. And here she lies fasting, yielding her body
@@ -55,7 +56,7 @@
                             billow, save when she turns her snow-white neck aside and softly to herself bemoans her father
                             dear, her country and her home, which  she
                             gave up to come hither with the man who now holds her in
-                            dishonour<painEnd/>. <painStart recNorm="no" painType=" em" rec="children" inf="Medea" recGen="man" infGen="man"/>She, poor lady, hath by sad experience learnt how
+                            dishonour<painEnd/>. <painStart recNorm="no" painType=" em" rec="children" inf="Medea" recGen="man" infGen="man" infRel="mother" recRel="children" infNorm="no"/>She, poor lady, hath by sad experience learnt how
                             good a thing it is never to quit one’s native land. And she
                             hates her children now and feels no joy at seeing them; I am
                             afeard she may contrive some untoward scheme; for her mood is
@@ -81,7 +82,7 @@
                   <speaker>Nurse</speaker>
                   <p>Old man, attendant on the
                             sons of Jason, our masters’ fortunes when they go awry make good
-                            slaves grieve and touch their hearts. <painStart recNorm="yes" painType="em" rec="Nurse" inf="Medea Jason" infGen= "man woman" recGen="woman"/>Oh! I have come to
+                            slaves grieve and touch their hearts. <painStart recNorm="yes" painType="em" rec="Nurse" inf="Jason" infGen= "man" recGen="woman" infRel="servant" recRel="boss" infNorm="yes"/>Oh! I have come to
                             such a pitch of grief that there stole a yearning wish upon me
                             to come forth hither and proclaim to heaven and earth my
                             mistress’s hard fate.<painEnd/></p>
@@ -141,7 +142,7 @@
                </sp>
                <sp>
                   <speaker>Nurse</speaker>
-                  <p>Undone, <painStart recNorm="no" painType="em" rec="Medea" inf="Nurse Attendant" recGen="woman" infGen="man woman"/>it seems, are we, if
+                  <p>Undone, <painStart recNorm="no" painType="em" rec="Medea" inf="Nurse Attendant" recGen="woman" infGen="mix" infNorm="yes" infRel="servant" recRel="boss"/>it seems, are we, if
                             to old woes fresh ones we add, ere we have drained the former to
                             the dregs.<painEnd/></p>
                </sp>
@@ -184,7 +185,7 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em" rec="Medea" inf="unknown" gender="woman"/>Ah, me! a wretched suffering woman I! O would that I could
+                        <painStart recNorm="no" painType="em" rec="Medea" recGen="woman"/>Ah, me! a wretched suffering woman I! O would that I could
                                 die!<painEnd/></p>
                      
                      <!-- I put unknown for now because I dont know who she is cursing. -->
@@ -211,7 +212,7 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em" rec="Medea" inf="children Jason" recGen="woman" infGen="man"/>Ah, me! the agony I have suffered, deep enough to call for
+                        <painStart recNorm="no" painType="em" rec="Medea" inf="children Jason" recGen="woman" infGen="man" recRel="" infRel="" infNorm=""/>Ah, me! the agony I have suffered, deep enough to call for
                                 these laments! Curse you and your father too, ye children
                                 damned, sons of a doomed mother! Ruin seize the whole
                                 family!<painEnd/></p>
