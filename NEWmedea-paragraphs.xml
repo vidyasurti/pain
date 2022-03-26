@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
+<?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI
    
      xmlns:py="http://codespeak.net/lxml/objectify/pytype">
@@ -45,7 +46,7 @@
                             their love is all turned to hate, and tenderest ties are weak.
                             For Jason hath betrayed his own children and my mistress dear
                             for the love of a royal bride, for he hath wedded the daughter
-                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man" infNorm="yes" infRel="husband" recRel="wife" direct="" />While Medea his hapless wife, thus scorned,
+                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man" infNorm="yes" infRel="husband" recRel="wife" direct="no" />While Medea his hapless wife, thus scorned,
                             appeals to the oaths he swore, recalls the strong pledge his
                             right hand gave, and bids heaven be witness what requital she is
                             finding from Jason. And here she lies fasting, yielding her body
@@ -56,7 +57,7 @@
                             billow, save when she turns her snow-white neck aside and softly to herself bemoans her father
                             dear, her country and her home, which  she
                             gave up to come hither with the man who now holds her in
-                            dishonour<painEnd/>. <painStart recNorm="no" painType=" em" rec="children" inf="Medea" recGen="man" infGen="man" infRel="mother" recRel="children" infNorm="no"/>She, poor lady, hath by sad experience learnt how
+                            dishonour<painEnd/>. <painStart recNorm="no" painType=" em" rec="children" inf="Medea" recGen="man" infGen="man" infRel="mother" recRel="children" infNorm="no" direct="yes"/>She, poor lady, hath by sad experience learnt how
                             good a thing it is never to quit one’s native land. And she
                             hates her children now and feels no joy at seeing them; I am
                             afeard she may contrive some untoward scheme; for her mood is
@@ -82,7 +83,7 @@
                   <speaker>Nurse</speaker>
                   <p>Old man, attendant on the
                             sons of Jason, our masters’ fortunes when they go awry make good
-                            slaves grieve and touch their hearts. <painStart recNorm="yes" painType="em" rec="Nurse" inf="Jason" infGen= "man" recGen="woman" infRel="servant" recRel="boss" infNorm="yes"/>Oh! I have come to
+                            slaves grieve and touch their hearts. <painStart recNorm="yes" painType="em" rec="Nurse" inf="Jason" infGen= "man" recGen="woman" infRel="servant" recRel="boss" infNorm="yes" direct="no"/>Oh! I have come to
                             such a pitch of grief that there stole a yearning wish upon me
                             to come forth hither and proclaim to heaven and earth my
                             mistress’s hard fate.<painEnd/></p>
@@ -124,7 +125,7 @@
                   <speaker>Attendant</speaker>
                   <p>I heard one say, pretending
                             not to listen as I approached the place where our greybeards sit
-                            playing draughts near Pirene’s sacred spring, that <painStart recNorm="no" painType="em" inf="Creon" rec="MedeaChildren" recGen="man woman" infGen="man" />Creon, the ruler of this land, is bent
+                            playing draughts near Pirene’s sacred spring, that <painStart recNorm="no" painType="em" inf="Creon" rec="MedeaChildren" recGen="mix" infGen="man" direct="yes" infNorm="yes" infRel="King" recRel="People"/>Creon, the ruler of this land, is bent
                             on driving these children and their mother from the boundaries
                             of Corinth; but I know not whether the news is to be relied
                             upon, and would fain it were not.<painEnd/></p>
@@ -142,9 +143,10 @@
                </sp>
                <sp>
                   <speaker>Nurse</speaker>
-                  <p>Undone, <painStart recNorm="no" painType="em" rec="Medea" inf="Nurse Attendant" recGen="woman" infGen="mix" infNorm="yes" infRel="servant" recRel="boss"/>it seems, are we, if
+                  <p>Undone, <painStart recNorm="no" painType="em" rec="Medea" inf="Nurse Attendant" recGen="woman" infGen="mix" infNorm="yes" infRel="servant" recRel="boss" direct="yes"/>it seems, are we, if
                             to old woes fresh ones we add, ere we have drained the former to
                             the dregs.<painEnd/></p>
+                  <!-- I'd say this is direct because they are actively inflicting this onto medea and are aware of it -->
                </sp>
                <sp>
                   <speaker>Attendant</speaker>
@@ -212,7 +214,7 @@
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em" rec="Medea" inf="children Jason" recGen="woman" infGen="man" recRel="" infRel="" infNorm=""/>Ah, me! the agony I have suffered, deep enough to call for
+                        <painStart recNorm="no" painType="em" rec="Medea" inf="children Jason" recGen="woman" infGen="man" recRel="family" infRel="family" infNorm="yes" direct="no"/>Ah, me! the agony I have suffered, deep enough to call for
                                 these laments! Curse you and your father too, ye children
                                 damned, sons of a doomed mother! Ruin seize the whole
                                 family!<painEnd/></p>
@@ -239,7 +241,7 @@
                <div type="textpart" subtype="lyric">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>I heard the voice,
+                     <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man" infRel="lover" infNorm="yes" direct="no" recRel="lover"/>I heard the voice,
                                 uplifted loud, of our poor Colchian lady, nor yet is she
                                 quiet; speak, aged dame, for as I stood by the house with
                                 double gates I heard a voice of  weeping
@@ -254,12 +256,13 @@
                                 all that is passed away long since; a royal bride keeps Jason at her side,
                                 while our mistress pines away in her bower, finding no
                                 comfort for her soul in aught her friends can say.<painEnd/></p>
+                     <!-- 3/25/2022 stop here -->
                   </sp>
                   <sp>
                      <speaker>Medea</speaker>
                      <p>
                         <stage>(within).</stage>
-                        <painStart recNorm="no" painType="em phys" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>Oh, oh! Would that Heaven’s levin bolt would cleave this
+                        <painStart recNorm="no" painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>Oh, oh! Would that Heaven’s levin bolt would cleave this
                                 head in twain! What gain is life to me? Woe, woe is
                                 me! O, to die and win release, quitting this loathed
                                 existence!<painEnd/></p>
