@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="human-and-inhuman-agents.rnc" type="application/relax-ng-compact-syntax"?>
+<stuff>
+  <!-- First example has only attributes required for all <painStart> elements -->
+  <!-- Second example is for human agent -->
+  <!-- Third example is for nonhuman agent -->
+  <painStart rec="something" recGen="mix" recNorm="no" painType="em"/>
+  <painStart rec="something" recGen="mix" recNorm="no" painType="both" recRel="something"
+    inf="something" infGen="man" infNorm="no" infRel="something" direct="no"/>
+  <painStart rec="something" recGen="mix" recNorm="no" painType="both" inf="disease"/>
+</stuff>

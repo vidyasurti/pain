@@ -168,8 +168,9 @@
 						shapes was always asking me from my father—coming now as a bull in visible
 						form, now as a serpent, sheeny and coiled, now ox-faced with human trunk,
 						while from his thick-shaded beard wellheads of fountain-water
-							sprayed.<milestone ed="p" n="15" unit="line"/><painStart rec="Deianeira" recGen="woman"
-								painType="em"/>In the expectation that
+							sprayed.<milestone ed="p" n="15" unit="line"/><!-- ADD INFREL and RECREL --> 
+						<painStart rec="Deianeira" recGen="woman" inf="Achelous"
+								infGen="man" painType="em" direct="no"/>In the expectation that
 						such a suitor would get me, I was always praying in my misery that I might
 						die, before I should ever approach that marriage-bed.<painEnd/></p>
 					<p>But at last, to my joy, the glorious son of Zeus and Alcmena came
@@ -180,7 +181,7 @@
 							terror,<milestone ed="p" n="25" unit="line"/>lest my beauty should win
 						me sorrow in the end. But Zeus, Arbiter of Contests, accomplished a good
 						ending—if indeed it was good. <painStart rec="Deianeira"
-							recGen="woman" painType="em"/>For since being joined with Heracles as his
+							recGen="woman" recRel="wife" inf="Heracles" infGen="man" infRel="husband" painType="em" direct="no"/>For since being joined with Heracles as his
 						chosen bride, I nourish one fear after another in my anxiety for him. One
 						night brings distress,<milestone ed="p" n="30" unit="line"/>and the next
 						night, in turn, drives it out.<painEnd/> Children, furthermore, were born to us, whom
@@ -193,7 +194,7 @@
 						here in <placeName key="perseus,Trachis" authname="perseus,Trachis"
 							>Trachis</placeName>, refugees<milestone ed="p" n="40" unit="line"/>in
 						the home of a foreign host. But where Heracles is, no one knows. <painStart rec="Deianeira" 
-							recGen="woman" recRel="wife" inf="Heracles" infGen="man" infRel="husband" painType="em"/>I only know
+							recGen="woman" recRel="wife" inf="Heracles" infGen="man" infRel="husband" painType="em" direct="no"/>I only know
 						that he is gone, and has caused me sharp pain for him.<painEnd/> I am almost sure that
 						he has come to some suffering. The interval has not been brief; rather, he
 						is unheard from ten months already,<milestone ed="p" n="45" unit="line"
@@ -204,7 +205,8 @@
 				</sp>
 				<sp>
 					<speaker>Nurse</speaker>
-					<p><painStart rec="Deianeira" recGen="woman" painType="em"/>Deianeira, my mistress, many are the times already that I have<milestone
+					<p><painStart rec="Deianeira" recGen="woman" recRel="wife" inf="Heracles" infGen="man"
+						infRel="husband" painType="em" direct="no"/>Deianeira, my mistress, many are the times already that I have<milestone
 							ed="p" n="50" unit="line"/>observed you mourning the departure of
 						Heracles with great weeping and lamentation.<painEnd/> But now—if it is proper to
 						school the free-born with the doctrines of a slave, and if I am obliged to
@@ -314,7 +316,8 @@
 				<div2 type="antistrophe" n="1" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p><painStart rec="Deianeira" recGen="woman" painType="em"/>For with longing heart, as I hear, Deianeira, the battle-prize,
+						<p><painStart rec="Deianeira" recGen="woman" recRel="wife" inf="Heracles" infGen="man"
+							infRel="husband" painType="em" direct="no"/>For with longing heart, as I hear, Deianeira, the battle-prize,
 								now,<milestone ed="p" n="105" unit="line"/>like some mournful bird,
 							never rests her eyes' longing that they might be without tears, but
 							nourishing a well-remembered fear for her husband's travels she is
@@ -735,7 +738,7 @@
 						<speaker>Deianeira</speaker>
 						<p><milestone ed="p" n="375" unit="line"/><!-- so should i
 							say her pain is bc of heracles? or bc of iole? or both? --> <painStart rec="Deianeira" recGen="woman"
-								painType="em"/>Ah, misery! What is happening to
+								painType="em" inf="Heracles_Iole" infGen="mix" direct="no"/>Ah, misery! What is happening to
 							me? What secret plague have I welcomed beneath my roof? Ah, me!<painEnd/> So, she
 							was born without a name, as her escort swore?</p>
 					</sp>
@@ -753,7 +756,8 @@
 					</sp>
 					<sp>
 						<speaker>Deianeira</speaker>
-						<p><milestone ed="p" n="385" unit="line"/><painStart rec="Deianeira" recGen="woman" painType="em"/>Ah, friends, what should I do? I
+						<p><milestone ed="p" n="385" unit="line"/><painStart rec="Deianeira" recGen="woman" painType="em"
+							inf="Heracles_Iole" infGen="mix" direct="no"/>Ah, friends, what should I do? I
 							am dumbstruck by this latest news!<painEnd/></p>
 					</sp>
 					<sp>
@@ -1018,13 +1022,14 @@
 				<div2 type="epode" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p><!-- tag more? --> <painStart painType="phys"/>There was clatter of fists and clang of bow and crash of a bull's horns
+						<p><!-- tag more? --> <painStart rec="Heracles_Achelous" recGen="man" inf="Heracles_Achelous" infGen="man" painType="phys" direct="yes"/>There was clatter of fists and clang of bow and crash of a bull's horns
 							mixed together;<milestone ed="p" n="520" unit="line"/>then there were
 							close-locked grapplings and deadly blows from foreheads and loud deep
 							cries from both.<painEnd/> Meanwhile the delicate beauty sat on the side of a hill
 							that could be seen from afar,<milestone ed="p" n="525" unit="line"
 							/>awaiting the husband that would be hers.</p>
-						<p>So the battle rages, as I narrate. <!-- tag this more? --> <painStart/>But the face of the bride which is the
+						<p>So the battle rages, as I narrate. <!-- tag this more? --> <painStart rec="Deianeira" recGen="woman" inf="Heracles_Achelous"
+						infGen="man" painType="em" direct="no"/>But the face of the bride which is the
 							prize of the strife awaits the end in piteous anguish.<painEnd/> And suddenly she
 							has left her mother,<milestone ed="p" n="530" unit="line"/>like an
 							orphaned calf.<milestone ed="p" n="531" unit="card"/></p>
@@ -1039,7 +1044,7 @@
 						the house, I have stolen away partly to tell you what these hands have
 							devised,<milestone ed="p" n="535" unit="line"/>and <painStart rec="Deianeira" recGen="woman" painType="em"/>partly to grieve over
 						my sufferings in your company.<painEnd/></p>
-					<p><painStart rec="Deianeira" recGen="woman" inf="Iole" painType="em"/>I have received a maiden—or, I believe, no longer a maiden, but an
+					<p><painStart rec="Deianeira" recGen="woman" inf="Iole" direct="no" painType="em"/>I have received a maiden—or, I believe, no longer a maiden, but an
 						experienced woman—into my home, just as a mariner takes on cargo, a
 						merchandise to wreck my peace of mind.<painEnd/> And now we are two, a pair waiting
 							under<milestone ed="p" n="540" unit="line"/>a single bedspread for one
@@ -1047,8 +1052,9 @@
 						true and loyal—for guarding his home through all that long time. I do not
 						know how to be angry with him, even though he is infected with this
 							disease.<milestone ed="p" n="545" unit="line"/>
-						<!-- is it right to say that it's heracles inflicting the pain? --> 
-						<painStart rec="Deianeira" recGen="woman" inf="Heracles" painType="em"/>But, then again, to live
+						<!-- is it right to say that it's both heracles and iole inflicting the pain? --> 
+						<painStart rec="Deianeira" recGen="woman" recRel="wife" inf="Heracles" infGen="man"
+							infRel="husband" direct="no" painType="em"/>But, then again, to live
 						with her, sharing the same marriage—what woman could endure it? For I see
 						that the flower of her youth is blossoming, while mine is fading. The eyes
 						of men love to pluck off the bloom of youth, but they turn their steps from
@@ -1065,13 +1071,13 @@
 						too, on his shoulders, when at my father's sending, I first departed with
 						Heracles as his wife. When I was in midstream,<milestone ed="p" n="565"
 							unit="line"/>he touched me with lewd hands. I shrieked, and <painStart rec="Nessus" recGen="male"
-								inf="Heracles" infGen="male" painType="phys"/>straightaway
+								inf="Heracles" infGen="male" direct="yes" painType="phys"/>straightaway
 						the son of Zeus turned round and with his hands shot a feathered arrow that
 						whistled right through his chest to the lungs. As he passed away<painEnd/> the monster
 						spoke these few words: “Child of aged Oeneus,<milestone ed="p" n="570"
 							unit="line"/>you will have this benefit from my ferrying, if you obey
 						me, since you were the last whom I carried. If you gather with your hands
-						<painStart rec="Nessus" recGen="male" inf="Heracles" infGen="male" painType="phys"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
+						<painStart rec="Nessus" recGen="male" inf="Heracles" infGen="male" direct="yes" painType="phys"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
 							key="perseus,Lerna" authname="perseus,Lerna">Lerna</placeName>'s
 						monstrous growth, imbued the arrow with black gall,<milestone ed="p" n="575"
 							unit="line"/>you will have a charm for the heart of Heracles, so that he
@@ -1199,7 +1205,8 @@
 						<speaker>Chorus</speaker>
 						<p>We thought him lost utterly to our land, a wanderer over sea, while we
 							waited through twelve long months and knew nothing.<milestone ed="p"
-								n="650" unit="line"/><painStart rec="Deianeira" recGen="woman" painType="em"/>She, his loving wife, miserable, was ever
+								n="650" unit="line"/><!-- do i tag heracles? --> <painStart rec="Deianeira" recGen="woman" recRel="wife"
+									inf="Heracles" infGen="man" infRel="husband" painType="em" direct="no"/>She, his loving wife, miserable, was ever
 							pining in her miserable heart, always weeping.<painEnd/> But now Ares, stung to
 							rage, has freed her days from their toil.<milestone ed="p" n="655"
 								unit="card"/></p>
@@ -1401,11 +1408,12 @@
 							know how to tag this? because there's a lot going on here. heracles seems 
 							to be going through both emotional and physical pain, and he throws 
 							lichas, who also ends up suffering pain? --> When
-						Heracles heard it, just as a piercing spasm clutched his lungs, he caught
+						Heracles heard it, <painStart rec="Heracles" recGen="man" painType="phys"/>just as a piercing spasm clutched his lungs,<painEnd/> 
+						<painStart rec="Lichas" recGen="man" inf="Heracles" infGen="man" painType="phys"/>he caught
 						him by the foot where the ankle bends in the socket<milestone ed="p" n="780"
 							unit="line"/>and threw him at a surf-beaten rock in the sea, causing the
 						white brain to ooze from his hair, when the crown of his head had been
-						scattered and his blood with it.</p>
+						scattered and his blood with it.<painEnd/></p>
 					<milestone ed="p" n="783" unit="card"/>
 					<p><!-- should I have another name for them? --> 
 						<painStart rec="people" recGen="mix" painType="em"/>But all the people lifted up a cry of astounded grief when they saw that the
@@ -1423,7 +1431,8 @@
 						marriage with miserable you and his alliance with Oeneus, which, he said, he
 						got for himself as the ruin of his life,<painEnd/> then from out of the shrouding
 							altar-smoke<milestone ed="p" n="795" unit="line"/>he raised his
-						wildly-rolling eyes and <painStart rec="Hyllus" recGen="man" painType="em"/>saw me weeping among his many troops.<painEnd/> He stared at
+						wildly-rolling eyes and <!-- should i then say heracles is the inflictor? 
+							i do the same thing for cases of pity? --> <painStart rec="Hyllus" recGen="man" painType="em"/>saw me weeping among his many troops.<painEnd/> He stared at
 						me and called me: “O my son, come to me. Do not fly from my trouble, not
 						even if you have to share my death. Come, lift me up and away and above all
 						put me<milestone ed="p" n="800" unit="line"/>in a place where no one can see
@@ -1475,13 +1484,13 @@
 				<div2 type="antistrophe" n="1" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>For if the Centaur's deceitful torture smears his sides with a murderous
+						<p><painStart rec="Heracles" recGen="man" inf="Nessus" infGen="man" painType="phys"/>For if the Centaur's deceitful torture smears his sides with a murderous
 							net, where clings the venom which Death birthed and the gleaming serpent
 								nourished,<milestone ed="p" n="835" unit="line"/>how can he look
 							upon tomorrow's sun, when that appalling Hydra-shape grasps him? Those
 							murderous goads, prepared<milestone ed="p" n="840" unit="line"/>by the
 							deceptive words of black-haired Nessus, torment him with confused
-							thrashing and seethe on his skin.<milestone ed="p" n="841" unit="card"
+							thrashing and seethe on his skin.<painEnd/><milestone ed="p" n="841" unit="card"
 							/></p>
 					</sp>
 				</div2>
@@ -1671,7 +1680,7 @@
 							strength, and warn her son of her intent. But even in the space between
 							my going and our return,<milestone ed="p" n="930" unit="line"/>we find
 							that she has driven a two-edged sword up through her side to the heart.
-							<painStart rec="Hyllus" recGen="man" painType="phys"/>At that sight, her son gave a great cry. For he knew, poor boy, that in
+							<painStart rec="Hyllus" recGen="man" painType="em"/>At that sight, her son gave a great cry. For he knew, poor boy, that in
 							his anger he had driven her to that action. He had learned too late from
 							the servants in the house<milestone ed="p" n="935" unit="line"/>that she
 							had acted without knowledge and at the will of the monster. Then and

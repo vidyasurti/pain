@@ -1,0 +1,39 @@
+start = stuff
+stuff = element stuff { painStart+ }
+# 
+# ###
+# 
+# Patterns for attribute groups
+#
+# allPain : required for all <painStart> elements
+# humanPain : required only for <painStart> elements with human inflictors
+# nonhumanPain : required only for <painStart> elements with nonhuman agents
+#
+allPain = rec, recGen, recNorm, painType
+humanPain = recRel, inf, infGen, infNorm, infRel, direct
+nonhumanPain = attribute inf { "nature" | "disease" }
+# 
+# ###
+#
+painStart = element painStart { allPain, (humanPain | nonhumanPain)?, empty }
+#
+rec = attribute rec { text }
+# the receiver of pain, the name of the character
+recGen = attribute recGen { "man" | "woman" | "mix" }
+# gender of the receiver of pain can be man, woman, or mixedGender if it is a group
+recNorm = attribute recNorm { "yes" | "no" }
+# when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
+painType = attribute painType { "em" | "phys" | "both" }
+# painType can be em for emotional or phys for physcial
+recRel = attribute recRel { text }
+# relation of the recevier of pain to the inflictor
+inf = attribute inf { text }
+# the inflictor of pain, the name of the character
+infGen = attribute infGen { "man" | "woman" | "mix" }
+# gender of the receiver of pain can be man, woman, or mixedGender if it is a group
+infNorm = attribute infNorm { "yes" | "no" }
+# when an inflictor of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
+infRel = attribute infRel { text }
+# relation of the inflictor of pain to the receiver
+direct = attribute direct { "yes" | "no" }
+# whether the pain inflicted is direct or not

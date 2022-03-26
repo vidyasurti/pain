@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI
    
      xmlns:py="http://codespeak.net/lxml/objectify/pytype">
@@ -45,7 +45,7 @@
                             their love is all turned to hate, and tenderest ties are weak.
                             For Jason hath betrayed his own children and my mistress dear
                             for the love of a royal bride, for he hath wedded the daughter
-                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man" infNorm="yes" infRel="husband" recRel="wife" />While Medea his hapless wife, thus scorned,
+                            of Creon, lord of this land. <painStart recNorm="no"  painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man" infNorm="yes" infRel="husband" recRel="wife" direct="" />While Medea his hapless wife, thus scorned,
                             appeals to the oaths he swore, recalls the strong pledge his
                             right hand gave, and bids heaven be witness what requital she is
                             finding from Jason. And here she lies fasting, yielding her body
