@@ -80,12 +80,12 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                 div1n = attribute n {text}
                 #sp element will have one "speaker" element and one or more p elements
                 speaker = element speaker {text}
-                p = element p {mixed{(painStart* | painEnd* | stage* | placeName*)*}}
+                p = element p {mixed{(painStart | painEnd | stage | placeName)*}}
                 #portion of schema for pain markup
                     painStart = element painStart {(allPain | infPain | nonhumanPain), empty}
                         allPain = rec, recGen, recNorm, painType #this grouping of pain attributes is required for all painStart elements
                         infPain = allPain, recRel, inf, infGen, infNorm, infRel, direct # this grouping of pain attributes is for all groupings that have a human inflictor 
-                        nonhumanPain = allPain, direct, attribute inf {"nature" | "diseaes"} # this grouping of pain attributes is for pain that have a non-human inflictor: specifically nature and disease
+                        nonhumanPain = allPain, direct, attribute inf {"nature" | "disease"} # this grouping of pain attributes is for pain that have a non-human inflictor: specifically nature and disease
                         
                             rec = attribute rec {text} #the receiver of pain, the name of the character
                             recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
@@ -109,6 +109,6 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                 div2Sample = attribute sample {text}
                 div2sp = element sp {div2speaker, div2p+}
                     div2speaker = element speaker {text}
-                    div2p = element p {mixed{(painStart* | painEnd* | stage* | placeName*)*}}
+                    div2p = element p {mixed{(painStart | painEnd | stage | placeName)*}}
                     
                     
