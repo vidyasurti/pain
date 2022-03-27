@@ -28,20 +28,21 @@ Since events of pain can span more than one speech or paragraph and create hiera
 | ----------| ----------- |
 | rec | receiver, indicates the name of who is experiencing pain, *required in all* |
 | recGen | gender of receiver, indicates the binary gender of the character who is experiencing pain, possible values are `man`, `woman`, and `mix` for a mixed group of individuals, *required in all* |
-| recNorm | whether the character experiencing pain fits the general norms of society, when a receiver of pain would not be socially accepted in Greek society, this value is `no` and otherwise `yes`, *required in all* |
+| recNorm | whether the character experiencing pain fits the general norms of Greek society, from the perspective of the original Greek audience of the tragedy; when a receiver of pain would not be socially accepted in Greek society, this value is `no` and otherwise `yes`, *required in all* |
 | painType | the type of pain being experienced, possible values are `em` for emotional, `phys` for physical, and `both` for both kinds of pain at once in one event, *required in all* |
-| inf | inflictor, the name of who is inflicting pain, *required when someone is inflicting pain, but not in all* |
+| inf | inflictor, the name of who is inflicting pain, in the case of a nonhuman inflictor this can only take the values of `disease` or `nature`*required when someone is inflicting pain, but not in all* |
 | infGen | gender of inflictor, the gender of the person inflicting pain, possible values are `man`, `woman`, or `mix` for a mixed group of people, *required for all that have an inf*
-| infNorm | whether the character inflicting pain fits the general norms of society, when a receiver of pain would not be socially accepted in Greek society, this value is `no` and otherwise `yes`, *required for all that have an inf* |
+| infNorm | whether the character inflicting pain fits the general norms of Greek society, from the perspective of the original Greek audience of the tragedy, when a receiver of pain would not be socially accepted in Greek society, this value is `no` and otherwise `yes`, *required for all that have an inf* |
 | recRel | relation of receiver to inflictor, *required for all that have inf* |
 | infRel | relation of inflictor to receiver,  *required for all that have inf*
 | direct | whether the pain that is being inflicted is direct or not, possible values are `yes` if the pain is directly caused by the inflictor or `no` if the pain is indirectly caused; *required for all that have inf*
 ### Examples:
-`<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
+* `<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
 							recRel="husband" inf="Clytamnestra" infGen="woman" infNorm="no"
-							infRel="wife"/>` 
-OR 
-`<painStart rec="soceity" recGen="mix"
-							recNorm="yes" painType="both"/>`
+							infRel="wife"/>` OR
+* `<painStart rec="society" recGen="mix"
+							recNorm="yes" painType="both"/>`OR
+* `<painStart rec="Electra" recGen="woman"
+							recNorm="yes" painType="phys" inf = "disease"`							
 
 
