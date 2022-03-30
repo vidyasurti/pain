@@ -82,10 +82,11 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                 speaker = element speaker {text}
                 p = element p {mixed{(painStart | painEnd | stage | placeName)*}}
                 #portion of schema for pain markup
+                  gap= element gap {text}
                     painStart = element painStart {(allPain | infPain | nonhumanPain), empty}
                         allPain = rec, recGen, recNorm, painType #this grouping of pain attributes is required for all painStart elements
                         infPain = allPain, recRel, inf, infGen, infNorm, infRel, direct # this grouping of pain attributes is for all groupings that have a human inflictor 
-                        nonhumanPain = allPain, direct, attribute inf {"nature" | "disease"} # this grouping of pain attributes is for pain that have a non-human inflictor: specifically nature and disease
+                        nonhumanPain = allPain, direct, attribute inf {"nature" | "disease" | "animal"} # this grouping of pain attributes is for pain that have a non-human inflictor: specifically nature and disease
                         
                             rec = attribute rec {text} #the receiver of pain, the name of the character
                             recGen = attribute recGen {("man" | "woman" | "mix")} #gender of the receiver of pain can be man, woman, or mixedGender if it is a group
