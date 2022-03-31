@@ -615,7 +615,7 @@
 						have perhaps heard as lord of the bow of Heracles, Philoctetes the son of
 						Poeas. <painStart painType="both" rec="Philoctetes" recGen="man" recNorm="no" recRel="acquaintance" inf="Cephallenian King" infGen="man" infNorm="yes" infRel="acquaintance" direct="yes"/>
 						I am he whom the two marshalls and the Cephallenian kingshamelessly hurled to this solitude <painEnd/>which
-						you see, when <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no" inf="nature" direct="no"/>I was wasting with a fierce disease, stricken by the savage
+						you see, when <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no" inf="animal" direct="no"/>I was wasting with a fierce disease, stricken by the savage
 						bite of the murderous serpent.<painEnd/> With that plague for my sole companion, boy,
 						those men put me outhere alone and
 						left, after they landed here with their fleet from sea-washed <placeName
@@ -2295,7 +2295,7 @@
 				</sp>
 				<sp>
 					<speaker>Odysseus</speaker>
-					<p>&lt;<gap desc="*"/>&gt;</p>
+					<p><gap desc="*"/></p>
 				</sp>
 				<sp>
 					<speaker>Neoptolemus</speaker>
