@@ -1082,13 +1082,14 @@
 						too, on his shoulders, when at my father's sending, I first departed with
 						Heracles as his wife. When I was in midstream,<milestone ed="p" n="565"
 							unit="line"/>he touched me with lewd hands. I shrieked, and <painStart rec="Nessus" recGen="male" recNorm="no" painType="phys"
-								recRel="" inf="Heracles" infGen="male" infNorm="yes" infRel="" direct="yes"/>straightaway
+								recRel="attacker" inf="Heracles" infGen="male" infNorm="yes" infRel="defender" direct="yes"/>straightaway
 						the son of Zeus turned round and with his hands shot a feathered arrow that
 						whistled right through his chest to the lungs. As he passed away<painEnd/> the monster
 						spoke these few words: “Child of aged Oeneus,<milestone ed="p" n="570"
 							unit="line"/>you will have this benefit from my ferrying, if you obey
 						me, since you were the last whom I carried. If you gather with your hands
-						<painStart rec="Nessus" recGen="male" inf="Heracles" infGen="male" direct="yes" painType="phys"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
+						<painStart rec="Nessus" recGen="male" recNorm="no" painType="phys" recRel="attacker" 
+							inf="Heracles" infGen="male" infNorm="yes" infRel="defender"direct="yes"/>the blood clotted round my wound,<painEnd/> at the place where the Hydra, <placeName
 							key="perseus,Lerna" authname="perseus,Lerna">Lerna</placeName>'s
 						monstrous growth, imbued the arrow with black gall,<milestone ed="p" n="575"
 							unit="line"/>you will have a charm for the heart of Heracles, so that he
@@ -1216,8 +1217,8 @@
 						<speaker>Chorus</speaker>
 						<p>We thought him lost utterly to our land, a wanderer over sea, while we
 							waited through twelve long months and knew nothing.<milestone ed="p"
-								n="650" unit="line"/><!-- do i tag heracles? --> <painStart rec="Deianeira" recGen="woman" recRel="wife"
-									inf="Heracles" infGen="man" infRel="husband" painType="em" direct="no"/>She, his loving wife, miserable, was ever
+								n="650" unit="line"/><painStart rec="Deianeira" recGen="woman" recNorm="yes" painType="em" recRel="wife"
+									inf="Heracles" infGen="man" infNorm="yes" infRel="husband" direct="no"/>She, his loving wife, miserable, was ever
 							pining in her miserable heart, always weeping.<painEnd/> But now Ares, stung to
 							rage, has freed her days from their toil.<milestone ed="p" n="655"
 								unit="card"/></p>
@@ -1243,7 +1244,7 @@
 				<stage>Enter Deianeira from the house.</stage>
 				<sp>
 					<speaker>Deianeira</speaker>
-					<p><painStart rec="Deianeira" recGen="woman" painType="em"/>Friends, how I fear that I may have gone too far in all that I was doing just
+					<p><painStart rec="Deianeira" recGen="woman" recNorm="yes" painType="em"/>Friends, how I fear that I may have gone too far in all that I was doing just
 						now!<painEnd/></p>
 				</sp>
 				<sp>
@@ -1253,7 +1254,7 @@
 				</sp>
 				<sp>
 					<speaker>Deianeira</speaker>
-					<p><painStart rec="Deianeira" recGen="woman" painType="em"/>I do not know, but I despair that I will soon be found to have done a great
+					<p><painStart rec="Deianeira" recGen="woman" recNorm="yes" painType="em"/>I do not know, but I despair that I will soon be found to have done a great
 						wrong, when my hope was for good.<painEnd/></p>
 				</sp>
 				<sp>
@@ -1303,6 +1304,7 @@
 						juice of the blue fruit from the vine of Bacchus when it is poured on the
 						ground.</p>
 					<milestone ed="p" n="705" unit="card"/>
+					<!-- FINAL ROUND TAGGING PART 1 STOP HERE -->
 					<p><milestone ed="p" n="705" unit="line"/><painStart rec="Deianeira" recGen="woman" painType="em"/>And so I am distraught, and I do not
 						know to which side my thoughts should fall. I only see that I have brought a
 						terrible deed to completion.<painEnd/> For why or in thanks for what should the
