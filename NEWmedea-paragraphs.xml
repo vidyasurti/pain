@@ -2200,7 +2200,7 @@
                             by pulling down their tombs; and in this land of Sisyphus I will
                             ordain hereafter a solemn feast and mystic rites to atone for
                             this impious murder. Myself will now to the land of Erechtheus, to dwell with Aegeus, Pandion’s son. But
-                            thou, <painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" infGen="woman" direct="" infNorm="" recRel="" infRel=""/>as well thou mayest, shalt die a caitiff’s death, thy
+                            thou, <painStart recNorm="yes" painType="both" rec="Jason" inf="Medea" recGen="man" infGen="woman" direct="yes" infNorm="no" recRel="lover" infRel="lover"/>as well thou mayest, shalt die a caitiff’s death, thy
                                 head crushed ’neath a shattered relic of Argo,
                             when thou hast seen the bitter ending of my marriage.<painEnd/></p>
                </sp>
