@@ -1174,7 +1174,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="CreonJason" recGen="woman" infGen="man" recRel="" infRel="" infNorm="" direct=""/>Not in words, but he will
+                  <p><painStart recNorm="no" painType="both" rec="Medea" inf="CreonJason" recGen="woman" infGen="man" recRel="outsider" infRel="Royalty" infNorm="yes" direct="yes"/>Not in words, but he will
                             not stand out against it. Ο, I implore thee by this beard and by thy knees, in suppliant posture,
                             pity, O pity my sorrows; do not see me cast forth forlorn, but
                             receive me in thy country, to a seat within thy halls.<painEnd/> So may
