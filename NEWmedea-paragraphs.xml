@@ -1581,7 +1581,7 @@
                <div type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" infRel="mother" recRel="children" infNorm="no" direct="direct"/>And thou, poor wretch,
+                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" infRel="mother" recRel="children" infNorm="no" direct="yes"/>And thou, poor wretch,
                                 who to thy sorrow art wedding a king’s daughter, little
                                 thinkest of the doom thou art bringing on thy children’s
                                 life, or of the cruel death that waits thy bride.Woe is thee! how art
@@ -1927,7 +1927,7 @@
                                 seems, sweet babes, O thou who hast left behind thee that
                                 passage through the blue Symplegades, that strangers justly
                                 hate. Ah! hapless one, why doth fierce
-                                anger thy soul assail? <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" direct="" infRel="" recRel="" infNorm=""/>Why in its
+                                anger thy soul assail? <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" direct="no" infRel="mother" recRel="children" infNorm="no"/>Why in its
                                 place is fell murder growing up? For grievous unto mortal
                                 men are pollutions that come of kindred blood poured on the
                                 earth, woes to suit each crime hurled from
