@@ -1935,22 +1935,23 @@
 						woman that bore you, and give her with your own hands into my hand, that I
 						may know for certain which sight grieves you more—my tortured frame, or
 						hers, when she suffers her just punishment!<milestone ed="p" n="1070"
-							unit="line"/>Go, my son, be bold! Show your pity for me, whom many might
+							unit="line"/>Go, my son, be bold! <painStart rec="Heracles" recGen="man" recNorm="no" painType="both" recRel="husband"
+						inf="Deianeira" infGen="woman" infNorm="" infRel="wife" direct="no"/>Show your pity for me, whom many might
 						think deserving of pity—pity me moaning and weeping like a girl! No one
 						could say that he had ever seen this man do that before. No, always without
 						complaint I used to pursue my troubles.<milestone ed="p" n="1075"
 							unit="line"/>But now in my misery I have been found a woman, instead of
-						the man I used to be.</p> <!-- this should be tagged, but not sure how. i think the norm tag might be no? -->
+						the man I used to be.<painEnd/></p> <!-- norm tag is no??? -->
 					<milestone ed="p" n="1076" unit="card"/>
 					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="both"/>Come close, stand near your father and do examine the magnitude of the
 						misfortune by which I suffer; for I will uncover my suffering. Look! See all
 						of you this miserable body;<milestone ed="p" n="1080" unit="line"/>see how
 						wretched, how pitiable I am!<painEnd/></p>
 					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>Ah, misery! The ruinous spasm flames again; it shoots through my sides—I must
-						wrestle once more with that cruel, devouring plague!<painEnd/></p>
+						wrestle once more with that cruel, devouring plague!</p>
 					<p><milestone ed="p" n="1085" unit="line"/>King Hades, receive me! Strike me, O
 						fire of Zeus! Hurl down your thunderbolt, ruler, dash it, Father, upon my
-						head! Again the pest consumes me, it has blazed up, it has leapt to fury! O
+						head! Again the pest consumes me, it has blazed up, it has leapt to fury!<painEnd/>O
 						hands, my hands,<milestone ed="p" n="1090" unit="line"/>O shoulders and
 						chest and trusty arms, you are indeed those noted arms which once subdued
 						with your might the dweller in <placeName key="perseus,Nemea"
@@ -1963,36 +1964,36 @@
 						of the fierce Echidna; you tamed the dragon<milestone ed="p" n="1100"
 							unit="line"/>that guarded the golden fruit in the farthest places of the
 						earth. These toils and thousands more have I tasted, and no man has ever
-						erected a trophy of victory over my hands. But now, with joints unhinged and
+						erected a trophy of victory over my hands. <painStart/>But now, with joints unhinged and
 						with flesh torn to shreds, I have become the miserable spoil of an unseen
 							destroyer,<milestone ed="p" n="1105" unit="line"/>—I, who am called the
 						son of noblest mother, I, who am reputed the seed of Zeus, lord of the
-						starry sky.</p>
-					<p>But you may be sure of one thing: though I am nothing, though I cannot move a
-						step, yet she who has done this deed shall feel my heavy hand even so. Let
+						starry sky.<painEnd/></p>
+					<p>But you may be sure of one thing: <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>though I am nothing, though I cannot move a
+						step, yet she who has done this deed shall feel my heavy hand even so.<painEnd/> Let
 						her but come to me<milestone ed="p" n="1110" unit="line"/>so that she may
 						learn to proclaim this message to all the world, that in my death, as in my
-						life, I punished the guilty! </p> <!-- this section needs more taggingt. come back to this -->
+						life, I punished the guilty! </p> <!-- this section needs more tagging. come back to this -->
 				</sp>
 				<milestone ed="p" n="1112" unit="card"/>
 				<sp>
 					<speaker>Chorus</speaker>
 					<p>Ah, unhappy <placeName key="tgn,1000074" authname="tgn,1000074"
 							>Greece</placeName>, what mourning do I foresee for her, if she is
-						cheated of this man!</p> <!-- should this be tagged, even though it's future? -->
+						cheated of this man!</p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
 					<p>Father, since your pause permits an answer,<milestone ed="p" n="1115"
-							unit="line"/>hear me, diseased though you are; I will ask you for no
+							unit="line"/><painStart rec="Heracles" recGen="man" recNorm="" painType="both"/>hear me, diseased though you are; I will ask you for no
 						more than is my due. Give yourself to me in a mood not as harsh as that to
-						which your heart is now stung. Otherwise you cannot learn in what
-						circumstances you wrongly wish to triumph and wrongly show resentment.</p>
+						which your heart is now stung.<painEnd/> Otherwise you cannot learn in what
+						circumstances you wrongly wish to triumph and wrongly show resentment.</p> <!-- tag this more -->
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
 					<p><milestone ed="p" n="1120" unit="line"/>Stop when you have said what it is
-						you desire. <painStart rec="Heracles" recGen="man" painType="phys"/>In this pain of mine I understand none of your many riddles.<painEnd/></p>
+						you desire. <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>In this pain of mine I understand none of your many riddles.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
@@ -2007,7 +2008,7 @@
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
-					<p><painStart rec="Hyllus" recGen="man" painType="em"/>Yes, for her condition is such that my silence shames me.<painEnd/></p>
+					<p><painStart rec="Hyllus" recGen="man" recNorm="yes" painType="em"/>Yes, for her condition is such that my silence shames me.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
@@ -2072,7 +2073,7 @@
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
-					<p><painStart rec="Heracles" recGen="man" painType="em"/>Ah! Ah, misery! I am lost, ruined, ruined! The light of day exists for me no
+					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="em"/>Ah! Ah, misery! I am lost, ruined, ruined! The light of day exists for me no
 							more!<milestone ed="p" n="1145" unit="line"/>Ah, now I understand the
 						depth of my misfortune! Go, my son! Your father is no more.<painEnd/> Summon for me
 						all the crop of your brothers. Summon, too, poor Alcmena, in vain the
@@ -2096,9 +2097,10 @@
 						man you are, who are called my son.</p>
 					<p>It was foreshown to me by my father far in the past that I would<milestone
 							ed="p" n="1160" unit="line"/>perish by no creature that had the breath
-						of life, but by one already dead, a dweller with Hades. So this savage
+						of life, but by one already dead, a dweller with Hades. <painStart rec="Heracles" recGen="man"
+						recNorm="" painType="phys" recRel="defender" inf="Nessus" infGen="man" infNorm="no" infRel="attacker" direct="no"/>So this savage
 						Centaur in death has killed me alive, just as the divine will had been
-						foretold. And I will show you how<milestone ed="p" n="1165" unit="line"
+						foretold.<painEnd/> And I will show you how<milestone ed="p" n="1165" unit="line"
 						/>later oracles tally with the first and testify to the old prophecy. I
 						wrote them down for myself from the mouth of my father's oak of many tongues
 						in the grove of the Selli, who dwell on the hills and sleep on the ground.
@@ -2197,7 +2199,7 @@
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
-					<p><painStart rec="Heracles" recGen="man" painType="phys"/>Not so, in truth, but healer of my sufferings, sole physician of my pain!<painEnd/></p>
+					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>Not so, in truth, but healer of my sufferings, sole physician of my pain!<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
@@ -2266,7 +2268,7 @@
 						your present condition besides?<milestone ed="p" n="1235" unit="line"/>Who
 						would choose to do so, unless he were infected by avenging fiends? It would
 						be better, Father, that I also die, rather than live united with those whom
-						I most detest!</p>
+						I most detest!</p> <!-- em pain for hyllus? -->
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
@@ -2284,7 +2286,7 @@
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
-					<p><painStart rec="Hyllus" recGen="man" painType="em"/>I am miserable! I have no way out of so many dilemmas!<painEnd/></p>
+					<p><painStart rec="Hyllus" recGen="man" recNorm="yes" painType="em"/>I am miserable! I have no way out of so many dilemmas!<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
@@ -2338,10 +2340,10 @@
 					<p>Lift him, attendants!<milestone ed="p" n="1265" unit="line"/>Grant me ample
 						forgiveness for this, but also recall the great cruelty of the gods in the
 						deeds that are being done. They beget children and are hailed as fathers,
-						and <painStart rec="Heracles" recGen="man" painType="phys"/>yet they can let such sufferings pass before their eyes.</p>
+						and <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>yet they can let such sufferings pass before their eyes.</p>
 					<p><milestone ed="p" n="1270" unit="line"/>No man foresees the future; the
 						present is full of mourning for us, and of shame for the powers above, and
-						indeed of hardship beyond compare for him who endures this disaster.<painEnd/></p> <!-- tagging this is weird... -->
+						indeed of hardship beyond compare for him who endures this disaster.<painEnd/></p> <!-- tagging this is weird bc of the p elements... -->
 					<stage>To the Leader of the Chorus.</stage>
 					<p><milestone ed="p" n="1275" unit="line"/>And you, maiden, do not be left at
 						the house. You have seen immense, shocking death, with sorrows great in
