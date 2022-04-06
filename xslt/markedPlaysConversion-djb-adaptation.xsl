@@ -15,8 +15,15 @@
     <!--    Flat sequence of all words, punctuation, pain delimiters    -->
     <!-- ===============================================================  -->
     <!-- RICHA - Assuming that painStart and painEnd are delimiters for the all_pain element -->
-    <xsl:variable name="all_pain" as="element()+" 
-        select="//p | //p/painStart | //p/painEnd"/>
+    <xsl:variable name="all_pain" as="node()+" 
+        select="//p/painStart | //p/painEnd | //p/text()"/>
+    
+    <!-- outputting root element, applying templates directly to body -->
+    <xsl:template match = "/">
+        <pains>
+            <xsl:apply-templates select = "//body" />
+        </pains>
+    </xsl:template>
     
     <!-- RICHA - assuming that match = "body", originally was referring to front for cast list -->
     <xsl:template match="body"> 
@@ -24,7 +31,7 @@
         <!-- not necessarily for gendered pain project - Copy the cast list and create new <div> for insults          -->
         <!-- ============================================================ -->
         <xsl:copy>
-            <xsl:copy-of select="@* | node()"/>
+            <!--<xsl:copy-of select="@* | node()"/>-->
             <pain>
                 <!-- ==================================================== -->
                 <!-- Tesselated groups demarcated by pain delimiters    -->
