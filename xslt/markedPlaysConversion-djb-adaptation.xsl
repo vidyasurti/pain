@@ -20,9 +20,9 @@
     
     <!-- outputting root element, applying templates directly to body -->
     <xsl:template match = "/">
-        <pains>
+        <allPainEvents>
             <xsl:apply-templates select = "//body" />
-        </pains>
+        </allPainEvents>
     </xsl:template>
     
     <!-- RICHA - assuming that match = "body", originally was referring to front for cast list -->
@@ -30,9 +30,9 @@
         <!-- ============================================================ -->
         <!-- not necessarily for gendered pain project - Copy the cast list and create new <div> for insults          -->
         <!-- ============================================================ -->
-        <xsl:copy>
+        
             <!--<xsl:copy-of select="@* | node()"/>-->
-            <pain>
+            
                 <!-- ==================================================== -->
                 <!-- Tesselated groups demarcated by pain delimiters    -->
                 <!-- ==================================================== -->
@@ -70,7 +70,7 @@
                         </pain>
                     </xsl:if>
                 </xsl:for-each-group>
-            </pain>
-        </xsl:copy>
+            
+        
     </xsl:template>
 </xsl:stylesheet>
