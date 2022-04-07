@@ -9,17 +9,24 @@
     <xsl:template match="/">
         <html>
             <head>
+                
                 <title><xsl:apply-templates select = "//titleStmt/title[1]"/></title>
                 <!-- If possible - remove the (English) in libation bearers, philoctetes, and women of trachis -->
+                <link rel="stylesheet" type="text/css" href="reading-view.css"/>
             </head>
             <body>
-                <xsl:copy>
-                    <xsl:apply-templates select = "following-sibling::node()[1]" />
-                    <!--Looking at information from here: https://www.balisage.net/Proceedings/vol21/print/Birnbaum01/BalisageVol21-Birnbaum01.html#d480536e994
-                    But I do think that making a function to select the text between the painStart and painENd elements would be the best way to go-->
-                </xsl:copy>
+                <h2 class = "page-title">Events of Pain in Libation Bearers</h2>
+                
+                <section class = "textDisplay">
+                    <xsl:apply-templates select = "allPainEvents" /> 
+                </section>
+                
                 
             </body>
         </html>
     </xsl:template>
+    
+    <xsl:template match = "pain">
+        <p class = "painEvent"><xsl:apply-templates /></p>
+    </xsl:template> 
 </xsl:stylesheet>

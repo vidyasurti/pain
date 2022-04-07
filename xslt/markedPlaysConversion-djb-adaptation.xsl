@@ -20,7 +20,8 @@
     
     <!-- outputting root element, applying templates directly to body -->
     <xsl:template match = "/">
-        <allPainEvents>
+        <xsl:variable name = "doc-name" select = "//titleStmt/title[1]" />
+        <allPainEvents doc-name = "$doc-name">
             <xsl:apply-templates select = "//body" />
         </allPainEvents>
     </xsl:template>
