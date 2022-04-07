@@ -15,7 +15,7 @@
                 <link rel="stylesheet" type="text/css" href="reading-view.css"/>
             </head>
             <body>
-                <h2 class = "page-title">Events of Pain in Libation Bearers</h2>
+                <h2 class = "page-title">Events of Pain in </h2>
                 
                 <section class = "textDisplay">
                     <xsl:apply-templates select = "allPainEvents" /> 
