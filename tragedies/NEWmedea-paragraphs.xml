@@ -2,12 +2,12 @@
 
 
 <?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI
+<TEI.2 
    
      xmlns:py="http://codespeak.net/lxml/objectify/pytype">
    
    <!-- xmlns="http://www.tei-c.org/ns/1.0" -->
-   <tei:teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Medea</title>
@@ -20,18 +20,28 @@
             <p>Based on materials published at the<ref target="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0006.tlg003.perseus-eng2:0-10000">Perseus Project</ref>.</p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         <change>2022-03-02, David J. Birnbaum. Lines in source merged into paragraphs.</change>
-         <change>2022-03-02, David J. Birnbaum. TEI header added.</change>
+      <profileDesc>
+         <langUsage default="NO">
+            <language id="en">English</language>
+            <language id="greek">Greek</language>
+            <language id="la">Latin</language>
+            <language id="xoldpers">transliterated Old Persian</language>
+         </langUsage>
+         </profileDesc>
+   <revisionDesc>
+         <change>
+            <date>2022-03-02</date>
+            <respStmt>
+               <name>David J. Birnbaum</name>
+            <resp>ed.</resp>
+            </respStmt>
+            <item>Lines in source merged into paragraphs. TEI header added.</item></change>
       </revisionDesc>
-   </tei:teiHeader>
-   <text xml:lang="eng">
+   </teiHeader>
+   <text lang="eng">
       <body>
-         <div type="translation"
-              n="urn:cts:greekLit:tlg0006.tlg003.perseus-eng2"
-              xml:lang="eng">
-            <div type="textpart" subtype="episode">
-               <sp>
+         <div1 type="textpart" subtype="episode">
+            <sp>
                   <p>  Ah! would to Heaven the good
                             ship Argo ne’er had sped its course to the Colchian land through
                             the misty blue Symplegades, nor ever in the glens of Pelion the
@@ -180,9 +190,9 @@
                             victim. At least may she turn her hand against her
                             foes, and not against her friends.</p>
                </sp>
-            </div>
-            <div type="textpart" subtype="choral">
-               <div type="textpart" subtype="anapests">
+            </div1>
+            <div1 type="textpart" subtype="choral">
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Medea</speaker>
                      <p>
@@ -192,8 +202,8 @@
                      
                      <!-- I put unknown for now because I dont know who she is cursing. -->
                   </sp>
-               </div>
-               <div type="textpart" subtype="anapests">
+               </div1>
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Nurse</speaker>
                      <p>’Tis as I said, my dear
@@ -208,8 +218,8 @@
                                 children.</stage>
                      </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="anapests">
+               </div1>
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Medea</speaker>
                      <p>
@@ -219,8 +229,8 @@
                                 damned, sons of a doomed mother! Ruin seize the whole
                                 family!<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="anapests">
+               </div1>
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Nurse</speaker>
                      <p>Ah me! ah me! the pity
@@ -237,8 +247,8 @@
                                 itself, brings no blessing to mortal men; but pays a penalty
                                 of greater ruin whenever fortune is wroth with a family.</p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="lyric">
+               </div1>
+               <div1 type="textpart" subtype="lyric">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man" infRel="lover" infNorm="yes" direct="no" recRel="lover"/>I heard the voice,
@@ -248,8 +258,8 @@
                                 from within, and I do grieve, lady, for the sorrows of this
                                 house, for it hath won my love.<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="anapests">
+               </div1>
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Nurse</speaker>
                      <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man" direct="no" infNorm="yes" infRel="lover" recRel="lover"/>’Tis a house no more;
@@ -268,8 +278,8 @@
                                 existence!<painEnd/></p>
                      <!-- I put both phys and em for painType of pain because she is describing physical pain through her emotional trauma -->
                   </sp>
-               </div>
-               <div type="textpart" subtype="strophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Didst hear, O Zeus, thou
@@ -283,8 +293,8 @@
                   </sp>
                   
                   <!-- Here, the chorus (all female) is asking Zeus if he heard her cries. They say Zeus will punish Jason (lord). I am not sure if I should tag this, PAIN AMPLIFIER ???-->
-               </div>
-               <div type="textpart" subtype="anapests">
+               </div1>
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Medea</speaker>
                      <p>
@@ -306,8 +316,8 @@
                      
                      <!--unclear if i should tag this-->
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Would that she would
@@ -319,8 +329,8 @@
                                 haste thee ere she do some mischief to those inside the
                                 house, for this sorrow of hers is mounting high.</p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="anapests">
+               </div1>
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Nurse</speaker>
                      <p>This will I do; but I
@@ -339,8 +349,8 @@
                                 spread? for of itself doth the rich banquet, set before
                                 them, afford to men delight.</p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="epode">
+               </div1>
+               <div1 type="textpart" subtype="epode">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man" direct="no" infRel="lover" infNorm="yes" recRel="lover"/>I heard a bitter cry of
@@ -353,9 +363,9 @@
                      <!--Medea invokes Themis (personification of justice, goddess of wisdom and good counsel, and the interpreter of the gods' will.) does this invocation amplify her pain?-->
                      <!--Left Off Here 3/6/2022-->
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="episode">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="episode">
                <sp>
                   <speaker>Medea</speaker>
                   <p>From the house I have come
@@ -580,7 +590,7 @@
                             day only, for in it thou canst not do any of the fearful deeds I
                             dread.</p>
                </sp>
-               <div type="textpart" subtype="anapests">
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="no" painType="em" rec="Medea" recGen="woman"/>Ah! poor lady, woe is
@@ -634,10 +644,10 @@
                                 women, though by nature little apt for virtuous deeds, are
                                 most expert to fashion any mischief.<painEnd/></p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="choral">
-               <div type="textpart" subtype="strophe" n="1">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="choral">
+               <div1 type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Back to their source the
@@ -648,8 +658,8 @@
                                 breaking for woman’s sex; no more shall the foul tongue of
                                 slander fix upon us. </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>The songs of the poets
@@ -659,8 +669,8 @@
                                 long chapter affords many a theme on their sex as well as
                                 ours. </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="strophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="no" painType="em" rec="Medea" inf="CreonJason" recGen="woman" infGen="man" direct="yes" infRel="Royalty" infNorm="yes" recRel="outsider"/>With mind distraught
@@ -669,8 +679,8 @@
                                 husbandless, poor lady and  thou an exile
                                 from the land, dishonoured, persecuted.<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Gone is the grace that
@@ -679,9 +689,9 @@
                                 open, woe is thee! to be a haven from the troublous storm,
                                 while o’er thy home is set another queen, the bride that is preferred to thee.</p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="episode">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="episode">
                <sp>
                   <speaker>Jason</speaker>
                   <p><painStart recNorm="no" painType="both" rec="Medea" inf="Jason" recGen="woman" infGen="man" recRel="lover" infNorm="yes" infRel="lover" direct="no"/>It is not now I first
@@ -908,9 +918,9 @@
                             bride entrapped, too long thou lingerest outside her chamber; go wed, for, if God will, thou shalt have
                             such a marriage as thou wouldst fain refuse.</p>
                </sp>
-            </div>
-            <div type="textpart" subtype="choral">
-               <div type="textpart" subtype="strophe" n="1">
+            </div1>
+            <div1 type="textpart" subtype="choral">
+               <div1 type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>When in excess and past
@@ -920,8 +930,8 @@
                                 golden bow a shaft invincible, in passion’s venom dipped.
                             </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>On me may chastity,
@@ -932,8 +942,8 @@
                                 she hallow peaceful married life and shrewdly decide whom
                                 each of us shall wed.</p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="strophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>O my country, O my own
@@ -942,8 +952,8 @@
                                 and yield to death, ay, death; for there is no misery that doth
                                 surpass the loss of fatherland.</p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>I have seen with mine
@@ -952,10 +962,10 @@
                                 friends, freely unlocking his heart to them. Never shall he
                                 be friend of mine.</p>
                   </sp>
-               </div>
-            </div>
+               </div1>
+            </div1>
             <!--START AT THIS PART 3/10/2022 5:05 PM-->
-            <div type="textpart" subtype="episode">
+            <div1 type="textpart" subtype="episode">
                <sp>
                   <speaker>Aegeus</speaker>
                   <p>All hail, Medea! no man
@@ -1267,7 +1277,7 @@
                             and I with what speed I may, will to thy city come, when I have
                             wrought my purpose and obtained my wish.</p>
                </sp>
-               <div type="textpart" subtype="anapests">
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>May Maia’s princely son go with thee on thy way to bring thee
@@ -1289,8 +1299,8 @@
                                 to hear a pleasant tale. A servant of mine will I to Jason send and crave an interview; then when
                                 he comes I will address him with soft words, say, <q>this pleases me,</q> and, <q>that is well, </q>
                         <del>even the marriage with the princess, which my
-                                    treacherous lord is celebrating, and add <q painType="spoken">it suits us both, ’twas well thought
-                                        out</q>
+                                    treacherous lord is celebrating, and add it suits us both, ’twas well thought
+                                        out
                         </del>;
                             then will I entreat that here my
                                 children may abide, not that I mean to leave them in a
@@ -1357,10 +1367,10 @@
                                 mission of trust. No word divulge of all my purpose, as thou
                                 art to thy mistress loyal and likewise of my sex.</p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="choral">
-               <div type="textpart" subtype="strophe" n="1">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="choral">
+               <div1 type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Sons of Erechtheus,
@@ -1371,8 +1381,8 @@
                                 as legend tells, the Muses nine, Pieria’s holy maids, were
                                 brought to birth by Harmonia with the golden hair; </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>and poets sing how
@@ -1382,8 +1392,8 @@
                                 the Loves to sit by wisdom’s side, to take a part in every excellence.
                             </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="strophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>How then shall the city
@@ -1393,8 +1403,8 @@
                                 bloody deed thou takest on thee. Nay, by thy knees we, one
                                 and all, implore thee, slay not thy babes.<painEnd/> </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="woman" infGen="man" infRel="mother" recRel="children" infNorm="no" direct="yes"/>Where shall
@@ -1404,9 +1414,9 @@
                                 not, when they fall at thy feet for mercy, steel thy heart
                                 and dip in their blood thy hand.<painEnd/></p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="episode">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="episode">
                <sp>
                   <speaker>Jason</speaker>
                   <p>I am come at thy bidding,
@@ -1556,9 +1566,9 @@
                             gifts in her own hand. Now go and linger not; may ye succeed and
                             to your mother bring back the glad tidings she fain would hear!</p>
                </sp>
-            </div>
-            <div type="textpart" subtype="choral">
-               <div type="textpart" subtype="strophe" n="1">
+            </div1>
+            <div1 type="textpart" subtype="choral">
+               <div1 type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" infGen="woman" recRel="children" infNorm="no" infRel="mother" direct="yes"/>Gone, gone is every hope
@@ -1567,8 +1577,8 @@
                                 golden crown that is to  be her ruin; with her own hand will she lift and
                                 place upon her golden locks the garniture of death.<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="yes" painType="phys" rec="Glauce" inf="Medea" recGen="woman" infGen="woman" direct="yes" infNorm="no" recRel="Royalty" infRel="outsider" />Its grace and sheen
@@ -1577,8 +1587,8 @@
                                 will fall, such is the deadly doom that waits the hapless
                                 maid, nor shall she from the curse escape.<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="strophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" infRel="mother" recRel="children" infNorm="no" direct="yes"/>And thou, poor wretch,
@@ -1587,8 +1597,8 @@
                                 life, or of the cruel death that waits thy bride.Woe is thee! how art
                                 thou fallen from thy high estate!<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>Next do I bewail thy
@@ -1596,9 +1606,9 @@
                                 slay thy babes because thou hast a rival<painEnd/>, <painStart recNorm="no" painType="em" rec="children" inf="Medea" recGen="woman" infGen="man" direct="yes" infNorm="no" recRel="children" infRel="mother"/>the babes thy husband hath deserted impiously
                         to join him to another bride.<painEnd/></p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="episode">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="episode">
                <sp>
                   <speaker>Attendant</speaker>
                   <p>Thy children, lady, are
@@ -1722,7 +1732,7 @@
                             mortal man, hath triumphed o’er my sober
                             thoughts.<painEnd/></p>
                </sp>
-               <div type="textpart" subtype="anapests">
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Oft ere now have I
@@ -1904,10 +1914,10 @@
                                 thou wilt slay them yet they were thy darlings still,
                                     and am a lady of sorrows.<painEnd/></p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="choral">
-               <div type="textpart" subtype="strophe" n="1">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="choral">
+               <div1 type="textpart" subtype="strophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>O earth, O sun whose
@@ -1918,8 +1928,8 @@
                                 her hand, forth from the house chase this fell bloody fiend by
                                 demons led. </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="1">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="1">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Vainly wasted were the
@@ -1933,8 +1943,8 @@
                                 earth, woes to suit each crime hurled from
                                 heaven on the murderer’s house.<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="lyric">
+               </div1>
+               <div1 type="textpart" subtype="lyric">
                   <sp>
                      <speaker>
                         <add>Sons</add>
@@ -1946,8 +1956,8 @@
                         <add>Ah!</add>
                      </p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="strophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="strophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p><painStart recNorm="yes" painType="em" rec="children" inf="Medea" recGen="man" infGen="woman" infNorm="no" recRel="children" infRel="mother" direct="yes"/>Didst hear, didst hear
@@ -1988,8 +1998,8 @@
                                 surely thou hast a heart of stone or steel to slay the offspring of thy womb by
                                 such a murderous doom.<painEnd/></p>
                   </sp>
-               </div>
-               <div type="textpart" subtype="antistrophe" n="2">
+               </div1>
+               <div1 type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
                      <p>Of all the wives of
@@ -2003,9 +2013,9 @@
                                 to follow this? Woe for the wooing of women fraught with
                                 disaster! What sorrows hast thou caused for men ere now!</p>
                   </sp>
-               </div>
-            </div>
-            <div type="textpart" subtype="episode">
+               </div1>
+            </div1>
+            <div1 type="textpart" subtype="episode">
                <sp>
                   <speaker>Jason</speaker>
                   <p>Ladies, stationed near this
@@ -2204,7 +2214,7 @@
                                 head crushed ’neath a shattered relic of Argo,
                             when thou hast seen the bitter ending of my marriage.<painEnd/></p>
                </sp>
-               <div type="textpart" subtype="anapests">
+               <div1 type="textpart" subtype="anapests">
                   <sp>
                      <speaker>Jason</speaker>
                      <p>The curse of our sons’
@@ -2296,9 +2306,8 @@
                                 unlooked-for god finds out a way; and such hath been the
                                 issue of this matter.</p>
                   </sp>
-               </div>
-            </div>
-         </div>
-      </body>
+               </div1>
+            </div1>
+         </body>
    </text>
-</TEI>
+</TEI.2>
