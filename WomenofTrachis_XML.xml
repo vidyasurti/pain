@@ -465,6 +465,7 @@
 							has not escaped my watchful eyes. I see that procession.</p>
 					</sp>
 					<sp>
+						<speaker>Deianeira</speaker>
 						<p>I bid the herald joyous welcome after his long absence!—if indeed you
 							bring anything that gives joy.</p>
 					</sp>
@@ -519,7 +520,7 @@
 						<p>Was it in fact the war against that city which kept him away so long,
 							beyond all forecast, past all count of days?</p>
 					</sp>
-					<sp n="Lichas">
+					<sp>
 						<speaker>Lichas</speaker>
 						<p>No. The greater part of the time he was detained in <placeName
 								key="tgn,7016631" authname="tgn,7016631">Lydia</placeName>, no free
@@ -586,6 +587,7 @@
 							<!-- i've decided to not count this either --> So great is my fear, as I look upon these girls.</p>
 					</sp>
 					<sp>
+						<speaker>Deianeira</speaker>
 						<stage>To Iole.</stage>
 						<p>Unfortunate girl, who are you? Are you without a man, or are you a
 							mother? To judge by your appearance, you are untried in those roles, but
