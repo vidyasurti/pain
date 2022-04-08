@@ -1,11 +1,11 @@
 start = TEI.2  
 
 TEI.2 = element TEI.2 {teiHeader, textElem} #the name of an element is "text" - put it as textElem so that the schema is valid
-    teiHeader = element teiHeader{teiHeaderType, status, fileDesc, encodingDesc, profileDesc, revisionDesc} #teiheader element has attributes type, status, fileDesc, and elements fileDesc, encodingDesc, and profileDesc
+    teiHeader = element teiHeader{(teiHeaderType, status)?, fileDesc, encodingDesc, profileDesc, revisionDesc} #teiheader element has attributes type, status, fileDesc, and elements fileDesc, encodingDesc, and profileDesc
         teiHeaderType = attribute type {text} 
         status = attribute status {text}
-        fileDesc = element fileDesc {titleStmt, extent, publicationStmt, sourceDesc}
-            titleStmt = element titleStmt {title+, author, editor, sponsor, principal, respStmt, funder}
+        fileDesc = element fileDesc {titleStmt, extent?, publicationStmt, sourceDesc}
+            titleStmt = element titleStmt {title+, author?, editor?, sponsor?, principal?, respStmt?, funder?}
                 title = element title {mixed{titleType?, titlen?}}
                     titleType = attribute type {text}
                     titlen = attribute n {text}
