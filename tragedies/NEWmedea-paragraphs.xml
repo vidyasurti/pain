@@ -12,12 +12,8 @@
          <titleStmt>
             <title>Medea</title>
          </titleStmt>
-         <publicationStmt>
-            <p>Available in <ptr target="https://github.com/vidyasurti/pain"/>
-            </p>
-         </publicationStmt>
          <sourceDesc>
-            <p>Based on materials published at the<ref target="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0006.tlg003.perseus-eng2:0-10000">Perseus Project</ref>.</p>
+            <p>Based on materials published at the <ref target="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0006.tlg003.perseus-eng2:0-10000">Perseus Project</ref>.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
