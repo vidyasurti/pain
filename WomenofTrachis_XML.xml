@@ -1366,10 +1366,9 @@
 						him by the foot where the ankle bends in the socket and threw him at a surf-beaten rock in the sea, causing the
 						white brain to ooze from his hair, when the crown of his head had been
 						scattered and his blood with it.<painEnd/></p>
-					<p><!-- should I say that it's heracles inf? or both? --> 
+					<p><!-- Because the people's emotional pain is from pity, I'm not tagging Heracles or Lichas as the indirect inflictor of their pain. --> 
 						<painStart rec="people" recGen="mix" recNorm="yes" painType="em"/>But all the people lifted up a cry of astounded grief when they saw that the
-						one was frenzied, and the other destroyed;<painEnd/> and no one dared to approach the man. <!-- and heracles
-							is still feeling phys pain, right? --> 
+						one was frenzied, and the other destroyed;<painEnd/> and no one dared to approach the man. 
 						<painStart rec="Heracles" recGen="man" recNorm="no" painType="both" recRel="husband"
 						inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>For he convulsed down
 						to the ground and up into the air as he shouted and cried out. All around
@@ -1380,8 +1379,9 @@
 						marriage with miserable you and his alliance with Oeneus, which, he said, he
 						got for himself as the ruin of his life,<painEnd/> then from out of the shrouding
 							altar-smoke he raised his
-						wildly-rolling eyes and <!-- should i then say heracles is the inflictor? 
-							i do the same thing for cases of pity? --> <painStart rec="Hyllus" recGen="man" recNorm="yes" 
+						wildly-rolling eyes and <!-- Hyllus is crying because of seeing the pain
+						that Heracles is going through, not because of Heracles himself, so I am not
+						tagging Heracles as the indirect inflictor. --> <painStart rec="Hyllus" recGen="man" recNorm="yes" 
 							painType="em"/>saw me weeping among his many troops.<painEnd/> 
 						He stared at me and called me: “O my son, come to me. Do not fly from my trouble, not
 						even if you have to share my death. Come, lift me up and away and above all
@@ -1470,9 +1470,11 @@
 				<div2 type="antistrophe" n="2" org="uniform" sample="complete">
 					<sp>
 						<speaker>Chorus</speaker>
-						<p>
+						<p> <!-- Here I put "yes" for Heracles' norm tag, because the Chorus is not saying anything
+						against him, so they are accepting him and talking about how he's a hero. -->
 							<painStart rec="Chorus" recGen="woman" recNorm="yes" painType="em"/>Our streaming tears break forth. Ah, no!<painEnd/> <painStart
-						rec="Heracles" recGen="man" recNorm="" painType="phys"/>An infection pours over him, an
+						rec="Heracles" recGen="man" recNorm="yes" painType="phys" recRel="husband" inf="Deianeira" infGen="woman" infNorm="no"
+							infRel="wife" direct="no"/>An infection pours over him, an
 							illness more to be pitied than any
 							suffering that adversaries ever brought upon that glorious hero.<painEnd/> Ah, you
 							dark head of the spear foremost in battle, who by your mighty point
@@ -1504,7 +1506,7 @@
 					</sp>
 					<stage>Enter the Nurse, from the house.</stage>
 					<sp>
-						<speaker>Nurse</speaker> <!-- should i tag an inflictor? -->
+						<speaker>Nurse</speaker> <!-- I am not tagging an inflictor here. The whole situation is causing pain, so I think that's beyond tagging an inflictor. -->
 						<p><painStart rec="Nurse" recGen="woman" recNorm="yes" painType="em"/>Ah, my daughters, great, indeed, are the sorrows for us that began with
 							the gift sent to Heracles!<painEnd/></p>
 					</sp>
@@ -1562,7 +1564,8 @@
 						<p>By a stroke of the sword which gives cause for mourning.</p>
 					</sp>
 					<sp>
-						<speaker>Chorus</speaker> <!-- deianeira's not the inflictor of the pain, right? -->
+						<speaker>Chorus</speaker> <!-- The nurse witnessed Deianeira's suicide, which caused her pain, but Deianeira is not
+						really an inflictor. She is hurting herself. -->
 						<p><painStart rec="Nurse" recGen="woman" recNorm="yes" painType="em"/>Did you witness that violent deed, poor helpless one?<painEnd/></p>
 					</sp>
 					<sp>
@@ -1606,8 +1609,10 @@
 						<p>Yes, with fierce daring. You shall hear, and then you will bear me
 								witness. When she came alone
 							into the house and saw her son preparing a deep litter in the court,
-							with which to go back and meet his father, she hid herself where none
-							would see. <painStart rec="Deianeira" recGen="woman" recNorm="no" painType="em"/>Falling before the altars, she moaned that they were left desolate, and whenever she
+							with which to go back and meet his father, she hid herself where none <!-- I put yes for the norm
+							tag here because the Nurse is sympathetic to her pain, and also because lamentation is quite common
+							for women in ancient Greek plays. -->
+							would see. <painStart rec="Deianeira" recGen="woman" recNorm="yes" painType="em"/>Falling before the altars, she moaned that they were left desolate, and whenever she
 							touched any household thing that she, poor lady, had habitually used in
 							the past, her tears would flow. If, as she roamed hither and thither
 							through the house, she beheld the form of any well-loved servant, she
@@ -1627,7 +1632,9 @@
 							her breasts and bares all her left side and arm. Then I run with all my
 							strength, and warn her son of her intent. But even in the space between
 							my going and our return, we find
-							that she has driven a two-edged sword up through her side to the heart.
+							that she has driven a two-edged sword up through her side to the heart. <!-- Although Hyllus 
+							inadvertently led his mother to do something so grave, the Nurse speaks of him with pity and
+							understanding that he didn't know, so I said "yes" for the norm attribute. -->
 							<painStart rec="Hyllus" recGen="man" recNorm="yes" painType="em"/>At that sight, her son gave a great cry. For he knew, poor boy, that in
 							his anger he had driven her to that action. He had learned too late from
 							the servants in the house that she
@@ -1667,8 +1674,8 @@
 								hearth to bear me far from
 							this land, so that I might not die of terror when I look but
 								once upon the mighty seed of
-							Zeus! <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/> <!-- i don't know if i should 
-							tag him as accepted or not...because they do treat him pretty nice, ad refer to him with positive words. -->
+							Zeus! <painStart rec="Heracles" recGen="man" recNorm="yes" painType="phys"/> <!-- The Chorus
+							accepts Heracles, so I put "yes." They speak of him with positive words here. -->
 							For they say that he is approaching the house in torments from
 							which there is no deliverance, a wonder of unutterable woe.<painEnd/></p>
 					</sp>
@@ -1698,7 +1705,7 @@
 					<speaker>Old Man</speaker>
 					<stage>Whispering.</stage>
 					<p>Hush, young man! <painStart rec="Heracles" recGen="man" recNorm="yes" painType="phys" recRel="husband"
-					inf="Deianeira" infGen="woman" infNorm="" infRel="wife" direct="no"/>Do not rouse the cruel
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Do not rouse the cruel
 						pain that infuriates your father! He lives, though on the very edge.<painEnd/> Bite
 						your tongue and hold it!</p>
 				</sp>
@@ -1708,8 +1715,8 @@
 				</sp>
 				<sp>
 					<speaker>Old Man</speaker>
-					<p>You must not awake the slumberer! <painStart rec="Heracles" recGen="man" recNorm="" painType="phys" recRel="husband"
-					inf="Deianeira" infGen="woman" infNorm="" infRel="wife" direct="no"/>You must not rouse and revive his fierce, recurrent infection, my son!<painEnd/></p>
+					<p>You must not awake the slumberer! <painStart rec="Heracles" recGen="man" recNorm="yes" painType="phys" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>You must not rouse and revive his fierce, recurrent infection, my son!<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
@@ -1718,9 +1725,11 @@
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
-					<p>O Zeus, in what land am I? <painStart rec="Heracles" recGen="man" recNorm="" painType="phys" recRel="husband"
-					inf="Deianeira" infGen="woman" infNorm="" infRel="wife" direct="no"/>Among what people do I lie, tortured with unending agonies? O me, what pain!
-						Oh, that accursed pest gnaws me once more!<painEnd/></p>
+					<p>O Zeus, in what land am I? <painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Among what people do I lie, tortured with unending agonies? O me, what pain!
+						Oh, that accursed pest gnaws me once more!<painEnd/></p> <!-- I read something that said that typically, women will
+						do the lamentation, but because no women are here, Heracles has to do it himself. This means that he is not 
+						following social norms right here. -->
 				</sp>
 				<sp>
 					<speaker>Old Man</speaker>
@@ -1733,9 +1742,10 @@
 					<p>No, I know no way to be patient when I witness this misery.</p>
 				</sp>
 				<sp>
-					<speaker>Heracles</speaker> <!-- where does the emasculating pain idea come into this? is that relevant for the norms too?
-					also, is he blaming zeus here? should i say that zeus is the one hurting him...? -->
-					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="both"/>O Cenaean rock, foundation of my altars, what cruel reward you have earned me for those fair offerings, O
+					<speaker>Heracles</speaker> <!-- Here Heracles blames Zeus, so I am tagging
+					Zeus as the cause of his pain. -->
+					<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="both" recRel="human"
+					inf="Zeus" infGen="man" infNorm="yes" infRel="god" direct="no"/>O Cenaean rock, foundation of my altars, what cruel reward you have earned me for those fair offerings, O
 						Zeus! Ah, in what ruin you have deposited me, in what ruin! Would that I had
 						never looked on you to my sorrow with my eyes, never come face to face with
 						this blooming madness, which no spell can soothe! Where is the enchanter, where the practiced healer, save
@@ -1747,7 +1757,8 @@
 				<div2 type="strophe" n="1" org="uniform" sample="complete">
 					<sp>
 						<speaker>Heracles</speaker>
-						<p><painStart rec="Heracles" recGen="man" recNorm="" painType="both"/>Ah! Leave me! Leave me in my
+						<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="both"
+						recRel="husband" inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Ah! Leave me! Leave me in my
 							misfortune! Leave me to sleep my last. Where, where do you touch me?
 							Where do you lay me? You will kill me, you will kill me! If there was
 							any pain that slumbered, you have aroused it!</p>
@@ -1766,8 +1777,8 @@
 							the strength to save him is at your command, more than mine.</p>
 					</sp>
 					<sp>
-						<speaker>Hyllus</speaker> <!-- b/c they're blaming zeus here. and also mentioning other pains in his life -->
-						<p>My hands reach out to him, <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>but no resource in myself or from another can
+						<speaker>Hyllus</speaker> <!-- they're blaming zeus here. and also mentioning other pains in his life -->
+						<p>My hands reach out to him, <painStart rec="Heracles" recGen="man" recNorm="yes" painType="phys"/>but no resource in myself or from another can
 							help me make his life forget its agonies. So strong is the destiny
 							appointed by Zeus!</p>
 					</sp>
@@ -1776,10 +1787,11 @@
 					<sp>
 						<speaker>Heracles</speaker>
 						<p>O my son, where are you? Raise me,
-							take hold of me here, here! <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>Oh, oh, my god! Again, again the cruel pest
+							take hold of me here, here! <painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+							inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Oh, oh, my god! Again, again the cruel pest
 							leaps, leaps up to rend me, the wild, uncombatable plague! O Pallas, Pallas, it tortures me again! oh,
 							please, my son, pity your sire!<painEnd/> Draw a sword—you will not be blamed for
-							it—strike me beneath my collarbone.<painStart rec="Heracles" recGen="man" recNorm="" painType="both" recRel="husband"
+							it—strike me beneath my collarbone.<painStart rec="Heracles" recGen="man" recNorm="no" painType="both" recRel="husband"
 								inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Heal this pain with which your godless mother has
 							enraged me! So may I see her fall to ruin, exactly, just exactly, as she
 							has destroyed me! Sweet Hades,
@@ -1790,9 +1802,10 @@
 			</div1>
 			<div1 type="episode" org="uniform" sample="complete">
 				<sp>
-					<speaker>Chorus</speaker> <!-- yeah, the thing is, they in the chorus are socially accepting him. so then i put yes?
+					<speaker>Chorus</speaker> <!-- yeah, the thing is, they in the chorus are socially accepting him. so then i put yes.
 					do i put an inf here? -->
-					<p><painStart rec="Heracles" recGen="man" recNorm="yes" painType="both"/>I shudder, friends, to hear these sorrows which our King suffers. What a man is here, and what
+					<p><painStart rec="Heracles" recGen="man" recNorm="yes" painType="both" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>I shudder, friends, to hear these sorrows which our King suffers. What a man is here, and what
 						misfortunes lash at him!<painEnd/></p>
 				</sp>
 				
@@ -1801,8 +1814,8 @@
 				
 				<sp n="Heracles">
 					<speaker>Heracles</speaker>
-					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="phys" recRel="husband"
-					inf="Deianeira" infGen="woman" infNorm="" infRel="wife" direct="no"/>Ah, many and hot and cruel not in name alone have been the labors of these
+					<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Ah, many and hot and cruel not in name alone have been the labors of these
 						hands, the burdens hoisted upon these shoulders! And yet no toil ever laid
 						on me by the bedfellow of Zeus or by the hateful Eurystheus was as
 							harsh as this thing which the
@@ -1820,16 +1833,18 @@
 						woman that bore you, and give her with your own hands into my hand, that I
 						may know for certain which sight grieves you more—my tortured frame, or
 						hers, when she suffers her just punishment! Go, my son, be bold! <painStart rec="Heracles" recGen="man" recNorm="no" painType="both" recRel="husband"
-						inf="Deianeira" infGen="woman" infNorm="" infRel="wife" direct="no"/>Show your pity for me, whom many might
+						inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Show your pity for me, whom many might
 						think deserving of pity—pity me moaning and weeping like a girl! No one
 						could say that he had ever seen this man do that before. No, always without
 						complaint I used to pursue my troubles. But now in my misery I have been found a woman, instead of
-						the man I used to be.<painEnd/></p> <!-- norm tag is no??? -->
-					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="both"/>Come close, stand near your father and do examine the magnitude of the
+						the man I used to be.<painEnd/></p> <!-- norm tag is no. it's gender-based, and heracles himself kind of points that out -->
+					<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="both" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Come close, stand near your father and do examine the magnitude of the
 						misfortune by which I suffer; for I will uncover my suffering. Look! See all
 						of you this miserable body; see how
 						wretched, how pitiable I am!<painEnd/></p>
-					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>Ah, misery! The ruinous spasm flames again; it shoots through my sides—I must
+					<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Ah, misery! The ruinous spasm flames again; it shoots through my sides—I must
 						wrestle once more with that cruel, devouring plague!</p>
 					<p>King Hades, receive me! Strike me, O
 						fire of Zeus! Hurl down your thunderbolt, ruler, dash it, Father, upon my
@@ -1845,16 +1860,18 @@
 						underground the three-headed whelp of Hades, a resistless terror, offspring
 						of the fierce Echidna; you tamed the dragon that guarded the golden fruit in the farthest places of the
 						earth. These toils and thousands more have I tasted, and no man has ever
-						erected a trophy of victory over my hands. <painStart/>But now, with joints unhinged and
+						erected a trophy of victory over my hands. <painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+						inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>But now, with joints unhinged and
 						with flesh torn to shreds, I have become the miserable spoil of an unseen
-							destroyer,—I, who am called the <!-- check this again -->
+							destroyer,—I, who am called the <!-- heracles talks abour what he's been reduced to -->
 						son of noblest mother, I, who am reputed the seed of Zeus, lord of the
 						starry sky.<painEnd/></p>
-					<p>But you may be sure of one thing: <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>though I am nothing, though I cannot move a
+					<p>But you may be sure of one thing: <painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>though I am nothing, though I cannot move a
 						step, yet she who has done this deed shall feel my heavy hand even so.<painEnd/> Let
 						her but come to meso that she may
 						learn to proclaim this message to all the world, that in my death, as in my
-						life, I punished the guilty! </p> <!-- this section needs more tagging. come back to this -->
+						life, I punished the guilty! </p>
 				</sp>
 				<sp>
 					<speaker>Chorus</speaker>
@@ -1864,7 +1881,8 @@
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
-					<p>Father, since your pause permits an answer, <painStart rec="Heracles" recGen="man" recNorm="" painType="both"/>hear me, diseased though you are; I will ask you for no
+					<p>Father, since your pause permits an answer, <painStart rec="Heracles" recGen="man" recNorm="yes" painType="both"
+					recRel="husband" inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>hear me, diseased though you are; I will ask you for no
 						more than is my due. Give yourself to me in a mood not as harsh as that to
 						which your heart is now stung.<painEnd/> Otherwise you cannot learn in what
 						circumstances you wrongly wish to triumph and wrongly show resentment.</p> <!-- tag this more -->
@@ -1872,7 +1890,8 @@
 				<sp>
 					<speaker>Heracles</speaker>
 					<p>Stop when you have said what it is
-						you desire. <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>In this pain of mine I understand none of your many riddles.<painEnd/></p>
+						you desire. <painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+						inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>In this pain of mine I understand none of your many riddles.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
@@ -1885,8 +1904,8 @@
 						hearing?</p>
 				</sp>
 				<sp>
-					<speaker>Hyllus</speaker>
-					<p><painStart rec="Hyllus" recGen="man" recNorm="yes" painType="em"/>Yes, for her condition is such that my silence shames me.<painEnd/></p>
+					<speaker>Hyllus</speaker> <!-- said "no" because he is ashamed of his own behavior -->
+					<p><painStart rec="Hyllus" recGen="man" recNorm="no" painType="em"/>Yes, for her condition is such that my silence shames me.<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
@@ -1950,8 +1969,8 @@
 							potion.</p>
 				</sp>
 				<sp>
-					<speaker>Heracles</speaker>
-					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="em"/>Ah! Ah, misery! I am lost, ruined, ruined! The light of day exists for me no
+					<speaker>Heracles</speaker> <!-- did not put deianeira as inflictor because now he knows it's not her fault -->
+					<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="em"/>Ah! Ah, misery! I am lost, ruined, ruined! The light of day exists for me no
 							more! Ah, now I understand the
 						depth of my misfortune! Go, my son! Your father is no more.<painEnd/> Summon for me
 						all the crop of your brothers. Summon, too, poor Alcmena, in vain the
@@ -1975,7 +1994,7 @@
 						man you are, who are called my son.</p>
 					<p>It was foreshown to me by my father far in the past that I would perish by no creature that had the breath
 						of life, but by one already dead, a dweller with Hades. <painStart rec="Heracles" recGen="man"
-						recNorm="" painType="phys" recRel="defender" inf="Nessus" infGen="man" infNorm="no" infRel="attacker" direct="no"/>So this savage
+						recNorm="no" painType="phys" recRel="defender" inf="Nessus" infGen="man" infNorm="no" infRel="attacker" direct="no"/>So this savage
 						Centaur in death has killed me alive, just as the divine will had been
 						foretold.<painEnd/> And I will show you how later oracles tally with the first and testify to the old prophecy. I
 						wrote them down for myself from the mouth of my father's oak of many tongues
@@ -1986,7 +2005,7 @@
 						son, those words are clearly finding their fulfillment, you, on your part, must fight on my behalf. You
 						must not delay, and so sharpen my tongue, but give your consent to work with
 						me, like one who has discovered that best of laws, the law of obedience to
-						your father.</p> <!-- should toiling be considered phys pain? -->
+						your father.</p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
@@ -2069,7 +2088,8 @@
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
-					<p><painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>Not so, in truth, but healer of my sufferings, sole physician of my pain!<painEnd/></p>
+					<p><painStart rec="Heracles" recGen="man" recNorm="no" painType="phys" recRel="husband"
+					inf="Deianeira" infGen="woman" infNorm="no" infRel="wife" direct="no"/>Not so, in truth, but healer of my sufferings, sole physician of my pain!<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Hyllus</speaker>
@@ -2133,9 +2153,11 @@
 					<speaker>Hyllus</speaker>
 					<p>Who on earth would, when she alone is to blame for my mother's death, and for
 						your present condition besides? Who
-						would choose to do so, unless he were infected by avenging fiends? It would
+						would choose to do so, unless he were infected by avenging fiends? <painStart rec="Hyllus"
+						recGen="man" recNorm="yes" painType="em" recRel="son" inf="Heracles" infGen="man"
+						infNorm="no" infRel="father" direct="no"/>It would
 						be better, Father, that I also die, rather than live united with those whom
-						I most detest!</p> <!-- em pain for hyllus? -->
+						I most detest!<painEnd/></p> <!-- em pain for hyllus -->
 				</sp>
 				<sp>
 					<speaker>Heracles</speaker>
@@ -2205,7 +2227,7 @@
 					<p>Lift him, attendants! Grant me ample
 						forgiveness for this, but also recall the great cruelty of the gods in the
 						deeds that are being done. They beget children and are hailed as fathers,
-						and <painStart rec="Heracles" recGen="man" recNorm="" painType="phys"/>yet they can let such sufferings pass before their eyes.</p>
+						and <painStart rec="Heracles" recGen="man" recNorm="yes" painType="both"/>yet they can let such sufferings pass before their eyes.</p>
 					<p>No man foresees the future; the
 						present is full of mourning for us, and of shame for the powers above, and
 						indeed of hardship beyond compare for him who endures this disaster.<painEnd/></p> <!-- tagging this is weird bc of the p elements... -->
