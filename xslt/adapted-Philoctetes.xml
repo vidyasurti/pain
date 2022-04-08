@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allPainEvents doc-name="$doc-name">
+   <pain xml:id="pain_0001">
+      <painStart painType="phys"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 inf="disease"
+                 direct="no"/>his foot was all running
+						with a gnawing disease.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0002">
+      <painStart painType="phys"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 inf="disease"
+                 direct="no"/>How could he go far afield when his
+						foot is maimed by that old plague? <painEnd/>
+   </pain>
+   <pain xml:id="pain_0003">
+      <painStart painType="both"
+                 rec="Philoctetes"
+                 recGen="man"
+                 inf="disease"
+                 direct="no"
+                 recNorm="no"/>For my part, I pity him when I think how,with no one to care for him, and seeing no companion's
+							face, but suffering eternally alone, he is plagued by fierce disease and
+							bewildered by each need as it arises.How, how does he endure his bitter fate?<painEnd/>
+   </pain>
+   <pain xml:id="pain_0004">
+      <painStart painType="both"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 inf="disease"
+                 direct="no"/>That man—inferior in no way,
+							probably, to any man belonging to the oldest families—lies alone without
+							companions and stripped of all life's giftsamong the dappled or shaggy beasts. He is a man to be
+							pitied for his torments and his hunger alike, enduring anguish that has
+							no cure.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0005">
+      <painStart painType="phys"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 inf="disease"
+                 direct="no"/>Instead those men, who against the gods'
+						laws cast me away, keep their secret and laugh, while my plague has ever
+						flourished and grows worse!<painEnd/>
+   </pain>
+   <pain xml:id="pain_0006">
+      <painStart painType="both"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 recRel="acquaintance"
+                 inf="Cephallenian King"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 direct="yes"/>
+						I am he whom the two marshalls and the Cephallenian kingshamelessly hurled to this solitude <painEnd/>
+   </pain>
+   <pain xml:id="pain_0007">
+      <painStart painType="phys"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 inf="animal"
+                 direct="no"/>I was wasting with a fierce disease, stricken by the savage
+						bite of the murderous serpent.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0008">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recRel="acquaintance"
+                 inf="Cephallenian King"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 recNorm="no"
+                 direct="yes"/>what
+						stinging tears I wept, and what miseries I bewailed <painEnd/>
+   </pain>
+   <pain xml:id="pain_0009">
+      <painStart painType="both"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recRel="acquaintance"
+                 inf="Odysseus"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 recNorm="no"
+                 direct="yes"/>But there is one thing
+						that no one will do, whenever I mention it: take me home in safety. No, this
+						is already the tenth year that I am wasted by misery from hunger and
+						suffering, by feeding this gluttonous plague. This is what the Atreids and
+						the forceful Odysseus have done to me, boy.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0010">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 inf="disease"
+                 direct="no"
+                 recNorm="no"/>I have been slowly schooled by necessity to endure misery.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0011">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 inf="disease"
+                 direct="no"/> powerless to walk, with no one in
+							the land to be his companion <painEnd/>
+   </pain>
+   <pain xml:id="pain_0012">
+      <painStart painType="phys"
+                 rec="Philoctetes"
+                 recGen="man"
+                 inf="disease"
+                 direct="no"
+                 recNorm="no"/>
+							for the plague that gnawed his flesh and drained his
+							blood—no one to lull with healing herbs gathered from the nourishing
+							earth the burning blood which oozed from the ulcers of hisenvenomed foot, whenever the torment
+							attacked him.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0013">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 inf="disease"
+                 direct="no"
+                 recNorm="no"/>Ah,
+							joyless was his life, who for ten years never knew the delight of
+								wine,<painEnd/>
+   </pain>
+   <pain xml:id="pain_0014">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 inf="disease"
+                 direct="no"
+                 recNorm="no"/>I am destroyed, boy—I can never conceal my suffering when you are close. Ah!
+						Ah! It shoots through me, shoots straight through! Oh, the pain,the
+							misery!I am destroyed, boy—I am
+						devoured!<painEnd/>
+   </pain>
+   <pain xml:id="pain_0015">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recRel="acquaintance"
+                 inf="Odysseus"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 recNorm="no"
+                 direct="no"/>Ah, me, oh, oh! Cursed foot,
+							what torment you cause me! It creeps on me, it is coming near! Ah, misery!<painEnd/>
+   </pain>
+   <pain xml:id="pain_0016">
+      <painStart painType="phys"
+                 rec="Philoctetes"
+                 recGen="man"
+                 inf="disease"
+                 direct="no"
+                 recNorm="no"/>This pain no longer lets me stand up.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0017">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recNorm="no"
+                 recRel="acquaintance"
+                 inf="Neoptolemus"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 direct="yes"/>I am destroyed—ah, misery!—betrayed!<painEnd/>
+   </pain>
+   <pain xml:id="pain_0018">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recRel="acquaintance"
+                 inf="Neoptolemus"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 recNorm="no"
+                 direct="yes"/>But now, because of my rotten fate, I
+						have been tricked.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0019">
+      <painStart painType="em"
+                 rec="Philoctetes"
+                 recGen="man"
+                 recRel="acquaintance"
+                 inf="Odysseus"
+                 infGen="man"
+                 infNorm="yes"
+                 infRel="acquaintance"
+                 recNorm="no"
+                 direct="yes"/>mocked by you and by the sons of
+						Atreus, the two generals whom you serve on this errand.<painEnd/>
+   </pain>
+   <pain xml:id="pain_0020">
+      <painStart painType="phys" rec="Philoctetes" recGen="man" recNorm="no"/>Ayee, ayee! Doom, Doom! My suffering kills me! Foot, my foot, what shall
+							I do with you in the days to come?<painEnd/>
+   </pain>
+</allPainEvents>

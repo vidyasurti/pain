@@ -80,9 +80,11 @@ textElem = element text {lang, body}#textElem (called text in the file) has one 
                 div1n = attribute n {text}
                 #sp element will have one "speaker" element and one or more p elements
                 speaker = element speaker {text}
-                p = element p {mixed{(painStart | painEnd | stage | placeName)*}}
+                p = element p {mixed{(painStart | painEnd | stage | placeName | gap)*}}
+                 gap = element gap {desc, text} 
+                 desc = attribute desc {text}
                 #portion of schema for pain markup
-                  gap = element gap {text}
+                  
                     painStart = element painStart {(allPain | infPain | nonhumanPain), empty}
                         allPain = rec, recGen, recNorm, painType #this grouping of pain attributes is required for all painStart elements
                         infPain = allPain, recRel, inf, infGen, infNorm, infRel, direct # this grouping of pain attributes is for all groupings that have a human inflictor 
