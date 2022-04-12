@@ -21,13 +21,21 @@
     <!-- outputting root element, applying templates directly to body -->
     <xsl:template match = "/">
         <xsl:variable name = "doc-name" select = "//titleStmt/title[1]" />
-        <allPainEvents doc-name = "$doc-name">
-            <xsl:apply-templates select = "//body" />
-        </allPainEvents>
+        <events_and_full-text>
+            <allPainEvents doc-name = "$doc-name">
+                <xsl:apply-templates select = "//body" mode = "painEventText"/>
+            </allPainEvents>
+            
+            <tragedyText>
+                <xsl:apply-templates select = "//body" mode = "tragedyText" />
+                
+            </tragedyText>
+        </events_and_full-text>
+        
     </xsl:template>
     
     <!-- RICHA - assuming that match = "body", originally was referring to front for cast list -->
-    <xsl:template match="body"> 
+    <xsl:template match="body" mode = "painEventText"> 
         <!-- ============================================================ -->
         <!-- not necessarily for gendered pain project - Copy the cast list and create new <div> for insults          -->
         <!-- ============================================================ -->
@@ -73,5 +81,11 @@
                 </xsl:for-each-group>
             
         
+    </xsl:template>
+    
+    <xsl:template match="body" mode = "tragedyText">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>
