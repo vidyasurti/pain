@@ -22,7 +22,7 @@
     <xsl:template match = "/">
         <xsl:variable name = "doc-name" select = "//titleStmt/title[1]" />
         <events_and_full-text>
-            <allPainEvents doc-name = "$doc-name">
+            <allPainEvents doc-name = "{$doc-name}">
                 <xsl:apply-templates select = "//body" mode = "painEventText"/>
             </allPainEvents>
             
