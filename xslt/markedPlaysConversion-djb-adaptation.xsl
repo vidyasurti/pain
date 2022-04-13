@@ -21,6 +21,9 @@
     <!-- outputting root element, applying templates directly to body -->
     <xsl:template match = "/">
         <xsl:variable name = "doc-name" select = "//titleStmt/title[1]" />
+        <xsl:if test="contains($doc-name, '(')"></xsl:if>
+            <xsl:variable name = "doc-name" select = "concat(substring-before($doc-name, ' ('), '')" />
+            
         <events_and_full-text>
             <allPainEvents doc-name = "{$doc-name}">
                 <xsl:apply-templates select = "//body" mode = "painEventText"/>
