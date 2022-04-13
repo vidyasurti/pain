@@ -1795,7 +1795,7 @@
 						<painStart rec="Agamemnon" recGen="man" recNorm="yes" painType="both"
 							recRel="husband" inf="Clytaemestra" infGen="woman" infNorm="no"
 							infRel="wife" direct = "yes"/>Behold this pair, oppressors of the land, who murdered my
-						father and ransacked my house! They were majestic then, when they sat on
+						father and ransacked my house! <painEnd/>They were majestic then, when they sat on
 						their thrones,and are lovers even now, as one may judge by what has happened
 						to them, and their oath holds true to their pledges. Together they vowed a
 						league of death against my unhappy father, and together they vowed to die,
