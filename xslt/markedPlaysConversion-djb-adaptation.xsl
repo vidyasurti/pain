@@ -95,7 +95,7 @@
     <xsl:template match="painStart">
         <mappedPain xml:id="tragedy_{position()}"/>
         <xsl:copy>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
 
