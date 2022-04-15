@@ -549,65 +549,8 @@
                     infNorm="no"
                     infRel="wife"
                     direct="yes"/>Behold this pair, oppressors of the land, who murdered my
-						father and ransacked my house! They were majestic then, when they sat on
-						their thrones,and are lovers even now, as one may judge by what has happened
-						to them, and their oath holds true to their pledges. Together they vowed a
-						league of death against my unhappy father, and together they vowed to die,
-						and they have kept their promise well. But now regard again, you who hear this account of ills, the device for
-						binding my unhappy father, with which his hands were manacled, his feet
-						fettered. Spread it out! Stand around in a circle, and display this covering
-						for a man, that the Father may see—not mine, but he who surveys all this,
-						the Sun—that he may see the impious work of my own mother, that he may be my
-						witness in court that I justly pursued this death, my own mother's. For I do
-						not speak of Aegisthus' death: he has suffered the penalty prescribed for
-						adulterers.But she who devised this abhorrent deed against her husband, whose children
-						she bore, a burden under her belt, a burden once dear, but now a hateful
-						ill, as it seems: what do you think of her? Had she been born a seasnake or
-						a viper, I think her very touch without her bite would have caused anyone
-						else to rot,if shamelessness and an immoral disposition could do
-							so.What name shall I give it, however tactful I may be? A trap for a wild beast?
-						Or a shroud for a corpse in his bier, wrapped around his feet? No, rather it
-						is a net: you might call it a hunting net, or robes to entangle a man's
-						feet. This would be the kind of thing a highwayman might posses, who
-						deceives strangers and earns his living by robbery, and with this cunning
-						snare he might kill many men and warm his own heart greatly.May such a woman not live with me in my house! Before that may the gods grant
-						me to perish childless! Alas! Alas! Sorrowful work! You were done in by a wretched death. Alas!
-						Alas! And for the survivor also suffering blossoms. Did she do the deed or not? No, this is my witness, dyed by Aegisthus' sword.
-						This is a stain of blood that helps time to spoil the many tinctures of
-						embroidered fabric.Now at last I speak his praises. Now at last I am present to lament him, as I
-						address this web that wrought my father's death. Yet I grieve for the deed
-						and the punishment and for my whole clan. My victory is an unenviable
-						pollution.No mortal being shall pass his life unscathed, free from all suffering to the
-						end. Alas! Alas! One tribulation comes today, another tomorrow.But since I would have you know, for I do not know how it will end: I think I
-						am a charioteer driving my team far beyond the course. For my ungoverned
-						wits are whirling me away overmastered, and at my heart fear wishes to sing
-						and dance to a tune of wrath.But while I am still in my senses, I proclaim
-						to those who hold me dear and declare that not without justice did I slay my
-						mother, the unclean murderess of my father, and a thing loathed by the
-						gods.And for the spells that gave me the courage for this deed I count Loxias, the
-						prophet of ,my chief source. It was he who declared that, if I
-						did this thing, I would be acquitted of wrongdoing. But if I refrained—I
-						will not name the penalty; for no bowshot could reach such a height of
-						anguish.And now observe me, how armed with this branch and wreath I go as a
-						suppliant, an outcast for the shedding of kindred blood, to the temple set
-						square on the womb of the earth,the precinct of Loxias, and to the bright
-						fire said to be imperishable. To no other hearth did Loxias bid me turn. And
-						as to the manner in which this evil deed was wrought, I charge all men of
-							 in time to come to bear me witness.I go forth a
-						wanderer, estranged from this land, leaving this repute behind, in life or
-						death.And you have done well. Therefore do not yoke your tongue to an ill-omened
-						speech, nor let your lips give vent to evil forebodings,since you have freed
-						the whole realm of  by lopping off the heads of two serpents with a
-						fortunate stroke.Ah, ah! You handmaidens, look at them there: like Gorgons, wrapped in sable
-						garments, entwined with swarming snakes! I can stay no longer.What fantasies disturb you, dearest of sons to your father? Wait, do not be
-						all overcome by fear.To me these are no imagined troubles. For there indeed are the hounds of
-						wrath to avenge my mother.It is that the blood is still fresh on your hands;this is the cause of the
-						disorder that assails your wits.O lord Apollo, look! Now they come in troops, and from their eyes they drip
-						loathsome blood!There is one way to cleanse you: the touch of Loxias will set you free from
-						this affliction.You do not see them, but I see them. I am pursued. I can stay no
-							longer.Then may blessings go with you, and may the god watch benevolently over you
-						and guard you with favorable fortunes!Look! Now again, for the third time, has the tempest of this clan burst on
-						the royal house and run its course. </pain>
+						father and ransacked my house! <painEnd/>
+      </pain>
       <pain xml:id="pain_0047">
          <painStart rec="society" recGen="mix" recNorm="yes" painType="both"/>First, at the beginning, came the cruel
 						woes of children slain for food; next, the fate of a man, a king,when the
@@ -2504,7 +2447,7 @@
                              infNorm="no"
                              infRel="wife"
                              direct="yes"/>Behold this pair, oppressors of the land, who murdered my
-						father and ransacked my house! They were majestic then, when they sat on
+						father and ransacked my house! <painEnd/>They were majestic then, when they sat on
 						their thrones,and are lovers even now, as one may judge by what has happened
 						to them, and their oath holds true to their pledges. Together they vowed a
 						league of death against my unhappy father, and together they vowed to die,
