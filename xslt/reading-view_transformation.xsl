@@ -11,9 +11,9 @@
             <head>
 
                 <title>
+                    <xsl:apply-templates select = "/events_and_full-text/allPainEvents/@doc-name" /> Reading View
                     <xsl:apply-templates select="//titleStmt/title[1]"/>
                 </title>
-                <!-- If possible - remove the (English) in libation bearers, philoctetes, and women of trachis -->
                 <link rel="stylesheet" type="text/css" href="reading-view.css"/>
             </head>
             <body>
@@ -30,7 +30,7 @@
     </xsl:template>
 
     <xsl:template match="allPainEvents">
-        <xsl:text>Hello world!</xsl:text>
+        
         
 
         <xsl:apply-templates select="pain"/>
@@ -45,7 +45,12 @@
     </xsl:template>
 
     <xsl:template match="pain"> 
-        <p><xsl:apply-templates/></p>
+        <p>
+            <a href = "#tragedy-{@xml:id}" id = "event-{@xml:id}">
+                <xsl:apply-templates/>
+            </a>
+            
+        </p>
     
     </xsl:template>
 </xsl:stylesheet>
