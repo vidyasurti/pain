@@ -3,15 +3,16 @@ h2.page-title {
     
 }
 
-p.painEvent {
+p.painEvents {
     text-align: center;
     
 }
 
-section.textDisplay {
+section.painEvents {
     border: 5px solid DarkBlue;
 }
 
-.textDisplay{
-    
+section.fullPlay {
+    border: 5px solid DarkBlue;
 }
+
