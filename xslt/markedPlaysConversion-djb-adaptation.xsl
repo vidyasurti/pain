@@ -27,8 +27,8 @@
         <xsl:if test="contains($doc-name, '(')"/>
         <xsl:variable name="doc-name" select="concat(substring-before($doc-name, ' ('), '')"/>
 
-        <events_and_full-text>
-            <allPainEvents doc-name="{$doc-name}">
+        <events_and_full-text doc-name="{$doc-name}">
+            <allPainEvents>
                 <xsl:apply-templates select="//body" mode="painEventText"/>
             </allPainEvents>
 
@@ -95,8 +95,8 @@
     </xsl:template>
 
     <xsl:template match="painStart">
-        <xsl:variable name = "current_pain-event" as = "xs:integer" select = ". + 1"/>            
-        <mappedPain xml:id="tragedy_{$current_pain-event}"/>
+        <!--<xsl:variable name = "current_pain-event" as = "xs:integer" select = ". + 1"/>            
+        <mappedPain xml:id="tragedy_{$current_pain-event}"/> -->
         
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
