@@ -48,10 +48,57 @@
     </xsl:template>
 
     <xsl:template match="tragedyText">
-        <xsl:text>hello world!</xsl:text>
-        <p>
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="div1">
+        <div class="div1">
+            <hr/>
+            <xsl:apply-templates/>
+            <br/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="div1/stage">
+
+        <p class="stage">
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+
+    <xsl:template match="//sp/stage">
+
+        <p class="stage">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="//sp/speaker">
+
+        <p class="speaker">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="//sp/p">
+
+        <p class="p">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="p/speaker">
+        <br/>
+        <a class="speaker">
+            <xsl:apply-templates/>
+        </a>
+    </xsl:template>
+
+    <xsl:template match="p/stage">
+        <br/>
+        <a class="stage">
+            <xsl:apply-templates/>
+        </a>
     </xsl:template>
 
     <!--<xsl:template match = "mappedPain">
