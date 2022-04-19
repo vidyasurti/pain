@@ -12,6 +12,7 @@ section.painEvents {
     border: 2px solid DarkBlue;
     order:1;
     width: 40vw;
+    overflow-y: scroll;
     
     
 }
@@ -19,7 +20,8 @@ section.painEvents {
 section.fullPlay {
     border: 2px solid DarkBlue;
     order:2;  
-    width: 35vw;
+    width: 40vw;
+    overflow-y: scroll;
     
 }
 
