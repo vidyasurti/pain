@@ -10,9 +10,22 @@ p.painEvents {
 
 section.painEvents {
     border: 5px solid DarkBlue;
+    order:1;
+    flex-grow:3;
 }
 
 section.fullPlay {
     border: 5px solid DarkBlue;
+    order:2;
+    flex-grow:1;
 }
 
+div.both-texts {
+    display:flex;
+    border: 2px solid LightBlue;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-content:center;
+    column-gap:10px
+}
