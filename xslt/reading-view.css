@@ -2,33 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Trirong:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Trirong:wght@100&display=swap');
 
+body{
+    background-color: #2e0b1d;
+}
+
 h2.page-title {
     text-align: center;
     font-family: "PlayFair Display";
+    color:white;
+    
     
 }
 
 p.painEvents {
     text-align: center;
+    color: white;
     
 }
 
 section.painEvents {
-    border: 2px solid DarkBlue;
+    
     order:1;
     width: 40vw;
     overflow-y: scroll;
     font-family: "Trirong";
+    color:white;
+    
+    
     
     
 }
 
 section.fullPlay {
-    border: 2px solid DarkBlue;
+    
     order:2;  
     width: 40vw;
     overflow-y: scroll;
     font-family: "Trirong";
+    color:white;
     
 }
 
@@ -38,12 +49,15 @@ div.both-texts {
     height: 80vh;
     margin: auto;
     width: 80vw;
-    border: 2px solid LightBlue;
+    
     flex-direction:row;
     flex-wrap:nowrap;
     justify-content:center;
     align-content:center;
-    column-gap:10px
+    column-gap:10px; 
+    
+    border-style: double;
+    border-color: #BF9000;
 }
 
 .speaker {
@@ -58,8 +72,20 @@ div.both-texts {
 
 hr {
   border: none;
-  border-top: 1px dotted black;
+  border-top: 1px dotted gold;
   color: black;
   height: 1px;
   width: 70%;
+}
+
+a.pain-event{
+    color: inherit;
+    
+}
+
+a:hover { color:#BF9000;}
+
+h3{
+    font-weight: bold;
+    text-align: center;
 }
