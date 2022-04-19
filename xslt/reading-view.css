@@ -11,7 +11,7 @@ p.painEvents {
 section.painEvents {
     border: 2px solid DarkBlue;
     order:1;
-    width: 50vw;
+    width: 40vw;
     
     
 }
@@ -19,7 +19,7 @@ section.painEvents {
 section.fullPlay {
     border: 2px solid DarkBlue;
     order:2;  
-    height: 25vh;
+    width: 35vw;
     
 }
 
@@ -27,7 +27,8 @@ div.both-texts {
     display:flex;
     overflow:auto;
     height: 80vh;
-    
+    margin: auto;
+    width: 80vw;
     border: 2px solid LightBlue;
     flex-direction:row;
     flex-wrap:nowrap;
