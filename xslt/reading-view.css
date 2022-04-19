@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Trirong:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Trirong:wght@100&display=swap');
+
 h2.page-title {
     text-align: center;
+    font-family: "PlayFair Display";
     
 }
 
@@ -13,6 +18,7 @@ section.painEvents {
     order:1;
     width: 40vw;
     overflow-y: scroll;
+    font-family: "Trirong";
     
     
 }
@@ -22,6 +28,7 @@ section.fullPlay {
     order:2;  
     width: 40vw;
     overflow-y: scroll;
+    font-family: "Trirong";
     
 }
 
