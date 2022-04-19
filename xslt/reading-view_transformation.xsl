@@ -34,6 +34,7 @@
     </xsl:template>
 
     <xsl:template match="allPainEvents">
+        <xsl:apply-templates select = "/events_and_full-text/@doc-name" />
         <xsl:apply-templates select="pain"/>
     </xsl:template>
 
