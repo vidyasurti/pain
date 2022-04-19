@@ -9,19 +9,25 @@ p.painEvents {
 }
 
 section.painEvents {
-    border: 5px solid DarkBlue;
+    border: 2px solid DarkBlue;
     order:1;
-    flex-grow:3;
+    width: 50vw;
+    
+    
 }
 
 section.fullPlay {
-    border: 5px solid DarkBlue;
-    order:2;
-    flex-grow:1;
+    border: 2px solid DarkBlue;
+    order:2;  
+    height: 25vh;
+    
 }
 
 div.both-texts {
     display:flex;
+    overflow:auto;
+    height: 80vh;
+    
     border: 2px solid LightBlue;
     flex-direction:row;
     flex-wrap:nowrap;
