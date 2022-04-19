@@ -11,7 +11,7 @@
             <head>
 
                 <title>
-                    <xsl:apply-templates select = "/events_and_full-text/@doc-name" /> Reading View
+                    <xsl:apply-templates select="/events_and_full-text/@doc-name"/> Reading View
                     <!--<xsl:apply-templates select="//titleStmt/title[1]"/> -->
                 </title>
                 <link rel="stylesheet" type="text/css" href="reading-view.css"/>
@@ -20,13 +20,14 @@
                 <h2 class="page-title">Events of Pain in <xsl:apply-templates
                         select="/events_and_full-text/@doc-name"/>
                 </h2>
-                <section class="painEvents">
-                    <xsl:apply-templates select="//allPainEvents"/>
-                </section>
-                <section class = "fullPlay">
-                    <xsl:apply-templates select = "//tragedyText" />
-                </section>
-
+                <div class="both-texts">
+                    <section class="painEvents">
+                        <xsl:apply-templates select="//allPainEvents"/>
+                    </section>
+                    <section class="fullPlay">
+                        <xsl:apply-templates select="//tragedyText"/>
+                    </section>
+                </div>
 
             </body>
         </html>
@@ -36,21 +37,23 @@
         <xsl:apply-templates select="pain"/>
     </xsl:template>
 
-    <xsl:template match="pain"> 
+    <xsl:template match="pain">
         <p>
-            <a href = "#tragedy-{@xml:id}" id = "event-{@xml:id}">
+            <a href="#tragedy-{@xml:id}" id="event-{@xml:id}">
                 <xsl:apply-templates/>
             </a>
-            
+
         </p>
-    
+
     </xsl:template>
-    
-    <xsl:template match = "tragedyText">
+
+    <xsl:template match="tragedyText">
         <xsl:text>hello world!</xsl:text>
-        <p><xsl:apply-templates /></p>
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
-    
+
     <!--<xsl:template match = "mappedPain">
         <a href = "#event-{@xml:id}" id = "tragedy-{@xml:id}">
             <xsl:apply-templates />
