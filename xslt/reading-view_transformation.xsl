@@ -34,13 +34,15 @@
     </xsl:template>
 
     <xsl:template match="allPainEvents">
-        <xsl:apply-templates select = "/events_and_full-text/@doc-name" />
+        <h3>
+            Specific Pain Events in <xsl:apply-templates select = "/events_and_full-text/@doc-name" />
+        </h3>
         <xsl:apply-templates select="pain"/>
     </xsl:template>
 
     <xsl:template match="pain">
         <p>
-            <a href="#tragedy-{@xml:id}" id="event-{@xml:id}">
+            <a class = "pain-event" href="#tragedy-{@xml:id}" id="event-{@xml:id}">
                 <xsl:apply-templates/>
             </a>
 
@@ -49,6 +51,7 @@
     </xsl:template>
 
     <xsl:template match="tragedyText">
+        <h3><xsl:apply-templates select = "/events_and_full-text/@doc-name" /> Full Text</h3>
         <xsl:apply-templates/>
     </xsl:template>
 
