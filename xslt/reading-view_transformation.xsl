@@ -11,17 +11,20 @@
             <head>
 
                 <title>
-                    <xsl:apply-templates select = "/events_and_full-text/allPainEvents/@doc-name" /> Reading View
-                    <xsl:apply-templates select="//titleStmt/title[1]"/>
+                    <xsl:apply-templates select = "/events_and_full-text/@doc-name" /> Reading View
+                    <!--<xsl:apply-templates select="//titleStmt/title[1]"/> -->
                 </title>
                 <link rel="stylesheet" type="text/css" href="reading-view.css"/>
             </head>
             <body>
                 <h2 class="page-title">Events of Pain in <xsl:apply-templates
-                        select="/events_and_full-text/allPainEvents/@doc-name"/>
+                        select="/events_and_full-text/@doc-name"/>
                 </h2>
-                <section class="textDisplay">
+                <section class="painEvents">
                     <xsl:apply-templates select="//allPainEvents"/>
+                </section>
+                <section class = "fullPlay">
+                    <xsl:apply-templates select = "//tragedyText" />
                 </section>
 
 
@@ -30,18 +33,7 @@
     </xsl:template>
 
     <xsl:template match="allPainEvents">
-        
-        
-
         <xsl:apply-templates select="pain"/>
-
-
-            <!-- <a href="#event{@xml:id}">
-                <xsl:apply-templates select="pain"/>
-            </a> -->
-        
-
-
     </xsl:template>
 
     <xsl:template match="pain"> 
@@ -53,4 +45,15 @@
         </p>
     
     </xsl:template>
+    
+    <xsl:template match = "tragedyText">
+        <xsl:text>hello world!</xsl:text>
+        <p><xsl:apply-templates /></p>
+    </xsl:template>
+    
+    <!--<xsl:template match = "mappedPain">
+        <a href = "#event-{@xml:id}" id = "tragedy-{@xml:id}">
+            <xsl:apply-templates />
+        </a>
+    </xsl:template> -->
 </xsl:stylesheet>

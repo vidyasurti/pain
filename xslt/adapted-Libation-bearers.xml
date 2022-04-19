@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<events_and_full-text>
-   <allPainEvents doc-name="Libation Bearers">
+<events_and_full-text doc-name="Libation Bearers">
+   <allPainEvents>
       <pain xml:id="pain_1">
          <painStart rec="Orestes" recGen="man" recNorm="yes" painType="both"/>now that I have come to this
 						land and returned from exile. On this mounded grave I cry out to my father
@@ -567,8 +567,7 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>Hermes of the nether world, you who guard the powers that are your father's,
-						prove yourself my savior and ally, I entreat you, <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Orestes" recGen="man" recNorm="yes" painType="both"/>now that I have come to this
+						prove yourself my savior and ally, I entreat you, <painStart rec="Orestes" recGen="man" recNorm="yes" painType="both"/>now that I have come to this
 						land and returned from exile. On this mounded grave I cry out to my father
 						to hearken, to hear me<painEnd/>
                </p>
@@ -580,8 +579,7 @@
 						by their sable cloaks? To what calamity should I set this down? Is it some
 						new sorrow that befalls our house? Or am I right to suppose that for my
 						father's sake they bear these libations to appease the powers below? It can
-						only be for this cause: for indeed <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Electra" recGen="woman" recNorm="yes" painType="em"/>I think my own sister Electra is
+						only be for this cause: for indeed <painStart rec="Electra" recGen="woman" recNorm="yes" painType="em"/>I think my own sister Electra is
 						approaching, distinguished by her bitter grief<painEnd/>. Oh grant me, Zeus,
 						to avenge my father's death, and may you be my willing ally!</p>
                <p>Pylades, let us stand apart, that I may</p>
@@ -595,8 +593,7 @@
                <sp>
                   <speaker>Chorus</speaker>
                   <p>Sent forth from the palace I have come to convey libations to the sound
-							of sharp blows of my hands. <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="both"/>My cheek is marked with bloody gashes
+							of sharp blows of my hands. <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="both"/>My cheek is marked with bloody gashes
 							where my nails have cut fresh furrows. And yet through all my life my
 							heart is fed with lamentation. Rips are torn by my griefs through the
 							linen web of my garment, torn in the cloth that covers my breast, the
@@ -620,8 +617,7 @@
             <div2 type="strophe" n="2" org="uniform" sample="complete">
                <sp>
                   <speaker>Chorus</speaker>
-                  <p>Intending to ward off evil with such a graceless grace, <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Chorus"
+                  <p>Intending to ward off evil with such a graceless grace, <painStart rec="Chorus"
                                 recGen="woman"
                                 recNorm="yes"
                                 painType="em"
@@ -665,8 +661,7 @@
                <sp>
                   <speaker>Chorus</speaker>
                   <p>For since the gods laid constraining doom about my city and led me from
-							my father's house to a slave's lot, <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Chorus"
+							my father's house to a slave's lot, <painStart rec="Chorus"
                                 recGen="woman"
                                 recNorm="yes"
                                 painType="both"
@@ -688,8 +683,7 @@
                <p>You handmaidens who set our house in order, since you are here as my
 						attendants in this rite of supplication,give me your counsel on this: what
 						should I say while I pour these offerings of sorrow? How shall I find
-						gracious words, how shall I entreat my father? <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Agamemnon"
+						gracious words, how shall I entreat my father? <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
                              painType="both"
@@ -790,8 +784,7 @@
 						gives birth to all things, and having nurtured them receives their increase
 						in turn. And meanwhile, as I pour these lustral offerings to the dead, I
 						invoke my father: “Have pity both on me and on dear Orestes! How shall we
-						rule our own house? <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Orestes-and-Electra"
+						rule our own house? <painStart rec="Orestes-and-Electra"
                              recGen="mix"
                              recNorm="yes"
                              painType="em"
@@ -801,8 +794,7 @@
                              infNorm="no"
                              infRel="mother"
                              direct="yes"/>For now we are bartered
-						away like vagrants by her who bore us<painEnd/>, by her <mappedPain xml:id="tragedy_6"/>
-                  <painStart rec="Agamemnon"
+						away like vagrants by her who bore us<painEnd/>, by her <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
                              painType="phys"
@@ -813,8 +805,7 @@
                              infRel="wife"
                              direct="yes"/>who in exchange got as her mate Aegisthus, who was her
 						accomplice in your murder<painEnd/>. As for me, I am no better than a slave,
-							<mappedPain xml:id="tragedy_10"/>
-                  <painStart rec="Orestes"
+							<painStart rec="Orestes"
                              recGen="man"
                              recNorm="yes"
                              painType="em"
@@ -922,13 +913,11 @@
             <sp n="Electra">
                <speaker>Electra</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_1"/>
                   <painStart rec="Electra" recGen="woman" recNorm="yes" painType="em"/>Over my
 						heart, too, there sweeps a surge of bitterness, and I am struck as if a
 						sword had run me through<painEnd/>. From my eyes thirsty drops of a stormy
 						flood fall unchecked at the sight of this tress. For how can I expect to
-						find that someone else, some townsman, owns this lock? <mappedPain xml:id="tragedy_5"/>
-                  <painStart rec="Orestes-and-Electra"
+						find that someone else, some townsman, owns this lock? <painStart rec="Orestes-and-Electra"
                              recGen="mix"
                              recNorm="yes"
                              painType="em"
@@ -1030,8 +1019,7 @@
             </sp>
             <sp>
                <speaker>Orestes</speaker>
-               <p>O Zeus, O Zeus, regard our cause! <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Orestes-and-Electra"
+               <p>O Zeus, O Zeus, regard our cause! <painStart rec="Orestes-and-Electra"
                              recGen="mix"
                              recNorm="yes"
                              painType="em"
@@ -1087,8 +1075,7 @@
                <!-- This is about revenge, not pain -->
                <p>Must I not put my trust in oracles such as these? Yet even if I do not trust
 						them, the deed must still be done. For many impulses conspire to one
-						conclusion. Besides the god's command, <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="society"
+						conclusion. Besides the god's command, <painStart rec="society"
                              recGen="mix"
                              recNorm="yes"
                              painType="both"
@@ -1130,8 +1117,7 @@
                <sp>
                   <speaker>Chorus</speaker>
                   <p>My child, the fire's ravening jaw does not overwhelm the wits of the dead
-							man,but afterwards he reveals what stirs him. <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Agamemnon"
+							man,but afterwards he reveals what stirs him. <painStart rec="Agamemnon"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="phys"
@@ -1150,8 +1136,7 @@
                <sp>
                   <speaker>Electra</speaker>
                   <p> Hear then, O father, as in turn we mourn with plentiful tears. Look,
-								<mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Orestes-and-Electra"
+								<painStart rec="Orestes-and-Electra"
                                 recGen="mix"
                                 recNorm="yes"
                                 painType="em"
@@ -1178,8 +1163,7 @@
             <div2 type="strophe" n="3" org="uniform" sample="complete">
                <sp>
                   <speaker>Orestes</speaker>
-                  <p>Ah, my father, <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Orestes-and-Electra"
+                  <p>Ah, my father, <painStart rec="Orestes-and-Electra"
                                 recGen="mix"
                                 recNorm="yes"
                                 painType="em"
@@ -1214,8 +1198,7 @@
                   <speaker>Electra</speaker>
                   <p>No, not even beneath the walls of <placeName key="perseus,Troy" authname="perseus,Troy">Troy</placeName>, father, would I wish you
 							to have fallen and to be entombed beside Scamander's waters among the
-							rest of the host slain by the spear.<mappedPain xml:id="tragedy_4"/>
-                     <painStart rec="Agamemnon"
+							rest of the host slain by the spear.<painStart rec="Agamemnon"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="both"
@@ -1254,13 +1237,11 @@
                <sp>
                   <speaker>Chorus</speaker>
                   <p>
-                     <mappedPain xml:id="tragedy_1"/>
                      <painStart rec="Clytaemestra-and-Aegisthus"
                                 recGen="mix"
                                 recNorm="no"
                                 painType="phys"/>May it be mine to raise a hearty shout in triumph
 							over the man when he is stabbed and over the woman as she perishes!<painEnd/>
-                     <mappedPain xml:id="tragedy_5"/>
                      <painStart rec="Chorus"
                                 recGen="woman"
                                 recNorm="yes"
@@ -1305,7 +1286,6 @@
                <sp>
                   <speaker>Chorus</speaker>
                   <p>
-                     <mappedPain xml:id="tragedy_1"/>
                      <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="em"/>But
 							again my heart throbs as I hear this pitiful lament. At once I am devoid
 							of hope and my viscera are darkened at the words I hear.<painEnd/> But
@@ -1317,7 +1297,6 @@
                <sp>
                   <speaker>Electra</speaker>
                   <p>
-                     <mappedPain xml:id="tragedy_1"/>
                      <painStart rec="Orestes-and-Electra"
                                 recGen="mix"
                                 recNorm="yes"
@@ -1340,16 +1319,14 @@
                   <p>On my breast I beat an Arian dirge in just the same fashion as a Cissian
 							wailing woman. With clenched fists, raining blows thick and fast, my
 							outstretched hands could be seen descending from above, from far above,
-							now on this side, now on that, <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="phys"/>till my battered and wretched head
+							now on this side, now on that, <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="phys"/>till my battered and wretched head
 							resounded with the strokes.</p>
                </sp>
             </div2>
             <div2 type="strophe" n="8" org="uniform" sample="complete">
                <sp>
                   <speaker>Electra</speaker>
-                  <p>Away with you, cruel and utterly brazen mother! <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Agamemnon"
+                  <p>Away with you, cruel and utterly brazen mother! <painStart rec="Agamemnon"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="em"
@@ -1367,8 +1344,7 @@
             <div2 type="strophe" n="9" org="uniform" sample="complete">
                <sp>
                   <speaker>Orestes</speaker>
-                  <p>Ah me, your words spell utter dishonor. <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Agamemnon"
+                  <p>Ah me, your words spell utter dishonor. <painStart rec="Agamemnon"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="em"
@@ -1380,7 +1356,6 @@
                                 direct="no"/>Yet
 							with the help of the gods, and with the help of my own hands, will she
 							not atone for the dishonor she did my father?<painEnd/>
-                     <mappedPain xml:id="tragedy_6"/>
                      <painStart rec="Clytaemestra"
                                 recGen="woman"
                                 recNorm="no"
@@ -1399,8 +1374,7 @@
             <div2 type="antistrophe" n="9" org="uniform" sample="complete">
                <sp>
                   <speaker>Chorus</speaker>
-                  <p> Yes, and I would have you know <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Agamemnon"
+                  <p> Yes, and I would have you know <painStart rec="Agamemnon"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="both"
@@ -1419,8 +1393,7 @@
             <div2 type="antistrophe" n="7" org="uniform" sample="complete">
                <sp>
                   <speaker>Electra</speaker>
-                  <p> My father was murdered just as you say. <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Electra"
+                  <p> My father was murdered just as you say. <painStart rec="Electra"
                                 recGen="woman"
                                 recNorm="yes"
                                 painType="em"
@@ -1503,7 +1476,6 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_1"/>
                   <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
@@ -1545,7 +1517,6 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_2"/>
                   <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
@@ -1614,8 +1585,7 @@
             </sp>
             <sp>
                <speaker>Chorus</speaker>
-               <p>I know, my child, for I was there. It was because <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="em"/>she was
+               <p>I know, my child, for I was there. It was because <painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="em"/>she was
 						shaken by dreams and wandering terrors of the night that she sent these
 						offerings<painEnd/>, godless woman that she is.</p>
             </sp>
@@ -1650,7 +1620,6 @@
             <sp>
                <speaker>Chorus</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_1"/>
                   <painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="phys"/>No: it drew in clotted blood with the milk.<painEnd/>
                </p>
             </sp>
@@ -1701,8 +1670,7 @@
                <p>But if I indeed pass the outermost threshold of the gate and find that man
 						sitting on my father's throne, or if then coming face to face with me he
 						lifts and casts down his eyes, know well: before he can even say “Of what
-						land is this stranger?” <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Aegisthus"
+						land is this stranger?” <painStart rec="Aegisthus"
                              recGen="man"
                              recNorm="no"
                              painType="phys"
@@ -1747,8 +1715,7 @@
                   <speaker>Chorus</speaker>
                   <p> Let whoever is not flighty in his wits know this, when he has learned of
 							the device of a lit brand contrived by Thestius' heartless daughter:
-								<mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Thesius-grandchild"
+								<painStart rec="Thesius-grandchild"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="phys"
@@ -1779,8 +1746,7 @@
             <div2 type="strophe" n="3" org="uniform" sample="complete">
                <sp>
                   <speaker>Chorus</speaker>
-                  <p>But since I have recalled tales of pitiless afflictions, <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Agamemnon"
+                  <p>But since I have recalled tales of pitiless afflictions, <painStart rec="Agamemnon"
                                 recGen="man"
                                 recNorm="yes"
                                 painType="em"
@@ -1931,8 +1897,7 @@
 						grief she hid her laughter over what has occurred fortunately for her. But
 						the news so plainly told by the strangers means utter ruin for this house.I
 						expect that when he hears it he will rejoice in his heart to know the story.
-							<mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Nurse" recGen="woman" recNorm="yes" painType="em"/>Miserable woman that I am! How the old unbearable troubles of every sort
+							<painStart rec="Nurse" recGen="woman" recNorm="yes" painType="em"/>Miserable woman that I am! How the old unbearable troubles of every sort
 						that occurred in this house of Atreushave always made my heart ache within
 						my breast! But never yet have I endured a blow like this. For all the other
 						troubles I bore patiently, but my beloved Orestes, on whom I spent my soul,
@@ -2141,8 +2106,7 @@
             </sp>
             <sp>
                <speaker>Servant</speaker>
-               <p>O woe, oh utter woe! <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Aegisthus"
+               <p>O woe, oh utter woe! <painStart rec="Aegisthus"
                              recGen="man"
                              recNorm="no"
                              painType="phys"
@@ -2184,8 +2148,7 @@
             </sp>
             <sp>
                <speaker>Clytaemestra</speaker>
-               <p>Oh no! <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Aegisthus"
+               <p>Oh no! <painStart rec="Aegisthus"
                              recGen="man"
                              recNorm="no"
                              painType="phys"
@@ -2219,8 +2182,7 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>I judge you victor: you advise me well.<stage>To Clytaemestra</stage>Come,
-						this way! <mappedPain xml:id="tragedy_4"/>
-                  <painStart rec="Clytaemestra"
+						this way! <painStart rec="Clytaemestra"
                              recGen="woman"
                              recNorm="no"
                              painType="phys"
@@ -2239,8 +2201,7 @@
             </sp>
             <sp>
                <speaker>Orestes</speaker>
-               <p>What! <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Agamemnon"
+               <p>What! <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
                              painType="em"
@@ -2268,7 +2229,6 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_2"/>
                   <painStart rec="Orestes"
                              recGen="man"
                              recNorm="yes"
@@ -2289,7 +2249,6 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_2"/>
                   <painStart rec="Orestes"
                              recGen="man"
                              recNorm="yes"
@@ -2322,7 +2281,6 @@
             <sp>
                <speaker>Clytaemestra</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_2"/>
                   <painStart rec="Clytaemestra" recGen="woman" recNorm="no" painType="em"/>It
 						is a grief for women to be deprived of a husband, my child.<painEnd/>
                </p>
@@ -2362,8 +2320,7 @@
             </sp>
             <sp>
                <speaker>Orestes</speaker>
-               <p>Yes, the terror from your dream was indeed a prophet. <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="Agamemnon"
+               <p>Yes, the terror from your dream was indeed a prophet. <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
                              painType="em"
@@ -2372,8 +2329,7 @@
                              infGen="woman"
                              infNorm="no"
                              infRel="wife"
-                             direct="yes"/>You killed him whom you should not<painEnd/>; <mappedPain xml:id="tragedy_6"/>
-                  <painStart rec="Clytaemestra"
+                             direct="yes"/>You killed him whom you should not<painEnd/>; <painStart rec="Clytaemestra"
                              recGen="woman"
                              recNorm="no"
                              painType="phys"
@@ -2441,8 +2397,7 @@
             <div2 type="ephymnion" n="2" org="uniform" sample="complete">
                <sp>
                   <speaker>Chorus</speaker>
-                  <p>Look, the light has come, <mappedPain xml:id="tragedy_2"/>
-                     <painStart rec="Chorus"
+                  <p>Look, the light has come, <painStart rec="Chorus"
                                 recGen="woman"
                                 recNorm="yes"
                                 painType="em"
@@ -2482,7 +2437,6 @@
             <sp>
                <speaker>Orestes</speaker>
                <p>
-                  <mappedPain xml:id="tragedy_2"/>
                   <painStart rec="Agamemnon"
                              recGen="man"
                              recNorm="yes"
@@ -2614,8 +2568,7 @@
                <p>Then may blessings go with you, and may the god watch benevolently over you
 						and guard you with favorable fortunes!</p>
                <p>Look! Now again, for the third time, has the tempest of this clan burst on
-						the royal house and run its course. <mappedPain xml:id="tragedy_2"/>
-                  <painStart rec="society" recGen="mix" recNorm="yes" painType="both"/>First, at the beginning, came the cruel
+						the royal house and run its course. <painStart rec="society" recGen="mix" recNorm="yes" painType="both"/>First, at the beginning, came the cruel
 						woes of children slain for food; next, the fate of a man, a king,when the
 						warlord of the Achaeans perished, murdered in his bath. And now, once again,
 						there has come from somewhere a third, a deliverer, or shall I say a doom?

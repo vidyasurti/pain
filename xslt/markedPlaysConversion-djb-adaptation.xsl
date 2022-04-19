@@ -16,6 +16,8 @@
     <!-- ===============================================================  -->
     <!-- RICHA - Assuming that painStart and painEnd are delimiters for the all_pain element -->
     <xsl:variable name="all_pain" as="node()+" select="//p/painStart | //p/painEnd | //p/text()"/>
+    
+    <xsl:variable name = "current_pain-event" as = "xs:integer" select = "0" />
 
 
 
@@ -25,8 +27,8 @@
         <xsl:if test="contains($doc-name, '(')"/>
         <xsl:variable name="doc-name" select="concat(substring-before($doc-name, ' ('), '')"/>
 
-        <events_and_full-text>
-            <allPainEvents doc-name="{$doc-name}">
+        <events_and_full-text doc-name="{$doc-name}">
+            <allPainEvents>
                 <xsl:apply-templates select="//body" mode="painEventText"/>
             </allPainEvents>
 
@@ -93,7 +95,9 @@
     </xsl:template>
 
     <xsl:template match="painStart">
-        <mappedPain xml:id="tragedy_{position()}"/>
+        <!--<xsl:variable name = "current_pain-event" as = "xs:integer" select = ". + 1"/>            
+        <mappedPain xml:id="tragedy_{$current_pain-event}"/> -->
+        
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
