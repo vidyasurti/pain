@@ -90,17 +90,16 @@
 
     <xsl:template match="body" mode="tragedyText">
         <xsl:copy>
-            <xsl:apply-templates select="@* | node()"/>
+            <xsl:apply-templates select="@* | node()"/>            
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="painStart">
-        <!--<xsl:variable name = "current_pain-event" as = "xs:integer" select = ". + 1"/>            
-        <mappedPain xml:id="tragedy_{$current_pain-event}"/> -->
+    <!--<xsl:template match="painStart">
+        <xsl:variable name = "current_pain-event" as = "xs:integer" select = ". + 1"/>            
+        <mappedPain xml:id="tragedy_{$current_pain-event}"/> 
         
-        <xsl:copy>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:copy>
-    </xsl:template>
+        
+        
+    </xsl:template>-->
 
 </xsl:stylesheet>
