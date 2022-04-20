@@ -23,10 +23,10 @@
                 </h2>
                 <div class="both-texts">
                     <section class="painEvents">
-                        <xsl:apply-templates select="//allPainEvents"/>
+                        <xsl:apply-templates select="//allPainEvents" mode = "events-only"/>
                     </section>
                     <section class="fullPlay">
-                        <xsl:apply-templates select="//tragedyText"/>
+                        <xsl:apply-templates select="//tragedyText" mode = "full-text"/>
                     </section>
                 </div>
 
@@ -34,14 +34,14 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="allPainEvents">
+    <xsl:template match="allPainEvents" mode = "events-only">
         <h3>
-            Specific Pain Events in <xsl:apply-templates select = "/events_and_full-text/@doc-name" />
+            Specific Pain Events in <xsl:apply-templates select = "/events_and_full-text/@doc-name"/>
         </h3>
-        <xsl:apply-templates select="pain"/>
+        <xsl:apply-templates select="pain" mode = "events-only"/>
     </xsl:template>
 
-    <xsl:template match="pain">
+    <xsl:template match="pain" mode = "events-only">
         <p>
             <a class = "pain-event" href="#tragedy-{@xml:id}" id="event-{@xml:id}">
                 <xsl:apply-templates/>
@@ -51,64 +51,67 @@
 
     </xsl:template>
 
-    <xsl:template match="tragedyText">
-        <h3><xsl:apply-templates select = "/events_and_full-text/@doc-name" /> Full Text</h3>
-        <xsl:apply-templates/>
+    <xsl:template match="tragedyText" mode = "full-text">
+        <h3><xsl:apply-templates select = "/events_and_full-text/@doc-name"/> Full Text</h3>
+        <xsl:apply-templates mode = "full-text"/>
+        
     </xsl:template>
 
-    <xsl:template match="div1">
+    <xsl:template match="div1" mode = "full-text">
         <div class="div1">
             <hr/>
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
             <br/>
         </div>
     </xsl:template>
 
-    <xsl:template match="div1/stage">
+    <xsl:template match="div1/stage" mode = "full-text">
 
         <p class="stage">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
         </p>
     </xsl:template>
 
-    <xsl:template match="//sp/stage">
+    <xsl:template match="//sp/stage" mode = "full-text">
 
         <p class="stage">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
         </p>
     </xsl:template>
 
-    <xsl:template match="//sp/speaker">
+    <xsl:template match="//sp/speaker" mode = "full-text">
 
         <p class="speaker">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
         </p>
     </xsl:template>
 
-    <xsl:template match="//sp/p">
+    <xsl:template match="//sp/p" mode = "full-text">
 
         <p class="p">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
         </p>
     </xsl:template>
 
-    <xsl:template match="p/speaker">
+    <xsl:template match="p/speaker" mode = "full-text">
         <br/>
         <a class="speaker">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
         </a>
     </xsl:template>
 
-    <xsl:template match="p/stage">
+    <xsl:template match="p/stage" mode = "full-text">
         <br/>
         <a class="stage">
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode = "full-text"/>
         </a>
     </xsl:template>
 
-    <!--<xsl:template match = "mappedPain">
-        <a href = "#event-{@xml:id}" id = "tragedy-{@xml:id}">
+    <xsl:template match = "painStart" mode = "full-text">
+        
+        <xsl:variable name = "tragedy-num" as = "xs:integer" select = "count(preceding::painStart) + 1 - (count(//painStart) div 2)"/>
+        <a href = "#event-{$tragedy-num}" id = "tragedy-{$tragedy-num}">
             <xsl:apply-templates />
         </a>
-    </xsl:template> -->
+    </xsl:template> 
 </xsl:stylesheet>
