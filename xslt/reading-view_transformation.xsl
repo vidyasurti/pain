@@ -17,6 +17,7 @@
                 <link rel="stylesheet" type="text/css" href="reading-view.css"/>
             </head>
             <body>
+                <xsl:comment>#include virtual="menu.xhtml" </xsl:comment>
                 <h2 class="page-title">Events of Pain in <xsl:apply-templates
                         select="/events_and_full-text/@doc-name"/>
                 </h2>
