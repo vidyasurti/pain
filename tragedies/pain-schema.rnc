@@ -8,7 +8,7 @@ teiHeader =
 # teiheader element has attributes type, status, fileDesc, and elements fileDesc, encodingDesc, and profileDesc
 teiHeaderType = attribute type { text }
 status = attribute status { text }
-fileDesc = element fileDesc { titleStmt, extent?, publicationStmt, sourceDesc }
+fileDesc = element fileDesc { (titleStmt | extent | publicationStmt | sourceDesc)* }
 titleStmt = element titleStmt { title+, author?, editor?, sponsor?, principal?, respStmt?, funder? }
 title =
     element title {
@@ -51,7 +51,7 @@ item =
         mixed { quote? }
     }
 quote = element quote { text }
-sourceDesc = element sourceDesc { attributeDefault, biblStruct }
+sourceDesc = element sourceDesc { (p | attributeDefault | biblStruct)* }
 attributeDefault = attribute default { text }
 biblStruct = element biblStruct { attributeDefault, monogr }
 monogr = element monogr { author, title, editor, imprint }
