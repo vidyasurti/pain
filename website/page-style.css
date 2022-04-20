@@ -2,7 +2,66 @@
 
 a.website-name{
     text-align: center;
-    font-family: Trirong;
+    font-family: "Trirong";
     font-size: 36px;
 }
 
+body{
+    background-color: #2e0b1d;
+    font-family: "Playfair Display";
+    color: white;
+}
+
+h1{
+    text-align:center;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted gold;
+  color: black;
+  height: 1px;
+  width: 70%;
+}
+
+div{
+    /* Flex container */
+    flex-direction: row;
+    gap: 20px;
+    margin: auto;
+}
+
+section{
+/* Flex item */
+    
+    width: 80%;
+    
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: auto;
+
+    padding: 15px;
+}
+
+h2{
+    width: 65%;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+
+}
+
+p{
+    width: 85%;
+    margin:auto;
+    line-height: 1.5;
+    padding: 15px
+
+}
+
+ul{
+    width: 85%;
+    margin:auto;
+
+}
