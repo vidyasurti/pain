@@ -106,12 +106,24 @@
             <xsl:apply-templates mode = "full-text"/>
         </a>
     </xsl:template>
-
+    
+    <!-- Tagging the links -->
+    
+    <!-- What I came up with 
     <xsl:template match = "painStart" mode = "full-text">
         
         <xsl:variable name = "tragedy-num" as = "xs:integer" select = "count(preceding::painStart) + 1 - (count(//painStart) div 2)"/>
         <a href = "#event-{$tragedy-num}" id = "tragedy-{$tragedy-num}">
             <xsl:apply-templates />
         </a>
-    </xsl:template> 
+    </xsl:template> -->
+    
+    <!-- djb suggestion -->
+    <xsl:template match="painStart" mode = "full-text">
+        <xsl:variable name="tragedy-num" as="xs:integer" select="count(preceding::painStart[ancestor::tragedyText]) + 1"/>
+        <!-- $preceding-painStarts is a sequence of <painStart> elements, which you can count with count() -->
+        <a href = "#event-pain_{$tragedy-num}" id = "tragedy-pain_{$tragedy-num}">
+            <xsl:apply-templates />
+        </a>
+    </xsl:template>
 </xsl:stylesheet>
