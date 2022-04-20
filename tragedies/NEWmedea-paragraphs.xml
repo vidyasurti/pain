@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../greekpain.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <TEI.2 
    
      xmlns:py="http://codespeak.net/lxml/objectify/pytype">
@@ -1717,7 +1717,7 @@
                             robe is round her, and she is dying, the royal bride; that do I
                             know full well. But now since I have a piteous path to tread,
                             and yet more piteous still the path I send my children on, fain
-                            would I say farewell to them.  <painStart recNorm="no" painType="em" rec="Medea" inf="children" recGen="woman" infGen="man" direct="no" infRel="children" recRel="mother" infNorm="yes"/>O my babes, my babes, let your mother kiss your
+                            would I say farewell to them.<painEnd/> <painStart recNorm="no" painType="em" rec="Medea" inf="children" recGen="woman" infGen="man" direct="no" infRel="children" recRel="mother" infNorm="yes"/>O my babes, my babes, let your mother kiss your
                             hands. Ah! hands I love so well, O lips most dear to me! O noble
                             form and features of my children, I wish ye joy, but in that
                             other land, for here your father robs you of your home. O the
@@ -1986,7 +1986,7 @@
                      <speaker>2nd Son</speaker>
                      <p>
                         <stage>(within).</stage><painStart recNorm="yes" painType="phys" rec="children" inf="Medea" recGen="man" infGen="woman" direct="yes" infRel="mother" recRel="children" infNorm="no"/> Even now the toils of the
-                                sword are closing round us.</p>
+                                sword are closing round us.<painEnd/></p>
                   </sp>
                   <sp>
                      <speaker>Chorus</speaker>
