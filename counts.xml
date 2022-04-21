@@ -3,47 +3,47 @@
    <rec>
       <group>
          <key>Orestes</key>
-         <count>12</count>
+         <count>4</count>
       </group>
       <group>
          <key>Electra</key>
-         <count>9</count>
+         <count>3</count>
       </group>
       <group>
          <key>Chorus</key>
-         <count>24</count>
+         <count>10</count>
       </group>
       <group>
          <key>Agamemnon</key>
-         <count>39</count>
+         <count>13</count>
       </group>
       <group>
          <key>Orestes-and-Electra</key>
-         <count>18</count>
-      </group>
-      <group>
-         <key>society</key>
          <count>6</count>
       </group>
       <group>
+         <key>society</key>
+         <count>2</count>
+      </group>
+      <group>
          <key>Clytaemestra-and-Aegisthus</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>Clytaemestra</key>
-         <count>18</count>
+         <count>6</count>
       </group>
       <group>
          <key>Aegisthus</key>
-         <count>9</count>
-      </group>
-      <group>
-         <key>Thesius-grandchild</key>
          <count>3</count>
       </group>
       <group>
+         <key>Thesius-grandchild</key>
+         <count>1</count>
+      </group>
+      <group>
          <key>Nurse</key>
-         <count>7</count>
+         <count>5</count>
       </group>
       <group>
          <key>Medea</key>
@@ -51,7 +51,7 @@
       </group>
       <group>
          <key>children</key>
-         <count>20</count>
+         <count>21</count>
       </group>
       <group>
          <key>MedeaChildren</key>
@@ -80,10 +80,6 @@
       <group>
          <key>Glauce</key>
          <count>4</count>
-      </group>
-      <group>
-         <key>chlidren</key>
-         <count>1</count>
       </group>
       <group>
          <key>Ino</key>
@@ -149,47 +145,47 @@
    <recGen>
       <group>
          <key>man</key>
-         <count>153</count>
+         <count>111</count>
       </group>
       <group>
          <key>woman</key>
-         <count>129</count>
+         <count>95</count>
       </group>
       <group>
          <key>mix</key>
-         <count>36</count>
+         <count>18</count>
       </group>
    </recGen>
    <painType>
       <group>
          <key>both</key>
-         <count>69</count>
+         <count>47</count>
       </group>
       <group>
          <key>em</key>
-         <count>166</count>
+         <count>118</count>
       </group>
       <group>
          <key>phys</key>
-         <count>83</count>
+         <count>59</count>
       </group>
    </painType>
    <inf>
       <group>
          <key>Clytaemestra</key>
-         <count>81</count>
+         <count>27</count>
       </group>
       <group>
          <key>Clytaemestra-and-Aegisthus</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>Orestes</key>
-         <count>18</count>
+         <count>6</count>
       </group>
       <group>
          <key>Thesius-daughter</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>Jason</key>
@@ -287,11 +283,11 @@
    <infGen>
       <group>
          <key>woman</key>
-         <count>142</count>
+         <count>84</count>
       </group>
       <group>
          <key>man</key>
-         <count>83</count>
+         <count>71</count>
       </group>
       <group>
          <key>mix</key>
@@ -301,39 +297,39 @@
    <recRel>
       <group>
          <key>master</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>slave</key>
-         <count>10</count>
+         <count>4</count>
       </group>
       <group>
          <key>husband</key>
-         <count>60</count>
+         <count>34</count>
       </group>
       <group>
          <key>children</key>
-         <count>36</count>
+         <count>24</count>
       </group>
       <group>
          <key>son</key>
-         <count>15</count>
+         <count>7</count>
       </group>
       <group>
          <key>subjects</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>mother</key>
-         <count>11</count>
+         <count>5</count>
       </group>
       <group>
          <key>daughter</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>stepfather</key>
-         <count>9</count>
+         <count>3</count>
       </group>
       <group>
          <key>wife</key>
@@ -423,27 +419,27 @@
    <infRel>
       <group>
          <key>wife</key>
-         <count>63</count>
+         <count>35</count>
       </group>
       <group>
          <key>master</key>
-         <count>11</count>
+         <count>5</count>
       </group>
       <group>
          <key>mother</key>
-         <count>52</count>
+         <count>30</count>
       </group>
       <group>
          <key>ruler</key>
-         <count>3</count>
+         <count>1</count>
       </group>
       <group>
          <key>son</key>
-         <count>9</count>
+         <count>3</count>
       </group>
       <group>
          <key>stepson</key>
-         <count>9</count>
+         <count>3</count>
       </group>
       <group>
          <key>husband</key>
@@ -545,107 +541,197 @@
    <direct>
       <group>
          <key>yes</key>
-         <count>139</count>
+         <count>85</count>
       </group>
       <group>
          <key>no</key>
-         <count>103</count>
+         <count>87</count>
       </group>
    </direct>
-<woman-em>
-   <woman>129</woman>
-   <em>166</em>
-   <woman_em>90</woman_em>
-</woman-em>
-<woman-phys>
-   <woman>129</woman>
-   <phys>83</phys>
-   <woman_phys>23</woman_phys>
-</woman-phys>
-<woman-both>
-   <woman>129</woman>
-   <both>69</both>
-   <woman_both>16</woman_both>
-</woman-both>
-<woman-direct>
-   <woman>129</woman>
-   <direct>139</direct>
-   <woman_direct>37</woman_direct>
-</woman-direct>
-<woman-indirect>
-   <woman>129</woman>
-   <indirect>103</indirect>
-   <woman_indirect>41</woman_indirect>
-</woman-indirect>
-<man-em>
-   <man>153</man>
-   <em>166</em>
-   <man_em>54</man_em>
-</man-em>
-<man-phys>
-   <man>153</man>
-   <phys>83</phys>
-   <man_phys>55</man_phys>
-</man-phys>
-<man-both>
-   <man>153</man>
-   <both>69</both>
-   <man_both>44</man_both>
-</man-both>
-<man-direct>
-   <man>153</man>
-   <direct>139</direct>
-   <man_direct>86</man_direct>
-</man-direct>
-<mix-em>
-   <mix>36</mix>
-   <em>166</em>
-   <mix_em>22</mix_em>
-</mix-em>
-<mix-phys>
-   <mix>36</mix>
-   <phys>83</phys>
-   <mix_phys>5</mix_phys>
-</mix-phys>
-<recwoman-normyes>
-   <woman>129</woman>
-   <normyes>201</normyes>
-   <woman_normyes>76</woman_normyes>
-</recwoman-normyes>
-<recwoman-normno>
-   <woman>129</woman>
-   <normno>117</normno>
-   <woman_normyes>53</woman_normyes>
-</recwoman-normno>
-<recman-normyes>
-   <man>153</man>
-   <normyes>201</normyes>
-   <man_normyes>96</man_normyes>
-</recman-normyes>
-<recman-normno>
-   <man>153</man>
-   <normno>117</normno>
-   <man_normno>57</man_normno>
-</recman-normno>
-<infwoman-normyes>
-   <infwoman>142</infwoman>
-   <normyes>73</normyes>
-   <infwoman_normyes>2</infwoman_normyes>
-</infwoman-normyes>
-<infwoman-normno>
-   <infwoman>142</infwoman>
-   <normno>153</normno>
-   <infwoman_normno>138</infwoman_normno>
-</infwoman-normno>
-<infman-normyes>
-   <infman>83</infman>
-   <normyes>73</normyes>
-   <infman_normyes>69</infman_normyes>
-</infman-normyes>
-<infman-normno>
-   <infman>83</infman>
-   <normno>153</normno>
-   <infman_normno>12</infman_normno>
-</infman-normno>
+   <recwoman-em>
+      <recwoman>95</recwoman>
+      <em>118</em>
+      <recwoman_em>70</recwoman_em>
+   </recwoman-em>
+   <recwoman-phys>
+      <recwoman>95</recwoman>
+      <phys>59</phys>
+      <recwoman_phys>13</recwoman_phys>
+   </recwoman-phys>
+   <recwoman-both>
+      <recwoman>95</recwoman>
+      <both>47</both>
+      <recwoman_both>12</recwoman_both>
+   </recwoman-both>
+   <recwoman-em-normyes>
+      <recwoman>95</recwoman>
+      <em>118</em>
+      <normyes>127</normyes>
+      <recwoman_em_normyes>41</recwoman_em_normyes>
+   </recwoman-em-normyes>
+   <recwoman-em-normno>
+      <recwoman>95</recwoman>
+      <em>118</em>
+      <normno>97</normno>
+      <recwoman_em_normno>29</recwoman_em_normno>
+   </recwoman-em-normno>
+   <recwoman-phys-normyes>
+      <recwoman>95</recwoman>
+      <phys>59</phys>
+      <normyes>127</normyes>
+      <recwoman_phys_normyes>8</recwoman_phys_normyes>
+   </recwoman-phys-normyes>
+   <recwoman-phys-normno>
+      <recwoman>95</recwoman>
+      <phys>59</phys>
+      <normyes>97</normyes>
+      <recwoman_phys_normno>5</recwoman_phys_normno>
+   </recwoman-phys-normno>
+   <recwoman-infman>
+      <recwoman>95</recwoman>
+      <infman>71</infman>
+      <recwoman_infman>47</recwoman_infman>
+   </recwoman-infman>
+   <recwoman-infman-direct>
+      <recwoman>95</recwoman>
+      <infman>71</infman>
+      <direct>85</direct>
+      <recwoman_infman_direct>21</recwoman_infman_direct>
+   </recwoman-infman-direct>
+   <recwoman-infman-indirect>
+      <recwoman>95</recwoman>
+      <infman>71</infman>
+      <indirect>87</indirect>
+      <recwoman_infman_indirect>24</recwoman_infman_indirect>
+   </recwoman-infman-indirect>
+   <recwoman-infwoman>
+      <recwoman>95</recwoman>
+      <infwoman>84</infwoman>
+      <recwoman_infwoman>10</recwoman_infwoman>
+   </recwoman-infwoman>
+   <recwoman-infmix>
+      <recwoman>95</recwoman>
+      <infmix>5</infmix>
+      <recwoman_infmix>5</recwoman_infmix>
+   </recwoman-infmix>
+   <recwoman-direct>
+      <recwoman>95</recwoman>
+      <direct>85</direct>
+      <recwoman_direct>27</recwoman_direct>
+   </recwoman-direct>
+   <recwoman-indirect>
+      <recwoman>95</recwoman>
+      <indirect>87</indirect>
+      <recwoman_indirect>35</recwoman_indirect>
+   </recwoman-indirect>
+   <recwoman-normyes>
+      <recwoman>95</recwoman>
+      <normyes>127</normyes>
+      <recwoman_normyes>54</recwoman_normyes>
+   </recwoman-normyes>
+   <recwoman-normno>
+      <woman>95</woman>
+      <normno>97</normno>
+      <woman_normno>41</woman_normno>
+   </recwoman-normno>
+   <infwoman-em>
+      <infwoman>84</infwoman>
+      <em>118</em>
+      <infwoman_em>30</infwoman_em>
+   </infwoman-em>
+   <infwoman-phys>
+      <infwoman>84</infwoman>
+      <phys>59</phys>
+      <infwoman_phys>27</infwoman_phys>
+   </infwoman-phys>
+   <infwoman-both>
+      <infwoman>84</infwoman>
+      <both>47</both>
+      <infwoman_both>27</infwoman_both>
+   </infwoman-both>
+   <infwoman-direct>
+      <infwoman>84</infwoman>
+      <direct>85</direct>
+      <infwoman_direct>46</infwoman_direct>
+   </infwoman-direct>
+   <infwoman-indirect>
+      <infwoman>84</infwoman>
+      <indirect>87</indirect>
+      <infwoman_indirect>37</infwoman_indirect>
+   </infwoman-indirect>
+   <infwoman-normyes>
+      <infwoman>84</infwoman>
+      <normyes>61</normyes>
+      <infwoman_normyes>2</infwoman_normyes>
+   </infwoman-normyes>
+   <infwoman-normno>
+      <infwoman>84</infwoman>
+      <normno>95</normno>
+      <infwoman_normno>80</infwoman_normno>
+   </infwoman-normno>
+   <recman-em>
+      <recman>111</recman>
+      <em>118</em>
+      <recman_em>38</recman_em>
+   </recman-em>
+   <recman-phys>
+      <recman>111</recman>
+      <phys>59</phys>
+      <recman_phys>43</recman_phys>
+   </recman-phys>
+   <recman-both>
+      <recman>111</recman>
+      <both>47</both>
+      <recman_both>30</recman_both>
+   </recman-both>
+   <recman-infwoman>
+      <recman>111</recman>
+      <infwoman>84</infwoman>
+      <recman_infwoman>64</recman_infwoman>
+   </recman-infwoman>
+   <recman-infman>
+      <recman>111</recman>
+      <infman>71</infman>
+      <recman_infman>21</recman_infman>
+   </recman-infman>
+   <recman-direct>
+      <man>111</man>
+      <direct>85</direct>
+      <man_direct>50</man_direct>
+   </recman-direct>
+   <recman-normyes>
+      <man>111</man>
+      <normyes>127</normyes>
+      <man_normyes>60</man_normyes>
+   </recman-normyes>
+   <recman-normno>
+      <man>111</man>
+      <normno>97</normno>
+      <man_normno>51</man_normno>
+   </recman-normno>
+   <infman-direct>
+      <man>71</man>
+      <direct>85</direct>
+      <man_direct>38</man_direct>
+   </infman-direct>
+   <infman-normyes>
+      <infman>71</infman>
+      <normyes>61</normyes>
+      <infman_normyes>57</infman_normyes>
+   </infman-normyes>
+   <infman-normno>
+      <infman>71</infman>
+      <normno>95</normno>
+      <infman_normno>12</infman_normno>
+   </infman-normno>
+   <recmix-em>
+      <recmix>18</recmix>
+      <em>118</em>
+      <recmix_em>10</recmix_em>
+   </recmix-em>
+   <recmix-phys>
+      <recmix>18</recmix>
+      <phys>59</phys>
+      <recmix_phys>3</recmix_phys>
+   </recmix-phys>
 </practice>
-
