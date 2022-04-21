@@ -56,8 +56,31 @@ p{
     width: 85%;
     margin:auto;
     line-height: 1.5;
-    padding: 15px
+    padding: 15px;
+    
 
+}
+
+.page-desc {
+    width: 65%;
+    margin: auto;
+    line-height: 1.5;
+    padding: 15px;
+    font-family: "Trirong";
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.link {
+    color:#BF9000;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #0C2E0B;
+    text-decoration: underline;
+    color:#BF9000;
+    transition: 0.3s;
 }
 
 ul{
