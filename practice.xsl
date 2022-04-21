@@ -216,6 +216,11 @@
             <direct><xsl:apply-templates select="count($all_tragedies//painStart[@direct eq 'yes'])"/></direct>
             <infwoman_direct><xsl:apply-templates select="count($all_tragedies//painStart[@infGen eq 'woman'][@direct eq 'yes'])"/></infwoman_direct>
         </infwoman-direct>
+        <infwoman-indirect>
+            <infwoman><xsl:apply-templates select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></infwoman>
+            <indirect><xsl:apply-templates select="count($all_tragedies//painStart[@direct eq 'no'])"/></indirect>
+            <infwoman_indirect><xsl:apply-templates select="count($all_tragedies//painStart[@infGen eq 'woman'][@direct eq 'no'])"/></infwoman_indirect>
+        </infwoman-indirect>
         <infwoman-normyes>
             <infwoman><xsl:apply-templates select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></infwoman>
             <normyes><xsl:apply-templates select="count($all_tragedies//painStart[@infNorm eq 'yes'])"/></normyes>
