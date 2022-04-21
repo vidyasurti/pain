@@ -66,7 +66,9 @@ div.both-texts {
     column-gap:10px; 
     
     border-style: double;
-    border-color: #BF9000;    
+    border-color: #BF9000;  
+    
+    padding: 10px;
 }
 
 
