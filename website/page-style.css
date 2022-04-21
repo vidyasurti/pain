@@ -71,6 +71,20 @@ p{
     font-size: 20px;
 }
 
+section {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-family: "Trirong";
+    margin-top: 25px;
+}
+
+.play-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .link {
     color:#BF9000;
     text-decoration: none;
