@@ -106,10 +106,10 @@
                     </group>
                 </xsl:for-each-group>
             </direct>
-        </practice>
+        
         <!-- Counts focused on female receivers of pain -->
         <recwoman-em>
-            <recwoman><xsl:apply-templates select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></recwoman>
+            <recwoman><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></recwoman>
             <em><xsl:apply-templates select="count($all_tragedies//painStart[@painType eq 'em'])"/></em>
             <recwoman_em><xsl:apply-templates select="count($all_tragedies//painStart[@recGen eq 'woman'][@painType eq 'em'])"/></recwoman_em>
         </recwoman-em>
@@ -300,10 +300,9 @@
             <phys><xsl:apply-templates select="count($all_tragedies//painStart[@painType eq 'phys'])"/></phys>
             <recmix_phys><xsl:apply-templates select="count($all_tragedies//painStart[@recGen eq 'mix'][@painType eq 'phys'])"/></recmix_phys>
         </recmix-phys>
-       
+        </practice>
     </xsl:template>
-
-
+    
 
     <!--  <xsl:template match="painStart">
         <pain>
