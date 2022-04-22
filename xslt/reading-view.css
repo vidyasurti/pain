@@ -98,6 +98,10 @@ a.pain-event{
 }
 
 /* Tooltip Styling */
+a.tooltip{
+    position: relative;
+}
+
 
 
 /*  
