@@ -3,7 +3,7 @@ TEI.2 = element TEI.2 { teiHeader, textElem }
 # the name of an element is "text" - put it as textElem so that the schema is valid
 teiHeader =
     element teiHeader {
-        (teiHeaderType, status)?, fileDesc, encodingDesc, profileDesc, revisionDesc
+        (teiHeaderType, status)?, ( fileDesc | encodingDesc | profileDesc | revisionDesc )*
     }
 # teiheader element has attributes type, status, fileDesc, and elements fileDesc, encodingDesc, and profileDesc
 teiHeaderType = attribute type { text }
@@ -81,31 +81,38 @@ textElem = element text { lang, body }
 lang = attribute lang { text }
 body = element body { div1+ }
 # each body element has div1 elements
-div1 = element div1 { type, org, sample, milestone*, (stage | sp | div2)* }
+div1 = element div1 { type, subtype?, org?, sample?, n?, milestone*, (stage | sp | div1 | div2)* }
 # each div1 element has 3 attributes: type, org, sample; all of these attributes are required
 # the div1 element has chidlren milestone (optional), stage (optional), sp (optional), and div2 (optional)
-type = attribute type { "episode" | "choral" }
-# type is an attribute that either has values "episode" or "choral"
+type = attribute type { "episode" | "choral" | "textpart" }
+# type is an attribute that either has values "episode" or "choral"; Medea has value "textpart"
+subtype = attribute subtype { "episode" | "choral" | "anapests" | "lyric" | "strophe" | "antistrophe" | "epode" }
 org = attribute org { "uniform" }
 # org is an attribute, can only see "uniform" value for now
 sample = attribute sample { "complete" }
 # sample is an attribute, can only see "complete" value in document for now
+n = attribute n { xsd:int }
 milestone = element milestone { text }
 sp =
     element sp { div1n?, ( stage | speaker | p)* }
 # speaker has question mark because there are a couple of errors in the scaffolding provided
 
-stage = element stage { text }
+stage = element stage { add?, text }
 div1n = attribute n { text }
 # sp element will have one "speaker" element and one or more p elements
 
-speaker = element speaker { text }
+speaker = element speaker { add?, text }
+add = element add { text }
 p =
-    element p {
-        mixed { (painStart | painEnd | stage | placeName | gap)* }
+    element p {  
+        mixed { (painStart | painEnd | stage | placeName | gap | ref | del | q | add )* }
     }
 gap = element gap { desc, text }
 desc = attribute desc { text }
+ref = element ref { target, text } 
+target = attribute target { text }
+del = element del { text }
+q = element q { text }
 # portion of schema for pain markup
 
 painStart = element painStart { (allPain | infPain | nonhumanPain), empty }
