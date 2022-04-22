@@ -52,6 +52,7 @@
         <p>
             <a class="pain-event tooltip" href="#tragedy-{@xml:id}" id="event-{@xml:id}">
                 <xsl:apply-templates/>
+                <span class = "tooltiptext"><xsl:apply-templates select = "painStart/@rec" /></span>
             </a>
 
         </p>
