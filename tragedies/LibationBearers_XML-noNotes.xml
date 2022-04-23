@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!--<?xml-model href="../greekpain.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI.2>
 	<teiHeader type="text" status="new">
 		<fileDesc>
@@ -809,7 +811,7 @@
 							outstretched hands could be seen descending from above, from far above,
 							now on this side, now on that, <painStart rec="Chorus" recGen="woman"
 								recNorm="yes" painType="phys"/>till my battered and wretched head
-							resounded with the strokes.</p>
+							resounded with the strokes.<painEnd/></p>
 					</sp>
 				</div2>
 				<div2 type="strophe" n="8" org="uniform" sample="complete">
