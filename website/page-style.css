@@ -2,8 +2,29 @@
 
 a.website-name{
     text-align: center;
+    margin: auto;
+    background-color: #0C2E0B;
     font-family: "Trirong";
     font-size: 36px;
+    padding: 5px;
+    color: white;
+}
+
+a.page-link{
+    text-align: center;
+    margin: auto;
+    background-color: #0C2E0B;
+    padding: 5px;
+    font-family: "Trirong";
+    color: white;
+    font-size: 28px;
+    
+}
+
+a.page-link:hover{
+    background-color: #BF9000;
+    color: #0C2E0B;
+    transition: 0.3s;
 }
 
 body{
