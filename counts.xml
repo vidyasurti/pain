@@ -294,6 +294,20 @@
          <count>5</count>
       </group>
    </infGen>
+   <infNorm>
+      <group>
+         <key>no</key>
+         <count>95</count>
+      </group>
+      <group>
+         <key>yes</key>
+         <count>61</count>
+      </group>
+      <group>
+         <key/>
+         <count>1</count>
+      </group>
+   </infNorm>
    <recRel>
       <group>
          <key>master</key>
@@ -548,190 +562,193 @@
          <count>87</count>
       </group>
    </direct>
-   <recwoman-em>
-      <recwoman>95</recwoman>
-      <em>118</em>
-      <recwoman_em>70</recwoman_em>
-   </recwoman-em>
-   <recwoman-phys>
-      <recwoman>95</recwoman>
-      <phys>59</phys>
-      <recwoman_phys>13</recwoman_phys>
-   </recwoman-phys>
-   <recwoman-both>
-      <recwoman>95</recwoman>
-      <both>47</both>
-      <recwoman_both>12</recwoman_both>
-   </recwoman-both>
-   <recwoman-em-normyes>
-      <recwoman>95</recwoman>
-      <em>118</em>
-      <normyes>127</normyes>
-      <recwoman_em_normyes>41</recwoman_em_normyes>
-   </recwoman-em-normyes>
-   <recwoman-em-normno>
-      <recwoman>95</recwoman>
-      <em>118</em>
-      <normno>97</normno>
-      <recwoman_em_normno>29</recwoman_em_normno>
-   </recwoman-em-normno>
-   <recwoman-phys-normyes>
-      <recwoman>95</recwoman>
-      <phys>59</phys>
-      <normyes>127</normyes>
-      <recwoman_phys_normyes>8</recwoman_phys_normyes>
-   </recwoman-phys-normyes>
-   <recwoman-phys-normno>
-      <recwoman>95</recwoman>
-      <phys>59</phys>
-      <normyes>97</normyes>
-      <recwoman_phys_normno>5</recwoman_phys_normno>
-   </recwoman-phys-normno>
-   <recwoman-infman>
-      <recwoman>95</recwoman>
-      <infman>71</infman>
-      <recwoman_infman>47</recwoman_infman>
-   </recwoman-infman>
-   <recwoman-infman-direct>
-      <recwoman>95</recwoman>
-      <infman>71</infman>
-      <direct>85</direct>
-      <recwoman_infman_direct>21</recwoman_infman_direct>
-   </recwoman-infman-direct>
-   <recwoman-infman-indirect>
-      <recwoman>95</recwoman>
-      <infman>71</infman>
-      <indirect>87</indirect>
-      <recwoman_infman_indirect>24</recwoman_infman_indirect>
-   </recwoman-infman-indirect>
-   <recwoman-infwoman>
-      <recwoman>95</recwoman>
-      <infwoman>84</infwoman>
+   <count recGen="woman" painType="em" value="70">
+      <count recGen="woman">95</count>
+      <count painType="em">118</count>
+   </count>
+   <count recGen="woman" painType="phys" value="13">
+      <count recGen="woman">95</count>
+      <count painType="phys">59</count>
+   </count>
+   <count recGen="woman" painType="both" value="12">
+      <count recGen="woman">95</count>
+      <count painType="both">47</count>
+   </count>
+   <count recGen="woman" painType="em" recNorm="yes" value="41">
+      <count recGen="woman">95</count>
+      <count painType="em">118</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="woman" painType="em" recNorm="no" value="29">
+      <count recGen="woman">95</count>
+      <count painType="em">118</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count recGen="woman" painType="phys" recNorm="yes" value="8">
+      <count recGen="woman">95</count>
+      <count painType="phys">59</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="woman" painType="phys" recNorm="no" value="5">
+      <count recGen="woman">95</count>
+      <count painType="phys">59</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count recGen="woman" infGen="man" value="47">
+      <count recGen="woman">95</count>
+      <count infGen="man">71</count>
+   </count>
+   <count recGen="woman" infGen="man" direct="yes" value="21">
+      <count recGen="woman">95</count>
+      <count infGen="man">71</count>
+      <count direct="yes">85</count>
+   </count>
+   <count recGen="woman" infGen="man" direct="no" value="24">
+      <count recGen="woman">95</count>
+      <count infGen="man">71</count>
+      <count direct="no">87</count>
+   </count>
+   <count recGen="woman" infGen="woman" value="">
+      <count recGen="woman">95</count>
+      <count infGen="woman">84</count>
       <recwoman_infwoman>10</recwoman_infwoman>
-   </recwoman-infwoman>
-   <recwoman-infmix>
-      <recwoman>95</recwoman>
-      <infmix>5</infmix>
-      <recwoman_infmix>5</recwoman_infmix>
-   </recwoman-infmix>
-   <recwoman-direct>
-      <recwoman>95</recwoman>
-      <direct>85</direct>
-      <recwoman_direct>27</recwoman_direct>
-   </recwoman-direct>
-   <recwoman-indirect>
-      <recwoman>95</recwoman>
+   </count>
+   <count recGen="woman" infGen="mix" value="5">
+      <count recGen="woman">95</count>
+      <count infGen="mix">5</count>
+   </count>
+   <count recGen="woman" direct="yes" value="27">
+      <count recGen="woman">95</count>
+      <count direct="yes">85</count>
+   </count>
+   <count recGen="woman" direct="no" value="35">
+      <count recGen="woman">95</count>
       <indirect>87</indirect>
-      <recwoman_indirect>35</recwoman_indirect>
-   </recwoman-indirect>
-   <recwoman-normyes>
-      <recwoman>95</recwoman>
-      <normyes>127</normyes>
-      <recwoman_normyes>54</recwoman_normyes>
-   </recwoman-normyes>
-   <recwoman-normno>
+   </count>
+   <count recGen="woman" recNorm="yes" value="54">
+      <count recGen="woman">95</count>
+      <count recGen="yes">127</count>
+   </count>
+   <count recGen="woman" recNorm="no" value="41">
       <woman>95</woman>
       <normno>97</normno>
-      <woman_normno>41</woman_normno>
-   </recwoman-normno>
-   <infwoman-em>
-      <infwoman>84</infwoman>
-      <em>118</em>
-      <infwoman_em>30</infwoman_em>
-   </infwoman-em>
-   <infwoman-phys>
-      <infwoman>84</infwoman>
-      <phys>59</phys>
-      <infwoman_phys>27</infwoman_phys>
-   </infwoman-phys>
-   <infwoman-both>
-      <infwoman>84</infwoman>
-      <both>47</both>
-      <infwoman_both>27</infwoman_both>
-   </infwoman-both>
-   <infwoman-direct>
-      <infwoman>84</infwoman>
-      <direct>85</direct>
-      <infwoman_direct>46</infwoman_direct>
-   </infwoman-direct>
-   <infwoman-indirect>
+   </count>
+   <count infGen="woman" painType="em" value="30">
+      <count infGen="woman">84</count>
+      <count painType="em">118</count>
+   </count>
+   <count infGen="woman" painType="phys" value="27">
+      <count infGen="woman">84</count>
+      <count painType="phys">59</count>
+   </count>
+   <count infGen="woman" painType="both" value="27">
+      <count infGen="woman">84</count>
+      <count painType="both">47</count>
+   </count>
+   <count infGen="woman" direct="yes" value="46">
+      <count infGen="woman">84</count>
+      <count direct="yes">85</count>
+   </count>
+   <count infGen="woman" direct="no" value="37">
       <infwoman>84</infwoman>
       <indirect>87</indirect>
-      <infwoman_indirect>37</infwoman_indirect>
-   </infwoman-indirect>
-   <infwoman-normyes>
-      <infwoman>84</infwoman>
-      <normyes>61</normyes>
-      <infwoman_normyes>2</infwoman_normyes>
-   </infwoman-normyes>
-   <infwoman-normno>
-      <infwoman>84</infwoman>
-      <normno>95</normno>
-      <infwoman_normno>80</infwoman_normno>
-   </infwoman-normno>
-   <recman-em>
-      <recman>111</recman>
-      <em>118</em>
-      <recman_em>38</recman_em>
-   </recman-em>
-   <recman-phys>
-      <recman>111</recman>
-      <phys>59</phys>
-      <recman_phys>43</recman_phys>
-   </recman-phys>
-   <recman-both>
-      <recman>111</recman>
-      <both>47</both>
-      <recman_both>30</recman_both>
-   </recman-both>
-   <recman-infwoman>
-      <recman>111</recman>
-      <infwoman>84</infwoman>
-      <recman_infwoman>64</recman_infwoman>
-   </recman-infwoman>
-   <recman-infman>
-      <recman>111</recman>
-      <infman>71</infman>
-      <recman_infman>21</recman_infman>
-   </recman-infman>
-   <recman-direct>
-      <man>111</man>
-      <direct>85</direct>
-      <man_direct>50</man_direct>
-   </recman-direct>
-   <recman-normyes>
-      <man>111</man>
-      <normyes>127</normyes>
-      <man_normyes>60</man_normyes>
-   </recman-normyes>
-   <recman-normno>
-      <man>111</man>
-      <normno>97</normno>
-      <man_normno>51</man_normno>
-   </recman-normno>
-   <infman-direct>
-      <man>71</man>
-      <direct>85</direct>
-      <man_direct>38</man_direct>
-   </infman-direct>
-   <infman-normyes>
-      <infman>71</infman>
-      <normyes>61</normyes>
-      <infman_normyes>57</infman_normyes>
-   </infman-normyes>
-   <infman-normno>
-      <infman>71</infman>
-      <normno>95</normno>
-      <infman_normno>12</infman_normno>
-   </infman-normno>
-   <recmix-em>
+   </count>
+   <count infGen="woman" infNorm="yes" value="2">
+      <count infGen="woman">84</count>
+      <count infNorm="yes">61</count>
+   </count>
+   <count infGen="woman" infNorm="no" value="80">
+      <count infGen="woman">84</count>
+      <count infNorm="no">95</count>
+   </count>
+   <count recGen="man" painType="em" value="38">
+      <count recGen="man">111</count>
+      <count painType="em">118</count>
+   </count>
+   <count recGen="man" painType="phys" value="43">
+      <count recGen="man">111</count>
+      <count painType="phys">59</count>
+   </count>
+   <count recGen="man" painType="both" value="30">
+      <count recGen="man">111</count>
+      <count painType="both">47</count>
+   </count>
+   <count recGen="man" painType="em" recNorm="yes" value="24">
+      <count recGen="man">111</count>
+      <count painType="em">118</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="man" painType="em" recNorm="no" value="14">
+      <count recGen="man">111</count>
+      <count painType="em">118</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count recGen="man" painType="phys" recNorm="yes" value="16">
+      <count recGen="man">111</count>
+      <count painType="phys">59</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="man" painType="phys" recNorm="no" value="27">
+      <count recGen="man">111</count>
+      <count painType="phys">59</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count recGen="man" painType="both" recNorm="yes" value="20">
+      <count recGen="man">111</count>
+      <count painType="both">47</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="man" painType="both" recNorm="no" value="10">
+      <count recGen="man">111</count>
+      <count painType="both">47</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count recGen="man" infGen="woman" value="64">
+      <count recGen="man">111</count>
+      <count infGen="woman">84</count>
+   </count>
+   <count recGen="man" infGen="man" value="21">
+      <count recGen="man">111</count>
+      <count infGen="man">71</count>
+   </count>
+   <count recGen="man" direct="yes" value="50">
+      <count recGen="man">111</count>
+      <count direct="yes">85</count>
+   </count>
+   <count recGen="man" direct="no" value="47">
+      <count recGen="man">111</count>
+      <count direct="no">87</count>
+   </count>
+   <count recGen="man" recNorm="yes" value="60">
+      <count recGen="man">111</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="man" recNorm="no" value="51">
+      <count recGen="man">111</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count infGen="man" direct="yes" value="38">
+      <count infGen="man">71</count>
+      <count direct="yes">85</count>
+   </count>
+   <count infGen="man" direct="no" value="31">
+      <count infGen="man">71</count>
+      <count direct="no">87</count>
+   </count>
+   <count infGen="man" infNorm="yes" value="57">
+      <count infGen="man">71</count>
+      <count infNorm="yes">61</count>
+   </count>
+   <count infGen="man" infNorm="no" value="12">
+      <count infGen="man">71</count>
+      <count infNorm="no">95</count>
+   </count>
+   <count recGen="mix" painType="em" value="10">
       <recmix>18</recmix>
       <em>118</em>
-      <recmix_em>10</recmix_em>
-   </recmix-em>
-   <recmix-phys>
-      <recmix>18</recmix>
-      <phys>59</phys>
-      <recmix_phys>3</recmix_phys>
-   </recmix-phys>
+   </count>
+   <count recGen="mix" painType="phys" value="3">
+      <count recGen="mix">18</count>
+      <count painType="phys">59</count>
+   </count>
 </practice>
