@@ -725,7 +725,7 @@
                             and came with thee to Iolcos, ’neath Pelion’s hills, for my love was stronger than my prudence.
                      <painStart recNorm="yes" painType="phys" rec="Pelias PeliasChildren" inf="Medea" recGen="man" infGen="woman" recRel="none" infRel="none" infNorm="no" direct="yes"/>Next I caused the death of Pelias by a doom most grievous, even
                      by his own children’s hand, beguiling them of all their fear.<painEnd/>
-                     <painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man"/>All this have I done for thee, thou traitor! and thou hast cast
+                     <painStart recNorm="no" painType="em" rec="Medea" inf="Jason" recGen="woman" infGen="man" direct="no" infNorm="yes" infRel="lover" recRel="lover"/>All this have I done for thee, thou traitor! and thou hast cast
                             me over, taking to thyself another wife, though children have been bom to us. Hadst
                             thou been childless still, I could have pardoned thy desire for
                             this new union. Gone is now the trust I put in oaths. I
@@ -1215,7 +1215,7 @@
                </sp>
                <sp>
                   <speaker>Medea</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man"/>Thee I trust; but Pelias’
+                  <p><painStart recNorm="no" painType="em" rec="Medea" inf="Creon" recGen="woman" infGen="man" recRel="outsider" infRel="Royaly" infNorm="yes" direct="yes"/>Thee I trust; but Pelias’
                             house and Creon are my foes. Wherefore, if thou art bound by an oath,
                             thou wilt not give me up to them
                             when they come to drag me from the land, but, having entered
@@ -1597,7 +1597,7 @@
                <div1 type="textpart" subtype="antistrophe" n="2">
                   <sp>
                      <speaker>Chorus</speaker>
-                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman"/>Next do I bewail thy
+                     <p><painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" direct="yes" infNorm="no" infRel="mother" recRel="children"/>Next do I bewail thy
                                 sorrows, O mother hapless in thy children, thou who wilt
                                 slay thy babes because thou hast a rival<painEnd/>, <painStart recNorm="no" painType="em" rec="children" inf="Medea" recGen="woman" infGen="man" direct="yes" infNorm="no" recRel="children" infRel="mother"/>the babes thy husband hath deserted impiously
                         to join him to another bride.<painEnd/></p>
@@ -1628,7 +1628,7 @@
                </sp>
                <sp>
                   <speaker>Attendant</speaker>
-                  <p><painStart recNorm="no" painType="both" rec="Medea" recGen="woman" direct="no"/>These groans but ill
+                  <p><painStart recNorm="no" painType="both" rec="Medea" recGen="woman" direct="no" inf="Attendant" infGen="man" recRel="master" infNorm="yes" infRel="servant"/>These groans but ill
                      accord with the news I bring.<painEnd/></p>
                </sp>
                <sp>
@@ -1649,7 +1649,7 @@
                </sp>
                <sp>
                   <speaker>Attendant</speaker>
-                  <p><painStart recNorm="no" painType="em" rec="Medea" recGen="woman" direct="no"/>Then why this downcast eye,
+                  <p><painStart recNorm="no" painType="em" rec="Medea" recGen="woman" direct="no" infRel="servant" recRel="master" infNorm="yes" infGen="man" inf="Attendant"/>Then why this downcast eye,
                             these floods of tears?<painEnd/></p>
                </sp>
                <sp>
@@ -1968,7 +1968,7 @@
                   </sp>
                   <sp>
                      <speaker>2nd Son</speaker>
-                     <p>(<stage>within).</stage> <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" infNorm="" recRel="children" infRel="mother" direct="yes"/>I know not, sweet brother
+                     <p>(<stage>within).</stage> <painStart recNorm="yes" painType="both" rec="children" inf="Medea" recGen="man" infGen="woman" infNorm="no" recRel="children" infRel="mother" direct="yes"/>I know not, sweet brother
                                 mine; we are undone.<painEnd/></p>
                   </sp>
                   <sp>
@@ -2165,7 +2165,7 @@
                </sp>
                <sp>
                   <speaker>Jason</speaker>
-                  <p><painStart recNorm="yes" painType="em" rec="Jason" recGen="man" direct="no"/>They live, methinks, to bring a curse
+                  <p><painStart recNorm="yes" painType="em" rec="Jason" recGen="man" direct="no" inf="children" infGen="man" infNorm="yes" recRel="father" infRel="children"/>They live, methinks, to bring a curse
                      upon thy head.<painEnd/></p>
                </sp>
                <sp>
