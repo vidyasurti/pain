@@ -110,6 +110,12 @@ a.tooltip{
   text-align: center;
   padding: 5px;
   border-radius: 6px;
+  
+  /* Position the tooltip text - see examples below! */
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .tooltip:hover .tooltiptext {
