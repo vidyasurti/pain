@@ -51,10 +51,19 @@
     <xsl:template match="pain" mode="events-only">
         <p>
             <a class="pain-event tooltip" href="#tragedy-{@xml:id}" id="event-{@xml:id}">
-                <xsl:apply-templates/>
-                <span class="tooltiptext">Receiver: <xsl:apply-templates select="painStart/@rec"/>,
-                    gender of receiver: <xsl:apply-templates select="painStart/@recGen"/>, socially
-                    accepted: <xsl:apply-templates select="painStart/@recNorm"/>, type of pain: <xsl:apply-templates select="painStart/@painType"/></span>
+                <q>
+                    <xsl:apply-templates/>
+                </q>
+                <span class="tooltiptext">Rec: <xsl:apply-templates select="painStart/@rec"/>, Rec
+                    Gen: <xsl:apply-templates select="painStart/@recGen"/>, Rec Norm:
+                        <xsl:apply-templates select="painStart/@recNorm"/>, Pain type:
+                        <xsl:apply-templates select="painStart/@painType"/>
+                    <xsl:if test="string-length(painStart/@inf) gt 0"> , Inf: <xsl:apply-templates
+                            select="painStart/@inf"/>, Inf Gen: <xsl:apply-templates
+                            select="painStart/@infGen"/>, Inf Norm: <xsl:apply-templates
+                            select="painStart/@infNorm"/>, Rec Rel: <xsl:apply-templates
+                            select="painStart/@recRel"/>, Inf Rel: <xsl:apply-templates
+                                select="painStart/@infRel"/>, Direct: <xsl:apply-templates select="painStart/@direct"/></xsl:if></span>
             </a>
 
         </p>
