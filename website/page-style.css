@@ -1,27 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Trirong:wght@100&display=swap');
 
-a.website-name{
+
+head{
+    display: block;
     text-align: center;
-    margin: auto;
-    background-color: #0C2E0B;
-    font-family: "Trirong";
-    font-size: 36px;
-    padding: 5px;
-    color: white;
-    width: 100%;
+    font-size: 20px;
+    color:white;
+   font-family: "Trirong";   
 }
 
-a.page-link{
+nav{
+    overflow: hidden;
+    background-color: #0b1d2e;
+    margin-top: 3px;
     text-align: center;
-    margin: auto;
-    background-color: #0C2E0B;
-    font-family: "Trirong";
-    color: white;
-    font-size: 28px;
-    width: 100%;
 }
 
-a.page-link:hover{
+nav a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 34px;
+     font-family: "Trirong";
+}
+
+
+nav a:hover {
     background-color: #BF9000;
     color: #0C2E0B;
     transition: 0.3s;
@@ -33,9 +39,6 @@ body{
     color: white;
 }
 
-h1{
-    text-align:center;
-}
 
 hr {
   border: none;
