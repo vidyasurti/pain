@@ -23,6 +23,23 @@ div.instructions {
     
 }
 
+div.filtering-sect{
+    text-align: center;
+    margin:auto;
+    font-family: "Trirong";
+    color:white;
+    width: 50%;
+}
+
+div.collapsible{
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: gold;
+    font-size: 15px;
+}
+
 p.painEvents {
     text-align: center;
     color: white;
