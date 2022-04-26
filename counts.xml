@@ -744,11 +744,15 @@
       <count infNorm="no">95</count>
    </count>
    <count recGen="mix" painType="em" value="10">
-      <recmix>18</recmix>
-      <em>118</em>
+      <count recGen="mix">18</count>
+      <count painType="em">118</count>
    </count>
    <count recGen="mix" painType="phys" value="3">
       <count recGen="mix">18</count>
       <count painType="phys">59</count>
+   </count>
+   <count recGen="mix" painType="both" value="5">
+      <count recGen="mix">18</count>
+      <count painType="both">47</count>
    </count>
 </practice>
