@@ -23,11 +23,11 @@
                         select="/events_and_full-text/@doc-name"/>
                 </h2>
                 <div class="instructions">
-                    <p> You may view <b>specific instances of pain using the pane on the left</b>, and <b>read
-                        the full text for <xsl:apply-templates
-                            select="/events_and_full-text/@doc-name"/> on the right</b>. Once you <em>click
-                        on a specific pain event on the left</em>, the play on the right scrolls to where
-                        that pain event is located in the play. </p>
+                    <p> You may view <b>specific instances of pain using the pane on the left</b>,
+                        and <b>read the full text for <xsl:apply-templates
+                                select="/events_and_full-text/@doc-name"/> on the right</b>. Once
+                        you <em>click on a specific pain event on the left</em>, the play on the
+                        right scrolls to where that pain event is located in the play. </p>
                 </div>
                 <div class="both-texts">
                     <section class="painEvents">
@@ -51,8 +51,19 @@
     <xsl:template match="pain" mode="events-only">
         <p>
             <a class="pain-event tooltip" href="#tragedy-{@xml:id}" id="event-{@xml:id}">
-                <xsl:apply-templates/>
-                <span class = "tooltiptext"><xsl:apply-templates select = "painStart/@rec" /></span>
+                <q>
+                    <xsl:apply-templates/>
+                </q>
+                <span class="tooltiptext">Rec: <xsl:apply-templates select="painStart/@rec"/>, Rec
+                    Gen: <xsl:apply-templates select="painStart/@recGen"/>, Rec Norm:
+                        <xsl:apply-templates select="painStart/@recNorm"/>, Pain type:
+                        <xsl:apply-templates select="painStart/@painType"/>
+                    <xsl:if test="string-length(painStart/@inf) gt 0"> , Inf: <xsl:apply-templates
+                            select="painStart/@inf"/>, Inf Gen: <xsl:apply-templates
+                            select="painStart/@infGen"/>, Inf Norm: <xsl:apply-templates
+                            select="painStart/@infNorm"/>, Rec Rel: <xsl:apply-templates
+                            select="painStart/@recRel"/>, Inf Rel: <xsl:apply-templates
+                                select="painStart/@infRel"/>, Direct: <xsl:apply-templates select="painStart/@direct"/></xsl:if></span>
             </a>
 
         </p>
