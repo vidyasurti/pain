@@ -31,13 +31,16 @@ div.filtering-sect{
     width: 50%;
 }
 
-div.collapsible{
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border: gold;
-    font-size: 15px;
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
 }
 
 p.painEvents {
