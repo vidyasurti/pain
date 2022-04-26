@@ -32,7 +32,12 @@
                 
                 <div class = "filtering-sect">
                     <p class = "filtering-title">Filter based on: </p>
-                    <input value="value" type = "checkbox" id="your-id"  />
+                    <input value="value" type = "checkbox" id="male-rec" name = "male-rec" />
+                    <label for="male-rec">Male</label>
+                    <input value="value" type = "checkbox" id="female-rec" name = "female-rec" />
+                    <label for="female-rec">Female</label>
+                    <input value="value" type = "checkbox" id="mixed-rec" name = "mixed-rec" />
+                    <label for="mixed-rec">Mixed</label>
                     
                 </div>
                 
