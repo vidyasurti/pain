@@ -29,18 +29,27 @@ div.filtering-sect{
     font-family: "Trirong";
     color:white;
     width: 50%;
+    display: none;
+    overflow: hidden;
 }
 
 .collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+    text-align: center;
+    margin:auto;
+    font-family: "Trirong";
+    color:white;
+    width: 65vw;
+    background-color: #0C2E0B; 
+    cursor: pointer;
+    padding: 18px;    
+    /*border-color: #BF9000;   */ 
+    font-size: 18px;
+  
+}
+
+.collapsible:hover{
+    background-color: #10400f;
+    transition: 0.3s;
 }
 
 p.painEvents {
