@@ -19,6 +19,7 @@
             </head>
             <body>
                 <xsl:comment>#include virtual="menu.xhtml" </xsl:comment>
+                <script src = "reading-view.js"></script>
                 <h2 class="page-title">Events of Pain in <xsl:apply-templates
                         select="/events_and_full-text/@doc-name"/>
                 </h2>
@@ -31,51 +32,54 @@
                 </div>
 
 
-                <button type="button" class="collapsible">Open Collapsible</button>
-                <p class="filtering-title">Filter based on: </p>
-                <div>
-                    <p class="subheader">Characteristics that appear in all events of pain</p>
-                    <section>
-                        <p>Gender of person experiencing pain:</p>
-                        <input value="value" type="checkbox" id="male-rec" name="male-rec"/>
-                        <label for="male-rec">Male</label>
-                        <input value="value" type="checkbox" id="female-rec" name="female-rec"/>
-                        <label for="female-rec">Female</label>
-                        <input value="value" type="checkbox" id="mixed-rec" name="mixed-rec"/>
-                        <label for="mixed-rec">Mixed</label>
-                    </section>
+                <button type="button" class="collapsible">Click here to begin filtering pain events by their characteristics</button>
+                <div class="filtering-sect">
+                    <p class="filtering-title">Filter based on: </p>
+                    <div>
+                        <p class="subheader">Characteristics that appear in all events of pain</p>
+                        <section>
+                            <p>Gender of person experiencing pain:</p>
+                            <input value="value" type="checkbox" id="male-rec" name="male-rec"/>
+                            <label for="male-rec">Male</label>
+                            <input value="value" type="checkbox" id="female-rec" name="female-rec"/>
+                            <label for="female-rec">Female</label>
+                            <input value="value" type="checkbox" id="mixed-rec" name="mixed-rec"/>
+                            <label for="mixed-rec">Mixed</label>
+                        </section>
 
-                    <section>
-                        <p>Type of pain being experienced:</p>
-                        <input value="value" type="checkbox" id="em-pain" name="em-pain"/>
-                        <label for="male-rec">Emotional</label>
-                        <input value="value" type="checkbox" id="phys-pain" name="phys-pain"/>
-                        <label for="female-rec">Physical</label>
-                        <input value="value" type="checkbox" id="both-pain" name="both-pain"/>
-                        <label for="mixed-rec">Both</label>
-                    </section>
-                </div>
+                        <section>
+                            <p>Type of pain being experienced:</p>
+                            <input value="value" type="checkbox" id="em-pain" name="em-pain"/>
+                            <label for="male-rec">Emotional</label>
+                            <input value="value" type="checkbox" id="phys-pain" name="phys-pain"/>
+                            <label for="female-rec">Physical</label>
+                            <input value="value" type="checkbox" id="both-pain" name="both-pain"/>
+                            <label for="mixed-rec">Both</label>
+                        </section>
+                    </div>
 
-                <div>
-                    <p class="subheader">Optional characteristics that appear only in events of pain
-                        with an inflictor</p>
-                    <section>
-                        <p>Gender of person inflicting pain pain:</p>
-                        <input value="value" type="checkbox" id="male-inf" name="male-inf"/>
-                        <label for="male-inf">Male</label>
-                        <input value="value" type="checkbox" id="female-inf" name="female-inf"/>
-                        <label for="female-inf">Female</label>
-                        <input value="value" type="checkbox" id="mixed-inf" name="mixed-inf"/>
-                        <label for="mixed-inf">Mixed</label>
-                    </section>
+                    <div>
+                        <p class="subheader">Optional characteristics that appear only in events of
+                            pain with an inflictor</p>
+                        <section>
+                            <p>Gender of person inflicting pain pain:</p>
+                            <input value="value" type="checkbox" id="male-inf" name="male-inf"/>
+                            <label for="male-inf">Male</label>
+                            <input value="value" type="checkbox" id="female-inf" name="female-inf"/>
+                            <label for="female-inf">Female</label>
+                            <input value="value" type="checkbox" id="mixed-inf" name="mixed-inf"/>
+                            <label for="mixed-inf">Mixed</label>
+                        </section>
 
-                    <section>
-                        <p>Whether pain is direct or indirect:</p>
-                        <input value="value" type="radio" id="direct-pain" name="direct-pain"/>
-                        <label for="direct-pain">Direct</label>
-                        <input value="value" type="radio" id="indirect-pain" name="indirect-pain"/>
-                        <label for="female-rec">Indirect</label>
-                    </section>
+                        <section>
+                            <p>Whether pain is direct or indirect:</p>
+                            <input value="value" type="radio" id="direct-pain" name="direct-pain"/>
+                            <label for="direct-pain">Direct</label>
+                            <input value="value" type="radio" id="indirect-pain"
+                                name="indirect-pain"/>
+                            <label for="female-rec">Indirect</label>
+                        </section>
+                    </div>
                 </div>
 
 
