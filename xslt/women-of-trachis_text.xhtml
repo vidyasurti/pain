@@ -5,485 +5,744 @@
                 </title>
       <link rel="stylesheet" type="text/css" href="reading-view.css"/>
    </head>
-   <body><!--#include virtual="menu.xhtml" -->
-      <h2 class="page-title">Events of Pain in Trachiniae</h2>
+   <body><!--#include virtual="menu.xhtml" --><script src="reading-view.js"></script><h2 class="page-title">Events of Pain in Trachiniae</h2>
       <div class="instructions">
-         <p> You may view <b>specific instances of pain using the pane on the left</b>, and <b>read
-               the full text for Trachiniae on the right</b>. Once you <em>click
-               on a specific pain event on the left</em>, the play on the right scrolls to where
-            that pain event is located in the play. </p>
+         <p> You may view <b>specific instances of pain using the pane on the left</b>,
+            and <b>read the full text for Trachiniae on the right</b>. Once
+            you <em>click on a specific pain event on the left</em>, the play on the
+            right scrolls to where that pain event is located in the play. </p>
+      </div><button type="button" class="collapsible">Click here to begin filtering pain events by their characteristics</button><div class="filtering-sect">
+         <p class="filtering-title">Filter based on: </p>
+         <div>
+            <p class="subheader">Characteristics that appear in all events of pain</p>
+            <section>
+               <p>Gender of person experiencing pain:</p><input value="value" type="checkbox" id="male-rec" name="male-rec"/><label for="male-rec">Male</label><input value="value" type="checkbox" id="female-rec" name="female-rec"/><label for="female-rec">Female</label><input value="value" type="checkbox" id="mixed-rec" name="mixed-rec"/><label for="mixed-rec">Mixed</label></section>
+            <section>
+               <p>Type of pain being experienced:</p><input value="value" type="checkbox" id="em-pain" name="em-pain"/><label for="male-rec">Emotional</label><input value="value" type="checkbox" id="phys-pain" name="phys-pain"/><label for="female-rec">Physical</label><input value="value" type="checkbox" id="both-pain" name="both-pain"/><label for="mixed-rec">Both</label></section>
+         </div>
+         <div>
+            <p class="subheader">Optional characteristics that appear only in events of
+               pain with an inflictor</p>
+            <section>
+               <p>Gender of person inflicting pain pain:</p><input value="value" type="checkbox" id="male-inf" name="male-inf"/><label for="male-inf">Male</label><input value="value" type="checkbox" id="female-inf" name="female-inf"/><label for="female-inf">Female</label><input value="value" type="checkbox" id="mixed-inf" name="mixed-inf"/><label for="mixed-inf">Mixed</label></section>
+            <section>
+               <p>Whether pain is direct or indirect:</p><input value="value" type="radio" id="direct-pain" name="direct-pain"/><label for="direct-pain">Direct</label><input value="value" type="radio" id="indirect-pain" name="indirect-pain"/><label for="female-rec">Indirect</label></section>
+         </div>
       </div>
       <div class="both-texts">
          <section class="painEvents">
             <h3> Specific Pain Events in Trachiniae</h3>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_1" id="event-pain_1">
-                  But well I
-                  						know, even before I have passed away to Hades' domain, that my life is
-                  						ill-fortuned and heavy. For I, while
-                  						still dwelling in the house of my father Oeneus at ,
-                  						had such fear of marriage as never any woman of  had.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_2" id="event-pain_2">
-                  In the expectation that
-                  						such a suitor would get me, I was always praying in my misery that I might
-                  						die, before I should ever approach that marriage-bed.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_3" id="event-pain_3">
-                  For since being joined with Heracles as his
-                  						chosen bride, I nourish one fear after another in my anxiety for him. One
-                  						night brings distress, and the next
-                  						night, in turn, drives it out.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_4" id="event-pain_4">
-                  I only know
-                  						that he is gone, and has caused me sharp pain for him.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_5" id="event-pain_5">
-                  Deianeira, my mistress, many are the times already that I have observed you mourning
-                  the departure of
-                  						Heracles with great weeping and lamentation.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_6" id="event-pain_6">
-                  For with longing heart, as I hear, Deianeira, the battle-prize,
-                  								now, like some mournful bird,
-                  							never rests her eyes' longing that they might be without tears, but
-                  							nourishing a well-remembered fear for her husband's travels she is
-                  							constantly afflicted by her
-                  							anxious, widowed marriage-bed and in her misery anticipates
-                  								misfortune.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_7" id="event-pain_7">
-                  With respect I reproach you for your weeping, but still I will speak in
-                  								dissent.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_8" id="event-pain_8">
-                  But the anguish which consumes my heart—may you never come to know it
-                  						through your own experience!—to that now you are total strangers. Yes, a
-                  						young life grows in those sheltered regions of its own, and the Sun-god's heat
-                  disturbs it not, nor
-                  						rain, nor any wind. Rather it takes up a toilless existence amidst pleasure,
-                  						until such time as she is called “wife” instead of “maiden”, and takes her
-                  						portion of anxious thoughts in the night, fearing for husband or for children.
-                  At that point a woman
-                  						could understand the burden of my misfortunes by recalling her own
-                  						experience.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_9" id="event-pain_9">
-                  As a matter of fact, I have had many a trouble to weep for, but I am going to
-                  						speak of one that none of the previous could equal.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_10" id="event-pain_10">
-                  As a result I
-                  						leap up from sweet sleep in fear, dear maidens, terrified at the possibility
-                  						that I must remain widowed of the noblest man of all.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_11" id="event-pain_11">
-                  He passed a whole year, as he himself says, a
-                  							bought slave to the barbarian Omphale.  
-                  							And so stung was he by the shame
-                  							of it, that he bound himself by a
-                  							solemn oath, swearing one day to enslave with wife and child the man who
-                  							had brought that suffering upon him.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_12" id="event-pain_12">
-                  
-                  							For, Heracles asserted, that man alone of mortals had a share in causing
-                  							his suffering. For when Heracles, a guest-friend of long standing, came
-                  							to his house and hearth, Eurytus roared against him with insults of
-                  							ruinous intent, saying that,
-                  							although Heracles had inevitable shafts in his hands, he fell short of
-                  							his own sons in the contest of the bow. Next he shouted that Heracles
-                  							was a freeman's slave, a broken hulk, and then at a banquet, when his
-                  							guest was full of wine, he tossed him from his home.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_13" id="event-pain_13">
-                  Heracles seized a moment when the man's eyes were one
-                  							place and his thoughts another, and hurled him from a towering summit.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_14" id="event-pain_14">
-                  And the women whom you
-                  							see, fallen from happiness to misery, are sent here to you.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_15" id="event-pain_15">
-                  She has not said a word, large or small, but has been constantly laboring with the
-                  heavy
-                  							pains of her misfortune and weeping, poor girl, since she left her
-                  							windswept fatherland.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_16" id="event-pain_16">
-                  Let her not in addition to
-                  							her existing troubles take fresh grief from me; she has enough already.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_17" id="event-pain_17">
-                  Ah, misery! What is happening to
-                  							me? What secret plague have I welcomed beneath my roof? Ah, me!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_18" id="event-pain_18">
-                  Ah, friends, what should I do? I
-                  							am dumbstruck by this latest news!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_19" id="event-pain_19">
-                  There was clatter of fists and clang of bow and crash of a bull's horns
-                  							mixed together; then there were
-                  							close-locked grapplings and deadly blows from foreheads and loud deep
-                  							cries from both.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_20" id="event-pain_20">
-                  But the face of the bride which is the
-                  							prize of the strife awaits the end in piteous anguish.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_21" id="event-pain_21">
-                  partly to grieve over
-                  						my sufferings in your company.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_22" id="event-pain_22">
-                  I have received a maiden—or, I believe, no longer a maiden, but an
-                  						experienced woman—into my home, just as a mariner takes on cargo, a
-                  						merchandise to wreck my peace of mind.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_23" id="event-pain_23">
-                  But, then again, to live
-                  						with her, sharing the same marriage—what woman could endure it? For I see
-                  						that the flower of her youth is blossoming, while mine is fading. The eyes
-                  						of men love to pluck off the bloom of youth, but they turn their steps from
-                  						the old. On this account I am afraid
-                  						lest Heracles, in name my husband, should be the younger woman's man.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_24" id="event-pain_24">
-                  straightaway
-                  						the son of Zeus turned round and with his hands shot a feathered arrow that
-                  						whistled right through his chest to the lungs. As he passed away
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_25" id="event-pain_25">
-                  the blood clotted round my wound,
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_26" id="event-pain_26">
-                  She, his loving wife, miserable, was ever
-                  							pining in her miserable heart, always weeping.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_27" id="event-pain_27">
-                  Friends, how I fear that I may have gone too far in all that I was doing just
-                  						now!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_28" id="event-pain_28">
-                  I do not know, but I despair that I will soon be found to have done a great
-                  						wrong, when my hope was for good.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_29" id="event-pain_29">
-                  And so I am distraught, and I do not
-                  						know to which side my thoughts should fall. I only see that I have brought a
-                  						terrible deed to completion.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_30" id="event-pain_30">
-                  Yes, I
-                  						alone—unless my outlook prove mistaken—I, miserable one, shall completely
-                  						destroy him!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_31" id="event-pain_31">
-                  
-                  						O Mother, how I wish I could choose one of three fates for you! I wish that
-                  you no longer lived, or, if you
-                  						remained, that someone else called you “Mother”, or that some new and kinder
-                  						heart had been exchanged for your present one!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_32" id="event-pain_32">
-                  
-                  						Listen to me! You have killed your
-                  						husband, my father—my father!Oh, no! What is this you have blurted out, Hyllus?Only
-                  what cannot but be fulfilled. For who could undo what has happened?What do you mean,
-                  son? From whom did you hear this that you charge me with a crime so awful?I have seen
-                  my father's overwhelming misfortune with my own eyes. I did not
-                  						learn of it by hearsay.Where did you find him? Where were you with him?If you
-                  need to hear, then I must tell all. After sacking the famous city of Eurytus, he went
-                  his way
-                  						with the trophies and choice spoils of victory. There is a sea-washed
-                  						headland of , Cape Cenaeum, where he marked out altars and a
-                  						sacred grove to the Zeus of his fathers. There I first saw him, to the gratification
-                  of my desire.
-                  						He was about to make a sacrifice rich in offerings when his own herald,
-                  						Lichas, came to him from home with your gift, the deadly robe, in his hands.
-                  						This he put on as you prescribed and
-                  						then began his offering with twelve bulls, free from blemish, the prime of
-                  						the spoil; but altogether he brought a hundred mixed victims to the altar.
-                  						At first the miserable wretch prayed with serene soul and rejoiced in his
-                  						ornate garb. But when the blood-fed
-                  						flame began to blaze from the holy offerings and from the resinous pine,
-                  						
-                  						</a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_33" id="event-pain_33">
-                  a
-                  						sweat broke out on his skin and the tunic clung to his sides close-glued at
-                  						every joint, as if by a craftsman's hand; there came a convulsive, biting pain
-                  in his bones; and then
-                  						the venom, like that of some deadly, cruel viper, began to devour him.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_34" id="event-pain_34">
-                  just as a piercing spasm clutched his lungs,
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_35" id="event-pain_35">
-                  he caught
-                  						him by the foot where the ankle bends in the socket and threw him at a surf-beaten
-                  rock in the sea, causing the
-                  						white brain to ooze from his hair, when the crown of his head had been
-                  						scattered and his blood with it.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_36" id="event-pain_36">
-                  But all the people lifted up a cry of astounded grief when they saw that the
-                  						one was frenzied, and the other destroyed;
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_37" id="event-pain_37">
-                  For he convulsed down
-                  						to the ground and up into the air as he shouted and cried out. All around
-                  						the cliffs resounded, both the steep headlands of  and the
-                  						Euboean capes. But when he was exhausted with repeatedly throwing himself on
-                  the ground in his anguish and
-                  						repeatedly shouting with howls of grief, as he dwelled on his ill-mated
-                  						marriage with miserable you and his alliance with Oeneus, which, he said, he
-                  						got for himself as the ruin of his life,
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_38" id="event-pain_38">
-                  saw me weeping among his many troops.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_39" id="event-pain_39">
-                  
-                  						while he moaned in his convulsions.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_40" id="event-pain_40">
-                  For if the Centaur's deceitful torture smears his sides with a murderous
-                  							net, where clings the venom which Death birthed and the gleaming serpent
-                  								nourished, how can he look
-                  							upon tomorrow's sun, when that appalling Hydra-shape grasps him? Those
-                  							murderous goads, prepared by the
-                  							deceptive words of black-haired Nessus, torment him with confused
-                  							thrashing and seethe on his skin.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_41" id="event-pain_41">
-                  
-                  							In these matters this miserable lady had no apprehension, when she
-                  							foresaw in the new marriage a great plague swiftly rushing upon her
-                  							household. Her own hand applied the drug. But no doubt for the results
-                  							yielded by a stranger's counsel,
-                  							given at a fatal meeting—for these she despairingly groans and sheds a
-                  							tender dew of thickly-falling tears.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_42" id="event-pain_42">
-                  Our streaming tears break forth. Ah, no!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_43" id="event-pain_43">
-                  An infection pours over him, an
-                  							illness more to be pitied than any
-                  							suffering that adversaries ever brought upon that glorious hero.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_44" id="event-pain_44">
-                  did I just now hear some cry of grief rushing through the
-                  								house?
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_45" id="event-pain_45">
-                  It is no uncertain sound, but a wail of anguish from inside.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_46" id="event-pain_46">
-                  And note how strangely, with what consternation on her brow that old woman approaches
-                  to give us
-                  							some news.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_47" id="event-pain_47">
-                  Ah, my daughters, great, indeed, are the sorrows for us that began with
-                  							the gift sent to Heracles!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_48" id="event-pain_48">
-                  Did you witness that violent deed, poor helpless one?
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_49" id="event-pain_49">
-                  Falling before the altars, she moaned that they were left desolate, and whenever she
-                  							touched any household thing that she, poor lady, had habitually used in
-                  							the past, her tears would flow. If, as she roamed hither and thither
-                  							through the house, she beheld the form of any well-loved servant, she
-                  							wept in misery at the sight, crying aloud upon her own fate, and her childless
-                  existence
-                  							thereafter.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_50" id="event-pain_50">
-                  Then she broke
-                  							out in warm streams of tears and
-                  							said: “Ah, my bridal bed and bridal chamber, farewell now and for ever,
-                  							since you will never more receive me in these covers as his wife.”
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_51" id="event-pain_51">
-                  At that sight, her son gave a great cry. For he knew, poor boy, that in
-                  							his anger he had driven her to that action. He had learned too late from
-                  							the servants in the house that she
-                  							had acted without knowledge and at the will of the monster. Then and
-                  							there the youth in his misery left no cry of grief unmade as he lamented
-                  							over her, nor as he fell to kiss her lips; he threw himself at her side,
-                  							loudly moaning that he had rashly
-                  							attacked her with a false accusation and weeping that he must now live
-                  							orphaned of both alike, of his father and of her.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_52" id="event-pain_52">
-                  Which disaster shall I bewail
-                  							first? Which is more to be pitied? In my grief I cannot
-                  								decide.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_53" id="event-pain_53">
-                  One sorrow may be seen in the
-                  							house; for one we wait with apprehension. To have and to await are one
-                  							and the same.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_54" id="event-pain_54">
-                   
-                  							For they say that he is approaching the house in torments from
-                  							which there is no deliverance, a wonder of unutterable woe.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_55" id="event-pain_55">
-                  And in what manner, then, do
-                  							they bring him? In sorrow, as for some loved one, they tread their
-                  							mournful, noiseless tread.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_56" id="event-pain_56">
-                  O my father! O my misery! What is to become of me? What is my best plan?
-                  						Ah!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_57" id="event-pain_57">
-                  Do not rouse the cruel
-                  						pain that infuriates your father! He lives, though on the very edge.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_58" id="event-pain_58">
-                  You must not rouse and revive his fierce, recurrent infection, my son!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_59" id="event-pain_59">
-                  But the immense weight of this misery crushes me. My heart craves
-                  						release!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_60" id="event-pain_60">
-                  Among what people do I lie, tortured with unending agonies? O me, what pain!
-                  						Oh, that accursed pest gnaws me once more!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_61" id="event-pain_61">
-                  O Cenaean rock, foundation of my altars, what cruel reward you have earned me for
-                  those fair offerings, O
-                  						Zeus! Ah, in what ruin you have deposited me, in what ruin! Would that I had
-                  						never looked on you to my sorrow with my eyes, never come face to face with
-                  						this blooming madness, which no spell can soothe! Where is the enchanter, where
-                  the practiced healer, save
-                  						Zeus alone, who will charm this catastrophe away?
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_62" id="event-pain_62">
-                  Ah! Leave me! Leave me in my
-                  							misfortune! Leave me to sleep my last. Where, where do you touch me?
-                  							Where do you lay me? You will kill me, you will kill me! If there was
-                  							any pain that slumbered, you have aroused it!It has seized me,—oh, the pest
-                  							comes again!—What is your homeland, you men most ungrateful of all the
-                  							Greeks? I wore out my wretched days in ridding the Greeks of pests both
-                  							on the deep and throughout every forest. And now, when I am afflicted,
-                  							will no man turn merciful fire or sword on me? Oh! Oh! Will no one come and
-                  strike the head from this
-                  							accursed body with one fierce stroke? Ah, me!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_63" id="event-pain_63">
-                  but no resource in myself or from another can
-                  							help me make his life forget its agonies. So strong is the destiny
-                  							appointed by Zeus!O my son, where are you? Raise me,
-                  							take hold of me here, here! </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_64" id="event-pain_64">
-                  Oh, oh, my god! Again, again the cruel pest
-                  							leaps, leaps up to rend me, the wild, uncombatable plague! O Pallas, Pallas,
-                  it tortures me again! oh,
-                  							please, my son, pity your sire!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_65" id="event-pain_65">
-                  Heal this pain with which your godless mother has
-                  							enraged me! So may I see her fall to ruin, exactly, just exactly, as she
-                  							has destroyed me! Sweet Hades,
-                  							brother of Zeus, give me sleep, give me sleep. Kill me in my misery by a
-                  							swift-flying doom!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_66" id="event-pain_66">
-                  I shudder, friends, to hear these sorrows which our King suffers. What a man is here,
-                  and what
-                  						misfortunes lash at him!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_67" id="event-pain_67">
-                  Ah, many and hot and cruel not in name alone have been the labors of these
-                  						hands, the burdens hoisted upon these shoulders! And yet no toil ever laid
-                  						on me by the bedfellow of Zeus or by the hateful Eurystheus was as
-                  							harsh as this thing which the
-                  						daughter of Oeneus, fair and false, has fastened upon my back, this woven
-                  						net of the Erinyes in which I perish! Plastered to my sides, it has eaten
-                  						away my inmost flesh and sucks the channels of my lungs, making my body its
-                  home. Already it has drunk away
-                  						my fresh lifeblood, and my whole body is wasted, conquered by these
-                  						indescribable bonds.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_68" id="event-pain_68">
-                  Show your pity for me, whom many might
-                  						think deserving of pity—pity me moaning and weeping like a girl! No one
-                  						could say that he had ever seen this man do that before. No, always without
-                  						complaint I used to pursue my troubles. But now in my misery I have been found
-                  a woman, instead of
-                  						the man I used to be.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_69" id="event-pain_69">
-                  Come close, stand near your father and do examine the magnitude of the
-                  						misfortune by which I suffer; for I will uncover my suffering. Look! See all
-                  						of you this miserable body; see how
-                  						wretched, how pitiable I am!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_70" id="event-pain_70">
-                  Ah, misery! The ruinous spasm flames again; it shoots through my sides—I must
-                  						wrestle once more with that cruel, devouring plague!King Hades, receive me!
-                  Strike me, O
-                  						fire of Zeus! Hurl down your thunderbolt, ruler, dash it, Father, upon my
-                  						head! Again the pest consumes me, it has blazed up, it has leapt to fury!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_71" id="event-pain_71">
-                  But now, with joints unhinged and
-                  						with flesh torn to shreds, I have become the miserable spoil of an unseen
-                  							destroyer,—I, who am called the 
-                  						son of noblest mother, I, who am reputed the seed of Zeus, lord of the
-                  						starry sky.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_72" id="event-pain_72">
-                  though I am nothing, though I cannot move a
-                  						step, yet she who has done this deed shall feel my heavy hand even so.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_73" id="event-pain_73">
-                  hear me, diseased though you are; I will ask you for no
-                  						more than is my due. Give yourself to me in a mood not as harsh as that to
-                  						which your heart is now stung.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_74" id="event-pain_74">
-                  In this pain of mine I understand none of your many riddles.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_75" id="event-pain_75">
-                  Yes, for her condition is such that my silence shames me.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_76" id="event-pain_76">
-                  Ah! Ah, misery! I am lost, ruined, ruined! The light of day exists for me no
-                  							more! Ah, now I understand the
-                  						depth of my misfortune! Go, my son! Your father is no more.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_77" id="event-pain_77">
-                  So this savage
-                  						Centaur in death has killed me alive, just as the divine will had been
-                  						foretold.
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_78" id="event-pain_78">
-                  Not so, in truth, but healer of my sufferings, sole physician of my pain!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_79" id="event-pain_79">
-                  It would
-                  						be better, Father, that I also die, rather than live united with those whom
-                  						I most detest!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_80" id="event-pain_80">
-                  I am miserable! I have no way out of so many dilemmas!
-                  </a></p>
-            <p><a class="pain-event tooltip" href="#tragedy-pain_81" id="event-pain_81">
-                  yet they can let such sufferings pass before their eyes.No man foresees the future;
-                  the
-                  						present is full of mourning for us, and of shame for the powers above, and
-                  						indeed of hardship beyond compare for him who endures this disaster.
-                  </a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_1" id="event-pain_1"><q>
+                     But well I
+                     						know, even before I have passed away to Hades' domain, that my life is
+                     						ill-fortuned and heavy. For I, while
+                     						still dwelling in the house of my father Oeneus at ,
+                     						had such fear of marriage as never any woman of  had.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     no, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_2" id="event-pain_2"><q>
+                     In the expectation that
+                     						such a suitor would get me, I was always praying in my misery that I might
+                     						die, before I should ever approach that marriage-bed.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Achelous, Inf Gen: man, Inf Norm: yes, Rec Rel: romanticinterest, Inf Rel: suitor, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_3" id="event-pain_3"><q>
+                     For since being joined with Heracles as his
+                     						chosen bride, I nourish one fear after another in my anxiety for him. One
+                     						night brings distress, and the next
+                     						night, in turn, drives it out.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_4" id="event-pain_4"><q>
+                     I only know
+                     						that he is gone, and has caused me sharp pain for him.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_5" id="event-pain_5"><q>
+                     Deianeira, my mistress, many are the times already that I have observed you mourning
+                     the departure of
+                     						Heracles with great weeping and lamentation.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_6" id="event-pain_6"><q>
+                     For with longing heart, as I hear, Deianeira, the battle-prize,
+                     								now, like some mournful bird,
+                     							never rests her eyes' longing that they might be without tears, but
+                     							nourishing a well-remembered fear for her husband's travels she is
+                     							constantly afflicted by her
+                     							anxious, widowed marriage-bed and in her misery anticipates
+                     								misfortune.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_7" id="event-pain_7"><q>
+                     With respect I reproach you for your weeping, but still I will speak in
+                     								dissent.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_8" id="event-pain_8"><q>
+                     But the anguish which consumes my heart—may you never come to know it
+                     						through your own experience!—to that now you are total strangers. Yes, a
+                     						young life grows in those sheltered regions of its own, and the Sun-god's heat
+                     disturbs it not, nor
+                     						rain, nor any wind. Rather it takes up a toilless existence amidst pleasure,
+                     						until such time as she is called “wife” instead of “maiden”, and takes her
+                     						portion of anxious thoughts in the night, fearing for husband or for children.
+                     At that point a woman
+                     						could understand the burden of my misfortunes by recalling her own
+                     						experience.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_9" id="event-pain_9"><q>
+                     As a matter of fact, I have had many a trouble to weep for, but I am going to
+                     						speak of one that none of the previous could equal.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_10" id="event-pain_10"><q>
+                     As a result I
+                     						leap up from sweet sleep in fear, dear maidens, terrified at the possibility
+                     						that I must remain widowed of the noblest man of all.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_11" id="event-pain_11"><q>
+                     He passed a whole year, as he himself says, a
+                     							bought slave to the barbarian Omphale.  
+                     							And so stung was he by the shame
+                     							of it, that he bound himself by a
+                     							solemn oath, swearing one day to enslave with wife and child the man who
+                     							had brought that suffering upon him.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     em , Inf: Omphale, Inf Gen: woman, Inf Norm: no, Rec Rel: slave, Inf Rel: master, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_12" id="event-pain_12"><q>
+                     
+                     							For, Heracles asserted, that man alone of mortals had a share in causing
+                     							his suffering. For when Heracles, a guest-friend of long standing, came
+                     							to his house and hearth, Eurytus roared against him with insults of
+                     							ruinous intent, saying that,
+                     							although Heracles had inevitable shafts in his hands, he fell short of
+                     							his own sons in the contest of the bow. Next he shouted that Heracles
+                     							was a freeman's slave, a broken hulk, and then at a banquet, when his
+                     							guest was full of wine, he tossed him from his home.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Eurytus, Inf Gen: man, Inf Norm: yes, Rec Rel: student, Inf Rel: teacher, Direct: yes</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_13" id="event-pain_13"><q>
+                     Heracles seized a moment when the man's eyes were one
+                     							place and his thoughts another, and hurled him from a towering summit.
+                     </q><span class="tooltiptext">Rec: Iphitus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys , Inf: Heracles, Inf Gen: man, Inf Norm: no, Rec Rel: acquaintance, Inf Rel: acquaintance, Direct: yes</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_14" id="event-pain_14"><q>
+                     And the women whom you
+                     							see, fallen from happiness to misery, are sent here to you.
+                     </q><span class="tooltiptext">Rec: women, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_15" id="event-pain_15"><q>
+                     She has not said a word, large or small, but has been constantly laboring with the
+                     heavy
+                     							pains of her misfortune and weeping, poor girl, since she left her
+                     							windswept fatherland.
+                     </q><span class="tooltiptext">Rec: Iole, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_16" id="event-pain_16"><q>
+                     Let her not in addition to
+                     							her existing troubles take fresh grief from me; she has enough already.
+                     </q><span class="tooltiptext">Rec: Iole, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_17" id="event-pain_17"><q>
+                     Ah, misery! What is happening to
+                     							me? What secret plague have I welcomed beneath my roof? Ah, me!
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Iole, Inf Gen: woman, Inf Norm: no, Rec Rel: cheatee, Inf Rel: other_woman, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_18" id="event-pain_18"><q>
+                     Ah, friends, what should I do? I
+                     							am dumbstruck by this latest news!
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles_Iole, Inf Gen: mix, Inf Norm: no, Rec Rel: cheatee, Inf Rel: husband_other_woman, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_19" id="event-pain_19"><q>
+                     There was clatter of fists and clang of bow and crash of a bull's horns
+                     							mixed together; then there were
+                     							close-locked grapplings and deadly blows from foreheads and loud deep
+                     							cries from both.
+                     </q><span class="tooltiptext">Rec: Heracles_Achelous, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys , Inf: Heracles_Achelous, Inf Gen: man, Inf Norm: yes, Rec Rel: rival, Inf Rel: rival, Direct: yes</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_20" id="event-pain_20"><q>
+                     But the face of the bride which is the
+                     							prize of the strife awaits the end in piteous anguish.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles_Achelous, Inf Gen: man, Inf Norm: yes, Rec Rel: romanticinterest, Inf Rel: suitors, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_21" id="event-pain_21"><q>
+                     partly to grieve over
+                     						my sufferings in your company.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles_Iole, Inf Gen: mix, Inf Norm: no, Rec Rel: cheatee, Inf Rel: husband_other_woman, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_22" id="event-pain_22"><q>
+                     I have received a maiden—or, I believe, no longer a maiden, but an
+                     						experienced woman—into my home, just as a mariner takes on cargo, a
+                     						merchandise to wreck my peace of mind.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Iole, Inf Gen: woman, Inf Norm: no, Rec Rel: cheatee, Inf Rel: other_woman, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_23" id="event-pain_23"><q>
+                     But, then again, to live
+                     						with her, sharing the same marriage—what woman could endure it? For I see
+                     						that the flower of her youth is blossoming, while mine is fading. The eyes
+                     						of men love to pluck off the bloom of youth, but they turn their steps from
+                     						the old. On this account I am afraid
+                     						lest Heracles, in name my husband, should be the younger woman's man.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles_Iole, Inf Gen: mix, Inf Norm: no, Rec Rel: wife, Inf Rel: husband_other_woman, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_24" id="event-pain_24"><q>
+                     straightaway
+                     						the son of Zeus turned round and with his hands shot a feathered arrow that
+                     						whistled right through his chest to the lungs. As he passed away
+                     </q><span class="tooltiptext">Rec: Nessus, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: attacker, Inf Rel: defender, Direct: yes</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_25" id="event-pain_25"><q>
+                     the blood clotted round my wound,
+                     </q><span class="tooltiptext">Rec: Nessus, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: attacker, Inf Rel: defender, Direct: yes</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_26" id="event-pain_26"><q>
+                     She, his loving wife, miserable, was ever
+                     							pining in her miserable heart, always weeping.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: yes, Rec Rel: wife, Inf Rel: husband, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_27" id="event-pain_27"><q>
+                     Friends, how I fear that I may have gone too far in all that I was doing just
+                     						now!
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_28" id="event-pain_28"><q>
+                     I do not know, but I despair that I will soon be found to have done a great
+                     						wrong, when my hope was for good.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_29" id="event-pain_29"><q>
+                     And so I am distraught, and I do not
+                     						know to which side my thoughts should fall. I only see that I have brought a
+                     						terrible deed to completion.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_30" id="event-pain_30"><q>
+                     Yes, I
+                     						alone—unless my outlook prove mistaken—I, miserable one, shall completely
+                     						destroy him!
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_31" id="event-pain_31"><q>
+                     
+                     						O Mother, how I wish I could choose one of three fates for you! I wish that
+                     you no longer lived, or, if you
+                     						remained, that someone else called you “Mother”, or that some new and kinder
+                     						heart had been exchanged for your present one!
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: son, Inf Rel: mother, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_32" id="event-pain_32"><q>
+                     
+                     						Listen to me! You have killed your
+                     						husband, my father—my father!Oh, no! What is this you have blurted out, Hyllus?Only
+                     what cannot but be fulfilled. For who could undo what has happened?What do you mean,
+                     son? From whom did you hear this that you charge me with a crime so awful?I have seen
+                     my father's overwhelming misfortune with my own eyes. I did not
+                     						learn of it by hearsay.Where did you find him? Where were you with him?If you
+                     need to hear, then I must tell all. After sacking the famous city of Eurytus, he went
+                     his way
+                     						with the trophies and choice spoils of victory. There is a sea-washed
+                     						headland of , Cape Cenaeum, where he marked out altars and a
+                     						sacred grove to the Zeus of his fathers. There I first saw him, to the gratification
+                     of my desire.
+                     						He was about to make a sacrifice rich in offerings when his own herald,
+                     						Lichas, came to him from home with your gift, the deadly robe, in his hands.
+                     						This he put on as you prescribed and
+                     						then began his offering with twelve bulls, free from blemish, the prime of
+                     						the spoil; but altogether he brought a hundred mixed victims to the altar.
+                     						At first the miserable wretch prayed with serene soul and rejoiced in his
+                     						ornate garb. But when the blood-fed
+                     						flame began to blaze from the holy offerings and from the resinous pine,
+                     						
+                     						</q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: son, Inf Rel: mother, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_33" id="event-pain_33"><q>
+                     a
+                     						sweat broke out on his skin and the tunic clung to his sides close-glued at
+                     						every joint, as if by a craftsman's hand; there came a convulsive, biting pain
+                     in his bones; and then
+                     						the venom, like that of some deadly, cruel viper, began to devour him.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_34" id="event-pain_34"><q>
+                     just as a piercing spasm clutched his lungs,
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_35" id="event-pain_35"><q>
+                     he caught
+                     						him by the foot where the ankle bends in the socket and threw him at a surf-beaten
+                     rock in the sea, causing the
+                     						white brain to ooze from his hair, when the crown of his head had been
+                     						scattered and his blood with it.
+                     </q><span class="tooltiptext">Rec: Lichas, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys , Inf: Heracles, Inf Gen: man, Inf Norm: no, Rec Rel: servant, Inf Rel: master, Direct: yes</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_36" id="event-pain_36"><q>
+                     But all the people lifted up a cry of astounded grief when they saw that the
+                     						one was frenzied, and the other destroyed;
+                     </q><span class="tooltiptext">Rec: people, Rec
+                     Gen: mix, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_37" id="event-pain_37"><q>
+                     For he convulsed down
+                     						to the ground and up into the air as he shouted and cried out. All around
+                     						the cliffs resounded, both the steep headlands of  and the
+                     						Euboean capes. But when he was exhausted with repeatedly throwing himself on
+                     the ground in his anguish and
+                     						repeatedly shouting with howls of grief, as he dwelled on his ill-mated
+                     						marriage with miserable you and his alliance with Oeneus, which, he said, he
+                     						got for himself as the ruin of his life,
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_38" id="event-pain_38"><q>
+                     saw me weeping among his many troops.
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_39" id="event-pain_39"><q>
+                     
+                     						while he moaned in his convulsions.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_40" id="event-pain_40"><q>
+                     For if the Centaur's deceitful torture smears his sides with a murderous
+                     							net, where clings the venom which Death birthed and the gleaming serpent
+                     								nourished, how can he look
+                     							upon tomorrow's sun, when that appalling Hydra-shape grasps him? Those
+                     							murderous goads, prepared by the
+                     							deceptive words of black-haired Nessus, torment him with confused
+                     							thrashing and seethe on his skin.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Nessus, Inf Gen: man, Inf Norm: no, Rec Rel: defender, Inf Rel: attacker, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_41" id="event-pain_41"><q>
+                     
+                     							In these matters this miserable lady had no apprehension, when she
+                     							foresaw in the new marriage a great plague swiftly rushing upon her
+                     							household. Her own hand applied the drug. But no doubt for the results
+                     							yielded by a stranger's counsel,
+                     							given at a fatal meeting—for these she despairingly groans and sheds a
+                     							tender dew of thickly-falling tears.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_42" id="event-pain_42"><q>
+                     Our streaming tears break forth. Ah, no!
+                     </q><span class="tooltiptext">Rec: Chorus, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_43" id="event-pain_43"><q>
+                     An infection pours over him, an
+                     							illness more to be pitied than any
+                     							suffering that adversaries ever brought upon that glorious hero.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_44" id="event-pain_44"><q>
+                     did I just now hear some cry of grief rushing through the
+                     								house?
+                     </q><span class="tooltiptext">Rec: unknown, Rec
+                     Gen: mix, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_45" id="event-pain_45"><q>
+                     It is no uncertain sound, but a wail of anguish from inside.
+                     </q><span class="tooltiptext">Rec: unknown, Rec
+                     Gen: mix, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_46" id="event-pain_46"><q>
+                     And note how strangely, with what consternation on her brow that old woman approaches
+                     to give us
+                     							some news.
+                     </q><span class="tooltiptext">Rec: Nurse, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_47" id="event-pain_47"><q>
+                     Ah, my daughters, great, indeed, are the sorrows for us that began with
+                     							the gift sent to Heracles!
+                     </q><span class="tooltiptext">Rec: Nurse, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_48" id="event-pain_48"><q>
+                     Did you witness that violent deed, poor helpless one?
+                     </q><span class="tooltiptext">Rec: Nurse, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_49" id="event-pain_49"><q>
+                     Falling before the altars, she moaned that they were left desolate, and whenever she
+                     							touched any household thing that she, poor lady, had habitually used in
+                     							the past, her tears would flow. If, as she roamed hither and thither
+                     							through the house, she beheld the form of any well-loved servant, she
+                     							wept in misery at the sight, crying aloud upon her own fate, and her childless
+                     existence
+                     							thereafter.
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_50" id="event-pain_50"><q>
+                     Then she broke
+                     							out in warm streams of tears and
+                     							said: “Ah, my bridal bed and bridal chamber, farewell now and for ever,
+                     							since you will never more receive me in these covers as his wife.”
+                     </q><span class="tooltiptext">Rec: Deianeira, Rec
+                     Gen: woman, Rec Norm:
+                     no, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_51" id="event-pain_51"><q>
+                     At that sight, her son gave a great cry. For he knew, poor boy, that in
+                     							his anger he had driven her to that action. He had learned too late from
+                     							the servants in the house that she
+                     							had acted without knowledge and at the will of the monster. Then and
+                     							there the youth in his misery left no cry of grief unmade as he lamented
+                     							over her, nor as he fell to kiss her lips; he threw himself at her side,
+                     							loudly moaning that he had rashly
+                     							attacked her with a false accusation and weeping that he must now live
+                     							orphaned of both alike, of his father and of her.
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_52" id="event-pain_52"><q>
+                     Which disaster shall I bewail
+                     							first? Which is more to be pitied? In my grief I cannot
+                     								decide.
+                     </q><span class="tooltiptext">Rec: Chorus, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_53" id="event-pain_53"><q>
+                     One sorrow may be seen in the
+                     							house; for one we wait with apprehension. To have and to await are one
+                     							and the same.
+                     </q><span class="tooltiptext">Rec: Chorus, Rec
+                     Gen: woman, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_54" id="event-pain_54"><q>
+                      
+                     							For they say that he is approaching the house in torments from
+                     							which there is no deliverance, a wonder of unutterable woe.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_55" id="event-pain_55"><q>
+                     And in what manner, then, do
+                     							they bring him? In sorrow, as for some loved one, they tread their
+                     							mournful, noiseless tread.
+                     </q><span class="tooltiptext">Rec: men, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_56" id="event-pain_56"><q>
+                     O my father! O my misery! What is to become of me? What is my best plan?
+                     						Ah!
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_57" id="event-pain_57"><q>
+                     Do not rouse the cruel
+                     						pain that infuriates your father! He lives, though on the very edge.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_58" id="event-pain_58"><q>
+                     You must not rouse and revive his fierce, recurrent infection, my son!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_59" id="event-pain_59"><q>
+                     But the immense weight of this misery crushes me. My heart craves
+                     						release!
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_60" id="event-pain_60"><q>
+                     Among what people do I lie, tortured with unending agonies? O me, what pain!
+                     						Oh, that accursed pest gnaws me once more!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_61" id="event-pain_61"><q>
+                     O Cenaean rock, foundation of my altars, what cruel reward you have earned me for
+                     those fair offerings, O
+                     						Zeus! Ah, in what ruin you have deposited me, in what ruin! Would that I had
+                     						never looked on you to my sorrow with my eyes, never come face to face with
+                     						this blooming madness, which no spell can soothe! Where is the enchanter, where
+                     the practiced healer, save
+                     						Zeus alone, who will charm this catastrophe away?
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     both , Inf: Zeus, Inf Gen: man, Inf Norm: yes, Rec Rel: human, Inf Rel: god, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_62" id="event-pain_62"><q>
+                     Ah! Leave me! Leave me in my
+                     							misfortune! Leave me to sleep my last. Where, where do you touch me?
+                     							Where do you lay me? You will kill me, you will kill me! If there was
+                     							any pain that slumbered, you have aroused it!It has seized me,—oh, the pest
+                     							comes again!—What is your homeland, you men most ungrateful of all the
+                     							Greeks? I wore out my wretched days in ridding the Greeks of pests both
+                     							on the deep and throughout every forest. And now, when I am afflicted,
+                     							will no man turn merciful fire or sword on me? Oh! Oh! Will no one come and
+                     strike the head from this
+                     							accursed body with one fierce stroke? Ah, me!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_63" id="event-pain_63"><q>
+                     but no resource in myself or from another can
+                     							help me make his life forget its agonies. So strong is the destiny
+                     							appointed by Zeus!O my son, where are you? Raise me,
+                     							take hold of me here, here! </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     phys</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_64" id="event-pain_64"><q>
+                     Oh, oh, my god! Again, again the cruel pest
+                     							leaps, leaps up to rend me, the wild, uncombatable plague! O Pallas, Pallas,
+                     it tortures me again! oh,
+                     							please, my son, pity your sire!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_65" id="event-pain_65"><q>
+                     Heal this pain with which your godless mother has
+                     							enraged me! So may I see her fall to ruin, exactly, just exactly, as she
+                     							has destroyed me! Sweet Hades,
+                     							brother of Zeus, give me sleep, give me sleep. Kill me in my misery by a
+                     							swift-flying doom!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_66" id="event-pain_66"><q>
+                     I shudder, friends, to hear these sorrows which our King suffers. What a man is here,
+                     and what
+                     						misfortunes lash at him!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_67" id="event-pain_67"><q>
+                     Ah, many and hot and cruel not in name alone have been the labors of these
+                     						hands, the burdens hoisted upon these shoulders! And yet no toil ever laid
+                     						on me by the bedfellow of Zeus or by the hateful Eurystheus was as
+                     							harsh as this thing which the
+                     						daughter of Oeneus, fair and false, has fastened upon my back, this woven
+                     						net of the Erinyes in which I perish! Plastered to my sides, it has eaten
+                     						away my inmost flesh and sucks the channels of my lungs, making my body its
+                     home. Already it has drunk away
+                     						my fresh lifeblood, and my whole body is wasted, conquered by these
+                     						indescribable bonds.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_68" id="event-pain_68"><q>
+                     Show your pity for me, whom many might
+                     						think deserving of pity—pity me moaning and weeping like a girl! No one
+                     						could say that he had ever seen this man do that before. No, always without
+                     						complaint I used to pursue my troubles. But now in my misery I have been found
+                     a woman, instead of
+                     						the man I used to be.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_69" id="event-pain_69"><q>
+                     Come close, stand near your father and do examine the magnitude of the
+                     						misfortune by which I suffer; for I will uncover my suffering. Look! See all
+                     						of you this miserable body; see how
+                     						wretched, how pitiable I am!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_70" id="event-pain_70"><q>
+                     Ah, misery! The ruinous spasm flames again; it shoots through my sides—I must
+                     						wrestle once more with that cruel, devouring plague!King Hades, receive me!
+                     Strike me, O
+                     						fire of Zeus! Hurl down your thunderbolt, ruler, dash it, Father, upon my
+                     						head! Again the pest consumes me, it has blazed up, it has leapt to fury!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_71" id="event-pain_71"><q>
+                     But now, with joints unhinged and
+                     						with flesh torn to shreds, I have become the miserable spoil of an unseen
+                     							destroyer,—I, who am called the 
+                     						son of noblest mother, I, who am reputed the seed of Zeus, lord of the
+                     						starry sky.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_72" id="event-pain_72"><q>
+                     though I am nothing, though I cannot move a
+                     						step, yet she who has done this deed shall feel my heavy hand even so.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_73" id="event-pain_73"><q>
+                     hear me, diseased though you are; I will ask you for no
+                     						more than is my due. Give yourself to me in a mood not as harsh as that to
+                     						which your heart is now stung.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     both , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_74" id="event-pain_74"><q>
+                     In this pain of mine I understand none of your many riddles.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_75" id="event-pain_75"><q>
+                     Yes, for her condition is such that my silence shames me.
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_76" id="event-pain_76"><q>
+                     Ah! Ah, misery! I am lost, ruined, ruined! The light of day exists for me no
+                     							more! Ah, now I understand the
+                     						depth of my misfortune! Go, my son! Your father is no more.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_77" id="event-pain_77"><q>
+                     So this savage
+                     						Centaur in death has killed me alive, just as the divine will had been
+                     						foretold.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Nessus, Inf Gen: man, Inf Norm: no, Rec Rel: defender, Inf Rel: attacker, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_78" id="event-pain_78"><q>
+                     Not so, in truth, but healer of my sufferings, sole physician of my pain!
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     no, Pain type:
+                     phys , Inf: Deianeira, Inf Gen: woman, Inf Norm: no, Rec Rel: husband, Inf Rel: wife, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_79" id="event-pain_79"><q>
+                     It would
+                     						be better, Father, that I also die, rather than live united with those whom
+                     						I most detest!
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em , Inf: Heracles, Inf Gen: man, Inf Norm: no, Rec Rel: son, Inf Rel: father, Direct: no</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_80" id="event-pain_80"><q>
+                     I am miserable! I have no way out of so many dilemmas!
+                     </q><span class="tooltiptext">Rec: Hyllus, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     em</span></a></p>
+            <p><a class="pain-event tooltip" href="#tragedy-pain_81" id="event-pain_81"><q>
+                     yet they can let such sufferings pass before their eyes.No man foresees the future;
+                     the
+                     						present is full of mourning for us, and of shame for the powers above, and
+                     						indeed of hardship beyond compare for him who endures this disaster.
+                     </q><span class="tooltiptext">Rec: Heracles, Rec
+                     Gen: man, Rec Norm:
+                     yes, Pain type:
+                     both</span></a></p>
          </section>
          <section class="fullPlay">
             <h3>Trachiniae Full Text</h3>
