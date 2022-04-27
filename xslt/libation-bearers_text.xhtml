@@ -5,15 +5,13 @@
                 </title>
       <link rel="stylesheet" type="text/css" href="reading-view.css"/>
    </head>
-   <body><!--#include virtual="menu.xhtml" -->
-      <h2 class="page-title">Events of Pain in Libation Bearers</h2>
+   <body><!--#include virtual="menu.xhtml" --><script src="reading-view.js"></script><h2 class="page-title">Events of Pain in Libation Bearers</h2>
       <div class="instructions">
          <p> You may view <b>specific instances of pain using the pane on the left</b>,
             and <b>read the full text for Libation Bearers on the right</b>. Once
             you <em>click on a specific pain event on the left</em>, the play on the
             right scrolls to where that pain event is located in the play. </p>
-      </div>
-      <div class="filtering-sect">
+      </div><button type="button" class="collapsible">Click here to begin filtering pain events by their characteristics</button><div class="filtering-sect">
          <p class="filtering-title">Filter based on: </p>
          <div>
             <p class="subheader">Characteristics that appear in all events of pain</p>
@@ -23,7 +21,8 @@
                <p>Type of pain being experienced:</p><input value="value" type="checkbox" id="em-pain" name="em-pain"/><label for="male-rec">Emotional</label><input value="value" type="checkbox" id="phys-pain" name="phys-pain"/><label for="female-rec">Physical</label><input value="value" type="checkbox" id="both-pain" name="both-pain"/><label for="mixed-rec">Both</label></section>
          </div>
          <div>
-            <p class="subheader">Optional characteristics that appear only in events of pain with an inflictor</p>
+            <p class="subheader">Optional characteristics that appear only in events of
+               pain with an inflictor</p>
             <section>
                <p>Gender of person inflicting pain pain:</p><input value="value" type="checkbox" id="male-inf" name="male-inf"/><label for="male-inf">Male</label><input value="value" type="checkbox" id="female-inf" name="female-inf"/><label for="female-inf">Female</label><input value="value" type="checkbox" id="mixed-inf" name="mixed-inf"/><label for="mixed-inf">Mixed</label></section>
             <section>
