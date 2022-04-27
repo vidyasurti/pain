@@ -34,11 +34,12 @@ div.filtering-sect{
 }
 
 .collapsible {
+    display:block;
     text-align: center;
     margin:auto;
     font-family: "Trirong";
     color:white;
-    width: 65vw;
+    width: 65%;
     background-color: #0C2E0B; 
     cursor: pointer;
     padding: 18px;    
