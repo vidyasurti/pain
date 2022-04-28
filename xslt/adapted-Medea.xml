@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<events_and_full-text doc-name="">
+<events_and_full-text doc-name="Medea">
    <allPainEvents>
       <pain xml:id="pain_1">
          <painStart xmlns:py="http://codespeak.net/lxml/objectify/pytype"
