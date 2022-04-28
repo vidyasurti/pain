@@ -66,20 +66,18 @@ section.painEvents {
     overflow-y: scroll;
     font-family: "Trirong";
     color:white;
-    
-    
+    padding: 5px;    
     
     
 }
 
-section.fullPlay {
-    
+section.fullPlay {    
     order:2;  
     width: 40vw;
     overflow-y: scroll;
     font-family: "Trirong";
     color:white;
-    
+    padding: 5px;  
 }
 
 div.both-texts {
@@ -87,18 +85,15 @@ div.both-texts {
     overflow:auto;
     height: 80vh;
     margin: auto;
-    width: 80vw;
-    
+    width: 80vw;    
     flex-direction:row;
     flex-wrap:nowrap;
     justify-content:center;
     align-content:center;
-    column-gap:10px; 
-    
+    column-gap:10px;     
     border-style: double;
-    border-color: #BF9000;  
+    border-color: #BF9000;      
     
-    padding: 10px;
 }
 
 
