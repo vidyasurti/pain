@@ -25,8 +25,8 @@
             <g transform="translate(200, 500)">
                 <xsl:apply-templates select="$all_tragedies//painStart" mode="painType"/>
 
-                <!-- AXES -->
 
+                <!-- AXES (LINES AND LABELS) -->
                 <text text-anchor="middle" x="{$xLength div 2}" y="-{$yScale + 25}"
                     font-weight="bold" stroke="#BF9000" fill="#FFFFFF"
                     font-family="'Playfair Display', 'Comic Sans MS'">Distribution of Pain Type by
@@ -35,9 +35,9 @@
                     stroke="#BF9000" fill="#FFFFFF">Pain Type</text>
                 <text text-anchor="middle" x="{$yScale div 2}" y="-55" transform="rotate(-90)"
                     font-weight="bold" stroke="#BF9000" fill="#FFFFFF">Pain Instances (%)</text>
-                <text>emotional</text>
-                <text>physical</text>
-                <text>both</text>
+                <text text-anchor="end" x="{$xLength div 3}" y="30">emotional</text>
+                <text text-anchor="end" x="{$xLength div 3 * 2}" y="30">physical</text>
+                <text text-anchor="end" x="{$xLength}" y="30">both</text>
                 <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="#000000"/>
                 <!-- set as black for now -->
                 <line x1="0" y1="0" x2="0" y2="-{$yScale}" stroke="#000000"/>
@@ -68,4 +68,28 @@
     </xsl:template>
 
     <!-- CONTENT OF GRAPH AND MORE VARIABLES -->
+  
+    <xsl:template match="$all_tragedies//painStart" mode="painType">
+        <g transform="translate({$barSpaces}, 0)">
+            <xsl:for-each select="1 to $typeCount">
+                <xsl:variable name="i" as="xs:integer" select="."/>
+                <xsl:variable name="painType" as="xs:string" select="distinct-values($all_tragedies//painStart/@painType[$i])"/>
+                <xsl:variable name="painTotal" as="xs:integer" select="count(painStart[@painType = $painType])"/> 
+                <xsl:variable name="womanTotal" as="xs:integer" select="count(painStart[@recGen = 'woman' and @painType = $painType])"/>
+                <xsl:variable name="womanHeight" as="xs:float" select="($womanTotal div $painTotal * $yScale)"/>   
+                
+                
+                
+                
+                <xsl:for-each select=".">
+                    <rect x="{($i - 1) * ($barWidth + $barSpaces)}" y="-{$womanHeight}" height="{$womanHeight}" width="{$barWidth}" fill="#000000"/>
+                    <rect x="" y="" height="" width="$barWidth" fill=""/>
+                    <rect x="" y="" height="" width="$barWidth" fill=""/>
+                </xsl:for-each>
+            </xsl:for-each> 
+            
+        </g> 
+    </xsl:template>
+   
+    
 </xsl:stylesheet>
