@@ -262,7 +262,8 @@
       </pain>
       <pain xml:id="pain_22">
          <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="phys"/>till my battered and wretched head
-							resounded with the strokes.Away with you, cruel and utterly brazen mother! </pain>
+							resounded with the strokes.<painEnd/>
+      </pain>
       <pain xml:id="pain_23">
          <painStart rec="Agamemnon"
                     recGen="man"
@@ -1320,7 +1321,8 @@
 							wailing woman. With clenched fists, raining blows thick and fast, my
 							outstretched hands could be seen descending from above, from far above,
 							now on this side, now on that, <painStart rec="Chorus" recGen="woman" recNorm="yes" painType="phys"/>till my battered and wretched head
-							resounded with the strokes.</p>
+							resounded with the strokes.<painEnd/>
+                  </p>
                </sp>
             </div2>
             <div2 type="strophe" n="8" org="uniform" sample="complete">
