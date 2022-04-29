@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="pain-schema.rnc" type="application/relax-ng-compact-syntax"?>
-<!--<?xml-model href="../greekpain.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="../greekpain.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI.2>
 	<teiHeader type="text" status="new">
 		<fileDesc>
@@ -581,7 +581,7 @@
 							to not tag pity as em pain, because it's not significant enough--> For
 							a strange pity came over me, friends, at the sight of these ill-fated
 								exiles, homeless and
-							fatherless in a foreign land.<painEnd/>. Though they were once the daughters
+							fatherless in a foreign land. Though they were once the daughters
 							perhaps of freeborn men, they now live the life of slaves. O Zeus, god
 							who turns the tide of battle, may I never see you stalking against a
 							child of my line on any occasion; no, if you do some such thing, let it not be while I am still alive!
@@ -1309,7 +1309,7 @@
 						recNorm="yes" painType="em" recRel="son" inf="Deianeira"
 						infGen="woman" infNorm="no" infRel="mother" direct="no"/>
 						Listen to me! You have killed your
-						husband, my father—my father!</p>
+						husband, my father—my father!<painEnd/></p>
 				</sp>
 				<sp>
 					<speaker>Deianeira</speaker>
