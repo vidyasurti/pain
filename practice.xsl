@@ -118,20 +118,156 @@
                     </group>
                 </xsl:for-each-group>
             </direct>
-        
-        <!-- Counts focused on female receivers of pain -->
+            
+            
+            <count infGen="man" infRel="lover" value="{count($all_tragedies//painStart[@infGen eq 'man'][@infRel eq 'lover'])}"></count> 
+            <count infGen="woman" infRel="lover" value="{count($all_tragedies//painStart[@infGen eq 'woman'][@infRel eq 'lover'])}"></count>
+            <count recRel="lover" infRel="lover" value="{count($all_tragedies//painStart[@recRel eq 'lover'][@infRel eq 'lover'])}"></count> 
+            
+            
+         <!-- PAIN TYPE BY GENDER OF RECEIVER -->   
             <count recGen="woman" painType="em" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@painType eq 'em'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-           <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
-        </count>
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
+            </count>
             <count recGen="woman" painType="phys" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@painType eq 'phys'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
-        </count>
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
+            </count>
             <count recGen="woman" painType="both" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@painType eq 'both'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count painType="both"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'both'])"/></count>
-        </count>
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count painType="both"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'both'])"/></count>
+            </count>   
+            <count recGen="man" painType="em" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'em'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
+            </count>
+            <count recGen="man" painType="phys" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'phys'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
+            </count>
+            <count recGen="man" painType="both" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'both'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count painType="both"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'both'])"/></count>
+            </count>
+            <count recGen="mix" painType="em" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@painType eq 'em'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
+            </count>
+            <count recGen="mix" painType="phys" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@painType eq 'phys'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
+            </count>
+            <count recGen="mix" painType="both" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@painType eq 'both'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count painType="both"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'both'])"/></count>
+            </count> 
+            
+            <!-- DIRECT/INDIRECT PAIN VERSUS RECGEN -->
+            <count recGen="woman" direct="yes" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@direct eq 'yes'])}">
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count direct="yes"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'yes'])"/></count>
+            </count>
+            <count recGen="woman" direct="no" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@direct eq 'no'])}">
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count direct="no"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></count>
+            </count>
+            <count recGen="man" direct="yes" value="{count($all_tragedies//painStart[@recGen eq 'man'][@direct eq 'yes'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count direct="yes"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'yes'])"/></count>
+            </count>
+            <count recGen="man" direct="no" value="{count($all_tragedies//painStart[@recGen eq 'man'][@direct eq 'no'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count direct="no"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></count>
+            </count>
+            <count recGen="mix" direct="yes" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@direct eq 'yes'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count direct="yes"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'yes'])"/></count>
+            </count>
+            <count recGen="mix" direct="no" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@direct eq 'no'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count direct="no"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></count>
+            </count>
+            
+          <!-- INFGEN VERSUS RECGEN -->  
+            <count recGen="woman" infGen="man" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'man'])}">
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
+            </count>    
+            <count recGen="woman" infGen="woman" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'woman'])}">
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
+            </count>
+            <count recGen="woman" infGen="mix" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'mix'])}">
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count infGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'mix'])"/></count>
+            </count>
+            <count recGen="man" infGen="woman" value="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'woman'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
+            </count>
+            <count recGen="man" infGen="man" value="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'man'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
+            </count>
+            <count recGen="man" infGen="mix" value="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'mix'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count infGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'mix'])"/></count>
+            </count>
+            
+         <!-- NORMS AND INFGEN -->
+            <count infGen="woman" infNorm="yes" value="{count($all_tragedies//painStart[@infGen eq 'woman'][@infNorm eq 'yes'])}">
+                <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
+                <count infNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'yes'])"/></count>
+            </count>
+            <count infGen="woman" infNorm="no" value="{count($all_tragedies//painStart[@infGen eq 'woman'][@infNorm eq 'no'])}">
+                <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
+                <count infNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'no'])"/></count>
+            </count> 
+            <count infGen="man" infNorm="yes" value="{count($all_tragedies//painStart[@infGen eq 'man'][@infNorm eq 'yes'])}">
+                <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
+                <count infNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'yes'])"/></count>
+            </count>
+            <count infGen="man" infNorm="no" value="{count($all_tragedies//painStart[@infGen eq 'man'][@infNorm eq 'no'])}">
+                <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
+                <count infNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'no'])"/></count>
+            </count>
+            <count infGen="mix" infNorm="yes" value="{count($all_tragedies//painStart[@infGen eq 'mix'][@infNorm eq 'yes'])}">
+                <count infGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'mix'])"/></count>
+                <count infNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'yes'])"/></count>
+            </count>
+            <count infGen="mix" infNorm="no" value="{count($all_tragedies//painStart[@infGen eq 'mix'][@infNorm eq 'no'])}">
+                <count infGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'mix'])"/></count>
+                <count infNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'no'])"/></count>
+            </count>
+            
+            <!-- NORMS AND RECGEN -->
+            <count recGen="woman" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@recNorm eq 'yes'])}">
+                <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
+                <count recGen="yes"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'yes'])"/></count>
+            </count>
+            <count recGen="woman" recNorm="no" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@recNorm eq 'no'])}">
+                <woman><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></woman>
+                <normno><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></normno>
+            </count>
+            <count recGen="man" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'man'][@recNorm eq 'yes'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count recNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'yes'])"/></count>
+            </count>
+            <count recGen="man" recNorm="no" value="{count($all_tragedies//painStart[@recGen eq 'man'][@recNorm eq 'no'])}">
+                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
+                <count recNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></count>
+            </count>
+            <count recGen="mix" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@recNorm eq 'yes'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count recNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'yes'])"/></count>
+            </count>
+            <count recGen="mix" recNorm="no" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@recNorm eq 'no'])}">
+                <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
+                <count recNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></count>
+            </count>
+            
+        <!-- Counts focused on female receivers of pain -->
             <count recGen="woman" painType="em" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@painType eq 'em'][@recNorm eq 'yes'])}">
             <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
             <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
@@ -152,10 +288,6 @@
             <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
             <count recNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></count>
         </count>
-            <count recGen="woman" infGen="man" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'man'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
-        </count>
             <count recGen="woman" infGen="man" direct="yes" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'man'][@direct eq 'yes'])}">
             <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
             <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
@@ -166,31 +298,7 @@
             <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
             <count direct="no"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></count>
         </count>
-        <count recGen="woman" infGen="woman" value="{}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
-            <recwoman_infwoman><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'woman'])"/></recwoman_infwoman>
-        </count>
-            <count recGen="woman" infGen="mix" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'mix'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count infGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'mix'])"/></count>
-        </count>
-            <count recGen="woman" direct="yes" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@direct eq 'yes'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count direct="yes"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'yes'])"/></count>
-        </count>
-            <count recGen="woman" direct="no" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@direct eq 'no'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <indirect><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></indirect>
-        </count>
-            <count recGen="woman" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@recNorm eq 'yes'])}">
-            <count recGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></count>
-            <count recGen="yes"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'yes'])"/></count>
-        </count>
-            <count recGen="woman" recNorm="no" value="{count($all_tragedies//painStart[@recGen eq 'woman'][@recNorm eq 'no'])}">
-            <woman><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'woman'])"/></woman>
-            <normno><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></normno>
-        </count>
+            
         
         <!-- Counts focused on female inflictors of pain -->
             <count infGen="woman" painType="em" value="{count($all_tragedies//painStart[@infGen eq 'woman'][@painType eq 'em'])}">
@@ -213,28 +321,9 @@
             <infwoman><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></infwoman>
             <indirect><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></indirect>
         </count>
-            <count infGen="woman" infNorm="yes" value="{count($all_tragedies//painStart[@infGen eq 'woman'][@infNorm eq 'yes'])}">
-            <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
-            <count infNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'yes'])"/></count>
-        </count>
-            <count infGen="woman" infNorm="no" value="{count($all_tragedies//painStart[@infGen eq 'woman'][@infNorm eq 'no'])}">
-            <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
-            <count infNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'no'])"/></count>
-        </count>
+            
        
        <!-- Counts focused on male receivers of pain --> 
-            <count recGen="man" painType="em" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'em'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
-        </count>
-            <count recGen="man" painType="phys" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'phys'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
-        </count>
-            <count recGen="man" painType="both" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'both'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count painType="both"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'both'])"/></count>
-        </count>
             <count recGen="man" painType="em" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'man'][@painType eq 'em'][@recNorm eq 'yes'])}">
                 <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
                 <count painType="em"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></count>
@@ -265,30 +354,7 @@
                 <count painType="both"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'both'])"/></count>
                 <count recNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></count>
             </count>
-            <count recGen="man" infGen="woman" value="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'woman'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count infGen="woman"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'woman'])"/></count>
-        </count>
-            <count recGen="man" infGen="man" value="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'man'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
-        </count>
-            <count recGen="man" direct="yes" value="{count($all_tragedies//painStart[@recGen eq 'man'][@direct eq 'yes'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count direct="yes"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'yes'])"/></count>
-        </count>
-            <count recGen="man" direct="no" value="{count($all_tragedies//painStart[@recGen eq 'man'][@direct eq 'no'])}">
-                <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-                <count direct="no"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></count>
-            </count>
-            <count recGen="man" recNorm="yes" value="{count($all_tragedies//painStart[@recGen eq 'man'][@recNorm eq 'yes'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count recNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'yes'])"/></count>
-        </count>
-            <count recGen="man" recNorm="no" value="{count($all_tragedies//painStart[@recGen eq 'man'][@recNorm eq 'no'])}">
-            <count recGen="man"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'man'])"/></count>
-            <count recNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@recNorm eq 'no'])"/></count>
-        </count>
+            
         
         <!-- Counts focused on male inflictors of pain -->
             <count infGen="man" direct="yes" value="{count($all_tragedies//painStart[@infGen eq 'man'][@direct eq 'yes'])}">
@@ -299,24 +365,10 @@
                 <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
                 <count direct="no"><xsl:value-of select="count($all_tragedies//painStart[@direct eq 'no'])"/></count>
             </count>
-            <count infGen="man" infNorm="yes" value="{count($all_tragedies//painStart[@infGen eq 'man'][@infNorm eq 'yes'])}">
-            <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
-            <count infNorm="yes"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'yes'])"/></count>
-        </count>
-            <count infGen="man" infNorm="no" value="{count($all_tragedies//painStart[@infGen eq 'man'][@infNorm eq 'no'])}">
-            <count infGen="man"><xsl:value-of select="count($all_tragedies//painStart[@infGen eq 'man'])"/></count>
-            <count infNorm="no"><xsl:value-of select="count($all_tragedies//painStart[@infNorm eq 'no'])"/></count>
-        </count>
+            
             
        <!-- Counts for mixed gender receivers of pain -->
-            <count recGen="mix" painType="em" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@painType eq 'em'])}">
-            <recmix><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></recmix>
-            <em><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'em'])"/></em>
-        </count>
-            <count recGen="mix" painType="phys" value="{count($all_tragedies//painStart[@recGen eq 'mix'][@painType eq 'phys'])}">
-            <count recGen="mix"><xsl:value-of select="count($all_tragedies//painStart[@recGen eq 'mix'])"/></count>
-            <count painType="phys"><xsl:value-of select="count($all_tragedies//painStart[@painType eq 'phys'])"/></count>
-        </count>
+            
         </practice>
     </xsl:template>
 </xsl:stylesheet>
