@@ -582,6 +582,30 @@
       <count recGen="woman">95</count>
       <count painType="both">47</count>
    </count>
+   <count recGen="man" painType="em" value="38">
+      <count recGen="man">111</count>
+      <count painType="em">118</count>
+   </count>
+   <count recGen="man" painType="phys" value="43">
+      <count recGen="man">111</count>
+      <count painType="phys">59</count>
+   </count>
+   <count recGen="man" painType="both" value="30">
+      <count recGen="man">111</count>
+      <count painType="both">47</count>
+   </count>
+   <count recGen="mix" painType="em" value="10">
+      <count recGen="mix">18</count>
+      <count painType="em">118</count>
+   </count>
+   <count recGen="mix" painType="phys" value="3">
+      <count recGen="mix">18</count>
+      <count painType="phys">59</count>
+   </count>
+   <count recGen="mix" painType="both" value="5">
+      <count recGen="mix">18</count>
+      <count painType="both">47</count>
+   </count>
    <count recGen="woman" painType="em" recNorm="yes" value="41">
       <count recGen="woman">95</count>
       <count painType="em">118</count>
@@ -669,18 +693,6 @@
       <count infGen="woman">84</count>
       <count infNorm="no">97</count>
    </count>
-   <count recGen="man" painType="em" value="38">
-      <count recGen="man">111</count>
-      <count painType="em">118</count>
-   </count>
-   <count recGen="man" painType="phys" value="43">
-      <count recGen="man">111</count>
-      <count painType="phys">59</count>
-   </count>
-   <count recGen="man" painType="both" value="30">
-      <count recGen="man">111</count>
-      <count painType="both">47</count>
-   </count>
    <count recGen="man" painType="em" recNorm="yes" value="24">
       <count recGen="man">111</count>
       <count painType="em">118</count>
@@ -750,17 +762,5 @@
    <count infGen="man" infNorm="no" value="12">
       <count infGen="man">74</count>
       <count infNorm="no">97</count>
-   </count>
-   <count recGen="mix" painType="em" value="10">
-      <count recGen="mix">18</count>
-      <count painType="em">118</count> 
-   </count>
-   <count recGen="mix" painType="phys" value="3">
-      <count recGen="mix">18</count>
-      <count painType="phys">59</count>
-   </count>
-   <count recGen="mix" painType="both" value="5">
-      <count recGen="mix">18</count>
-      <count painType="both">47</count>
    </count>
 </practice>
