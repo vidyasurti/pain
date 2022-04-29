@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      height="500"
-     width="550"
+     width="850"
      viewBox="-50 -400 500 500">
    <defs>
       <style type="text/css">
@@ -20,7 +20,7 @@
    <text text-anchor="middle"
          writing-mode="tb"
          y="-150"
-         x="-65"
+         x="-75"
          stroke="#E0E0E0"
          fill="E0E0E0">Pain
                 Inflictors</text>
