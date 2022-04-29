@@ -15,9 +15,13 @@
         select="count(distinct-values($all_tragedies//painStart/@painType))"/>
     <xsl:variable name="xLength" as="xs:float" select="$typeCount * ($barWidth + $barSpaces)"/>
     <xsl:variable name="yScale" as="xs:integer" select="400"/>
-    <xsl:variable name="menColor" as="xs:string" select="'#7272AB'"/>
+    <xsl:variable name="menColor" as="xs:string" select="'#618E87'"/>
+    <!-- a nice green #4A756E -->
     <xsl:variable name="womenColor" as="xs:string" select="'#7899D4'"/>
-    <xsl:variable name="mixColor" as="xs:string" select="'#F8AFA6'"/>
+    <!--perinwinkle blue #7899D4 -->
+    <xsl:variable name="mixColor" as="xs:string" select="'#D3A310'"/>
+    <!-- nice pink #F8AFA6 -->
+    <xsl:variable name="grayColor" as="xs:string" select="'#E0E0E0'"/>
 
 
     <xsl:template name="xsl:initial-template">
@@ -31,21 +35,19 @@
 
                 <!-- AXES (LINES AND LABELS) -->
                 <text text-anchor="middle" x="{$xLength div 2}" y="-{$yScale + 25}"
-                    font-weight="bold" stroke="#BF9000" fill="#FFFFFF"
-                    font-family="'Playfair Display', 'Comic Sans MS'">Distribution of Pain Type by
-                    Receiver Gender</text>
+                    font-weight="bold" fill="{$grayColor}">Distribution of Pain Type by Receiver
+                    Gender</text>
                 <text text-anchor="middle" x="{$xLength div 2}" y="{60}" font-weight="bold"
-                    stroke="#BF9000" fill="#FFFFFF">Pain Type</text>
-                <text text-anchor="middle" x="{$yScale div 2}" y="-55" transform="rotate(-90)"
-                    font-weight="bold" stroke="#BF9000" fill="#FFFFFF">Pain Instances (%)</text>
-                <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="#000000"/>
-                <!-- set as black for now -->
-                <line x1="0" y1="0" x2="0" y2="-{$yScale}" stroke="#000000"/>
+                    fill="{$grayColor}">Pain Type</text>
+                <text text-anchor="middle" x="{$yScale div 2}" y="-65" transform="rotate(-90)"
+                    font-weight="bold" fill="{$grayColor}">Pain Instances (%)</text>
+                <line x1="0" y1="0" x2="{$xLength}" y2="0" stroke="{$grayColor}"/>
+                <line x1="0" y1="0" x2="0" y2="-{$yScale}" stroke="{$grayColor}"/>
                 <xsl:for-each select="(1 to 4)">
-                    <line x1="0" y1="-{. * 100}" x2="{$xLength}" y2="-{. * 100}" stroke="#000000"
-                        stroke-dasharray="3"/>
-                    <text x="-45" y="-{. * 100 - 5}" stroke="#000000" fill="#000000"><xsl:value-of
-                            select=". * 25"/>%</text>
+                    <line x1="0" y1="-{. * 100}" x2="{$xLength}" y2="-{. * 100}"
+                        stroke="{$grayColor}" stroke-dasharray="3"/>
+                    <text x="-45" y="-{. * 100 - 5}" stroke="{$grayColor}" fill="{$grayColor}"
+                            ><xsl:value-of select=". * 25"/>%</text>
                 </xsl:for-each>
 
                 <!-- LEGEND -->
@@ -59,11 +61,11 @@
                     fill="{$menColor}"/>
                 <!-- #F8AFA6 dusty rose -->
                 <text text-anchor="start" x="{$xLength + 55}" y="-{$yScale div 4 - 15}"
-                    stroke="#000000" fill="#000000">Women</text>
+                    stroke="{$grayColor}" fill="{$grayColor}">Women</text>
                 <text text-anchor="start" x="{$xLength + 55}" y="-{$yScale div 4*2 - 15}"
-                    stroke="#000000" fill="#000000">Mix</text>
+                    stroke="{$grayColor}" fill="{$grayColor}">Mix</text>
                 <text text-anchor="start" x="{$xLength + 55}" y="-{$yScale div 4*3 -15}"
-                    stroke="#000000" fill="#000000">Men</text>
+                    stroke="{$grayColor}" fill="{$grayColor}">Men</text>
 
                 <!-- GRAPH BARS AND X AXIS LABELS -->
                 <xsl:variable name="barOrder" as="xs:string+" select="'em', 'phys', 'both'"/>
@@ -80,39 +82,18 @@
                         select="count(current-group()[@recGen eq 'woman']) div $painType_count * $yScale"/>
                     <xsl:variable name="men_yPos" as="xs:double"
                         select="count(current-group()[@recGen eq 'man']) div $painType_count * $yScale"/>
-                    <text text-anchor="middle" x="{$xPosition}" y="30">
+                    <text text-anchor="middle" x="{$xPosition}" y="30" stroke="{$grayColor}"
+                        fill="{$grayColor}">
                         <xsl:value-of select="$barLabels[$nameOrder]"/>
                     </text>
                     <rect x="{$xPosition - $barWidth div 2}" y="-{$yScale}" height="{$yScale}"
                         width="{$barWidth}" fill="{$mixColor}"/>
                     <rect x="{$xPosition - $barWidth div 2}" y="-{$women_yPos}"
                         height="{$women_yPos}" width="{$barWidth}" fill="{$womenColor}"/>
-                    <rect x="{$xPosition - $barWidth div 2}" y="-{$yScale}" height="{$men_yPos}" width="{$barWidth}" fill="{$menColor}"/>
+                    <rect x="{$xPosition - $barWidth div 2}" y="-{$yScale}" height="{$men_yPos}"
+                        width="{$barWidth}" fill="{$menColor}"/>
                 </xsl:for-each-group>
             </g>
         </svg>
     </xsl:template>
-
-    <!-- CONTENT OF GRAPH AND MORE VARIABLES -->
-
-    <!-- <xsl:template match="$all_tragedies//painStart" mode="painType">
-        <g transform="translate({$barSpaces}, 0)">
-            <xsl:for-each select="1 to $typeCount">
-                <xsl:variable name="i" as="xs:integer" select="."/>
-                <xsl:variable name="painType" as="xs:string" select="distinct-values($all_tragedies//painStart/@painType)[$i]"/>
-                <xsl:variable name="painTotal" as="xs:integer" select="count($all_tragedies//painStart[@painType = $painType])"/> 
-                <xsl:variable name="womanTotal" as="xs:integer" select="count($all_tragedies//painStart[@recGen = 'woman' and @painType = $painType])"/>
-                <xsl:variable name="womanHeight" as="xs:float" select="($womanTotal div $painTotal * $yScale)"/>   
-                
-               
-                <xsl:for-each select=".">
-                    <rect x="{($i - 1) * ($barWidth + $barSpaces)}" y="-{$womanHeight}" height="{$womanHeight}" width="{$barWidth}" fill="#000000"/>
-                    <rect x="" y="" height="" width="$barWidth" fill=""/>
-                    <rect x="" y="" height="" width="$barWidth" fill=""/>
-                </xsl:for-each>
-            </xsl:for-each> 
-            
-        </g> 
-    </xsl:template> -->
-
 </xsl:stylesheet>
