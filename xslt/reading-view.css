@@ -151,15 +151,10 @@ a.tooltip{
 /*  
 a.tooltip{
      Tooltip container 
-
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
-
 }
-
-
-
 Tooltip text 
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -174,7 +169,6 @@ Tooltip text
   position: absolute;
   z-index: 1;
 }
-
  Show the tooltip text when you mouse over the tooltip container 
 .tooltip:hover .tooltiptext {
   visibility: visible;
