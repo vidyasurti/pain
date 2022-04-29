@@ -49,22 +49,47 @@
             <text x="250" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Mix</text>
             
             <!-- CIRCLES -->
+            <!-- ALL DATA VARIABLES -->
+            <xsl:variable name="recMan_infMan" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'man'])"/>
+            <xsl:variable name="recMan_infWoman" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'woman'])"/>
+            <xsl:variable name="recMan_infMix" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'mix'])"/>   
+            <xsl:variable name="recWoman_infMan" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'man'])"/>
+            <xsl:variable name="recWoman_infWoman" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'woman'])"/>
+            <xsl:variable name="recWoman_infMix" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'mix'])"/>
+            <xsl:variable name="recMix_infMan" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'man'])"/>
+            <xsl:variable name="recMix_infWoman" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'woman'])"/>
+            <xsl:variable name="recMix_infMix" as="xs:integer" select="count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'mix'])"/>
+            
+            
             <!-- MALE RECEIVERS -->
-            <circle cx="50" cy="-100" r="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'man'])}" fill="blue" opacity=".25"/>
-            <circle cx="50" cy="-200" r="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'woman'])}" fill="red" opacity=".25"/>
-            <circle cx="50" cy="-300" r="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'mix'])}" fill="green" opacity=".25"/>
+            <circle cx="50" cy="-100" r="{$recMan_infMan}" fill="#BF9000" opacity=".50"/>
+            <text x="50" y="-100" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recMan_infMan"/></text>
+            <circle cx="50" cy="-200" r="{$recMan_infWoman}" fill="#BF9000" opacity=".50"/>
+            <text x="50" y="-200" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recMan_infWoman"/></text>
+            <circle cx="50" cy="-300" r="{$recMan_infMix}" fill="#BF9000" opacity=".50"/>
             
             
             <!-- FEMALE RECEIVERS -->
-            <circle cx="150" cy="-100" r="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'man'])}" fill="red" opacity=".25"/>
-            <circle cx="150" cy="-200" r="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'woman'])}" fill="red" opacity=".25"/>
-            <circle cx="150" cy="-300" r="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'mix'])}" fill="red" opacity=".25"/>
+            <circle cx="150" cy="-100" r="{$recWoman_infMan}" fill="#BF9000" opacity=".50"/> 
+            <text x="150" y="-100" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recWoman_infMan"/></text> 
+            <circle cx="150" cy="-200" r="{$recWoman_infWoman}" fill="#BF9000" opacity=".50"/>
+            <text x="150" y="-200" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recWoman_infWoman"/></text>
+            <circle cx="150" cy="-300" r="{$recWoman_infMix}" fill="#BF9000" opacity=".50"/>
+            <text x="150" y="-300" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recWoman_infMix"/></text>
            
             <!-- MIX RECEIVERS -->
-            <circle cx="250" cy="-100" r="{count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'man'])}" fill="red" opacity=".25"/>
-            <circle cx="250" cy="-200" r="{count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'woman'])}" fill="red" opacity=".25"/>
-            <circle cx="250" cy="-300" r="{count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'mix'])}" fill="red" opacity=".25"/>
+            <circle cx="250" cy="-100" r="{$recMix_infMan}" fill="#BF9000" opacity=".50"/>
+            <text x="250" y="-100" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recMix_infMan"/></text> 
+            <circle cx="250" cy="-200" r="{$recMix_infWoman}" fill="#BF9000" opacity=".50"/>
+            <text x="250" y="-200" text-anchor="middle" stroke="#FFFFFF" fill="#FFFFFF" font-size="10">
+                <xsl:value-of select="$recMix_infWoman"/></text> 
+            <circle cx="250" cy="-300" r="{$recMix_infMix}" fill="#BF9000" opacity=".50"/>
         </svg>
     </xsl:template>
-
 </xsl:stylesheet>
