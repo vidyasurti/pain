@@ -212,8 +212,12 @@
          <count>4</count>
       </group>
       <group>
+         <key>Attendant</key>
+         <count>2</count>
+      </group>
+      <group>
          <key>children</key>
-         <count>4</count>
+         <count>5</count>
       </group>
       <group>
          <key>Ino</key>
@@ -287,7 +291,7 @@
       </group>
       <group>
          <key>man</key>
-         <count>71</count>
+         <count>74</count>
       </group>
       <group>
          <key>mix</key>
@@ -297,21 +301,17 @@
    <infNorm>
       <group>
          <key>no</key>
-         <count>95</count>
+         <count>97</count>
       </group>
       <group>
          <key>yes</key>
-         <count>61</count>
-      </group>
-      <group>
-         <key/>
-         <count>1</count>
+         <count>66</count>
       </group>
    </infNorm>
    <recRel>
       <group>
          <key>master</key>
-         <count>1</count>
+         <count>3</count>
       </group>
       <group>
          <key>slave</key>
@@ -323,7 +323,7 @@
       </group>
       <group>
          <key>children</key>
-         <count>24</count>
+         <count>25</count>
       </group>
       <group>
          <key>son</key>
@@ -363,7 +363,7 @@
       </group>
       <group>
          <key>lover</key>
-         <count>20</count>
+         <count>21</count>
       </group>
       <group>
          <key>brother</key>
@@ -371,7 +371,7 @@
       </group>
       <group>
          <key>outsider</key>
-         <count>10</count>
+         <count>11</count>
       </group>
       <group>
          <key>Royalty</key>
@@ -392,6 +392,10 @@
       <group>
          <key>sons</key>
          <count>2</count>
+      </group>
+      <group>
+         <key>father</key>
+         <count>1</count>
       </group>
       <group>
          <key>acquaintance</key>
@@ -441,7 +445,7 @@
       </group>
       <group>
          <key>mother</key>
-         <count>30</count>
+         <count>31</count>
       </group>
       <group>
          <key>ruler</key>
@@ -461,7 +465,7 @@
       </group>
       <group>
          <key>servant</key>
-         <count>2</count>
+         <count>4</count>
       </group>
       <group>
          <key>King</key>
@@ -473,7 +477,7 @@
       </group>
       <group>
          <key>lover</key>
-         <count>20</count>
+         <count>21</count>
       </group>
       <group>
          <key>sister</key>
@@ -496,12 +500,16 @@
          <count>3</count>
       </group>
       <group>
+         <key>Royaly</key>
+         <count>1</count>
+      </group>
+      <group>
          <key>Mother</key>
          <count>1</count>
       </group>
       <group>
          <key>children</key>
-         <count>2</count>
+         <count>3</count>
       </group>
       <group>
          <key>self</key>
@@ -555,11 +563,11 @@
    <direct>
       <group>
          <key>yes</key>
-         <count>85</count>
+         <count>87</count>
       </group>
       <group>
          <key>no</key>
-         <count>87</count>
+         <count>88</count>
       </group>
    </direct>
    <count recGen="woman" painType="em" value="70">
@@ -594,21 +602,21 @@
       <count painType="phys">59</count>
       <count recNorm="no">97</count>
    </count>
-   <count recGen="woman" infGen="man" value="47">
+   <count recGen="woman" infGen="man" value="49">
       <count recGen="woman">95</count>
-      <count infGen="man">71</count>
+      <count infGen="man">74</count>
    </count>
-   <count recGen="woman" infGen="man" direct="yes" value="21">
+   <count recGen="woman" infGen="man" direct="yes" value="22">
       <count recGen="woman">95</count>
-      <count infGen="man">71</count>
-      <count direct="yes">85</count>
+      <count infGen="man">74</count>
+      <count direct="yes">87</count>
    </count>
-   <count recGen="woman" infGen="man" direct="no" value="24">
+   <count recGen="woman" infGen="man" direct="no" value="27">
       <count recGen="woman">95</count>
-      <count infGen="man">71</count>
-      <count direct="no">87</count>
+      <count infGen="man">74</count>
+      <count direct="no">88</count>
    </count>
-   <count recGen="woman" infGen="woman" value="">
+   <count recGen="woman" infGen="woman" value="10">
       <count recGen="woman">95</count>
       <count infGen="woman">84</count>
       <recwoman_infwoman>10</recwoman_infwoman>
@@ -617,13 +625,13 @@
       <count recGen="woman">95</count>
       <count infGen="mix">5</count>
    </count>
-   <count recGen="woman" direct="yes" value="27">
+   <count recGen="woman" direct="yes" value="28">
       <count recGen="woman">95</count>
-      <count direct="yes">85</count>
+      <count direct="yes">87</count>
    </count>
-   <count recGen="woman" direct="no" value="35">
+   <count recGen="woman" direct="no" value="36">
       <count recGen="woman">95</count>
-      <indirect>87</indirect>
+      <indirect>88</indirect>
    </count>
    <count recGen="woman" recNorm="yes" value="54">
       <count recGen="woman">95</count>
@@ -645,21 +653,21 @@
       <count infGen="woman">84</count>
       <count painType="both">47</count>
    </count>
-   <count infGen="woman" direct="yes" value="46">
+   <count infGen="woman" direct="yes" value="47">
       <count infGen="woman">84</count>
-      <count direct="yes">85</count>
+      <count direct="yes">87</count>
    </count>
    <count infGen="woman" direct="no" value="37">
       <infwoman>84</infwoman>
-      <indirect>87</indirect>
+      <indirect>88</indirect>
    </count>
    <count infGen="woman" infNorm="yes" value="2">
       <count infGen="woman">84</count>
-      <count infNorm="yes">61</count>
+      <count infNorm="yes">66</count>
    </count>
-   <count infGen="woman" infNorm="no" value="80">
+   <count infGen="woman" infNorm="no" value="82">
       <count infGen="woman">84</count>
-      <count infNorm="no">95</count>
+      <count infNorm="no">97</count>
    </count>
    <count recGen="man" painType="em" value="38">
       <count recGen="man">111</count>
@@ -707,17 +715,17 @@
       <count recGen="man">111</count>
       <count infGen="woman">84</count>
    </count>
-   <count recGen="man" infGen="man" value="21">
+   <count recGen="man" infGen="man" value="22">
       <count recGen="man">111</count>
-      <count infGen="man">71</count>
+      <count infGen="man">74</count>
    </count>
-   <count recGen="man" direct="yes" value="50">
+   <count recGen="man" direct="yes" value="51">
       <count recGen="man">111</count>
-      <count direct="yes">85</count>
+      <count direct="yes">87</count>
    </count>
    <count recGen="man" direct="no" value="47">
       <count recGen="man">111</count>
-      <count direct="no">87</count>
+      <count direct="no">88</count>
    </count>
    <count recGen="man" recNorm="yes" value="60">
       <count recGen="man">111</count>
@@ -727,25 +735,25 @@
       <count recGen="man">111</count>
       <count recNorm="no">97</count>
    </count>
-   <count infGen="man" direct="yes" value="38">
-      <count infGen="man">71</count>
-      <count direct="yes">85</count>
+   <count infGen="man" direct="yes" value="39">
+      <count infGen="man">74</count>
+      <count direct="yes">87</count>
    </count>
-   <count infGen="man" direct="no" value="31">
-      <count infGen="man">71</count>
-      <count direct="no">87</count>
+   <count infGen="man" direct="no" value="35">
+      <count infGen="man">74</count>
+      <count direct="no">88</count>
    </count>
-   <count infGen="man" infNorm="yes" value="57">
-      <count infGen="man">71</count>
-      <count infNorm="yes">61</count>
+   <count infGen="man" infNorm="yes" value="62">
+      <count infGen="man">74</count>
+      <count infNorm="yes">66</count>
    </count>
    <count infGen="man" infNorm="no" value="12">
-      <count infGen="man">71</count>
-      <count infNorm="no">95</count>
+      <count infGen="man">74</count>
+      <count infNorm="no">97</count>
    </count>
    <count recGen="mix" painType="em" value="10">
       <count recGen="mix">18</count>
-      <count painType="em">118</count>
+      <count painType="em">118</count> 
    </count>
    <count recGen="mix" painType="phys" value="3">
       <count recGen="mix">18</count>
