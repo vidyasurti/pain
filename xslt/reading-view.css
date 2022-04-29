@@ -83,7 +83,7 @@ section.fullPlay {
 div.both-texts {
     display:flex;
     overflow:auto;
-    height: 80vh;
+    height: 50vh;
     margin: auto;
     width: 80vw;    
     flex-direction:row;
@@ -135,6 +135,7 @@ a.tooltip{
   text-align: center;
   padding: 5px;
   border-radius: 6px;
+  line-height: 1.5;
   
   /* Position the tooltip text - see examples below! */
   width: 120px;
