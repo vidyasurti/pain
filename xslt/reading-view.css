@@ -2,53 +2,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Trirong:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display&family=Trirong:wght@100&display=swap');
 
-body{
+body {
     background-color: #2e0b1d;
 }
 
 h2.page-title {
     text-align: center;
     font-family: "PlayFair Display";
-    color:white;
+    color: white;
+
+
+}
+
+
+
+nav {
+    overflow: hidden;
+    background-color: #0b1d2e;
+    margin-top: 3px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 34px;
+    font-family: "Trirong";
+}
+
+h1 {
     
-    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Trirong";
+    font-size: 36px;
+    margin:auto;
+}
+
+
+nav a:hover {
+    background-color: #BF9000;
+    color: #0C2E0B;
+    transition: 0.3s;
 }
 
 div.instructions {
     text-align: center;
-    margin:auto;
+    margin: auto;
     font-family: "Trirong";
-    color:white;
+    color: white;
     width: 65vw;
-    
+
 }
 
-div.filtering-sect{
+div.filtering-sect {
     text-align: center;
-    margin:auto;
+    margin: auto;
     font-family: "Trirong";
-    color:white;
+    color: white;
     width: 50%;
     display: none;
     overflow: hidden;
 }
 
 .collapsible {
-    display:block;
+    display: block;
     text-align: center;
-    margin:auto;
+    margin: auto;
     font-family: "Trirong";
-    color:white;
+    color: white;
     width: 65%;
-    background-color: #0C2E0B; 
+    background-color: #0C2E0B;
     cursor: pointer;
-    padding: 18px;    
-    /*border-color: #BF9000;   */ 
+    padding: 18px;
+    /*border-color: #BF9000;   */
     font-size: 18px;
-  
+
 }
 
-.collapsible:hover{
+.collapsible:hover {
     background-color: #10400f;
     transition: 0.3s;
 }
@@ -56,110 +92,104 @@ div.filtering-sect{
 p.painEvents {
     text-align: center;
     color: white;
-    
+
 }
 
 section.painEvents {
-    
-    order:1;
+
+    order: 1;
     width: 40vw;
     overflow-y: scroll;
     font-family: "Trirong";
-    color:white;
-    padding: 5px;    
-    
-    
+    color: white;
+    padding: 5px;
+
+
 }
 
-section.fullPlay {    
-    order:2;  
+section.fullPlay {
+    order: 2;
     width: 40vw;
     overflow-y: scroll;
     font-family: "Trirong";
-    color:white;
-    padding: 5px;  
+    color: white;
+    padding: 5px;
 }
 
 div.both-texts {
-    display:flex;
-    overflow:auto;
-    height: 50vh;
+    display: flex;
+    overflow: auto;
+    height: 80vh;
     margin: auto;
-    width: 80vw;    
-    flex-direction:row;
-    flex-wrap:nowrap;
-    justify-content:center;
-    align-content:center;
-    column-gap:10px;     
+    width: 80vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 10px;
     border-style: double;
-    border-color: #BF9000;      
-    
+    border-color: #BF9000;
+
 }
 
 
 
 .speaker {
     font-weight: bold;
-    
+
 }
 
 .stage {
     font-style: italic;
-    
+
 }
 
 hr {
-  border: none;
-  border-top: 1px dotted gold;
-  color: black;
-  height: 1px;
-  width: 70%;
+    border: none;
+    border-top: 1px dotted gold;
+    color: black;
+    height: 1px;
+    width: 70%;
 }
 
-a.pain-event{
+a.pain-event {
     color: inherit;
-    text-decoration: none;    
+    text-decoration: none;
     transition: 0.3s;
 }
 
 /* Tooltip Styling */
-a.tooltip{
+a.tooltip {
     position: relative;
 }
 
-.tooltip .tooltiptext{
-  visibility: hidden;
-  width: 120px;
-  background-color: #0C2E0B;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  border-radius: 6px;
-  line-height: 1.5;
-  
-  /* Position the tooltip text - see examples below! */
-  width: 120px;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #0C2E0B;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    line-height: 1.5;
+
+    /* Position the tooltip text - see examples below! */
+    width: 120px;
+    top: 100%;
+    left: 50%;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+    visibility: visible;
 }
 
 /*  
 a.tooltip{
      Tooltip container 
-
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
-
 }
-
-
-
 Tooltip text 
 .tooltip .tooltiptext {
   visibility: hidden;
@@ -174,7 +204,6 @@ Tooltip text
   position: absolute;
   z-index: 1;
 }
-
  Show the tooltip text when you mouse over the tooltip container 
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -182,15 +211,15 @@ Tooltip text
 */
 
 
-a:hover { 
-    color:#BF9000;
-    
+a:hover {
+    color: #BF9000;
+
     /* Next two lines can also be uncommented for another hover experience 
     background-color: #581845;
     opacity: 1;*/
 }
 
-h3{
+h3 {
     font-weight: bold;
     text-align: center;
     text-decoration: underline;

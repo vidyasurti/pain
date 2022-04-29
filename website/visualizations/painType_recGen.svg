@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="-100 -500 1200 600"
+     width="100%">
+   <defs>
+      <style type="text/css">
+                    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;family=Playfair+Display&amp;family=Trirong:wght@100&amp;display=swap');</style>
+   </defs>
+   <g>
+      <text text-anchor="middle"
+            x="168.75"
+            y="-425"
+            font-weight="bold"
+            fill="#E0E0E0">Distribution of Pain Type by Receiver
+                    Gender</text>
+      <text text-anchor="middle"
+            x="168.75"
+            y="60"
+            font-weight="bold"
+            fill="#E0E0E0">Pain Type</text>
+      <text text-anchor="middle"
+            x="200"
+            y="-65"
+            transform="rotate(-90)"
+            font-weight="bold"
+            fill="#E0E0E0">Pain Instances (%)</text>
+      <line x1="0" y1="0" x2="337.5" y2="0" stroke="#E0E0E0"/>
+      <line x1="0" y1="0" x2="0" y2="-400" stroke="#E0E0E0"/>
+      <line x1="0"
+            y1="-100"
+            x2="337.5"
+            y2="-100"
+            stroke="#E0E0E0"
+            stroke-dasharray="3"/>
+      <text x="-45" y="-95" stroke="#E0E0E0" fill="#E0E0E0">25%</text>
+      <line x1="0"
+            y1="-200"
+            x2="337.5"
+            y2="-200"
+            stroke="#E0E0E0"
+            stroke-dasharray="3"/>
+      <text x="-45" y="-195" stroke="#E0E0E0" fill="#E0E0E0">50%</text>
+      <line x1="0"
+            y1="-300"
+            x2="337.5"
+            y2="-300"
+            stroke="#E0E0E0"
+            stroke-dasharray="3"/>
+      <text x="-45" y="-295" stroke="#E0E0E0" fill="#E0E0E0">75%</text>
+      <line x1="0"
+            y1="-400"
+            x2="337.5"
+            y2="-400"
+            stroke="#E0E0E0"
+            stroke-dasharray="3"/>
+      <text x="-45" y="-395" stroke="#E0E0E0" fill="#E0E0E0">100%</text>
+      <rect x="367.5" y="-100" height="20" width="20" fill="#7899D4"/>
+      <rect x="367.5" y="-200" height="20" width="20" fill="#D3A310"/>
+      <rect x="367.5" y="-300" height="20" width="20" fill="#618E87"/>
+      <text text-anchor="start"
+            x="392.5"
+            y="-85"
+            stroke="#E0E0E0"
+            fill="#E0E0E0">Women</text>
+      <text text-anchor="start"
+            x="392.5"
+            y="-185"
+            stroke="#E0E0E0"
+            fill="#E0E0E0">Mix</text>
+      <text text-anchor="start"
+            x="392.5"
+            y="-285"
+            stroke="#E0E0E0"
+            fill="#E0E0E0">Men</text>
+      <text text-anchor="middle"
+            x="287.5"
+            y="30"
+            stroke="#E0E0E0"
+            fill="#E0E0E0">both</text>
+      <rect x="250" y="-400" height="400" width="75" fill="#D3A310"/>
+      <rect x="250"
+            y="-102.12765957446808"
+            height="102.12765957446808"
+            width="75"
+            fill="#7899D4"/>
+      <rect x="250"
+            y="-400"
+            height="255.31914893617022"
+            width="75"
+            fill="#618E87"/>
+      <text text-anchor="middle"
+            x="62.5"
+            y="30"
+            stroke="#E0E0E0"
+            fill="#E0E0E0">emotional</text>
+      <rect x="25" y="-400" height="400" width="75" fill="#D3A310"/>
+      <rect x="25"
+            y="-237.28813559322035"
+            height="237.28813559322035"
+            width="75"
+            fill="#7899D4"/>
+      <rect x="25"
+            y="-400"
+            height="128.8135593220339"
+            width="75"
+            fill="#618E87"/>
+      <text text-anchor="middle"
+            x="175"
+            y="30"
+            stroke="#E0E0E0"
+            fill="#E0E0E0">physical</text>
+      <rect x="137.5" y="-400" height="400" width="75" fill="#D3A310"/>
+      <rect x="137.5"
+            y="-88.13559322033899"
+            height="88.13559322033899"
+            width="75"
+            fill="#7899D4"/>
+      <rect x="137.5"
+            y="-400"
+            height="291.52542372881356"
+            width="75"
+            fill="#618E87"/>
+   </g>
+</svg>
