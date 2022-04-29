@@ -570,6 +570,9 @@
          <count>88</count>
       </group>
    </direct>
+   <count infGen="man" infRel="lover" value="13"/>
+   <count infGen="woman" infRel="lover" value="8"/>
+   <count recRel="lover" infRel="lover" value="21"/>
    <count recGen="woman" painType="em" value="70">
       <count recGen="woman">95</count>
       <count painType="em">118</count>
@@ -606,6 +609,102 @@
       <count recGen="mix">18</count>
       <count painType="both">47</count>
    </count>
+   <count recGen="woman" direct="yes" value="28">
+      <count recGen="woman">95</count>
+      <count direct="yes">87</count>
+   </count>
+   <count recGen="woman" direct="no" value="36">
+      <count recGen="woman">95</count>
+      <count direct="no">88</count>
+   </count>
+   <count recGen="man" direct="yes" value="51">
+      <count recGen="man">111</count>
+      <count direct="yes">87</count>
+   </count>
+   <count recGen="man" direct="no" value="47">
+      <count recGen="man">111</count>
+      <count direct="no">88</count>
+   </count>
+   <count recGen="mix" direct="yes" value="8">
+      <count recGen="mix">18</count>
+      <count direct="yes">87</count>
+   </count>
+   <count recGen="mix" direct="no" value="5">
+      <count recGen="mix">18</count>
+      <count direct="no">88</count>
+   </count>
+   <count recGen="woman" infGen="man" value="49">
+      <count recGen="woman">95</count>
+      <count infGen="man">74</count>
+   </count>
+   <count recGen="woman" infGen="woman" value="10">
+      <count recGen="woman">95</count>
+      <count infGen="woman">84</count>
+   </count>
+   <count recGen="woman" infGen="mix" value="5">
+      <count recGen="woman">95</count>
+      <count infGen="mix">5</count>
+   </count>
+   <count recGen="man" infGen="woman" value="64">
+      <count recGen="man">111</count>
+      <count infGen="woman">84</count>
+   </count>
+   <count recGen="man" infGen="man" value="22">
+      <count recGen="man">111</count>
+      <count infGen="man">74</count>
+   </count>
+   <count recGen="man" infGen="mix" value="0">
+      <count recGen="man">111</count>
+      <count infGen="mix">5</count>
+   </count>
+   <count infGen="woman" infNorm="yes" value="2">
+      <count infGen="woman">84</count>
+      <count infNorm="yes">66</count>
+   </count>
+   <count infGen="woman" infNorm="no" value="82">
+      <count infGen="woman">84</count>
+      <count infNorm="no">97</count>
+   </count>
+   <count infGen="man" infNorm="yes" value="62">
+      <count infGen="man">74</count>
+      <count infNorm="yes">66</count>
+   </count>
+   <count infGen="man" infNorm="no" value="12">
+      <count infGen="man">74</count>
+      <count infNorm="no">97</count>
+   </count>
+   <count infGen="mix" infNorm="yes" value="2">
+      <count infGen="mix">5</count>
+      <count infNorm="yes">66</count>
+   </count>
+   <count infGen="mix" infNorm="no" value="3">
+      <count infGen="mix">5</count>
+      <count infNorm="no">97</count>
+   </count>
+   <count recGen="woman" recNorm="yes" value="54">
+      <count recGen="woman">95</count>
+      <count recGen="yes">127</count>
+   </count>
+   <count recGen="woman" recNorm="no" value="41">
+      <woman>95</woman>
+      <normno>97</normno>
+   </count>
+   <count recGen="man" recNorm="yes" value="60">
+      <count recGen="man">111</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="man" recNorm="no" value="51">
+      <count recGen="man">111</count>
+      <count recNorm="no">97</count>
+   </count>
+   <count recGen="mix" recNorm="yes" value="13">
+      <count recGen="mix">18</count>
+      <count recNorm="yes">127</count>
+   </count>
+   <count recGen="mix" recNorm="no" value="5">
+      <count recGen="mix">18</count>
+      <count recNorm="no">97</count>
+   </count>
    <count recGen="woman" painType="em" recNorm="yes" value="41">
       <count recGen="woman">95</count>
       <count painType="em">118</count>
@@ -626,10 +725,6 @@
       <count painType="phys">59</count>
       <count recNorm="no">97</count>
    </count>
-   <count recGen="woman" infGen="man" value="49">
-      <count recGen="woman">95</count>
-      <count infGen="man">74</count>
-   </count>
    <count recGen="woman" infGen="man" direct="yes" value="22">
       <count recGen="woman">95</count>
       <count infGen="man">74</count>
@@ -639,31 +734,6 @@
       <count recGen="woman">95</count>
       <count infGen="man">74</count>
       <count direct="no">88</count>
-   </count>
-   <count recGen="woman" infGen="woman" value="10">
-      <count recGen="woman">95</count>
-      <count infGen="woman">84</count>
-      <recwoman_infwoman>10</recwoman_infwoman>
-   </count>
-   <count recGen="woman" infGen="mix" value="5">
-      <count recGen="woman">95</count>
-      <count infGen="mix">5</count>
-   </count>
-   <count recGen="woman" direct="yes" value="28">
-      <count recGen="woman">95</count>
-      <count direct="yes">87</count>
-   </count>
-   <count recGen="woman" direct="no" value="36">
-      <count recGen="woman">95</count>
-      <indirect>88</indirect>
-   </count>
-   <count recGen="woman" recNorm="yes" value="54">
-      <count recGen="woman">95</count>
-      <count recGen="yes">127</count>
-   </count>
-   <count recGen="woman" recNorm="no" value="41">
-      <woman>95</woman>
-      <normno>97</normno>
    </count>
    <count infGen="woman" painType="em" value="30">
       <count infGen="woman">84</count>
@@ -684,14 +754,6 @@
    <count infGen="woman" direct="no" value="37">
       <infwoman>84</infwoman>
       <indirect>88</indirect>
-   </count>
-   <count infGen="woman" infNorm="yes" value="2">
-      <count infGen="woman">84</count>
-      <count infNorm="yes">66</count>
-   </count>
-   <count infGen="woman" infNorm="no" value="82">
-      <count infGen="woman">84</count>
-      <count infNorm="no">97</count>
    </count>
    <count recGen="man" painType="em" recNorm="yes" value="24">
       <count recGen="man">111</count>
@@ -723,30 +785,6 @@
       <count painType="both">47</count>
       <count recNorm="no">97</count>
    </count>
-   <count recGen="man" infGen="woman" value="64">
-      <count recGen="man">111</count>
-      <count infGen="woman">84</count>
-   </count>
-   <count recGen="man" infGen="man" value="22">
-      <count recGen="man">111</count>
-      <count infGen="man">74</count>
-   </count>
-   <count recGen="man" direct="yes" value="51">
-      <count recGen="man">111</count>
-      <count direct="yes">87</count>
-   </count>
-   <count recGen="man" direct="no" value="47">
-      <count recGen="man">111</count>
-      <count direct="no">88</count>
-   </count>
-   <count recGen="man" recNorm="yes" value="60">
-      <count recGen="man">111</count>
-      <count recNorm="yes">127</count>
-   </count>
-   <count recGen="man" recNorm="no" value="51">
-      <count recGen="man">111</count>
-      <count recNorm="no">97</count>
-   </count>
    <count infGen="man" direct="yes" value="39">
       <count infGen="man">74</count>
       <count direct="yes">87</count>
@@ -754,13 +792,5 @@
    <count infGen="man" direct="no" value="35">
       <count infGen="man">74</count>
       <count direct="no">88</count>
-   </count>
-   <count infGen="man" infNorm="yes" value="62">
-      <count infGen="man">74</count>
-      <count infNorm="yes">66</count>
-   </count>
-   <count infGen="man" infNorm="no" value="12">
-      <count infGen="man">74</count>
-      <count infNorm="no">97</count>
    </count>
 </practice>
