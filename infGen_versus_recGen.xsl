@@ -20,11 +20,11 @@
             <!-- TITLE AND AXIS LABELS -->
             <text text-anchor="middle" x="{$maxWidth div 2}" y="-{$maxHeight + 50}">Inflictor Gender
                 versus Receiver Gender</text>
-            <text text-anchor="middle" x="{$maxWidth div 2}" y="0">Pain Receivers</text>
-            <text text-anchor="middle" writing-mode="tb" y="-{$maxWidth div 2}" x="-20">Pain
+            <text text-anchor="middle" x="{$maxWidth div 2}" y="60">Pain Receivers</text>
+            <text text-anchor="middle" writing-mode="tb" y="-{$maxWidth div 2}" x="-50">Pain
                 Inflictors</text>
 
-            <!-- Y AXIS LINES -->
+            <!-- X AXIS LINES (HORIZONTAL) -->
             <xsl:for-each select="0 to 3">
                 <xsl:variable name="lineHeight" as="xs:double" select=". div 3 * $maxHeight"/>
                 <line x1="0" x2="{$maxWidth}" y1="-{$lineHeight}" y2="-{$lineHeight}" stroke="gray"
@@ -35,17 +35,19 @@
             <text x="-10" y="-100" text-anchor="end" dominant-baseline="middle" font-size="13"> Men</text>
             <text x="-10" y="-200" text-anchor="end" dominant-baseline="middle" font-size="13">
                 Women</text>
-            <text x="-10" y="-300" text-anchor="end" dominant-baseline="middle" font-size="13"> Mix</text>
-
-
+            <text x="-10" y="-300" text-anchor="end" dominant-baseline="middle" font-size="13">Mix</text>
+            
+            <!-- Y AXIS LINES (VERTICAL) -->
+            <xsl:for-each select="1 to 3">
+                <xsl:variable name="xPos" as="xs:double" select="((. - 1) * $spacing) + ($spacing div 2)"/>
+                <line y1="0" y2="-{$maxHeight + 25}" x1="{$xPos}" x2="{$xPos}" stroke="black" stroke-width="1"/>
+            </xsl:for-each>
+            
+           <!-- X AXIS LABELS -->
+            <text x="50" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Men</text>
+            <text x="150" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Women</text>
+            <text x="250" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Mix</text>
         </svg>
-
-
-
-
-
     </xsl:template>
-
-
 
 </xsl:stylesheet>
