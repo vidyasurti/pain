@@ -15,7 +15,7 @@
     <xsl:variable name="maxWidth" as="xs:integer" select="($spacing) * 3"/>
 
     <xsl:template name="xsl:initial-template">
-        <svg height="{$maxHeight + 200}" width="{$maxWidth + 250}"
+        <svg height="{$maxHeight + 200}" width="{$maxWidth + 550}"
             viewBox="-50 -{$maxHeight + 100} {$maxWidth + 200} {$maxHeight + 200}">
             <defs>
                 <style type="text/css">
@@ -26,7 +26,7 @@
             <text text-anchor="middle" x="{$maxWidth div 2}" y="-{$maxHeight + 50}" stroke="#E0E0E0" fill="E0E0E0">Inflictor Gender
                 versus Receiver Gender</text>
             <text text-anchor="middle" x="{$maxWidth div 2}" y="50" stroke="#E0E0E0" fill="E0E0E0">Pain Receivers</text>
-            <text text-anchor="middle" writing-mode="tb" y="-{$maxWidth div 2}" x="-65" stroke="#E0E0E0" fill="E0E0E0">Pain
+            <text text-anchor="middle" writing-mode="tb" y="-{$maxWidth div 2}" x="-75" stroke="#E0E0E0" fill="E0E0E0">Pain
                 Inflictors</text>
 
             <!-- X AXIS LINES (HORIZONTAL) -->
