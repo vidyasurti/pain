@@ -16,77 +16,38 @@
     <!-- ===============================================================  -->
     <!-- RICHA - Assuming that painStart and painEnd are delimiters for the all_pain element -->
     <xsl:variable name="all_pain" as="node()+" select="//p/painStart | //p/painEnd | //p/text()"/>
-
-    <xsl:variable name="current_pain-event" as="xs:integer" select="0"/>
-
-
-
+    
+    <xsl:variable name = "current_pain-event" as = "xs:integer" select = "0" />
+    
+    
+    
     <!-- outputting root element, applying templates directly to body -->
     <xsl:template match="/">
         <xsl:variable name="doc-name" select="//titleStmt/title[1]"/>
-
-        <!--<xsl:if test="string-length($doc-name) eq 0">
-            <xsl:variable name="doc-name" select="//titleStmt/title/text()"/>
-        </xsl:if>
-        <xsl:choose>
-            <xsl:when test="string-length($doc-name) eq 0">
-                
-            </xsl:when>
-        </xsl:choose> 
-
-        <xsl:variable name="{$doc-name}">
-            <xsl:choose>
-                <xsl:when test="contains($doc-name, '(')">
-                    <xsl:variable name="doc-name"
-                        select="concat(substring-before($doc-name, ' ('), '')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:variable name="doc-name" select="//titleStmt/title"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        
-        
-
-
-
-        <xsl:if test="contains($doc-name, '(')"/>-->
+        <xsl:if test="contains($doc-name, '(')"/>
         <xsl:variable name="doc-name" select="concat(substring-before($doc-name, ' ('), '')"/>
         
-        <xsl:variable name = "doc-name">
-            <xsl:choose>
-                
-                <xsl:when test="string-length($doc-name) eq 0">
-                    <xsl:value-of select = "//titleStmt/title" />
-                </xsl:when>
-                
-            </xsl:choose>
-        </xsl:variable>
-
-        <!--<xsl:if test="string-length($doc-name) eq 0">
-            <xsl:variable name="doc-name" select="//titleStmt/title"/>
-        </xsl:if>-->
         <events_and_full-text doc-name="{$doc-name}">
             <allPainEvents>
                 <xsl:apply-templates select="//body" mode="painEventText"/>
             </allPainEvents>
-
+            
             <tragedyText>
                 <xsl:apply-templates select="//body" mode="tragedyText"/>
-
+                
             </tragedyText>
         </events_and_full-text>
-
+        
     </xsl:template>
-
+    
     <!-- RICHA - assuming that match = "body", originally was referring to front for cast list -->
     <xsl:template match="body" mode="painEventText">
         <!-- ============================================================ -->
         <!-- not necessarily for gendered pain project - Copy the cast list and create new <div> for insults          -->
         <!-- ============================================================ -->
-
+        
         <!--<xsl:copy-of select="@* | node()"/>-->
-
+        
         <!-- ==================================================== -->
         <!-- Tesselated groups demarcated by pain delimiters    -->
         <!-- ==================================================== -->
@@ -123,16 +84,16 @@
                 </pain>
             </xsl:if>
         </xsl:for-each-group>
-
-
+        
+        
     </xsl:template>
-
+    
     <xsl:template match="body" mode="tragedyText">
         <xsl:copy>
-            <xsl:apply-templates select="@* | node()"/>
+            <xsl:apply-templates select="@* | node()"/>            
         </xsl:copy>
     </xsl:template>
-
+    
     <!--<xsl:template match="painStart">
         <xsl:variable name = "current_pain-event" as = "xs:integer" select = ". + 1"/>            
         <mappedPain xml:id="tragedy_{$current_pain-event}"/> 
@@ -140,5 +101,5 @@
         
         
     </xsl:template>-->
-
+    
 </xsl:stylesheet>
