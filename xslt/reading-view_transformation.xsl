@@ -31,7 +31,7 @@
                         right scrolls to where that pain event is located in the play. </p>
                 </div>
 
-
+                <!--
                 <button type="button" class="collapsible">Click here to begin filtering pain events by their characteristics</button>
                 <div class="filtering-sect">
                     <p class="filtering-title">Filter based on: </p>
@@ -81,7 +81,7 @@
                         </section>
                     </div>
                 </div>
-
+                -->
 
 
                 <div class="both-texts">
