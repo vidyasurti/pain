@@ -47,6 +47,23 @@
             <text x="50" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Men</text>
             <text x="150" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Women</text>
             <text x="250" y="15" text-anchor="middle" dominant-baseline="middle" font-size="13">Mix</text>
+            
+            <!-- CIRCLES -->
+            <!-- MALE RECEIVERS -->
+            <circle cx="50" cy="-100" r="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'man'])}" fill="blue" opacity=".25"/>
+            <circle cx="50" cy="-200" r="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'woman'])}" fill="red" opacity=".25"/>
+            <circle cx="50" cy="-300" r="{count($all_tragedies//painStart[@recGen eq 'man'][@infGen eq 'mix'])}" fill="green" opacity=".25"/>
+            
+            
+            <!-- FEMALE RECEIVERS -->
+            <circle cx="150" cy="-100" r="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'man'])}" fill="red" opacity=".25"/>
+            <circle cx="150" cy="-200" r="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'woman'])}" fill="red" opacity=".25"/>
+            <circle cx="150" cy="-300" r="{count($all_tragedies//painStart[@recGen eq 'woman'][@infGen eq 'mix'])}" fill="red" opacity=".25"/>
+           
+            <!-- MIX RECEIVERS -->
+            <circle cx="250" cy="-100" r="{count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'man'])}" fill="red" opacity=".25"/>
+            <circle cx="250" cy="-200" r="{count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'woman'])}" fill="red" opacity=".25"/>
+            <circle cx="250" cy="-300" r="{count($all_tragedies//painStart[@recGen eq 'mix'][@infGen eq 'mix'])}" fill="red" opacity=".25"/>
         </svg>
     </xsl:template>
 
