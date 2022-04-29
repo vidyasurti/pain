@@ -23,9 +23,14 @@ h1 {
     
 }
 
-h1.site-title{
-    font-family: Trirong;
-    font-size: 38px;
+.site-title {
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Trirong";
+    font-size: 36px;
+    margin:auto;
 }
 
 nav a{
