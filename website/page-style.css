@@ -16,6 +16,18 @@ nav{
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    font-family: "Playfair Display";
+    margin:auto;
+    
+}
+
+h1.site-title{
+    font-family: Trirong;
+    font-size: 38px;
+}
+
 nav a{
     display: inline-block;
     color: white;
