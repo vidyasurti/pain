@@ -18,14 +18,15 @@ p{
     color: white;
     font-family: "Trirong";
     
-    margin: auto;
-    
-    width: 85%;
-    
-    line-height: 1.5;
     
     
 }
+
+.interpret{
+    margin: auto;
+    width: 85%;
+}
+
 
 .link {
     color:#BF9000;
@@ -107,7 +108,7 @@ td {
 h2{
     color: white;
     font-family: "Trirong";
-    width: 85%;
+    
     margin: auto;
 }
 
@@ -243,40 +244,12 @@ a.tooltip {
     visibility: visible;
 }
 
-/*  
-a.tooltip{
-     Tooltip container 
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
-}
-Tooltip text 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-   Position the tooltip text - see examples below! 
-  position: absolute;
-  z-index: 1;
-}
- Show the tooltip text when you mouse over the tooltip container 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-*/
 
 
 a:hover {
     color: #BF9000;
 
-    /* Next two lines can also be uncommented for another hover experience 
-    background-color: #581845;
-    opacity: 1;*/
+   
 }
 
 h3 {

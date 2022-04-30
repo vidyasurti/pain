@@ -31,7 +31,7 @@
                         right scrolls to where that pain event is located in the play. </p>
                 </div>
                 
-                <div>
+                <div class = "interpret">
                     <h2>How do I interpret the pain events?</h2>
                     <p>Each instnace of pain is marked to have descriptors, or
                         <strong>attributes</strong> that describe them. Each of the descriptors
