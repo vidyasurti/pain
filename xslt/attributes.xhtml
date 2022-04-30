@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Gendered Pain in Greek Tragedy</title>
+        <link rel="Stylesheet" type="text/css" href="reading-view.css" />
+    </head>
+    <body>
+        <h1>Table to Understand Attributes</h1>
+        <div class="instructions">
+            <p>The markup for each greek tragedy included attributes to describe each pain event.
+                Below is a table containing the keys for each of the attributes and their respective
+                meanings.</p>
+
+            <p>As you can see, there are two main classes for attributes - those that are required
+                for all pain events and those that are required only for events that have an
+                inflictor. </p>
+        </div>
+        <hr />
+        <table>
+            <tr>
+                <th> Attribute </th>
+                <th> Description </th>
+            </tr>
+            <tr>
+                <td>rec</td>
+                <td>receiver, indicates the name of who is experiencing pain, <em>required in all
+                        events of pain</em></td>
+            </tr>
+            <tr>
+                <td>recGen</td>
+                <td>gender of receiver, indicates the binary gender of the character who is
+                    experiencing pain, possible values are <code>man</code>, <code>woman</code>, and
+                        <code>mix</code> for a mixed group of individuals, <em>required in all
+                        events of pain</em></td>
+            </tr>
+
+            <tr>
+                <td>recNorm</td>
+                <td>whether the character experiencing pain fits the general norms of Greek society,
+                    from the perspective of the original Greek audience of the tragedy; when a
+                    receiver of pain would not be socially accepted in Greek society, this value is
+                        <code>no</code> and otherwise <code>yes</code>, <em>required in all events
+                        of pain</em></td>
+            </tr>
+
+            <tr>
+                <td>painType</td>
+                <td>the type of pain being experienced, possible values are <code>em</code> for
+                    emotional, <code>phys</code> for physical, and <code>both</code> for both kinds
+                    of pain at once in one event, <em>required in all events of pain</em></td>
+            </tr>
+
+            <tr>
+                <td>inf</td>
+                <td>inflictor, the name of who is inflicting pain, in the case of a nonhuman
+                    inflictor this can only take the values of disease or nature <em>required when
+                        someone is inflicting pain, but not in all</em></td>
+            </tr>
+
+            <tr>
+                <td>infGen</td>
+                <td>gender of inflictor, the gender of the person inflicting pain, possible values
+                    are <code>man</code>, <code>woman</code>, or <code>mix</code> for a mixed group
+                    of people, <em>required for all that have an inf</em></td>
+            </tr>
+
+            <tr>
+                <td>infNorm</td>
+                <td>whether the character inflicting pain fits the general norms of Greek society,
+                    from the perspective of the original Greek audience of the tragedy, when a
+                    receiver of pain would not be socially accepted in Greek society, this value is
+                        <code>no</code> and otherwise <code>yes</code>, <em>required for all that
+                        have an inf</em></td>
+            </tr>
+
+            <tr>
+                <td>recRel</td>
+                <td>relation of receiver to inflictor, <em>required for all that have an
+                    inf</em></td>
+            </tr>
+
+            <tr>
+                <td>infRel</td>
+                <td>relation of inflictor to receiver, <em>required for all that have an
+                    inf</em></td>
+            </tr>
+
+            <tr>
+                <td>direct</td>
+                <td>whether the pain that is being inflicted is direct or not, possible values are
+                        <code>yes</code> if the pain is directly caused by the inflictor or
+                        <code>no</code> if the pain is indirectly caused, <em>required for all that
+                        have an inf</em></td>
+            </tr>
+        </table>
+        <hr />
+        <div>
+            <h2>Examples of attributes you might see:</h2>
+
+            <ul>
+                <li>Rec: Agamemnon, RecGen: man, RecNorm: yes, PainType: both, RecRel: husband, Inf:
+                    Clytamnestra, InfGen: woman, InfNorm: no, InfRel: wife</li>
+                <li>Rec: society, RecGen: mix, RecNorm: yes, PainType: both</li>
+            </ul>
+            
+            <p>As you can see, there are two main types of attribute groupings: one with an inflictor and one wiithout.</p>
+        </div>
+    </body>
+</html>

@@ -6,7 +6,7 @@
 
     <!-- SET VARIABLE FOR ALL TRAGEDIES -->
     <xsl:variable name="all_tragedies" as="document-node()+"
-        select="collection('tragedies?select=*.xml')"/>
+        select="collection('../../tragedies?select=*.xml')"/>
 
     <!-- SET GENERAL VARIABLES FOR THE GRAPH -->
     <xsl:variable name="barWidth" as="xs:integer" select="75"/>
@@ -25,7 +25,7 @@
 
 
     <xsl:template name="xsl:initial-template">
-        <svg viewBox="-100 -500 1200 600" width="100%">
+        <svg viewBox="-400 -500 1200 600" width="100%">
             <defs>
                 <style type="text/css">
                     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;family=Playfair+Display&amp;family=Trirong:wght@100&amp;display=swap');</style>

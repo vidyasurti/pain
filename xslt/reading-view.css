@@ -14,6 +14,36 @@ h2.page-title {
 
 }
 
+p{
+    color: white;
+    font-family: "Trirong";
+    
+    
+    
+}
+
+.interpret{
+    margin: auto;
+    width: 85%;
+}
+
+
+.link {
+    color:#BF9000;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #0C2E0B;
+    text-decoration: underline;
+    color:#BF9000;
+    transition: 0.3s;
+}
+
+div{
+    padding: 20px;
+}
+
 
 
 nav {
@@ -33,13 +63,13 @@ nav a {
     font-family: "Trirong";
 }
 
-h1 {
+.site-title {
     
     color: white;
     text-align: center;
     text-decoration: none;
     font-family: "Trirong";
-    font-size: 36px;
+    font-size: 55px;
     margin:auto;
 }
 
@@ -57,6 +87,37 @@ div.instructions {
     color: white;
     width: 65vw;
 
+}
+
+table {
+    width: 65%;
+    font-family: "Trirong";
+    color: white;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 20px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #BF9000;
+    
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-family: "Trirong";
+    
+    margin: auto;
+}
+
+ul{
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    font-family: "Trirong";
 }
 
 div.filtering-sect {
@@ -183,40 +244,12 @@ a.tooltip {
     visibility: visible;
 }
 
-/*  
-a.tooltip{
-     Tooltip container 
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text 
-}
-Tooltip text 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-   Position the tooltip text - see examples below! 
-  position: absolute;
-  z-index: 1;
-}
- Show the tooltip text when you mouse over the tooltip container 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-*/
 
 
 a:hover {
     color: #BF9000;
 
-    /* Next two lines can also be uncommented for another hover experience 
-    background-color: #581845;
-    opacity: 1;*/
+   
 }
 
 h3 {
