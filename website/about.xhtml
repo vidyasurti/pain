@@ -64,6 +64,76 @@
                 and inflictor, the gender or non-human designation of people involved, the type of
                 pain experienced, if the pain is direct or indirect.</p>
             <p>Each painStart element required certain groupings of attributes.</p>
+            <table>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>rec</td>
+                    <td>receiver, indicates the name of who is experiencing pain, <em>required in all
+                        events of pain</em></td>
+                </tr>
+                <tr>
+                    <td>recGen</td>
+                    <td>gender of receiver, indicates the binary gender of the character who is
+                        experiencing pain, possible values are <code>man</code>, <code>woman</code>, and
+                        <code>mix</code> for a mixed group of individuals, <em>required in all
+                            events of pain</em></td>
+                </tr>
+                <tr>
+                    <td>recNorm</td>
+                    <td>whether the character experiencing pain fits the general norms of Greek society,
+                        from the perspective of the original Greek audience of the tragedy; when a
+                        receiver of pain would not be socially accepted in Greek society, this value is
+                        <code>no</code> and otherwise <code>yes</code>, <em>required in all events
+                            of pain</em></td>
+                </tr>  
+                <tr>
+                    <td>painType</td>
+                    <td>the type of pain being experienced, possible values are <code>em</code> for
+                        emotional, <code>phys</code> for physical, and <code>both</code> for both kinds
+                        of pain at once in one event, <em>required in all events of pain</em></td>
+                </tr>
+                <tr>
+                    <td>inf</td>
+                    <td>inflictor, the name of who is inflicting pain, in the case of a nonhuman
+                        inflictor this can only take the values of disease or nature <em>required when
+                            someone is inflicting pain, but not in all</em></td>
+                </tr>  
+                <tr>
+                    <td>infGen</td>
+                    <td>gender of inflictor, the gender of the person inflicting pain, possible values
+                        are <code>man</code>, <code>woman</code>, or <code>mix</code> for a mixed group
+                        of people, <em>required for all that have an inf</em></td>
+                </tr>
+                <tr>
+                    <td>infNorm</td>
+                    <td>whether the character inflicting pain fits the general norms of Greek society,
+                        from the perspective of the original Greek audience of the tragedy, when a
+                        receiver of pain would not be socially accepted in Greek society, this value is
+                        <code>no</code> and otherwise <code>yes</code>, <em>required for all that
+                            have an inf</em></td>
+                </tr>
+                <tr>
+                    <td>recRel</td>
+                    <td>relation of receiver to inflictor, <em>required for all that have an
+                        inf</em></td>
+                </tr> 
+                <tr>
+                    <td>infRel</td>
+                    <td>relation of inflictor to receiver, <em>required for all that have an
+                        inf</em></td>
+                </tr>
+                <tr>
+                    <td>direct</td>
+                    <td>whether the pain that is being inflicted is direct or not, possible values are
+                        <code>yes</code> if the pain is directly caused by the inflictor or
+                        <code>no</code> if the pain is indirectly caused, <em>required for all that
+                            have an inf</em></td>
+                </tr>
+            </table>
+            
         </section>
         <section>
             <h2>Sources</h2>
