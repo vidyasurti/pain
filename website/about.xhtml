@@ -8,7 +8,7 @@
     <body>
         <!--#include virtual="menu.xhtml" -->
         <h1>About</h1>
-        <hr/>
+        <hr />
         <section>
             <h2>Which Greek Tragedies and Why</h2>
             <p> We are using four tragedies for our analysis: </p>
@@ -23,17 +23,66 @@
                 have enough data to make conclusions about women's and men's pain. </p>
         </section>
         <section>
+            <h2>Our Methodology</h2>
+            <h3>Creating the Corpus:</h3>
+            <p>This project was originally derived from an adjacently related one, studying pain and
+                gender in Greek tragedies. For that project, our group member, Vidya Surti, was
+                awarded a UHC Research Fellowship to formulate her own 'Greek' tragedy adjacent play
+                focusing on the gendered aspects of pain. During her preliminary research, she had
+                already identified Greek tragedies that place a lot of focus on pain as a plot
+                driver and an element that affects gendered perceptions of certain characters. We
+                tried to divide the content of our corpus based on the type of pain being present.
+                The tragedies we chose were Medea, Philoctetes, Women of Trachis, and Libation
+                Bearers.</p>
+            <p>We had four group members, so we were each tasked with one tragedy to mark up.</p>
+            <h3>Pain Markup (Trojan vs. Normal)</h3>
+            <p>Our group did not opt to use the standard notation for our markup, with the pain
+                instance wrapped in pain start and end tags. Ex.&lt;pain&gt;Pain
+                Instance&lt;/pain&gt; Instead, we opted to use Trojan markup, where we used an empty
+                painStart element containing attributes and their values about the specific pain
+                instance. After the painStart tag with the text of the pain instance, the painEnd
+                tag would wrap the pain instance together. This painEnd tag would contain no
+                attributes, unlike the painStart empty element. So, the painStart empty element
+                would act as the start tag, and the painEnd empty element would act as the end tag.
+                For each painEnd element, there must be a preceding painStart element. Furthermore,
+                the document's markup must start with a painStart element and end with a painEnd
+                element. There cannot be two painStart elements before a painEnd element, and the
+                document cannot start with a painEnd element or end with a painStart element. So, we
+                first marked up specific pain instances with the painStart and painEnd elements in
+                each of our tragedies.</p>
+            <p>Here is an example of how we used Trojan Markup (the attributes will be introduced
+                later in this methodology section):</p>
+            <p> &lt;painStart painType="both" rec="Philoctetes" recGen="man" inf="disease"
+                direct="no" recNorm="no"/&gt;For my part, I pity him when I think how,with no one to
+                care for him, and seeing no companion'sface, but suffering eternally alone, he is
+                plagued by fierce disease and bewildered by each need as it arises.How, how does he
+                endure his bitter fate?&lt;painEnd/&gt;</p>
+            <h3>Determination of our attributes</h3>
+            <p>During a meeting we had as a group, we determined and continued to refine the types
+                of attributes that we thought would add specific layers of depth to our project. The
+                attributes found in the painStart elements include information about the reciever
+                and inflictor, the gender or non-human designation of people involved, the type of
+                pain experienced, if the pain is direct or indirect.</p>
+            <p>Each painStart element required certain groupings of attributes.</p>
         </section>
         <section>
             <h2>Sources</h2>
             <h3>Our Project</h3>
-            <p><a class = "link" href="https://github.com/vidyasurti/pain">Our GitHub repository</a></p>
+            <p><a class="link" href="https://github.com/vidyasurti/pain">Our GitHub
+                repository</a></p>
             <h3>Our Tragedies</h3>
-            <p><a class = "link" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0008">Libation Bearers</a></p>
-            <p><a class = "link" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0114">Medea</a></p>
-            <p><a class = "link" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0194%3Acard%3D1"
-                >Philoctetes</a></p>
-            <p><a class = "link" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0196">Women of Trachis</a></p>
-        </section>  
+            <p><a class="link"
+                    href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0008"
+                    >Libation Bearers</a></p>
+            <p><a class="link"
+                    href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0114"
+                    >Medea</a></p>
+            <p><a class="link"
+                    href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0194%3Acard%3D1"
+                    >Philoctetes</a></p>
+            <p><a class="link"
+                    href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0196"
+                    >Women of Trachis</a></p>
+        </section>
     </body>
 </html>
