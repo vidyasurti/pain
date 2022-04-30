@@ -63,13 +63,13 @@ nav a {
     font-family: "Trirong";
 }
 
-h1 {
+.site-title {
     
     color: white;
     text-align: center;
     text-decoration: none;
     font-family: "Trirong";
-    font-size: 36px;
+    font-size: 55px;
     margin:auto;
 }
 
