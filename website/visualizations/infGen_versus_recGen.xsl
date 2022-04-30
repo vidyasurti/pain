@@ -7,7 +7,7 @@
 
     <!-- SET VARIABLE FOR ALL TRAGEDIES -->
     <xsl:variable name="all_tragedies" as="document-node()+"
-        select="collection('tragedies?select=*.xml')"/>
+        select="collection('../../tragedies?select=*.xml')"/>
 
     <!-- SET GENERAL VARIABLES FOR THE GRAPH -->
     <xsl:variable name="maxHeight" as="xs:integer" select="300"/>
@@ -15,8 +15,8 @@
     <xsl:variable name="maxWidth" as="xs:integer" select="($spacing) * 3"/>
 
     <xsl:template name="xsl:initial-template">
-        <svg height="{$maxHeight + 200}" width="{$maxWidth + 550}"
-            viewBox="-50 -{$maxHeight + 100} {$maxWidth + 200} {$maxHeight + 200}">
+        <svg height="{$maxHeight + 200}" width="100%"
+            viewBox="-50 -{$maxHeight + 100} {$maxWidth + 100} {$maxHeight + 200}">
             <defs>
                 <style type="text/css">
                     @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&amp;family=Playfair+Display&amp;family=Trirong:wght@100&amp;display=swap');</style>
