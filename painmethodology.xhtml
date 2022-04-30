@@ -5,52 +5,33 @@
         <title>Our Methodology</title>
     </head>
     <body> 
-        Creating the Corpus: 
-        This project was originally derived from an adjacently related one, studying pain and gender in Greek Tragedies. For that project, our group member, Vidya Surti, was awarded a UHC Research Fellowship to formulate her own 'Greek' Tragedy adjacent play focusing on the gendered aspects of pain. During her preliminary research, she had already identified Greek Tragedies that place a lot of focus on pain as a plot driver and an element that affects gendered perceptions of certain characters.  We tried to divide the content of our corpus based on the type of pain being present. The tragedies we chose were Medea, Philoctetes, Women of Trachis, and Libation Bearers. 
-        
-        Philoctetes and X were more focused on physical pain
-        Medea and X were more focused on emotional pain. 
-        
-        We had four group members, so we were each tasked with a tragedy to markup. 
-        
-        Pain Markup (Trojan vs. Normal)
-        Our group did not opt to use the standard notation for our markup, with the pain instance wrapped in pain start and end tags. 
-        
-        Ex.<pain>Pain Instance</pain>
-        
-        Instead, we opted to use Trojan markup, where we used an empty painStart element containing attributes and their values about the specific pain instance. After the painStart tag with the text of the pain instance, the painEnd tag would wrap the pain instance together. This painEnd tag would contain no attributes, unlike the painStart empty element. So, the painStart empty element would act as the start tag, and the painEnd empty element would act as the end tag. For each painEnd element, there must be a preceding painStart element. Furthermore, the document's markup must start with a painStart element and end with a painEnd element. There cannot be two painStart elements before a painEnd element, and the document cannot start with a painEnd element or end with a painStart element. So, we first marked up specific pain instances with the painStart and painEnd elements in each of our tragedies. 
-        
-        Here is an example of how we used Trojan Markup (the attributes will be introduced later in this methodology section): 
-        
-        <painStart painType="both" rec="Philoctetes" recGen="man" inf="disease" direct="no" recNorm="no"/>For my part, I pity him when I think how,with no one to care for him, and seeing no companion'sface, but suffering eternally alone, he is plagued by fierce disease and bewildered by each need as it arises.How, how does he endure his bitter fate?<painEnd/> 
+        <h1>Creating the Corpus:</h1>
+        <p>This project was originally derived from an adjacently related one, studying pain and gender in Greek Tragedies. For that project, our group member, Vidya Surti, was awarded a UHC Research Fellowship to formulate her own 'Greek' Tragedy adjacent play focusing on the gendered aspects of pain. During her preliminary research, she had already identified Greek Tragedies that place a lot of focus on pain as a plot driver and an element that affects gendered perceptions of certain characters.  We tried to divide the content of our corpus based on the type of pain being present. The tragedies we chose were Medea, Philoctetes, Women of Trachis, and Libation Bearers.</p>
         
         
-        Determination of our attributes
+        <p>We had four group members, so we were each tasked with a tragedy to markup.</p>
         
-        During a meeting we had as a group, we determined and continued to refine the types of attributes that we thought would add specific layers of depth to our project. The attributes found in the painStart elements include information about the reciever and inflictor, the gender or non-human designation of people involved, the type of pain experienced, if the pain is direct or indirect.
+        <h2>Pain Markup (Trojan vs. Normal)</h2>
+        <p>Our group did not opt to use the standard notation for our markup, with the pain instance wrapped in pain start and end tags.
         
-        Each painStart element required certain groupings of attributes. 
+        Ex.&lt;pain&gt;Pain Instance&lt;/pain&gt;
+        
+        Instead, we opted to use Trojan markup, where we used an empty painStart element containing attributes and their values about the specific pain instance. After the painStart tag with the text of the pain instance, the painEnd tag would wrap the pain instance together. This painEnd tag would contain no attributes, unlike the painStart empty element. So, the painStart empty element would act as the start tag, and the painEnd empty element would act as the end tag. For each painEnd element, there must be a preceding painStart element. Furthermore, the document's markup must start with a painStart element and end with a painEnd element. There cannot be two painStart elements before a painEnd element, and the document cannot start with a painEnd element or end with a painStart element. So, we first marked up specific pain instances with the painStart and painEnd elements in each of our tragedies.</p> 
+        
+        <p>Here is an example of how we used Trojan Markup (the attributes will be introduced later in this methodology section):</p>
+        
+       <p>
+           &lt;painStart painType="both" rec="Philoctetes" recGen="man" inf="disease" direct="no" recNorm="no"/&gt;For my part, I pity him when I think how,with no one to care for him, and seeing no companion'sface, but suffering eternally alone, he is plagued by fierce disease and bewildered by each need as it arises.How, how does he endure his bitter fate?&lt;painEnd/&gt;</p>
         
         
-        nonhumanPain = allPain, direct, attribute inf {"nature" | "disease" | "animal"} (This grouping of pain attributes is for pain that have a non-human inflictor: specifically nature and disease.)
-        infPain = allPain, recRel, inf, infGen, infNorm, infRel, direct (This grouping of pain attributes is for all groups containing a human inflictor.)
-        allPain = rec, recGen, recNorm, painType (All painStart elements require this set of attributes)
-        These groups are addative onto another. For example, attributes from the nonhumanPain and infPain would require the allPain grouping. These attribute groups allowed us to mark up instances where there was only a reciever of pain and not an inflictor or where there are specific non-human inflictors. 
+        <h2> Determination of our attributes</h2>
+        
+        <p>During a meeting we had as a group, we determined and continued to refine the types of attributes that we thought would add specific layers of depth to our project. The attributes found in the painStart elements include information about the reciever and inflictor, the gender or non-human designation of people involved, the type of pain experienced, if the pain is direct or indirect.</p>
+        
+        <p>Each painStart element required certain groupings of attributes.</p>
         
         
-        Taking a closer look at these attributes and their meanings add layers of depth to our markup and research questions. 
-        @rec: receiver of pain, the name of the character
-        @recGen: gender of the receiver of pain can be man, woman, or mixedGender if it is a group of people
-        @recNorm: when a receiver of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
-        @painType: painType can be em for emotional or phys for physcial
-        @recRel: relation of the recevier of pain to the inflictor
-        @inf: the inflictor of pain, the name of the character
-        @infGen: gender of the receiver of pain can be man, woman, or mixedGender if it is a group
-        @infNorm: when an inflictor of pain is not socially accepted in Greek society, this value is 0 and otherwise 1
-        @infRel: relation of the inflictor of pain to the receiver
-        @direct: whether the pain inflicted is direct or not
-        
-        As a note, throughout our markup process, we used camel case. 
+      
         
     </body>
 </html>
