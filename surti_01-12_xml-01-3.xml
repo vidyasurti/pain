@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter> 
+    <greeting>
+    March 1893, Savoy Hotel 
+    Dearest of All Boys, 
+    </greeting>
+    <paragraph>
+        Your letter was <emotion tone= "happy"> delightful </emotion>, red and yellow wine to me; but I am <emotion tone= "sad">sad</emotion> and out of sorts. 
+    Bosie, you must not make scenes with me. 
+    <emotion tone= "agony" >They kill me, they wreck the loveliness of life. </emotion>
+        I cannot see you, so <physique> Greek and gracious, </physique> distorted with passion. 
+        I cannot listen to your <physique>curved lips </physique> saying hideous things to me. 
+    I would sooner be blackmailed by every renter ["renter"was a slang term for male prostitutes] in <place>London</place> than to have you <emotion tone= "hateful" >bitter, unjust, hating</emotion>.
+        You are the <physique>divine thing</physique> I want, the thing of <physique>grace and beauty</physique>; but I don't kn01-12ow how to do it.
+    Shall I come to <place>Salisbury</place>?
+    My bill here is 49 pounds for a week. 
+    I have also got a new sitting-room over the <place>Thames</place>. 
+    Why are you not here, my dear, my wonderful boy? <emotion tone= "fearful">I fear</emotion> I must leave; no money, no credit, and a <emotion tone= "sad" >heart of lead</emotion>. 
+    </paragraph>
+    <salutation>Your own, Oscar</salutation>
+    
+    <!-- 
+    Source: http://law2.umkc.edu/faculty/projects/ftrials/wilde/lettersfromwilde.html
+    Marked up for structure, place names, emotion, and physique of the mentioned boy
+    Possible research goals include identifying words of Oscar Wilde's emotional tone 
+    correlated to the number of times he mentions the boy's (lack of) presence and physique.  
+  -->
+    
+</letter>
